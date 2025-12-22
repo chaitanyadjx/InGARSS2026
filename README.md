@@ -1,7 +1,7 @@
 ## Introduction
 
-Website for IEEE something...
-Itr6 is the newest version.
+Website for InGARSS // 2026...
+itr6 is the newest design version.
 
 ## Issues of project
 
