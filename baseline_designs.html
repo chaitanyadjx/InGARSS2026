@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InGARSS 2025 | India Geoscience and Remote Sensing Symposium</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --white: #ffffff;
+            --blue: #003366;
+            --light-blue: #e6efff;
+            --gray: #27272a;
+            --light-gray: #f4f4f5;
+            --border-thickness: 2px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            background-color: var(--white);
+            color: var(--gray);
+            line-height: 1.5;
+        }
+
+        /* --- Navigation --- */
+        nav {
+            display: flex;
+            border-bottom: var(--border-thickness) solid var(--gray);
+            position: sticky;
+            top: 0;
+            background: var(--white);
+            z-index: 100;
+        }
+
+        .nav-logo {
+            padding: 20px 5%;
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-right: var(--border-thickness) solid var(--gray);
+            background: var(--blue);
+            color: var(--white);
+        }
+
+        .nav-links {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .nav-links a {
+            padding: 20px 30px;
+            text-decoration: none;
+            color: var(--gray);
+            font-weight: 600;
+            font-size: 0.9rem;
+            border-right: 1px solid var(--light-gray);
+            transition: background 0.2s;
+        }
+
+        .nav-links a:hover {
+            background: var(--light-blue);
+        }
+
+        /* --- Split Hero Section --- */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-bottom: var(--border-thickness) solid var(--gray);
+        }
+
+        .hero-text {
+            padding: 80px 10%;
+            border-right: var(--border-thickness) solid var(--gray);
+        }
+
+        .hero-text h1 {
+            font-size: 4rem;
+            line-height: 1;
+            font-weight: 700;
+            margin-bottom: 30px;
+            letter-spacing: -2px;
+        }
+
+        .hero-meta {
+            padding: 80px 10%;
+            background: var(--light-gray);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .meta-box {
+            border: var(--border-thickness) solid var(--gray);
+            padding: 30px;
+            background: var(--white);
+            font-family: 'IBM Plex Mono', monospace;
+        }
+
+        .meta-item {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .meta-item label {
+            display: block;
+            font-size: 0.7rem;
+            color: var(--blue);
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        /* --- Technical Tracks Section --- */
+        .section-padding { padding: 80px 5%; }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: var(--border-thickness) solid var(--gray);
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .tracks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--border-thickness);
+            background: var(--gray); /* Grid effect */
+            border: var(--border-thickness) solid var(--gray);
+        }
+
+        .track-card {
+            background: var(--white);
+            padding: 40px;
+            transition: background 0.2s;
+        }
+
+        .track-card:hover {
+            background: var(--light-blue);
+        }
+
+        .track-num {
+            font-family: 'IBM Plex Mono', monospace;
+            color: var(--blue);
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .track-card h4 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .track-card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* --- Call to Action Bar --- */
+        .cta-bar {
+            background: var(--gray);
+            color: var(--white);
+            padding: 40px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-solid {
+            background: var(--blue);
+            color: var(--white);
+            padding: 15px 40px;
+            text-decoration: none;
+            font-weight: 700;
+            border: var(--border-thickness) solid var(--white);
+            transition: all 0.2s;
+        }
+
+        .btn-solid:hover {
+            background: var(--white);
+            color: var(--blue);
+        }
+
+        /* --- Modern Footer --- */
+        footer {
+            border-top: var(--border-thickness) solid var(--gray);
+            padding: 80px 5%;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 50px;
+        }
+
+        .footer-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .footer-links h5 {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: var(--blue);
+        }
+
+        .footer-links ul { list-style: none; }
+        .footer-links li { margin-bottom: 10px; }
+        .footer-links a { text-decoration: none; color: var(--gray); font-size: 0.9rem; }
+        .footer-links a:hover { text-decoration: underline; }
+
+        @media (max-width: 900px) {
+            .hero { grid-template-columns: 1fr; }
+            .hero-text { border-right: none; border-bottom: var(--border-thickness) solid var(--gray); }
+            footer { grid-template-columns: 1fr; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-logo">InGARSS '25</div>
+        <div class="nav-links">
+            <a href="#">Technical Tracks</a>
+            <a href="#">Submission</a>
+            <a href="#">Committee</a>
+            <a href="#">Venue Info</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-text">
+            <h1>India Geoscience & Remote Sensing Symposium</h1>
+            <p>A global nexus for earth observation technology, satellite data analytics, and climate science.</p>
+        </div>
+        <div class="hero-meta">
+            <div class="meta-box">
+                <div class="meta-item">
+                    <label>Location</label>
+                    Trivandrum, Kerala, India
+                </div>
+                <div class="meta-item">
+                    <label>Duration</label>
+                    October 06 — 09, 2025
+                </div>
+                <div class="meta-item">
+                    <label>Hosted By</label>
+                    IEEE GRSS India Section
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="section-header">
+            <h2>Technical Tracks</h2>
+            <p style="font-family: 'IBM Plex Mono'; font-size: 0.8rem;">REF: CFP_2025_V1</p>
+        </div>
+
+        <div class="tracks-grid">
+            <div class="track-card">
+                <span class="track-num">Track 01</span>
+                <h4>Data Analysis & ML</h4>
+                <p>New algorithms for multi-sensor data fusion, deep learning for feature extraction, and cloud computing for EO data.</p>
+            </div>
+            <div class="track-card">
+                <span class="track-num">Track 02</span>
+                <h4>Atmosphere & Oceans</h4>
+                <p>Monitoring climate variables, ocean surface topography, and atmospheric sensing for weather prediction.</p>
+            </div>
+            <div class="track-card">
+                <span class="track-num">Track 03</span>
+                <h4>SAR & InSAR Tech</h4>
+                <p>Synthetic Aperture Radar processing, interferometry for terrain deformation, and bi-static radar systems.</p>
+            </div>
+            <div class="track-card">
+                <span class="track-num">Track 04</span>
+                <h4>Disaster Resilience</h4>
+                <p>Rapid mapping for flood monitoring, landslide detection, and satellite-based emergency response systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="cta-bar">
+        <div>
+            <h3 style="font-size: 1.5rem;">Ready to present your research?</h3>
+            <p style="font-size: 0.9rem; opacity: 0.8;">Abstract submission portal is now open for all technical tracks.</p>
+        </div>
+        <a href="#" class="btn-solid">Submit Abstract</a>
+    </div>
+
+    <footer>
+        <div>
+            <span class="footer-brand">InGARSS 2025</span>
+            <p style="font-size: 0.9rem; max-width: 400px; margin-bottom: 20px;">The India Geoscience and Remote Sensing Symposium is a regional flagship conference of the IEEE Geoscience and Remote Sensing Society (GRSS).</p>
+            <p style="font-family: 'IBM Plex Mono'; font-size: 0.8rem;">IEEE Kerala Section Office,<br>Trivandrum, India</p>
+        </div>
+        <div class="footer-links">
+            <h5>Conference</h5>
+            <ul>
+                <li><a href="#">Registration Fees</a></li>
+                <li><a href="#">Visa Information</a></li>
+                <li><a href="#">Travel Awards</a></li>
+                <li><a href="#">Exhibitor Prospectus</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h5>Resources</h5>
+            <ul>
+                <li><a href="#">IEEE Xplore Template</a></li>
+                <li><a href="#">Previous Proceedings</a></li>
+                <li><a href="#">Society Membership</a></li>
+                <li><a href="#">Contact Secretariat</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

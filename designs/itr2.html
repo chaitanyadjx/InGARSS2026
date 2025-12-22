@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InGARSS 2026 | IEEE India Geoscience and Remote Sensing Symposium</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* GLOBAL THEME: Cyber-Indian Fusion */
+            --indigo: #0B132B;       
+            --terracotta: #BC4749;   
+            --gold: #CEA964;         
+            --bone: #F9F7F2;         
+            --black: #000000;
+            --white: #ffffff;
+            --border: 3px solid var(--black);
+            --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { 
+            font-family: 'IBM Plex Sans', sans-serif; 
+            background: var(--bone); 
+            color: var(--black); 
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+
+        /* --- BOX-GRID NAVIGATION --- */
+        .navbar {
+            position: fixed;
+            top: 0; width: 100%;
+            display: grid;
+            grid-template-columns: 280px 1fr auto;
+            background: var(--black);
+            z-index: 1000;
+            height: 80px;
+            border-bottom: var(--border);
+        }
+
+        .nav-brand {
+            background: var(--terracotta);
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            padding: 0 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-right: var(--border);
+            font-size: 1.1rem;
+            letter-spacing: -1px;
+        }
+
+        .nav-links { display: flex; list-style: none; height: 100%; background: var(--white); }
+        .nav-link-item {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: var(--black);
+            font-family: 'IBM Plex Mono';
+            font-weight: 600;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            border-right: 1px solid #000;
+            transition: var(--transition);
+            background: var(--white);
+        }
+
+        .nav-link-item:hover {
+            background: var(--indigo);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        .nav-link-item:active {
+            background: var(--terracotta);
+            transform: translateY(2px);
+        }
+
+        .btn-register {
+            background: var(--gold);
+            color: var(--black);
+            padding: 0 40px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            border-left: var(--border);
+            transition: var(--transition);
+        }
+        .btn-register:hover { background: var(--white); }
+
+        /* --- HERO SLIDER (ITR1 Style + Boxy Borders) --- */
+        .hero {
+            height: 90vh;
+            margin-top: 80px;
+            position: relative;
+            background: var(--black);
+            overflow: hidden;
+            border-bottom: var(--border);
+        }
+        .slide {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transition: opacity 1.2s ease-in-out;
+            display: flex;
+            align-items: center;
+            padding: 0 8%;
+        }
+        .slide.active { opacity: 1; z-index: 10; }
+        .slide-bg {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            filter: grayscale(30%) brightness(0.4);
+        }
+        .slide-content { max-width: 900px; color: var(--white); }
+        .slide-content h1 { 
+            font-size: clamp(3rem, 8vw, 6.5rem); 
+            line-height: 0.85; 
+            margin-bottom: 25px; 
+            text-transform: uppercase; 
+            font-weight: 700;
+            letter-spacing: -3px;
+        }
+        .slide-content .tag { 
+            font-family: 'IBM Plex Mono'; 
+            color: var(--gold); 
+            font-size: 1.1rem; 
+            text-transform: uppercase; 
+            border: 2px solid var(--gold);
+            display: inline-block;
+            padding: 5px 15px;
+            margin-bottom: 20px;
+        }
+
+        /* --- BOX MODULES --- */
+        .section-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-bottom: var(--border);
+        }
+
+        .cell {
+            padding: 100px 8%;
+            border-right: var(--border);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .cell:last-child { border-right: none; }
+
+        .cell h2 { font-size: 3.5rem; text-transform: uppercase; line-height: 0.9; margin-bottom: 30px; letter-spacing: -2px; }
+        .cell p { font-size: 1.1rem; margin-bottom: 20px; text-align: justify; }
+
+        /* --- AUDIENCE BOXES (Itr2 Content) --- */
+        .audience-item {
+            background: var(--white);
+            border: var(--border);
+            padding: 25px;
+            margin-bottom: -3px; /* Overlap borders */
+            display: flex;
+            align-items: center;
+            font-family: 'IBM Plex Mono';
+            font-size: 0.9rem;
+            transition: var(--transition);
+            cursor: default;
+        }
+        .audience-item:hover {
+            background: var(--indigo);
+            color: var(--white);
+            transform: translateX(15px);
+            z-index: 5;
+        }
+        .audience-item b { color: var(--terracotta); margin-right: 15px; }
+
+        /* --- HYDERABAD SPOTLIGHT --- */
+        .venue-section {
+            background: var(--indigo);
+            color: var(--white);
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            border-bottom: var(--border);
+        }
+
+        .venue-img {
+            background: url('https://images.unsplash.com/photo-1599233072643-951d082115cb?q=80&w=2070&auto=format&fit=crop') center/cover;
+            border-right: var(--border);
+            min-height: 500px;
+        }
+
+        /* --- DATE CARDS --- */
+        .dates-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background: var(--white);
+        }
+        .date-box {
+            padding: 60px 40px;
+            border-right: var(--border);
+            transition: var(--transition);
+        }
+        .date-box:hover { background: var(--gold); }
+        .date-box h4 { font-family: 'IBM Plex Mono'; font-size: 0.8rem; text-transform: uppercase; color: var(--terracotta); }
+        .date-box .day { font-size: 2.5rem; font-weight: 700; margin: 10px 0; }
+
+        footer {
+            padding: 80px 8%;
+            background: var(--black);
+            color: var(--white);
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 50px;
+        }
+
+        @media (max-width: 1024px) {
+            .navbar { grid-template-columns: 1fr auto; }
+            .nav-links { display: none; }
+            .section-box, .venue-section, .dates-grid { grid-template-columns: 1fr; }
+            .cell, .date-box { border-right: none; border-bottom: var(--border); }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">InGARSS // 2026</div>
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#about" class="nav-link-item">Symposium</a>
+                <a href="#audience" class="nav-link-item">Audience</a>
+                <a href="#venue" class="nav-link-item">Hyderabad</a>
+                <a href="#dates" class="nav-link-item">Timeline</a>
+                <a href="#" class="nav-link-item">Committee</a>
+            </div>
+        </div>
+        <a href="#" class="btn-register">Register Now</a>
+    </nav>
+
+    <header class="hero">
+        <div class="slide active">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');"></div>
+            <div class="slide-content">
+                <span class="tag">Flagship IEEE GRSS Event</span>
+                <h1>Global Nexus of Earth Observation</h1>
+                <p class="mono" style="font-family: 'IBM Plex Mono'; color: var(--gold);">// 01 — 04 December 2026</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=2070&auto=format&fit=crop');"></div>
+            <div class="slide-content">
+                <span class="tag">AI • Space • Robotics</span>
+                <h1>Sustainable & Ethical AI Practices</h1>
+                <p class="mono" style="font-family: 'IBM Plex Mono'; color: var(--gold);">// Advancing Geoscience Engineering</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-box" id="about">
+        <div class="cell" data-aos="fade-right">
+            <span style="font-family: 'IBM Plex Mono'; color: var(--terracotta); font-weight: 700;">// 01. INTRODUCTION</span>
+            <h2>The Symposium</h2>
+            <p>2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026) is a premier event bringing together experts, researchers, engineers, and industry leaders to explore the intersection of Geoscience, Space, Satellite, remote sensing and Artificial Intelligence (AI).</p>
+            <p>The conference is a unique platform for showcasing cutting-edge research, fostering interdisciplinary collaborations, and discussing future directions in geospatial and remote sensing science.</p>
+        </div>
+        <div class="cell" style="background: var(--indigo); color: var(--white);" data-aos="fade-left">
+            <h2 style="color: var(--gold);">Goal & Mission</h2>
+            <p>It aims to advance these fields and promote sustainable and ethical AI/ML practices in the geoscience domain by bringing together researchers, practitioners, and policymakers.</p>
+            <div style="margin-top: 20px; border-top: 1px solid var(--gold); padding-top: 20px;">
+                <p style="font-family: 'IBM Plex Mono'; font-weight: 700;">CONTACT: <span style="color: var(--gold);">ingarss2026@gmail.com</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-box" id="audience">
+        <div class="cell" style="background: var(--terracotta); color: white;" data-aos="fade-up">
+            <h2>Target Audience</h2>
+            <p>A multi-disciplinary gathering of global innovators and decision-makers.</p>
+        </div>
+        <div class="cell">
+            <div class="audience-item" data-aos="fade-left" data-aos-delay="100"><b>01</b> Geoscientists & Environmental Researchers</div>
+            <div class="audience-item" data-aos="fade-left" data-aos-delay="200"><b>02</b> Remote Sensing Engineers & AI Experts</div>
+            <div class="audience-item" data-aos="fade-left" data-aos-delay="300"><b>03</b> Industry Leaders in Geospatial Tech</div>
+            <div class="audience-item" data-aos="fade-left" data-aos-delay="400"><b>04</b> Policymakers & Environmental Org</div>
+            <div class="audience-item" data-aos="fade-left" data-aos-delay="500"><b>05</b> Students & Young Professionals</div>
+        </div>
+    </section>
+
+    <section class="venue-section" id="venue">
+        <div class="venue-img" data-aos="reveal-left"></div>
+        <div class="cell" data-aos="fade-left">
+            <span style="font-family: 'IBM Plex Mono'; color: var(--gold);">// LOCATION SPOTLIGHT</span>
+            <h2 style="font-size: 5rem;">Hyderabad</h2>
+            <p>From the historic Charminar to the futuristic HITEC City, Hyderabad is the perfect venue for InGARSS 2026. Known as the hub for aerospace, defense, and IT industries in India, it offers an unparalleled environment for scientific exchange.</p>
+            <a href="#" style="color: var(--gold); font-weight: 700; text-transform: uppercase; text-decoration: none; margin-top: 20px;">Discover the Venue →</a>
+        </div>
+    </section>
+
+    <section class="dates-grid" id="dates">
+        <div class="date-box" data-aos="zoom-in">
+            <h4>Event Dates</h4>
+            <div class="day">01 — 04</div>
+            <p>December 2026</p>
+        </div>
+        <div class="date-box" style="background: var(--indigo); color: white;" data-aos="zoom-in" data-aos-delay="100">
+            <h4 style="color: var(--gold);">Call for Papers</h4>
+            <div class="day">TBA</div>
+            <p>Portal Opening Soon</p>
+        </div>
+        <div class="date-box" data-aos="zoom-in" data-aos-delay="200">
+            <h4>Registration</h4>
+            <div class="day">TBA</div>
+            <p>Early Bird Announcement</p>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h2 style="letter-spacing: -2px;">InGARSS '26</h2>
+            <p style="opacity: 0.6; font-size: 0.9rem; margin-top: 20px;">The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Advancing Earth observation for a resilient planet.</p>
+        </div>
+        <div>
+            <h4 style="font-family: 'IBM Plex Mono'; color: var(--gold); margin-bottom: 20px;">Resources</h4>
+            <ul style="list-style: none; line-height: 2; font-size: 0.85rem;">
+                <li><a href="#" style="color: white; text-decoration: none;">Author Instructions</a></li>
+                <li><a href="#" style="color: white; text-decoration: none;">IEEE Guidelines</a></li>
+                <li><a href="#" style="color: white; text-decoration: none;">Visa Info</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 style="font-family: 'IBM Plex Mono'; color: var(--gold); margin-bottom: 20px;">Contact</h4>
+            <p style="font-size: 0.85rem;">General Chair<br>Hyderabad, India<br>ingarss2026@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+
+        // Hero Slider logic
+        const slides = document.querySelectorAll('.slide');
+        let current = 0;
+        function nextSlide() {
+            slides[current].classList.remove('active');
+            current = (current + 1) % slides.length;
+            slides[current].classList.add('active');
+        }
+        setInterval(nextSlide, 6000);
+    </script>
+</body>
+</html>
