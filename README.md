@@ -10,6 +10,6 @@ itr6 is the newest design version.
 
 ## Preview
 
-[Click here for site](https://xerothermic-purple-bgudcpro1h-o45g10o32d.edgeone.dev/)
+[Click here for site](https://ingarss2020test.netlify.app/)
 
 [Click here for adding feedback and improvements]()
