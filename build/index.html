@@ -22,12 +22,21 @@
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
-        body { 
-            font-family: 'IBM Plex Sans', sans-serif; 
-            background: var(--bone); 
-            color: var(--black); 
-            line-height: 1.5;
-            overflow-x: hidden;
+            body { 
+                font-family: 'IBM Plex Sans', sans-serif; 
+                background: var(--bone); 
+                color: var(--black); 
+                line-height: 1.5;
+                overflow-x: hidden; /* Prevents horizontal scroll */
+                
+                /* HIDE SCROLLBAR LOGIC */
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;     /* Firefox */
+            }
+
+            /* Webkit-specific rule */
+            body::-webkit-scrollbar {
+                display: none;
         }
 
         /* --- EQUALLY DISTRIBUTED NAV BAR --- */
@@ -191,6 +200,28 @@
             .section-grid, .venue-grid { grid-template-columns: 1fr; height: auto; }
             .cell, .venue-img { border-right: none; border-bottom: var(--border-thick) solid var(--black); }
         }
+
+                * {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        *::-webkit-scrollbar {
+            display: none;
+        }
+                /* Custom Styled Scrollbar */
+        /* ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bone);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--terracotta);
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--indigo);
+        } */
     </style>
 </head>
 <body>
