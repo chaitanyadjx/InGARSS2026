@@ -3,14 +3,14 @@
 Website for InGARSS // 2026...
 itr6 is the newest design version.
 
+Next.js code written for all pages.
 ## Issues of project
 
-1. Nav to be highlighted for visible section.
-2. Mobile Responsive
+1. Red line on mobile screen.
 
 ## Preview
 
-[Click here for site](https://ingarss2020test.netlify.app/)
+[Click here for site]([https://ingarss2020test.netlify.app/](https://in-garss-2026.vercel.app/))
 
 ## Video Preview
 
