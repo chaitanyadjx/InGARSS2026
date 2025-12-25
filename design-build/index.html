@@ -6,114 +6,292 @@
     <title>InGARSS 2026 | IEEE Hyderabad</title>
     
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet/index.css">
-</head>
-<body class="bg-bone">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        indigo: '#0B132B',
+                        terracotta: '#BC4749',
+                        gold: '#CEA964',
+                        bone: '#F9F7F2',
+                    },
+                    fontFamily: {
+                        sans: ['IBM Plex Sans', 'sans-serif'],
+                        mono: ['IBM Plex Mono', 'monospace'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        .float-animation {
+            animation: float 4s ease-in-out infinite;
+        }
+        .slide {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+        .slide.active {
+            opacity: 1;
+        }
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <span class="brand-long">India Geoscience & Remote Sensing Symposium 2026</span>
-                <span class="brand-short">InGARSS 2026</span>
+          * {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        *::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-bone font-sans text-black overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-black z-50 border-b-[3px] border-black">
+        <div class="grid grid-cols-[1fr_auto] lg:grid-cols-[240px_1fr_190px] h-20">
+            <!-- Brand -->
+            <div class="bg-terracotta text-white flex items-center justify-center lg:justify-center font-bold uppercase text-xs sm:text-sm lg:text-base tracking-wider px-4 lg:px-5 border-r-[3px] border-black">
+                <span class="hidden sm:inline lg:hidden">India Geoscience & Remote Sensing Symposium 2026</span>
+                <span class="sm:hidden lg:inline">InGARSS 2026</span>
             </div>
 
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="committee.html" class="nav-link">Committee</a></li>
-                <li><a href="cfp.html" class="nav-link">Call for Papers</a></li>
-                <li class="dropdown">
-                    <button class="nav-link">Event Details ↓</button>
-                    <div class="dropdown-content">
-                        <a href="#about">Purpose</a>
-                        <a href="#audience">Target Audience</a>
-                        <a href="#venue">Venue: Hyderabad</a>
+            <!-- Desktop Menu -->
+            <ul class="hidden lg:grid lg:grid-cols-5 bg-white h-full">
+                <li class="border-r border-gray-200">
+                    <a href="index.html" class="flex items-center justify-center h-full font-mono font-semibold text-xs uppercase hover:bg-indigo hover:text-white transition-all duration-300 px-3">Home</a>
+                </li>
+                <li class="border-r border-gray-200">
+                    <a href="committee.html" class="flex items-center justify-center h-full font-mono font-semibold text-xs uppercase hover:bg-indigo hover:text-white transition-all duration-300 px-3">Committee</a>
+                </li>
+                <li class="border-r border-gray-200">
+                    <a href="cfp.html" class="flex items-center justify-center h-full font-mono font-semibold text-xs uppercase hover:bg-indigo hover:text-white transition-all duration-300 px-3">Call for Papers</a>
+                </li>
+                <li class="border-r border-gray-200 relative group">
+                    <button class="flex items-center justify-center h-full w-full font-mono font-semibold text-xs uppercase hover:bg-indigo hover:text-white transition-all duration-300 px-3">
+                        Event Details ↓
+                    </button>
+                    <div class="hidden group-hover:block absolute top-full right-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
+                        <a href="#about" class="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Purpose</a>
+                        <a href="#audience" class="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Target Audience</a>
+                        <a href="#venue" class="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Venue: Hyderabad</a>
                     </div>
                 </li>
-                <li><a href="dates.html" class="nav-link">Important Dates</a></li>
+                <li>
+                    <a href="dates.html" class="flex items-center justify-center h-full font-mono font-semibold text-xs uppercase hover:bg-indigo hover:text-white transition-all duration-300 px-3">Important Dates</a>
+                </li>
             </ul>
 
-            <div class="nav-action dropdown">
-                <button class="btn-author">For Authors ↓</button>
-                <div class="dropdown-content">
-                    <a href="ieee-guidelines.html">IEEE Guidelines</a>
-                    <a href="authors.html">Author Guidelines</a>
-                    <a href="registration.html">Registration</a>
+            <!-- Register Button (Desktop) -->
+            <div class="hidden lg:block relative group border-l-[3px] border-black">
+                <button class="flex items-center justify-center h-full w-full bg-gold font-mono font-bold text-xs uppercase transition-all duration-300 px-3">
+                    For Authors ↓
+                </button>
+                <div class="hidden group-hover:block absolute top-full right-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
+                    <a href="ieee-guidelines.html" class="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">IEEE Guidelines</a>
+                    <a href="authors.html" class="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Author Guidelines</a>
+                    <a href="registration.html" class="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Registration</a>
                 </div>
             </div>
 
-            <button id="mobile-toggle" class="mobile-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-toggle" class="lg:hidden flex flex-col justify-center items-center gap-1.5 px-5">
+                <span class="block w-6 h-0.5 bg-white transition-all"></span>
+                <span class="block w-6 h-0.5 bg-white transition-all"></span>
+                <span class="block w-6 h-0.5 bg-white transition-all"></span>
             </button>
         </div>
 
-        <div id="mobile-menu" class="mobile-menu hidden">
-            <a href="index.html">Home</a>
-            <a href="committee.html">Committee</a>
-            <a href="cfp.html">Call for Papers</a>
-            <a href="#about">Purpose</a>
-            <a href="#venue">Venue</a>
-            <a href="registration.html" class="bg-gold">Registration</a>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t-[3px] border-black fixed top-20 left-0 right-0 bottom-0 overflow-y-auto z-40">
+            <a href="index.html" class="block px-5 py-4 font-mono font-semibold text-sm uppercase border-b border-gray-200 hover:bg-indigo hover:text-white">Home</a>
+            <a href="committee.html" class="block px-5 py-4 font-mono font-semibold text-sm uppercase border-b border-gray-200 hover:bg-indigo hover:text-white">Committee</a>
+            <a href="cfp.html" class="block px-5 py-4 font-mono font-semibold text-sm uppercase border-b border-gray-200 hover:bg-indigo hover:text-white">Call for Papers</a>
+            <a href="#about" class="block px-5 py-4 font-mono font-semibold text-sm uppercase border-b border-gray-200 hover:bg-indigo hover:text-white">Purpose</a>
+            <a href="#audience" class="block px-5 py-4 font-mono font-semibold text-sm uppercase border-b border-gray-200 hover:bg-indigo hover:text-white">Target Audience</a>
+            <a href="#venue" class="block px-5 py-4 font-mono font-semibold text-sm uppercase border-b border-gray-200 hover:bg-indigo hover:text-white">Venue</a>
+            <a href="dates.html" class="block px-5 py-4 font-mono font-semibold text-sm uppercase border-b border-gray-200 hover:bg-indigo hover:text-white">Important Dates</a>
+            <a href="ieee-guidelines.html" class="block px-5 py-4 font-mono font-semibold text-sm uppercase bg-gold hover:bg-yellow-600">IEEE Guidelines</a>
+            <a href="authors.html" class="block px-5 py-4 font-mono font-semibold text-sm uppercase bg-gold hover:bg-yellow-600 border-t border-black">Author Guidelines</a>
+            <a href="registration.html" class="block px-5 py-4 font-mono font-semibold text-sm uppercase bg-gold hover:bg-yellow-600 border-t border-black">Registration</a>
         </div>
     </nav>
 
-    <header class="hero-slider">
-        <div class="slide active">
-            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');"></div>
-            <div class="hero-card shadow-terracotta">
-                <p class="mono-label text-terracotta">// 01 – 04 December 2026</p>
-                <h1 class="hero-title">India Geoscience & Remote Sensing Symposium</h1>
-                <p class="hero-subtitle">The Global Nexus of Earth Observation Technology and AI Innovation.</p>
+    <!-- Hero Section with Slider -->
+    <header class="relative h-[70vh] md:h-[85vh] mt-20 bg-white border-b-[3px] border-black overflow-hidden">
+        <!-- Slide 1 -->
+        <div class="slide active absolute inset-0 flex items-center px-5 md:px-[8%]">
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop'); z-index: 0;"></div>
+            <div class="relative z-10 bg-white/95 border-[3px] border-black p-6 md:p-10 shadow-[15px_15px_0_#BC4749] md:shadow-[20px_20px_0_#BC4749] float-animation max-w-2xl">
+                <p class="font-mono text-terracotta font-bold mb-3 text-sm md:text-base">// 01 – 04 December 2026</p>
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight uppercase mb-4">India Geoscience & Remote Sensing Symposium</h1>
+                <p class="text-base md:text-lg">The Global Nexus of Earth Observation Technology and AI Innovation.</p>
             </div>
         </div>
 
-        <div class="slide">
-            <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop');"></div>
-            <div class="hero-card bg-gold shadow-indigo">
-                <p class="mono-label bg-black text-white px-2">// AI & Ethics Focus</p>
-                <h1 class="hero-title">Fostering <span class="text-terracotta">Sustainable</span> Innovation</h1>
-                <p class="hero-subtitle">Bridging theoretical machine learning and real-world applications.</p>
+        <!-- Slide 2 -->
+        <div class="slide absolute inset-0 flex items-center px-5 md:px-[8%]">
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop'); z-index: 0;"></div>
+            <div class="relative z-10 bg-gold border-[3px] border-black p-6 md:p-10 shadow-[15px_15px_0_#0B132B] md:shadow-[20px_20px_0_#0B132B] float-animation max-w-2xl">
+                <p class="font-mono text-white bg-black px-3 py-1 inline-block font-bold mb-3 text-sm md:text-base">// AI & Ethics Focus</p>
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight uppercase mb-4">Fostering <span class="text-terracotta">Sustainable</span> Innovation Practices</h1>
+                <p class="text-base md:text-lg font-semibold">Bridging the critical gap between theoretical machine learning models and real-world geospatial applications.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide absolute inset-0 flex items-center px-5 md:px-[8%]">
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?q=80&w=2070&auto=format&fit=crop'); z-index: 0;"></div>
+            <div class="relative z-10 bg-black text-white border-[3px] border-black p-6 md:p-10 shadow-[15px_15px_0_#BC4749] md:shadow-[20px_20px_0_#BC4749] float-animation max-w-2xl">
+                <p class="font-mono text-gold font-bold mb-3 text-sm md:text-base">// Destination: Hyderabad</p>
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight uppercase mb-4">Shaping the FUTURE of Earth Observation</h1>
+                <p class="text-base md:text-lg">Join academia, industry leaders, and policymakers in India's hub of aerospace and information technology.</p>
             </div>
         </div>
     </header>
 
-    <section id="about" class="grid-2-col border-bottom">
-        <div class="content-padding border-right">
-            <span class="mono-label text-terracotta">// PURPOSE</span>
-            <h2 class="section-title">Advancing Geoscience</h2>
-            <p class="text-large">
-                <strong>InGARSS 2026</strong> is a premier event exploring the intersection of <strong>Geoscience</strong> and <strong>Artificial Intelligence (AI)</strong>.
+    <!-- Purpose Section -->
+    <section id="about" class="grid md:grid-cols-2 bg-white border-b-[3px] border-black">
+        <div class="p-8 md:p-16 lg:p-24 border-b md:border-b-0 md:border-r-[3px] border-black">
+            <span class="font-mono text-terracotta font-bold text-sm">// PURPOSE</span>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight my-6">Advancing Geoscience</h2>
+            <p class="text-base md:text-lg leading-relaxed">
+                <strong>IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)</strong> is a premier event bringing together experts, researchers, engineers, and industry leaders to explore the intersection of <strong>Geoscience, Space, Satellite, Remote Sensing</strong> and <strong>Artificial Intelligence (AI), Cybersecurity, Sensors, Robotics, Industry 4.0</strong> and the rapidly evolving field of similar domains.
             </p>
         </div>
-        <div class="bg-bone flex-center content-padding">
-            <div class="mission-box">
-                <h3 class="mono-title">The Mission</h3>
-                <p>To provide a unique platform for showcasing cutting-edge research, fostering collaborations, and discussing future directions in geospatial science.</p>
+
+        <div class="bg-bone p-8 md:p-16 flex items-center justify-center">
+            <div class="bg-white border-[3px] border-black p-6 md:p-10 shadow-[15px_15px_0_#CEA964] md:shadow-[20px_20px_0_#CEA964] float-animation max-w-lg">
+                <h3 class="font-mono uppercase text-indigo font-bold text-lg mb-4">The Mission</h3>
+                <p class="leading-relaxed">To provide unique platform for showcasing cutting-edge research, fostering interdisciplinary collaborations, and discussing future directions in geospatial and remote sensing science. It aims to advance these fields and promote sustainable and ethical AI/ML practices in the geoscience domain by bringing together researchers, practitioners, and policymakers.</p>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <div class="footer-logo">InGARSS '26</div>
-                <p>The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS).</p>
+    <!-- Target Audience -->
+    <section id="audience" class="bg-white">
+        <div class="px-5 md:px-[8%] py-12 md:py-20">
+            <span class="font-mono text-terracotta font-bold text-sm">// COMMUNITY</span>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight mt-2">Target Audience</h2>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 border-t-[3px] border-black">
+            <div class="p-6 md:p-10 border-r border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
+                <span class="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">01</span>
+                <h4 class="font-bold text-lg mb-2">Geoscientists</h4>
+                <p class="text-sm md:text-base">Environmental scientists and research scholars focused on Earth observation data.</p>
             </div>
-            <div class="footer-nav">
-                <h5 class="footer-heading">Navigation</h5>
-                <a href="#">Home</a>
-                <a href="#dates">Important Dates</a>
-                <a href="#cfp">Call for Papers</a>
+            <div class="p-6 md:p-10 border-r border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
+                <span class="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">02</span>
+                <h4 class="font-bold text-lg mb-2">Engineers</h4>
+                <p class="text-sm md:text-base">Remote sensing specialists, data scientists, and AI/ML algorithm experts.</p>
             </div>
-            <div class="footer-contact">
-                <h5 class="footer-heading">Contact</h5>
-                <p>Hyderabad, Telangana, India</p>
-                <a href="mailto:ingarss2026@gmail.com" class="text-gold mono-bold">ingarss2026@gmail.com</a>
+            <div class="p-6 md:p-10 border-r border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
+                <span class="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">03</span>
+                <h4 class="font-bold text-lg mb-2">Innovators</h4>
+                <p class="text-sm md:text-base">Industry leaders and tech pioneers developing the next generation of geospatial tools.</p>
             </div>
+            <div class="p-6 md:p-10 border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
+                <span class="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">04</span>
+                <h4 class="font-bold text-lg mb-2">Policy Makers</h4>
+                <p class="text-sm md:text-base">Government officials and environmental organizations driving sustainability goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates -->
+    <section id="dates" class="grid md:grid-cols-2 bg-indigo text-white border-b-[3px] border-black">
+        <div class="p-8 md:p-16 lg:p-24 border-b md:border-b-0 md:border-r-[3px] border-gold">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight">Important<br>Dates</h2>
+        </div>
+        <div class="bg-black">
+            <div class="p-6 md:p-10 border-b border-indigo">
+                <h5 class="font-mono text-gold text-sm mb-2">SYMPOSIUM DATES</h5>
+                <p class="text-xl md:text-2xl font-bold">01 – 04 December 2026</p>
+            </div>
+            <div class="p-6 md:p-10 border-b border-indigo opacity-70">
+                <h5 class="font-mono text-sm mb-2">SUBMISSION DEADLINE</h5>
+                <p class="text-xl md:text-2xl font-bold">TO BE ANNOUNCED</p>
+            </div>
+            <div class="p-6 md:p-10 opacity-70">
+                <h5 class="font-mono text-sm mb-2">REGISTRATION OPENS</h5>
+                <p class="text-xl md:text-2xl font-bold">TO BE ANNOUNCED</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Venue -->
+    <section id="venue" class="grid md:grid-cols-[1.2fr_0.8fr] bg-white border-b-[3px] border-black">
+        <div class="relative bg-cover bg-center min-h-[300px] md:min-h-[600px] border-b md:border-b-0 md:border-r-[3px] border-black" style="background-image: url('https://images.unsplash.com/photo-1441911645956-df6e9bbc5496?q=80&w=1170&auto=format&fit=crop')">
+            <span class="absolute bottom-6 md:bottom-10 right-0 bg-black text-white px-5 py-3 font-mono text-xs shadow-[10px_10px_0_#CEA964]">HISTORIC SITE: CHARMINAR</span>
+        </div>
+        <div class="bg-bone p-8 md:p-16 flex flex-col justify-center">
+            <span class="font-mono font-bold text-indigo text-sm">// HOST LOCATION</span>
+            <h2 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight my-4">Hyderabad, India</h2>
+            <p class="text-base md:text-lg leading-relaxed mb-6">Experience the symposium in India's "Cyber City". Hyderabad perfectly blends 400 years of history with a booming aerospace and IT sector, providing an inspiring backdrop for InGARSS 2026.</p>
+            <a href="#" class="font-bold uppercase text-xs border-b-[3px] border-terracotta w-fit pb-1 hover:text-terracotta transition-colors">Explore Venue Details →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white px-5 md:px-[8%] py-12 md:py-20 grid gap-8 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr] border-t-[3px] border-black">
+        <div class="flex flex-col gap-6">
+            <div class="text-3xl md:text-4xl font-bold uppercase border-b-4 border-terracotta inline-block w-fit">InGARSS '26</div>
+            <p class="max-w-md text-sm opacity-70 leading-relaxed">The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Join us in Hyderabad for the future of remote sensing technology.</p>
+        </div>
+
+        <div>
+            <h5 class="font-mono text-gold uppercase text-sm mb-6 tracking-wider">Navigation</h5>
+            <ul class="flex flex-col gap-3">
+                <li><a href="#" class="text-sm font-semibold hover:text-gold hover:translate-x-1 inline-block transition-all">Home</a></li>
+                <li><a href="#committee" class="text-sm font-semibold hover:text-gold hover:translate-x-1 inline-block transition-all">Committee</a></li>
+                <li><a href="#cfp" class="text-sm font-semibold hover:text-gold hover:translate-x-1 inline-block transition-all">Call for Papers</a></li>
+                <li><a href="#dates" class="text-sm font-semibold hover:text-gold hover:translate-x-1 inline-block transition-all">Important Dates</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h5 class="font-mono text-gold uppercase text-sm mb-6 tracking-wider">Legal & Contact</h5>
+            <ul class="flex flex-col gap-3 mb-6">
+                <li><a href="#authors" class="text-sm font-semibold hover:text-gold hover:translate-x-1 inline-block transition-all">Author Guidelines</a></li>
+                <li><a href="#ieee" class="text-sm font-semibold hover:text-gold hover:translate-x-1 inline-block transition-all">IEEE Guidelines</a></li>
+            </ul>
+            <p class="text-sm leading-relaxed mb-4">Hyderabad, Telangana, India</p>
+            <a href="mailto:ingarss2026@gmail.com" class="font-mono font-bold text-gold text-base hover:underline">ingarss2026@gmail.com</a>
         </div>
     </footer>
 
-    <script src="scripts/index.js"></script>
+    <script>
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Hero slider
+        const slides = document.querySelectorAll('.slide');
+        let currentSlide = 0;
+        
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+        
+        setInterval(nextSlide, 9000);
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
 </body>
 </html>
