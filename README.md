@@ -10,7 +10,7 @@ Next.js code written for all pages.
 
 ## Preview
 
-[Click here for site]([https://ingarss2020test.netlify.app/](https://in-garss-2026.vercel.app/)
+[Click here for site](https://in-garss-2026.vercel.app/)
 
 ## Video Preview
 
