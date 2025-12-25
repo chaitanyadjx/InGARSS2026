@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | InGARSS 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    
+    <style>
+        /* --- GLOBAL FLUID VARIABLES --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+                 * {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        *::-webkit-scrollbar {
+            display: none;
+        }
+        body { 
+            font-family: 'IBM Plex Sans', sans-serif; 
+            background-color: var(--bone);
+            background-image: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+            color: var(--black); 
+            line-height: 1.4; 
+            padding-top: 80px; 
+            overflow-x: hidden;
+        }
+        /* --- BRUTALIST PAGE HEADER --- */
+        .page-header {
+            background-color: var(--indigo);
+            color: var(--white);
+            padding: clamp(4rem, 12vh, 8rem) 8%; 
+            border-bottom: var(--border-thick) solid var(--black);
+        }
+        .header-subtitle { 
+            font-family: 'IBM Plex Mono'; 
+            color: var(--gold); 
+            font-weight: 700; 
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.2rem;
+        }
+        .page-header h1 { 
+            font-size: clamp(2.5rem, 8vw, 5.5rem);
+            text-transform: uppercase; 
+            line-height: 0.85; 
+            letter-spacing: -0.2rem; 
+            font-weight: 800; 
+            margin-top: 1.5rem;
+        }
+
+        /* --- CONTENT CONTAINER --- */
+        .content-container {
+            padding: clamp(3rem, 8vh, 6rem) 8%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* --- LAUNCH HERO SECTION --- */
+        .launch-hero {
+            background: var(--white);
+            border: var(--border-thick) solid var(--black);
+            padding: clamp(2rem, 5vw, 4.5rem);
+            margin-bottom: 4rem;
+            box-shadow: 15px 15px 0 var(--terracotta);
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            position: relative;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .hero-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .status-badge {
+            font-family: 'IBM Plex Mono';
+            background: var(--black);
+            color: var(--white);
+            padding: 0.6rem 1.2rem;
+            width: fit-content;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        /* Pulsing dot for "Live" status feel */
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--gold);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .launch-title {
+            font-size: clamp(2.2rem, 6vw, 4.2rem);
+            font-weight: 900;
+            color: var(--indigo);
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: -0.1rem;
+        }
+
+        /* --- NOTIFY FORM --- */
+        .notify-wrapper {
+            margin-top: 1rem;
+            max-width: 550px;
+        }
+
+        .notify-form {
+            display: flex;
+            border: var(--border-thick) solid var(--black);
+            background: var(--white);
+            box-shadow: 8px 8px 0 var(--black);
+            transition: var(--snap);
+        }
+
+        .notify-form:focus-within {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0 var(--black);
+        }
+
+        .notify-input {
+            flex: 1;
+            padding: 1.2rem;
+            border: none;
+            font-family: 'IBM Plex Mono';
+            font-weight: 600;
+            font-size: 0.9rem;
+            outline: none;
+            text-transform: uppercase;
+        }
+
+        .notify-btn {
+            background: var(--terracotta);
+            color: white;
+            padding: 0 2rem;
+            border: none;
+            border-left: var(--border-thick) solid var(--black);
+            font-family: 'IBM Plex Mono';
+            font-weight: 800;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: var(--snap);
+        }
+
+        .notify-btn:hover { background: var(--indigo); }
+
+        /* --- INFO GRID --- */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+            gap: 3rem;
+        }
+
+        /* --- UPDATED FLOATING INFO CARDS --- */
+        .info-card {
+            background: var(--white);
+            border: var(--border-thick) solid var(--black);
+            padding: 3rem;
+            /* Static Terracotta Shadow */
+            box-shadow: 12px 12px 0 var(--black);
+            transition: var(--snap);
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .info-card.reveal {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .info-card:hover {
+            /* Lift effect: moves up and left */
+            transform: translate(-10px, -10px);
+            /* Shadow grows and remains Terracotta for a vivid look */
+            box-shadow: 22px 22px 0 var(--terracotta);
+            z-index: 10;
+        }
+
+        /* Optional: Make the list icons (//) match the Indigo for better contrast against Terracotta shadows */
+        .info-card li::before {
+            content: "//";
+            position: absolute; 
+            left: 0;
+            color: var(--indigo);
+            font-weight: 800;
+            font-family: 'IBM Plex Mono';
+        }
+
+        .info-card h3 {
+            font-family: 'IBM Plex Mono';
+            text-transform: uppercase;
+            color: var(--terracotta);
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+            border-bottom: 0.25rem solid var(--black);
+            padding-bottom: 0.5rem;
+            width: fit-content;
+        }
+
+        .info-card ul { list-style: none; }
+        .info-card li {
+            margin-bottom: 1.2rem;
+            padding-left: 2rem;
+            position: relative;
+            font-weight: 500;
+        }
+        .info-card li::before {
+            content: "//";
+            position: absolute; left: 0;
+            color: var(--gold);
+            font-weight: 800;
+            font-family: 'IBM Plex Mono';
+        }
+
+        /* --- FOOTER ATTACHED FROM EXTERNAL --- */
+        
+        @media (max-width: 768px) {
+            .notify-form { flex-direction: column; }
+            .notify-btn { padding: 1.2rem; border-left: none; border-top: var(--border-thick) solid var(--black); }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-brand">InGARSS 2026</div>
+        <ul class="nav-links-grid">
+            <li class="nav-item"><a href="index.html" class="nav-btn">Home</a></li>
+            <li class="nav-item"><a href="committee.html" class="nav-btn">Committee</a></li>
+            <li class="nav-item"><a href="cfp.html" class="nav-btn">Call for Papers</a></li>
+            <li class="nav-item dropdown">
+                <button class="dropbtn">Event Details ↓</button>
+                <div class="dropdown-content">
+                    <a href="index.html#about">Purpose</a>
+                    <a href="index.html#audience">Target Audience</a>
+                    <a href="index.html#venue">Venue</a>
+                </div>
+            </li>
+            <li class="nav-item" style="border-right: none;"><a href="dates.html" class="nav-btn">Important Dates</a></li>
+        </ul>
+        <div class="nav-item dropdown btn-register">
+            <button class="dropbtn">For Authors ↓</button>
+            <div class="dropdown-content">
+                <a href="authors.html">Author Guidelines</a>
+                <a href="ieee-guidelines.html">IEEE Guidelines</a>
+                <a href="registration.html">Registration</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <span class="header-subtitle">// REGISTRATION PORTAL</span>
+        <h1>Join the <br> Symposium</h1>
+    </header>
+
+    <main class="content-container">
+        
+        <section class="launch-hero" id="hero">
+            <div class="status-badge">
+                <div class="pulse-dot"></div>
+                Status: Pre-Launch Phase
+            </div>
+            
+            <h2 class="launch-title">Opening <br> January 2026</h2>
+            
+            <p style="max-width: 750px; font-size: 1.2rem; font-weight: 500; color: var(--indigo);">
+                We are finalizing the portal to accommodate local and international attendees. Registration is scheduled to begin alongside the Call for Papers.
+            </p>
+        </section>
+
+        <div class="info-grid">
+            
+            <div class="info-card animate-card">
+                <h3>Symposium Inclusions</h3>
+                <p style="margin-bottom: 1.5rem; font-weight: 600;">Every paid registration includes:</p>
+                <ul>
+                    <li>Admission to all Technical Sessions</li>
+                    <li>Digital Proceedings via IEEE Xplore</li>
+                    <li>Symposium Kit & Materials</li>
+                    <li>Banquet & Networking Events</li>
+                </ul>
+            </div>
+
+            <div class="info-card animate-card">
+                <h3>Standard Categories</h3>
+                <p style="margin-bottom: 1.5rem; font-weight: 600;">Pricing tiers will include:</p>
+                <ul>
+                    <li>IEEE GRSS Member (Discounted)</li>
+                    <li>IEEE Member / Non-Member</li>
+                    <li>Student / Young Professional</li>
+                    <li>Life Member / Life Fellow</li>
+                </ul>
+            </div>
+
+            <div class="info-card animate-card">
+                <h3>The Process</h3>
+                <p style="margin-bottom: 1rem;">Registration ensures your participation is officially recorded in the IEEE database.</p>
+                
+                <!-- <p style="margin-top: 1rem; font-size: 0.85rem; font-style: italic;">
+                    Detailed pricing will be published on this page upon portal activation.
+                </p> -->
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-col-brand">
+            <div class="footer-brand-text">InGARSS '26</div>
+            <p class="footer-description">
+                The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Join us in Hyderabad.
+            </p>
+        </div>
+        <div class="footer-col-links">
+            <h5 class="footer-heading">Navigation</h5>
+            <ul class="footer-links-list">
+                <li><a href="index.html" class="footer-link">Home</a></li>
+                <li><a href="committee.html" class="footer-link">Committee</a></li>
+                <li><a href="cfp.html" class="footer-link">Call for Papers</a></li>
+                <li><a href="dates.html" class="footer-link">Important Dates</a></li>
+            </ul>
+        </div>
+        <div class="footer-col-contact">
+            <h5 class="footer-heading">Legal & Contact</h5>
+            <div class="footer-contact-info">
+                <ul class="footer-links-list" style="margin-bottom: 1rem;">
+                    <li><a href="authors.html" class="footer-link">Author Guidelines</a></li>
+                    <li><a href="ieee-guidelines.html" class="footer-link">IEEE Guidelines</a></li>
+                </ul>
+                <p>Hyderabad, Telangana, India</p>
+                <a href="mailto:ingarss2026@gmail.com" class="footer-email">ingarss2026@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Trigger Hero Entrance
+            const hero = document.getElementById('hero');
+            setTimeout(() => {
+                hero.classList.add('hero-visible');
+            }, 200);
+
+            // Scroll Reveal for Cards
+            const observerOptions = { threshold: 0.1 };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        // Staggered reveal based on index
+                        setTimeout(() => {
+                            entry.target.classList.add('reveal');
+                        }, index * 150);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.animate-card').forEach(card => observer.observe(card));
+        });
+    </script>
+</body>
+</html>

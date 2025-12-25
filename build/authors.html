@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Guidelines | InGARSS 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+         /* This forces the navbar to ignore any weird local inheritance */
+        .navbar {
+            height: 80px !important;
+            display: grid !important;
+            align-items: stretch !important; /* Forces children to fill height */
+        }
+        .nav-brand, .nav-links-grid, .nav-item {
+            height: 100% !important;
+        }
+        .nav-btn, .dropbtn {
+            height: 100% !important;
+            display: flex !important;
+            align-items: center !important;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+                 * {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        *::-webkit-scrollbar {
+            display: none;
+        }
+        body { 
+            font-family: 'IBM Plex Sans', sans-serif; 
+            background-color: var(--bone);
+            background-image: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+            color: var(--black); 
+            line-height: 1.4; 
+            padding-top: 80px; 
+            overflow-x: hidden;
+        }
+        
+        /* --- HEADER --- */
+        .page-header {
+            background-color: var(--indigo);
+            color: var(--white);
+            padding: clamp(4rem, 12vh, 8rem) 8%; 
+            border-bottom: var(--border-thick) solid var(--black);
+        }
+        .header-subtitle { 
+            font-family: 'IBM Plex Mono'; color: var(--gold); font-weight: 700; text-transform: uppercase;
+            font-size: 0.9rem; letter-spacing: 0.2rem;
+        }
+        .page-header h1 { 
+            font-size: clamp(2.5rem, 8vw, 5.5rem); text-transform: uppercase; 
+            line-height: 0.85; letter-spacing: -0.2rem; font-weight: 800; margin-top: 1.5rem;
+        }
+
+        .content-container {
+            padding: 6rem 8%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .floating-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+            gap: 3rem;
+        }
+
+        /* --- THE FLOATING CARDS --- */
+        .guide-card {
+            background: var(--white);
+            border: var(--border-thick) solid var(--black);
+            padding: 3rem;
+            box-shadow: 12px 12px 0 var(--black);
+            transition: var(--snap);
+        }
+        .guide-card:hover {
+            transform: translate(-8px, -8px);
+            box-shadow: 20px 20px 0 var(--terracotta);
+        }
+        .guide-card h3 {
+            font-family: 'IBM Plex Mono'; text-transform: uppercase; color: var(--indigo);
+            margin-bottom: 1.5rem; font-size: 1.4rem; font-weight: 800;
+            border-bottom: 0.3rem solid var(--gold); width: fit-content;
+        }
+        .guide-card p, .guide-card li { font-size: 1.05rem; margin-bottom: 1.2rem; }
+        .guide-card ul { list-style: none; }
+        .guide-card li::before { content: "// "; color: var(--terracotta); font-weight: 700; font-family: 'IBM Plex Mono'; }
+
+        /* --- TEMPLATE BUTTONS --- */
+        .template-links { display: flex; gap: 1rem; margin-top: 2rem; }
+        .temp-link {
+            text-decoration: none; color: var(--white); font-family: 'IBM Plex Mono'; font-weight: 700;
+            font-size: 0.8rem; background: var(--black); padding: 0.8rem 1.2rem; transition: var(--snap);
+        }
+        .temp-link:hover { background: var(--gold); color: var(--black); }
+
+        /* --- DIFFERENTIATED POLICY SECTION --- */
+        .policy-outer {
+            margin-top: 8rem;
+            position: relative;
+            padding: 4rem;
+            /* Industrial Diagonal Background Pattern */
+            background: repeating-linear-gradient(
+                -45deg,
+                #fcfcfc,
+                #fcfcfc 10px,
+                #f9f7f2 10px,
+                #f9f7f2 20px
+            );
+            /* Double-border effect */
+            border: 1px solid var(--black);
+            outline: 4px solid var(--black);
+            outline-offset: -12px;
+        }
+
+        .policy-label {
+            position: absolute;
+            top: -1.2rem;
+            left: 3rem;
+            background: var(--terracotta);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            font-family: 'IBM Plex Mono';
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            box-shadow: 6px 6px 0 var(--black);
+        }
+
+        .policy-inner h2 { 
+            font-family: 'IBM Plex Mono'; 
+            color: var(--indigo); 
+            text-transform: uppercase;
+            margin: 1rem 0 2rem 0; 
+            font-weight: 800;
+            font-size: 2.2rem;
+        }
+        
+        .policy-content {
+            font-size: 1.1rem;
+            color: var(--black);
+            max-width: 1000px;
+            line-height: 1.8;
+            border-left: 0.5rem solid var(--gold);
+            padding-left: 2rem;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            padding: 6rem 8%; background: var(--black); color: var(--white);
+            display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 4rem;
+        }
+        .footer-brand { font-size: 2rem; font-weight: 700; border-bottom: 0.5rem solid var(--terracotta); display: inline-block; margin-bottom: 1.5rem; }
+        .footer-link { color: var(--white); text-decoration: none; transition: var(--snap); }
+        .footer-link:hover { color: var(--gold); }
+
+        @media (max-width: 1024px) {
+            footer { grid-template-columns: 1fr; }
+            .policy-outer { padding: 3rem 1.5rem; }
+            .policy-content { padding-left: 1rem; }
+            .policy-label { left: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+                  <nav class="navbar">
+        <div class="nav-brand">InGARSS  2026</div>
+        <ul class="nav-links-grid">
+            <li class="nav-item"><a href="index.html" class="nav-btn">Home</a></li>
+            <li class="nav-item"><a href="committee.html" class="nav-btn">Committee</a></li>
+            <li class="nav-item"><a href="cfp.html" class="nav-btn">Call for Papers</a></li>
+            <li class="nav-item dropdown">
+                <button class="dropbtn">Event Details ↓</button>
+                <div class="dropdown-content">
+                    <a href="index.html#about">Purpose</a>
+                    <a href="index.html#audience">Target Audience</a>
+                    <a href="index.html#venue">Venue</a>
+                </div>
+            </li>
+            <li class="nav-item" style="border-right: none;"><a href="dates.html" class="nav-btn">Important Dates</a></li>
+        </ul>
+        <div class="nav-item dropdown btn-register">
+            <button class="dropbtn">For Authors ↓</button>
+            <div class="dropdown-content">
+                <a href="authors.html">Author Guidelines</a>
+                <a href="ieee-guidelines.html">IEEE Guidelines</a>
+                <a href="registration.html">Registration</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <span class="header-subtitle">// MANDATORY REQUIREMENTS</span>
+        <h1>Author <br> Guidelines</h1>
+    </header>
+
+    <main class="content-container">
+        
+        <div class="floating-grid">
+            <div class="guide-card">
+                <h3>Paper Format</h3>
+                <p>Prospective authors are encouraged to submit full papers in <strong>PDF format</strong> not exceeding <strong>5 pages</strong> in double-column. This includes all figures, tables, and references.</p>
+                <p>Papers must clearly indicate the research area, main results, and contributions. Only original work not submitted elsewhere will be considered.</p>
+                <div class="template-links">
+                    <a href="https://www.ieee.org/conferences/publishing/templates" class="temp-link">Latex</a>
+                    <a href="https://www.ieee.org/conferences/publishing/templates" class="temp-link">MS Word</a>
+                </div>
+            </div>
+
+            <div class="guide-card">
+                <h3>Review Policy</h3>
+                <p>All papers will undergo a <strong>rigorous, single-blind reviewing process</strong>. Non-compliant papers (formatting or page limits) will be returned without review.</p>
+                <p>Accepted and Presented papers will be submitted to <strong>IEEE Xplore</strong> and indexed in leading databases like SCOPUS.</p>
+            </div>
+
+            <div class="guide-card">
+                <h3>Checklist</h3>
+                <ul>
+                    <li>Standard IEEE Template must be used.</li>
+                    <li>One paid registration per accepted paper.</li>
+                    <li>Mandatory E-Copyright form submission.</li>
+                    <li>Originality: No plagiarized material or double submissions.</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="policy-outer">
+            <div class="policy-label">Official POLICY</div>
+            <div class="policy-inner">
+                <h2>IEEE Ethics & Compliance</h2>
+                <div class="policy-content">
+                    <p style="margin-bottom: 1.5rem; font-weight: 600;">
+IEEE reserves the right to exclude a paper from distribution after the conference (e.g., by not including it in IEEE Xplore) if the paper is not presented at the conference                    </p>
+                    <p style="margin-bottom: 1.5rem;">
+ Papers are reviewed on the basis that they do not contain plagiarized material and have not been submitted to any other conference at the same time (double submission). These matters are taken very seriously and IEEE will take action against any author who has engaged in either practice.                    </p>
+                    <p style="font-family: 'IBM Plex Mono'; font-weight: 700; color: var(--terracotta);">
+                        Queries: <a href="mailto:aisiis2026@gmail.com" style="color: inherit; text-decoration: underline;">aisiis2026@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-col-brand">
+            <div class="footer-brand-text">InGARSS '26</div>
+            <p class="footer-description">
+                The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Join us in Hyderabad for the future of remote sensing technology.
+            </p>
+        </div>
+
+        <div class="footer-col-links">
+            <h5 class="footer-heading">Navigation</h5>
+            <ul class="footer-links-list">
+                <li><a href="index.html" class="footer-link">Home</a></li>
+                <li><a href="committee.html" class="footer-link">Committee</a></li>
+                <li><a href="cfp.html" class="footer-link">Call for Papers</a></li>
+                <li><a href="dates.html" class="footer-link">Important Dates</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col-contact">
+            <h5 class="footer-heading">Legal & Contact</h5>
+            <div class="footer-contact-info">
+                <ul class="footer-links-list" style="margin-bottom: 1rem;">
+                    <li><a href="authors.html" class="footer-link">Author Guidelines</a></li>
+                    <li><a href="ieee-guidelines.html" class="footer-link">IEEE Guidelines</a></li>
+                </ul>
+                <p>Hyderabad, Telangana, India</p>
+                <a href="mailto:ingarss2026@gmail.com" class="footer-email">ingarss2026@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

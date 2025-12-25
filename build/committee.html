@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Committee | InGARSS 2026</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --indigo: #0B132B;
+            --terracotta: #BC4749;   
+            --gold: #CEA964;         
+            --bone: #F7F4EF; 
+            --black: #000000;
+            --white: #ffffff;
+            --border-thick: 3px;
+            --snap: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            font-family: 'IBM Plex Sans', sans-serif; 
+            background-color: var(--bone);
+            /* Subtle paper texture */
+            background-image: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+            color: var(--black); 
+            line-height: 1.4; 
+            padding-top: 80px; 
+            overflow-x: hidden;
+        }
+     
+        /* --- STATIC INDIGO HEADER --- */
+        .page-header {
+            background-color: var(--indigo);
+            color: var(--white);
+            padding: 80px 8%; 
+            text-align: left;
+            border-bottom: var(--border-thick) solid var(--black);
+        }
+
+        /* Subtitle matching color (Gold goes well with Indigo) */
+        .header-subtitle {
+            font-family: 'IBM Plex Mono';
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        .page-header h1 { 
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            text-transform: uppercase; 
+            line-height: 0.9; 
+            letter-spacing: -2px;
+            font-weight: 800;
+            margin-top: 10px;
+        }
+
+        /* --- CATEGORY BLOCKS --- */
+        .category-block { padding: 100px 5%; border-bottom: var(--border-thick) solid var(--black); }
+        .cat-title-container { margin-bottom: 60px; text-align: center; }
+        .cat-title {
+            font-family: 'IBM Plex Mono'; font-size: 1.3rem; text-transform: uppercase;
+            color: white; padding: 10px 30px; display: inline-block;
+            font-weight: 700;
+        }
+
+        /* Section Specific Heading Colors (Rotation) */
+        .sect-advisory .cat-title { background: var(--gold); color: var(--black); box-shadow: 10px 10px 0 var(--black); }
+        .sect-chairs .cat-title { background: var(--indigo); box-shadow: 10px 10px 0 var(--terracotta); }
+        .sect-tpc .cat-title { background: var(--terracotta); box-shadow: 10px 10px 0 var(--black); }
+        .sect-support .cat-title { background: var(--black); box-shadow: 10px 10px 0 var(--gold); }
+
+        /* --- MEMBER CARDS (Red Shadow on Hover) --- */
+        .member-flex { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 60px; max-width: 1400px; margin: 0 auto; }
+        
+        .member-card {
+            flex: 0 1 340px; display: flex; flex-direction: column; gap: 20px;
+            padding: 30px; background: var(--white);
+            border: var(--border-thick) solid var(--black);
+            /* Default subtle shadow */
+            box-shadow: 5px 5px 0 var(--black);
+            transition: var(--snap);
+        }
+        
+        /* RED SHADOW APPEARS ON HOVER */
+        .member-card:hover { 
+            transform: translate(-5px, -5px); 
+            box-shadow: 20px 20px 0 var(--terracotta); 
+        }
+        
+        .image-frame { width: 100%; aspect-ratio: 1 / 1; border: 2px solid var(--black); overflow: hidden; }
+        .image-frame img { width: 100%; height: 100%; object-fit: cover; }
+        .m-name { font-size: 1.5rem; font-weight: 700; text-transform: uppercase; line-height: 1.1; margin-bottom: 8px; }
+        .m-org { font-family: 'IBM Plex Mono'; font-size: 0.85rem; color: var(--terracotta); font-weight: 700; }
+
+        /* --- FOOTER (From Home Page) --- */
+        footer {
+            padding: 80px 8%; background: var(--black); color: var(--white);
+            display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 60px;
+        }
+        .footer-brand { font-size: 2rem; font-weight: 700; border-bottom: 8px solid var(--terracotta); display: inline-block; margin-bottom: 20px; }
+        .footer-link { color: var(--white); text-decoration: none; transition: var(--snap); border-bottom: 1px solid transparent; }
+        .footer-link:hover { color: var(--gold); border-bottom: 1px solid var(--gold); }
+
+        @media (max-width: 1024px) {
+            .navbar { grid-template-columns: 1fr auto; }
+            .nav-links-grid { display: none; }
+            footer { grid-template-columns: 1fr; }
+        }
+
+        
+         * {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        *::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+                       <nav class="navbar">
+                <div class="nav-brand">InGARSS 2026</div>
+
+                <ul class="nav-links-grid">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-btn">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="committee.html" class="nav-btn">Committee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cfp.html" class="nav-btn">Call for Papers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="dropbtn">Event Details ↓</button>
+                        <div class="dropdown-content">
+                            <a href="index.html#about">Purpose</a>
+                            <a href="index.html#audience">Target Audience</a>
+                            <a href="index.html#venue">Venue: Hyderabad</a>
+                        </div>
+                    </li>
+                    <li class="nav-item" style="border-right: none;">
+                        <a href="dates.html" class="nav-btn">Important Dates</a>
+                    </li>
+                </ul>
+
+                <div class="nav-item dropdown btn-register">
+                    <button class="dropbtn">For Authors ↓</button>
+                    <div class="dropdown-content">
+                        <a href="ieee-guidelines.html">IEEE Guidelines</a>
+                        <a href="authors.html">Author Guidelines</a>
+                        <a href="registration.html">Registration</a>
+                    </div>
+                </div>
+            </nav>
+    <header class="page-header">
+        <span class="header-subtitle">// LEADERSHIP</span>
+        <h1>Organizing <br> Committee</h1>
+    </header>
+
+    <section class="category-block sect-advisory">
+        <div class="cat-title-container"><span class="cat-title">Advisory Committee</span></div>
+        <div class="member-flex">
+            <div class="member-card">
+                <div class="image-frame"><img src="https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804" alt="Saibun"></div>
+                <div class="info-box"><p class="m-name">Saibun Tjuatja</p><p class="m-org">University of Texas at Arlington, USA</p></div>
+            </div>
+            <div class="member-card">
+                <div class="image-frame"><img src="https://www.grss-ieee.org/wp-content/uploads/2025/09/shiv-mohan.jpg" alt="Shiv Mohan"></div>
+                <div class="info-box"><p class="m-name">Shiv Mohan</p><p class="m-org">IEEE GRSS</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-block sect-chairs" style="background: rgba(11, 19, 43, 0.03);">
+        <div class="cat-title-container"><span class="cat-title">General Chairs</span></div>
+        <div class="member-flex">
+            <div class="member-card">
+                <div class="image-frame"><img src="https://i1.rgstatic.net/ii/profile.image/565310516613120-1511791938111_Q128/Vijender-Reddy.jpg" alt="Vijender"></div>
+                <div class="info-box"><p class="m-name">Vijender Busi Reddy</p><p class="m-org">ADRIN, ISRO</p></div>
+            </div>
+            <div class="member-card">
+                <div class="image-frame"><img src="https://www.jpl.nasa.gov/site/research/media/images/rosen.max-400x400.jpg" alt="Paul Rosen"></div>
+                <div class="info-box"><p class="m-name">Paul A. Rosen</p><p class="m-org">JPL NASA</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-block sect-tpc">
+        <div class="cat-title-container"><span class="cat-title">Technical Program Committee</span></div>
+        <div class="member-flex">
+            <div class="member-card">
+                <div class="image-frame"><img src="https://glp.earth/sites/default/files/styles/people_wide/public/profile/csreddy-photo-for-cv.jpg?itok=Lj50_yqt&timestamp=1718726120" alt="Sudhakar"></div>
+                <div class="info-box"><p class="m-name">C. Sudhakar Reddy</p><p class="m-org">NRSC, ISRO</p></div>
+            </div>
+            <div class="member-card">
+                <div class="image-frame"><img src="https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804" alt="Member"></div>
+                <div class="info-box"><p class="m-name">D. Rajesh Reddy</p><p class="m-org">ADRIN, ISRO</p></div>
+            </div>
+            <div class="member-card">
+                <div class="image-frame"><img src="https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804" alt="Member"></div>
+                <div class="info-box"><p class="m-name">Alejandro C. Frery</p><p class="m-org">Victoria Univ., NZ</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category-block sect-support" style="background: rgba(206, 169, 100, 0.05);">
+        <div class="cat-title-container"><span class="cat-title">Finance & Publication</span></div>
+        <div class="member-flex">
+            <div class="member-card">
+                <div class="image-frame"><img src="https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804" alt="Naik"></div>
+                <div class="info-box"><p class="m-name">N. Srinivas Naik</p><p class="m-org">IIIT DM Kurnool</p></div>
+            </div>
+            <div class="member-card">
+                <div class="image-frame"><img src="https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804" alt="Pacifici"></div>
+                <div class="info-box"><p class="m-name">Fabio Pacifici</p><p class="m-org">Maxar Technologies</p></div>
+            </div>
+            <div class="member-card">
+                <div class="image-frame"><img src="https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804" alt="Hitendra"></div>
+                <div class="info-box"><p class="m-name">Hitendra Sharma</p><p class="m-org">Vasavi College of Engg.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col-brand">
+            <div class="footer-brand-text">InGARSS '26</div>
+            <p class="footer-description">
+                The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Join us in Hyderabad for the future of remote sensing technology.
+            </p>
+        </div>
+
+        <div class="footer-col-links">
+            <h5 class="footer-heading">Navigation</h5>
+            <ul class="footer-links-list">
+                <li><a href="index.html" class="footer-link">Home</a></li>
+                <li><a href="committee.html" class="footer-link">Committee</a></li>
+                <li><a href="cfp.html" class="footer-link">Call for Papers</a></li>
+                <li><a href="dates.html" class="footer-link">Important Dates</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col-contact">
+            <h5 class="footer-heading">Legal & Contact</h5>
+            <div class="footer-contact-info">
+                <ul class="footer-links-list" style="margin-bottom: 1rem;">
+                    <li><a href="authors.html" class="footer-link">Author Guidelines</a></li>
+                    <li><a href="ieee-guidelines.html" class="footer-link">IEEE Guidelines</a></li>
+                </ul>
+                <p>Hyderabad, Telangana, India</p>
+                <a href="mailto:ingarss2026@gmail.com" class="footer-email">ingarss2026@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
