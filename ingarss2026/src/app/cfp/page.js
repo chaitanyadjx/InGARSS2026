@@ -79,7 +79,7 @@ export default function CallForPapersPage() {
     return (
         <main className="min-h-screen bg-[var(--bone)]">
             {/* Page Header */}
-            <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] py-16 sm:py-20 md:py-24 lg:py-28 border-b-[3px] border-black">
+            <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-28 border-b-[3px] border-black">
                 <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em] uppercase">// SUBMISSIONS</span>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold uppercase leading-[0.85] tracking-tight mt-4 sm:mt-6">
                     Suggestive<br />Topic List

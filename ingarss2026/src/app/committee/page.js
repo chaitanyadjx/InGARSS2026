@@ -34,42 +34,58 @@ const committeeData = {
         {
             name: "D. Rajesh Reddy",
             affiliation: "ADRIN, ISRO",
-            image: "https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804"
+            image: ""
         },
         {
             name: "Alejandro C. Frery",
             affiliation: "Victoria Univ., NZ",
-            image: "https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804"
+            image: "https://people.wgtn.ac.nz/alejandro.frery/thumbnail"
         }
     ],
-    financePublication: [
+    financeChair: [
         {
             name: "N. Srinivas Naik",
-            affiliation: "IIIT DM Kurnool",
-            image: "https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804"
+            affiliation: "IIITDM Kurnool",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxeYX2sFSOMUl5Vji3nOxx7UT6hXqlTCGBQ&s"
         },
         {
             name: "Fabio Pacifici",
-            affiliation: "Maxar Technologies",
-            image: "https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804"
-        },
+            affiliation: "SVP of Engineering at Xoople",
+            image: "https://media.licdn.com/dms/image/v2/D5603AQGv7iks2LsoXQ/profile-displayphoto-crop_800_800/B56ZrCT3AQJUAI-/0/1764196577740?e=1768435200&v=beta&t=Ib67AcguB2sWRYYhVDrPA0dXnKTfjTVpELfI08Cn26I"
+        }
+    ],
+    publicationChair: [
         {
             name: "Hitendra Sharma",
             affiliation: "Vasavi College of Engg.",
-            image: "https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804"
+            image: ""
         }
     ]
 };
 
 function MemberCard({ name, affiliation, image }) {
+    const hasImage = image && image.trim() !== '';
+    
     return (
         <div className="flex flex-col w-full sm:w-80 bg-white border-[3px] border-black p-6 md:p-8 shadow-[5px_5px_0_black] hover:shadow-[20px_20px_0_#BC4749] hover:-translate-x-1 hover:-translate-y-1 transition-all duration-300">
             <div className="w-full aspect-square border-2 border-black overflow-hidden mb-5 relative bg-gray-100">
-                <img 
-                    src={image} 
-                    alt={name}
-                    className="w-full h-full object-cover"
-                />
+                {hasImage ? (
+                    <img 
+                        src={image} 
+                        alt={name}
+                        className="w-full h-full object-cover"
+                    />
+                ) : (
+                    <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                        <svg 
+                            className="w-1/2 h-1/2 text-gray-400" 
+                            fill="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                    </div>
+                )}
             </div>
             <p className="text-xl md:text-2xl font-bold uppercase leading-tight mb-2">{name}</p>
             <p className="font-mono text-sm text-terracotta font-bold">{affiliation}</p>
@@ -127,12 +143,19 @@ export default function CommitteePage() {
                 pillClass="bg-terracotta text-white shadow-[10px_10px_0_black]"
             />
 
-            {/* Finance & Publication */}
+            {/* Finance Chair */}
             <CommitteeSection 
-                title="Finance & Publication" 
-                members={committeeData.financePublication}
+                title="Finance Chair" 
+                members={committeeData.financeChair}
                 bgClass="bg-gold/5"
                 pillClass="bg-black text-white shadow-[10px_10px_0_#CEA964]"
+            />
+
+            {/* Publication Chair */}
+            <CommitteeSection 
+                title="Publication Chair" 
+                members={committeeData.publicationChair}
+                pillClass="bg-gold text-black shadow-[10px_10px_0_black]"
             />
         </>
     );

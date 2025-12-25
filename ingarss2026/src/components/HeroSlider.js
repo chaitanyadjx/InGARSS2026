@@ -66,23 +66,13 @@ export default function HeroSlider() {
                         className="absolute inset-0 bg-cover bg-center" 
                         style={{ backgroundImage: `url('${slide.bg}')`, zIndex: 0 }}
                     ></div>
-                    <div className={`relative z-10 border-[3px] border-black p-6 md:p-10 float-animation max-w-2xl ${getVariantClasses(slide.variant)}`}>
+                    <div className={`relative z-10 border-[3px] border-black p-6 md:p-10 animate-float max-w-2xl ${getVariantClasses(slide.variant)}`}>
                         <p className={`font-mono font-bold mb-3 text-sm md:text-base ${slide.kickerClass}`}>{slide.kicker}</p>
                         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight uppercase mb-4">{slide.title}</h1>
                         <p className={`text-base md:text-lg ${slide.descBold ? 'font-semibold' : ''}`}>{slide.desc}</p>
                     </div>
                 </div>
             ))}
-
-            <style jsx>{`
-                @keyframes float {
-                    0%, 100% { transform: translateY(0); }
-                    50% { transform: translateY(-15px); }
-                }
-                .float-animation {
-                    animation: float 4s ease-in-out infinite;
-                }
-            `}</style>
         </header>
     );
 }

@@ -12,7 +12,7 @@ export default function AuthorsPage() {
   return (
     <main className="min-h-screen bg-[var(--bone)]">
       {/* Page Header */}
-      <header className="bg-[var(--indigo)] text-white py-16 sm:py-20 md:py-24 lg:py-32 px-4 sm:px-6 md:px-[8%] border-b-[3px] border-black">
+      <header className="bg-[var(--indigo)] text-white pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-32 px-4 sm:px-6 md:px-[8%] border-b-[3px] border-black">
         <span className="font-mono text-[var(--gold)] font-bold uppercase text-xs sm:text-sm tracking-[0.2em]">
           // MANDATORY REQUIREMENTS
         </span>

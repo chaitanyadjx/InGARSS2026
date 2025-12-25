@@ -1,9 +1,23 @@
 'use client';
 
+import { useState } from 'react';
 import HeroSlider from '@/components/HeroSlider';
 import Link from 'next/link';
 
 export default function Home() {
+    const [selectedAudience, setSelectedAudience] = useState(null);
+
+    const handleAudienceClick = (index) => {
+        setSelectedAudience(selectedAudience === index ? null : index);
+    };
+
+    const audienceItems = [
+        { num: "01", title: "Geoscientists", desc: "Environmental scientists and research scholars focused on Earth observation data." },
+        { num: "02", title: "Engineers", desc: "Remote sensing specialists, data scientists, and AI/ML algorithm experts." },
+        { num: "03", title: "Innovators", desc: "Industry leaders and tech pioneers developing the next generation of geospatial tools." },
+        { num: "04", title: "Policy Makers", desc: "Government officials and environmental organizations driving sustainability goals." }
+    ];
+
     return (
         <>
             {/* Hero Section with Slider */}
@@ -11,7 +25,7 @@ export default function Home() {
 
             {/* Purpose Section */}
             <section id="about" className="grid md:grid-cols-2 bg-white border-b-[3px] border-black">
-                <div className="p-8 md:p-16 lg:p-24 border-b md:border-b-0 md:border-r-[3px] border-black">
+                <div className="p-8 md:p-16 lg:p-24 border-b md:border-b-0 md:border-r-[3px] border-black animate-fade-in-left">
                     <span className="font-mono text-terracotta font-bold text-sm">// PURPOSE</span>
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight my-6">Advancing Geoscience</h2>
                     <p className="text-base md:text-lg leading-relaxed">
@@ -19,8 +33,8 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="bg-bone p-8 md:p-16 flex items-center justify-center">
-                    <div className="bg-white border-[3px] border-black p-6 md:p-10 shadow-[15px_15px_0_#CEA964] md:shadow-[20px_20px_0_#CEA964] float-animation max-w-lg">
+                <div className="bg-bone p-8 md:p-16 flex items-center justify-center animate-fade-in-right">
+                    <div className="bg-white border-[3px] border-black p-6 md:p-10 shadow-[12px_12px_0_#CEA964] sm:shadow-[15px_15px_0_#CEA964] md:shadow-[20px_20px_0_#CEA964] animate-float max-w-lg">
                         <h3 className="font-mono uppercase text-indigo font-bold text-lg mb-4">The Mission</h3>
                         <p className="leading-relaxed">To provide unique platform for showcasing cutting-edge research, fostering interdisciplinary collaborations, and discussing future directions in geospatial and remote sensing science. It aims to advance these fields and promote sustainable and ethical AI/ML practices in the geoscience domain by bringing together researchers, practitioners, and policymakers.</p>
                     </div>
@@ -34,26 +48,20 @@ export default function Home() {
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight mt-2">Target Audience</h2>
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 border-t-[3px] border-black">
-                    <div className="p-6 md:p-10 border-r border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
-                        <span className="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">01</span>
-                        <h4 className="font-bold text-lg mb-2">Geoscientists</h4>
-                        <p className="text-sm md:text-base">Environmental scientists and research scholars focused on Earth observation data.</p>
-                    </div>
-                    <div className="p-6 md:p-10 border-r border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
-                        <span className="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">02</span>
-                        <h4 className="font-bold text-lg mb-2">Engineers</h4>
-                        <p className="text-sm md:text-base">Remote sensing specialists, data scientists, and AI/ML algorithm experts.</p>
-                    </div>
-                    <div className="p-6 md:p-10 border-r border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
-                        <span className="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">03</span>
-                        <h4 className="font-bold text-lg mb-2">Innovators</h4>
-                        <p className="text-sm md:text-base">Industry leaders and tech pioneers developing the next generation of geospatial tools.</p>
-                    </div>
-                    <div className="p-6 md:p-10 border-b border-black hover:bg-terracotta hover:text-white transition-all duration-300 cursor-default group">
-                        <span className="font-mono font-bold block mb-4 text-terracotta group-hover:text-white">04</span>
-                        <h4 className="font-bold text-lg mb-2">Policy Makers</h4>
-                        <p className="text-sm md:text-base">Government officials and environmental organizations driving sustainability goals.</p>
-                    </div>
+                    {audienceItems.map((item, index) => (
+                        <div 
+                            key={index}
+                            onClick={() => handleAudienceClick(index)}
+                            className={`p-6 md:p-10 border-r border-b border-black cursor-pointer transition-all duration-300 group
+                                ${selectedAudience === index 
+                                    ? 'bg-terracotta text-white' 
+                                    : 'lg:hover:bg-terracotta lg:hover:text-white'}`}
+                        >
+                            <span className={`font-mono font-bold block mb-4 ${selectedAudience === index ? 'text-white' : 'text-terracotta lg:group-hover:text-white'}`}>{item.num}</span>
+                            <h4 className="font-bold text-lg mb-2">{item.title}</h4>
+                            <p className="text-sm md:text-base">{item.desc}</p>
+                        </div>
+                    ))}
                 </div>
             </section>
 
@@ -93,16 +101,6 @@ export default function Home() {
                     <Link href="#" className="font-bold uppercase text-xs border-b-[3px] border-terracotta w-fit pb-1 hover:text-terracotta transition-colors">Explore Venue Details →</Link>
                 </div>
             </section>
-
-            <style jsx>{`
-                @keyframes float {
-                    0%, 100% { transform: translateY(0); }
-                    50% { transform: translateY(-15px); }
-                }
-                .float-animation {
-                    animation: float 4s ease-in-out infinite;
-                }
-            `}</style>
         </>
     );
 }
