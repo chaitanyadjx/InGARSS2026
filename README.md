@@ -6,7 +6,7 @@ itr6 is the newest design version.
 Next.js code written for all pages.
 ## Issues of project
 
-1. Red line on mobile screen.
+1. Pictures need to be updated. 
 
 ## Preview
 
