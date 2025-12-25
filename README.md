@@ -1,6 +1,6 @@
 ## Introduction
 
-Website for InGARSS // 2026...
+Website for InGARSS 2026...
 itr6 is the newest design version.
 
 Next.js code written for all pages.
