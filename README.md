@@ -8,6 +8,8 @@ Loading and custom 404 page is also included.
 
 Currently deployed on Vercel.
 
+Base directory: ingarss2026
+
 Pages:
 1. Home Page
 2. Call to Paper
