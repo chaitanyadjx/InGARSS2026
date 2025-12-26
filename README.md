@@ -1,10 +1,13 @@
 ## Introduction
 
 Website for InGARSS 2026...
+
 Next.js(React based framework) is used for all pages. And pages has been updated to be responsive mobile phones.
+
 Loading and custom 404 page is also included.
 
 Currently deployed on Vercel.
+
 Pages:
 1. Home Page
 2. Call to Paper
@@ -14,7 +17,8 @@ Pages:
 6. Registration Page
 ## Issues of project
 
-1. Pictures need to be updated. 
+1. Pictures need to be updated.
+2. Content and Design review pending.
 
 ## Preview
 
