@@ -1,3 +1,7 @@
+'use client';
+
+import { useState } from 'react';
+
 const committeeData = {
     generalChairs: [
         { name: "Dr. Shiv Mohan", org: "IEEE GRSS India Council", role: "General Chair" },
@@ -21,13 +25,20 @@ const committeeData = {
     ],
 };
 
-function PersonCard({ name, org, role }) {
+function PersonCard({ name, org, role, isSelected, onSelect }) {
     return (
-        <div className="bg-white border-2 border-black p-3 flex flex-col justify-center shadow-[4px_4px_0_black] hover:shadow-[6px_6px_0_#BC4749] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all duration-150 min-h-[80px]">
-            <span className="block font-bold text-xs   leading-tight mb-1">{name}</span>
+        <div 
+            onClick={onSelect}
+            className={`bg-white border-2 border-black p-3 flex flex-col justify-center transition-all duration-150 min-h-[80px] md:cursor-default cursor-pointer hover:shadow-[6px_6px_0_#BC4749] hover:-translate-x-0.5 hover:-translate-y-0.5 ${
+                isSelected 
+                    ? 'md:shadow-[4px_4px_0_black] shadow-[6px_6px_0_#BC4749] md:translate-x-0 md:translate-y-0 -translate-x-0.5 -translate-y-0.5' 
+                    : 'shadow-[4px_4px_0_black]'
+            }`}
+        >
+            <span className="block font-bold text-xs leading-tight mb-1">{name}</span>
             <span className="block text-[0.65rem] text-gray-600 leading-tight">{org}</span>
             {role && (
-                <span className="block font-mono text-[0.6rem] text-terracotta font-semibold   mt-2 pt-2 border-t border-gray-200">{role}</span>
+                <span className="block font-mono text-[0.6rem] text-terracotta font-semibold mt-2 pt-2 border-t border-gray-200">{role}</span>
             )}
         </div>
     );
@@ -45,6 +56,12 @@ function CategoryHeader({ number, title }) {
 }
 
 export default function CommitteePage() {
+    const [selectedIndex, setSelectedIndex] = useState(null);
+
+    const handleSelect = (index) => {
+        setSelectedIndex(selectedIndex === index ? null : index);
+    };
+
     return (
         <main className="min-h-screen bg-bone">
             {/* Page Header */}
@@ -59,7 +76,12 @@ export default function CommitteePage() {
             <CategoryHeader number="01" title="General Chairs" />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
                 {committeeData.generalChairs.map((person, index) => (
-                    <PersonCard key={index} {...person} />
+                    <PersonCard 
+                        key={index} 
+                        {...person} 
+                        isSelected={selectedIndex === `general-${index}`}
+                        onSelect={() => handleSelect(`general-${index}`)}
+                    />
                 ))}
             </div>
 
@@ -67,7 +89,12 @@ export default function CommitteePage() {
             <CategoryHeader number="02" title="Technical Program Committee" />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8 pb-20">
                 {committeeData.technicalProgram.map((person, index) => (
-                    <PersonCard key={index} {...person} />
+                    <PersonCard 
+                        key={index} 
+                        {...person} 
+                        isSelected={selectedIndex === `technical-${index}`}
+                        onSelect={() => handleSelect(`technical-${index}`)}
+                    />
                 ))}
             </div>
         </main>

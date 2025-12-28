@@ -16,7 +16,7 @@ export default function AnnouncementRibbon() {
         },
         {
             id: 'conference',
-            message: '🌍 Join us in Hyderabad for InGARSS 2026',
+            message: 'Join us in Hyderabad for InGARSS 2026',
             date: new Date('2026-12-01'),
             link: '/#venue',
             linkText: 'View Venue',

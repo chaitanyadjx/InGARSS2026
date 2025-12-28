@@ -13,7 +13,7 @@ export default function Navbar() {
                 <div className="bg-terracotta text-white flex items-center justify-left lg:justify-center font-bold text-xs sm:text-sm lg:text-base tracking-wider px-4 lg:px-5 border-r-[3px] border-black">
                     <img src="/assets/logo.jpeg" alt="InGARSS 2026" className="h-16 w-16 mr-3 object-cover rounded-md border-2 border-white shadow-sm" />
                     <span className="inline lg:hidden text-left leading-tight">India Geoscience &<br/>Remote Sensing<br/>Symposium 2026</span>
-                    <span className="sm:hidden lg:inline whitespace-nowrap">InGARSS '26</span>
+                    <span className="hidden lg:inline whitespace-nowrap">InGARSS '26</span>
                 </div>
 
                 {/* Desktop Menu */}

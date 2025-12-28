@@ -2,11 +2,40 @@
 
 import { useState } from 'react';
 
-export default function AuthorsPage() {
-  const [selectedCard, setSelectedCard] = useState(null);
+/**
+ * Reusable Card Component
+ * Logic: 
+ * - Mobile: If selected, remains in a 'pressed' state (terracotta shadow).
+ * - Desktop: Selection styles are reset (sm: prefix), allowing only 
+ * the hover classes to trigger the visual change.
+ */
+function GuideCard({ label, text, isSelected, onSelect }) {
+  const selectionClasses = isSelected
+    ? "shadow-[7px_7px_0_var(--terracotta)] -translate-x-[2px] -translate-y-[2px] sm:shadow-[5px_5px_0_black] sm:translate-x-0 sm:translate-y-0"
+    : "shadow-[5px_5px_0_black]";
 
-  const handleCardClick = (index) => {
-    setSelectedCard(selectedCard === index ? null : index);
+  return (
+    <div 
+      onClick={onSelect}
+      className={`bg-white border-[2px] border-black p-4 transition-all duration-150 cursor-pointer
+        sm:hover:shadow-[7px_7px_0_var(--terracotta)] sm:hover:-translate-x-[2px] sm:hover:-translate-y-[2px]
+        ${selectionClasses}`}
+    >
+      <h3 className="font-mono text-[var(--indigo)] text-sm font-extrabold mb-2 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
+        {label}
+      </h3>
+      <p className="text-xs sm:text-sm leading-relaxed">
+        {text}
+      </p>
+    </div>
+  );
+}
+
+export default function AuthorsPage() {
+  const [selectedId, setSelectedId] = useState(null);
+
+  const handleSelect = (id) => {
+    setSelectedId(selectedId === id ? null : id);
   };
 
   const guidelineItems = [
@@ -41,12 +70,12 @@ export default function AuthorsPage() {
   return (
     <main className="min-h-screen bg-[var(--bone)]">
       {/* Page Header */}
-            <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20md:py-20 lg:py-28 border-b-[3px] border-black">
-                <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]  "> <br></br></span>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-extrabold   leading-[0.85] tracking-tight mt-4 sm:mt-6">
-                    Author  <br /> Guidelines
-                </h1>
-            </header>
+      <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-20 lg:py-28 border-b-[3px] border-black">
+        <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]"><br /></span>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
+          Author <br /> Guidelines
+        </h1>
+      </header>
 
       {/* Content Container */}
       <section className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-[8%] max-w-[1400px] mx-auto">
@@ -123,17 +152,12 @@ export default function AuthorsPage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {guidelineItems.map((item, index) => (
-              <div 
+              <GuideCard 
                 key={index}
-                className="bg-white border-[2px] border-black p-4 shadow-[5px_5px_0_black] hover:shadow-[7px_7px_0_var(--terracotta)] hover:-translate-x-[2px] hover:-translate-y-[2px] transition-all duration-150"
-              >
-                <h3 className="font-mono text-[var(--indigo)] text-sm font-extrabold mb-2 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
-                  {item.label}
-                </h3>
-                <p className="text-xs sm:text-sm leading-relaxed">
-                  {item.text}
-                </p>
-              </div>
+                isSelected={selectedId === `guide-${index}`}
+                onSelect={() => handleSelect(`guide-${index}`)}
+                {...item}
+              />
             ))}
           </div>
         </div>
@@ -180,17 +204,12 @@ export default function AuthorsPage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             {reviewItems.map((item, index) => (
-              <div 
+              <GuideCard 
                 key={index}
-                className="bg-white border-[2px] border-black p-4 shadow-[5px_5px_0_black] hover:shadow-[7px_7px_0_var(--terracotta)] hover:-translate-x-[2px] hover:-translate-y-[2px] transition-all duration-150"
-              >
-                <h3 className="font-mono text-[var(--indigo)] text-sm font-extrabold mb-2 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
-                  {item.label}
-                </h3>
-                <p className="text-xs sm:text-sm leading-relaxed">
-                  {item.text}
-                </p>
-              </div>
+                isSelected={selectedId === `review-${index}`}
+                onSelect={() => handleSelect(`review-${index}`)}
+                {...item}
+              />
             ))}
           </div>
         </div>
@@ -206,25 +225,20 @@ export default function AuthorsPage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             {publicationItems.map((item, index) => (
-              <div 
+              <GuideCard 
                 key={index}
-                className="bg-white border-[2px] border-black p-4 shadow-[5px_5px_0_black] hover:shadow-[7px_7px_0_var(--terracotta)] hover:-translate-x-[2px] hover:-translate-y-[2px] transition-all duration-150"
-              >
-                <h3 className="font-mono text-[var(--indigo)] text-sm font-extrabold mb-2 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
-                  {item.label}
-                </h3>
-                <p className="text-xs sm:text-sm leading-relaxed">
-                  {item.text}
-                </p>
-              </div>
+                isSelected={selectedId === `pub-${index}`}
+                onSelect={() => handleSelect(`pub-${index}`)}
+                {...item}
+              />
             ))}
           </div>
         </div>
 
         {/* AI Disclosure Notice */}
         <div className="bg-[var(--gold)] border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_black] mb-10 sm:mb-12 lg:mb-16">
-          <div className="flex items-start gap-4">
-            <div className="bg-black text-white font-mono font-bold text-xs px-3 py-1 flex-shrink-0">
+          <div className="flex-col lg:flex items-start lg:gap-4">
+            <div className="bg-black text-white font-mono font-bold text-xs px-3 my-4 lg:my-0 py-1 flex-shrink-0">
               AI POLICY
             </div>
             <div>
@@ -244,7 +258,7 @@ export default function AuthorsPage() {
             background: `repeating-linear-gradient(-45deg, #fcfcfc, #fcfcfc 10px, #f9f7f2 10px, #f9f7f2 20px)`
           }}
         >
-          <div className="absolute -top-4 sm:-top-5 left-4 sm:left-8 md:left-12 bg-[var(--terracotta)] text-white px-4 sm:px-6 py-2 font-mono font-extrabold text-sm shadow-[6px_6px_0_var(--black)]">
+          <div className="absolute -top-4 sm:-top-5 left-4 sm:left-8 md:left-12 bg-[var(--terracotta)] text-white px-4 sm:px-6 py-2 font-mono font-extrabold text-sm shadow-[6px_6px_0_black]">
             Official POLICY
           </div>
 

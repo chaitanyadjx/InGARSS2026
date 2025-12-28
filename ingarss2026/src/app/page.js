@@ -101,19 +101,19 @@ export default function Home() {
                   <div className="grid grid-cols-2 gap-3 sm:gap-4">
                     <Link 
                       href="/cfp"
-                      className="font-mono font-bold text-xs sm:text-sm bg-white text-black px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center"
+                      className="font-mono font-bold text-xs sm:text-sm bg-white text-black px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center active:shadow-[0px_0px_0_black] active:translate-x-[3px] active:translate-y-[3px]"
                     >
                       CALL FOR PAPERS
                     </Link>
                     <Link 
                       href="/submit"
-                      className="font-mono font-bold text-xs sm:text-sm bg-[var(--terracotta)] text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center"
+                      className="py-4 font-mono font-bold text-xs sm:text-sm bg-[var(--terracotta)] text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center active:shadow-[0px_0px_0_black] active:translate-x-[3px] active:translate-y-[3px]"
                     >
                       SUBMIT PAPER
                     </Link>
                     <Link 
                       href="/dates"
-                      className="font-mono font-bold text-xs sm:text-sm bg-[var(--indigo)] text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center"
+                      className="font-mono font-bold text-xs sm:text-sm bg-[var(--indigo)] text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center active:shadow-[0px_0px_0_black] active:translate-x-[3px] active:translate-y-[3px]"
                     >
                       IMPORTANT DATES
                     </Link>
@@ -121,8 +121,8 @@ export default function Home() {
                     href="/assets/poster.jpeg" 
                     download
                     target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-mono font-bold text-xs sm:text-sm bg-black text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center uppercase"
+                    rel="noopener noreferrer download"
+                    className="font-mono font-bold text-xs sm:text-sm bg-black text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center uppercase active:shadow-[0px_0px_0_black] active:translate-x-[3px] active:translate-y-[3px]"
                     >
                     Download Poster
                     </a>

@@ -13,10 +13,16 @@ export default function SubmitPage() {
     deadline: false
   });
 
+  const [selectedGuideline, setSelectedGuideline] = useState(null);
+
   const allChecked = Object.values(checklist).every(Boolean);
 
   const handleCheck = (key) => {
     setChecklist(prev => ({ ...prev, [key]: !prev[key] }));
+  };
+
+  const handleGuidelineSelect = (index) => {
+    setSelectedGuideline(selectedGuideline === index ? null : index);
   };
 
   const checklistItems = [
@@ -140,7 +146,12 @@ export default function SubmitPage() {
             {guidelineItems.map((item, index) => (
               <div 
                 key={index}
-                className="bg-white border-[2px] border-black p-3 sm:p-4 shadow-[4px_4px_0_black]"
+                onClick={() => handleGuidelineSelect(index)}
+                className={`bg-white border-[2px] border-black p-3 sm:p-4 transition-all duration-150 md:cursor-default cursor-pointer md:hover:shadow-[6px_6px_0_black] md:hover:-translate-x-0.5 md:hover:-translate-y-0.5 ${
+                  selectedGuideline === index
+                    ? 'md:shadow-[4px_4px_0_black] shadow-[6px_6px_0_var(--terracotta)] md:translate-x-0 md:translate-y-0 -translate-x-0.5 -translate-y-0.5'
+                    : 'shadow-[4px_4px_0_black]'
+                }`}
               >
                 <h3 className="font-mono text-[var(--indigo)] text-xs sm:text-sm font-extrabold mb-1 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
                   {item.label}
