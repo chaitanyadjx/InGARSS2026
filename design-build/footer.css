@@ -22,7 +22,7 @@ footer {
     border-bottom: 0.5rem solid var(--terracotta);
     display: inline-block;
     width: fit-content;
-    text-transform: uppercase;
+    text-transform:  ;
 }
 
 .footer-description {
@@ -37,7 +37,7 @@ footer {
     color: var(--gold);
     margin-bottom: 1.5rem;
     font-size: 1rem;
-    text-transform: uppercase;
+    text-transform:  ;
     letter-spacing: 0.1rem;
 }
 

@@ -49,7 +49,7 @@
             align-items: center;
             padding: 0 30px;
             font-weight: 700;
-            text-transform: uppercase;
+            text-transform:  ;
             border-right: var(--border-thick) solid var(--black);
             font-size: 1rem;
         }
@@ -63,7 +63,7 @@
             display: flex; align-items: center; justify-content: center;
             text-decoration: none; color: var(--black);
             font-family: 'IBM Plex Mono'; font-weight: 600; font-size: 0.7rem;
-            text-transform: uppercase; transition: var(--transition);
+            text-transform:  ; transition: var(--transition);
             background: var(--white); border: none; cursor: pointer;
         }
 
@@ -86,7 +86,7 @@
         .btn-register {
             background: var(--gold); color: var(--black);
             padding: 0 40px; font-weight: 700; display: flex;
-            align-items: center; text-decoration: none; text-transform: uppercase;
+            align-items: center; text-decoration: none; text-transform:  ;
             font-size: 0.8rem; border-left: var(--border-thick) solid var(--black);
             transition: var(--transition);
         }
@@ -111,7 +111,7 @@
         .slide-content { max-width: 800px; color: var(--white); z-index: 20; }
         .slide-content h1 { 
             font-size: clamp(2.5rem, 6vw, 5rem); line-height: 0.9; 
-            margin-bottom: 25px; text-transform: uppercase; font-weight: 700;
+            margin-bottom: 25px; text-transform:  ; font-weight: 700;
         }
         .floating-label {
             display: inline-block; background: var(--terracotta); color: white;
@@ -127,7 +127,7 @@
         .cell { padding: 80px 8%; border-right: var(--border-thick) solid var(--black); }
         .cell:last-child { border-right: none; }
 
-        h2 { font-size: 3rem; text-transform: uppercase; line-height: 1; margin-bottom: 30px; letter-spacing: -1px; }
+        h2 { font-size: 3rem; text-transform:  ; line-height: 1; margin-bottom: 30px; letter-spacing: -1px; }
 
         /* --- TARGET AUDIENCE BOXES --- */
         .audience-container { display: grid; gap: 15px; }
@@ -158,11 +158,11 @@
             display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px;
             border-bottom: var(--border-thick) solid var(--black);
         }
-        .date-item h5 { font-family: 'IBM Plex Mono'; color: var(--gold); margin-bottom: 10px; text-transform: uppercase; }
+        .date-item h5 { font-family: 'IBM Plex Mono'; color: var(--gold); margin-bottom: 10px; text-transform:  ; }
         .date-item p { font-size: 1.8rem; font-weight: 700; line-height: 1; }
 
         footer { padding: 100px 8%; background: var(--white); display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 60px; }
-        .footer-logo { font-size: 2.2rem; font-weight: 700; text-transform: uppercase; border-bottom: 10px solid var(--terracotta); display: inline-block; }
+        .footer-logo { font-size: 2.2rem; font-weight: 700; text-transform:  ; border-bottom: 10px solid var(--terracotta); display: inline-block; }
 
         @media (max-width: 1024px) {
             .navbar { grid-template-columns: 1fr auto; }
@@ -202,7 +202,7 @@
             <div class="slide-content">
                 <span class="floating-label" data-aos="fade-right">IEEE India GRSS</span>
                 <h1>Indo-Global Remote Sensing Symposium</h1>
-                <p class="mono" style="font-family: 'IBM Plex Mono'; color: var(--gold);">// Hyderabad, India | Dec 01—04, 2026</p>
+                <p class="mono" style="font-family: 'IBM Plex Mono'; color: var(--gold);"> Hyderabad, India | Dec 01—04, 2026</p>
             </div>
         </div>
         <div class="slide">
@@ -210,7 +210,7 @@
             <div class="slide-content">
                 <span class="floating-label" style="background: var(--gold); color: black;">Science & Ethics</span>
                 <h1>Promoting Sustainable and Ethical AI</h1>
-                <p class="mono" style="font-family: 'IBM Plex Mono'; color: var(--bone);">// Interdisciplinary Collaboration for a Future Planet</p>
+                <p class="mono" style="font-family: 'IBM Plex Mono'; color: var(--bone);"> Interdisciplinary Collaboration for a Future Planet</p>
             </div>
         </div>
     </header>
@@ -249,11 +249,11 @@
 
     <section id="venue" class="venue-hero">
         <div class="venue-box" data-aos="zoom-in">
-            <span style="font-family: 'IBM Plex Mono'; color: var(--terracotta); font-weight: 700;">// HOST CITY</span>
+            <span style="font-family: 'IBM Plex Mono'; color: var(--terracotta); font-weight: 700;"> HOST CITY</span>
             <h2 style="margin: 15px 0;">Hyderabad, India</h2>
             <p>Experience the symposium in the city of pearls. From the iconic <strong>Charminar</strong> to the tech-driven <strong>HITEC City</strong>, Hyderabad blends heritage with aerospace innovation.</p>
             <br>
-            <a href="#" style="font-weight: 700; color: var(--black); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px;">Venue Information →</a>
+            <a href="#" style="font-weight: 700; color: var(--black); text-transform:  ; font-size: 0.8rem; letter-spacing: 1px;">Venue Information →</a>
         </div>
     </section>
 
@@ -297,7 +297,7 @@
     <script>
         AOS.init({ duration: 800, once: true });
 
-        // Hero Slider logic
+         Hero Slider logic
         const slides = document.querySelectorAll('.slide');
         let current = 0;
         function nextSlide() {

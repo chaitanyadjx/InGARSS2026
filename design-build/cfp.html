@@ -3,314 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Call for Papers | InGARSS 2026</title>
+    <title>Author Guidelines | InGARSS 2026</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        :root {
-            --indigo: #0B132B;
-            --terracotta: #BC4749;   
-            --gold: #CEA964;         
-            --bone: #F7F4EF; 
-            --black: #000000;
-            --white: #ffffff;
-            --border-thick: 3px;
-            --snap: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        body { 
-            font-family: 'IBM Plex Sans', sans-serif; 
-            background-color: var(--bone);
-            background-image: radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1px);
-            background-size: 30px 30px;
-            color: var(--black); 
-            line-height: 1.4; 
-            padding-top: 80px; 
-            overflow-x: hidden;
-
-        }
-
-                 * {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-        *::-webkit-scrollbar {
-            display: none;
-        }
-
-        /* --- BIG BOLD INDIGO HEADER --- */
         .page-header {
-            background-color: var(--indigo);
-            color: var(--white);
-            padding: 100px 8%; 
+            padding: 140px 8% 40px;
+            background: var(--white);
             border-bottom: var(--border-thick) solid var(--black);
         }
-        .header-subtitle { 
-            font-family: 'IBM Plex Mono'; 
-            color: var(--gold); 
-            font-weight: 700; 
+
+        .guide-container {
+            background: var(--bone);
+            padding-bottom: 100px;
+        }
+
+        .guide-section {
+            border-bottom: var(--border-thick) solid var(--black);
+            background: var(--white);
+            margin-bottom: 40px;
+        }
+
+        .guide-title {
+            background: var(--indigo);
+            color: var(--gold);
+            padding: 15px 8%;
+            font-family: 'IBM Plex Mono';
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            border-bottom: var(--border-thick) solid var(--black);
+        }
+
+        .guide-content {
+            padding: 40px 8%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .instruction-block {
+            border-left: 4px solid var(--terracotta);
+            padding-left: 20px;
+        }
+
+        .instruction-block h4 {
+            font-family: 'IBM Plex Mono';
+            text-transform: uppercase;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: var(--black);
+        }
+
+        .instruction-block p, .instruction-block li {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .download-box {
+            background: var(--black);
+            color: var(--white);
+            padding: 30px;
+            box-shadow: 10px 10px 0 var(--gold);
+            margin-top: 20px;
+        }
+
+        .btn-download {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: var(--gold);
+            color: var(--black);
+            text-decoration: none;
+            font-family: 'IBM Plex Mono';
+            font-weight: 700;
+            font-size: 0.8rem;
             text-transform: uppercase;
         }
-        .page-header h1 { 
-            font-size: clamp(3rem, 8vw, 6rem);
-            text-transform: uppercase; 
-            line-height: 0.85; 
-            letter-spacing: -3px; 
-            font-weight: 800; 
-            margin-top: 15px;
-        }
 
-        /* --- INTRO SECTION --- */
-        .intro-section { 
-            padding: 80px 8%; 
-            background: var(--white); 
-            border-bottom: var(--border-thick) solid var(--black); 
-        }
-        .intro-section h3 { font-family: 'IBM Plex Mono'; margin-bottom: 20px; color: var(--terracotta); }
-        .intro-section p { 
-            max-width: 1000px; 
-            font-size: 1.15rem; 
-            line-height: 1.7; 
-            color: var(--black);
-            margin-bottom: 15px;
-        }
-
-        /* --- VIVID TOPICS GRID --- */
-        .tracks-grid {
-            display: grid;
-            /* 12 Column Grid Setup */
-            grid-template-columns: repeat(12, 1fr);
-            grid-auto-rows: 500px;
-            background: var(--black);
-            gap: var(--border-thick);
-            border-bottom: var(--border-thick) solid var(--black);
-        }
-
-        .track-tile {
-            position: relative;
-            background: var(--white);
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            padding: 50px;
-            color: var(--white);
-            text-decoration: none;
-            transition: var(--snap);
-        }
-
-        /* Vivid Images */
-        .track-bg {
-            position: absolute; inset: 0;
-            background-size: cover;
-            background-position: center;
-            filter: brightness(0.7) saturate(1.3);
-            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-            z-index: 1;
-        }
-
-        .track-tile:hover .track-bg {
-            filter: brightness(0.9) saturate(1.6);
-            transform: scale(1.08);
-        }
-
-        /* Hover Lift Effect */
-        .track-tile:hover {
-            transform: translate(-5px, -5px);
-            box-shadow: 15px 15px 0 var(--black);
-            z-index: 10;
-        }
-
-        .track-content { position: relative; z-index: 2; }
-        .track-num { 
-            font-family: 'IBM Plex Mono'; 
-            font-size: 0.9rem; 
-            font-weight: 700; 
-            color: var(--gold); 
-            margin-bottom: 15px; 
-            display: block;
-        }
-        .track-title { 
-            font-size: 2.5rem; 
-            font-weight: 800; 
-            text-transform: uppercase; 
-            line-height: 1; 
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-        }
-
-        /* Grid Spanning Utilities (Removed w-12) */
-        .w-8 { grid-column: span 8; }
-        .w-6 { grid-column: span 6; }
-        .w-4 { grid-column: span 4; }
-
-        /* --- FOOTER --- */
-        footer {
-            padding: 80px 8%; background: var(--black); color: var(--white);
-            display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 60px;
-        }
-        .footer-brand { font-size: 2rem; font-weight: 700; border-bottom: 8px solid var(--terracotta); display: inline-block; margin-bottom: 20px; }
-        .footer-link { color: var(--white); text-decoration: none; transition: var(--snap); border-bottom: 1px solid transparent; }
-        .footer-link:hover { color: var(--gold); border-bottom: 1px solid var(--gold); }
-
-        @media (max-width: 1024px) {
-            /* On tablet/mobile, force full width */
-            .track-tile, .w-8, .w-6, .w-4 { grid-column: span 12; }
-            .navbar { grid-template-columns: 1fr auto; }
-            .nav-links-grid { display: none; }
-            footer { grid-template-columns: 1fr; }
+        @media (max-width: 900px) {
+            .guide-content { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
-            <nav class="navbar">
-                <div class="nav-brand">InGARSS 2026</div>
 
-                <ul class="nav-links-grid">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-btn">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="committee.html" class="nav-btn">Committee</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="cfp.html" class="nav-btn">Call for Papers</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <button class="dropbtn">Event Details ↓</button>
-                        <div class="dropdown-content">
-                            <a href="index.html#about">Purpose</a>
-                            <a href="index.html#audience">Target Audience</a>
-                            <a href="index.html#venue">Venue: Hyderabad</a>
-                        </div>
-                    </li>
-                    <li class="nav-item" style="border-right: none;">
-                        <a href="dates.html" class="nav-btn">Important Dates</a>
-                    </li>
-                </ul>
-
-                <div class="nav-item dropdown btn-register">
-                    <button class="dropbtn">For Authors ↓</button>
-                    <div class="dropdown-content">
-                        <a href="ieee-guidelines.html">IEEE Guidelines</a>
-                        <a href="authors.html">Author Guidelines</a>
-                        <a href="registration.html">Registration</a>
-                    </div>
+    <nav class="navbar" id="mainNavbar">
+        <div class="nav-brand">InGARSS 2026</div>
+        <button class="mobile-toggle" id="menuToggle">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links-grid">
+            <li class="nav-item"><a href="index.html" class="nav-btn">Home</a></li>
+            <li class="nav-item"><a href="committee.html" class="nav-btn">Committee</a></li>
+            <li class="nav-item"><a href="cfp.html" class="nav-btn">CFP</a></li>
+            <li class="nav-item dropdown">
+                <button class="dropbtn">Details ↓</button>
+                <div class="dropdown-content">
+                    <a href="index.html#about">Purpose</a>
+                    <a href="index.html#venue">Venue</a>
                 </div>
-            </nav>
+            </li>
+            <li class="nav-item" style="border-right: none;"><a href="dates.html" class="nav-btn">Dates</a></li>
+        </ul>
+    </nav>
 
     <header class="page-header">
-        <span class="header-subtitle">// SUBMISSIONS</span>
-        <h1>Suggestive <br> Topic List</h1>
+        <span style="font-family: 'IBM Plex Mono'; color: var(--terracotta); font-weight: 700;">// SUBMISSION_GUIDELINES_V1</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); text-transform: uppercase; line-height: 0.9;">Author Instructions</h1>
     </header>
 
-    <section class="intro-section">
-        <p>
-            The conference will cover a wide range of topics, emphasizing the latest technologies and their applications across various domains. Below are the suggestive tracks with subtopics (but not limited to...).
-        </p>
-        <p>
-            <strong>We encourage submissions that cover a wide range of topics, including but not limited to:</strong> To encourage submissions over a more wide range.
-        </p>
-    </section>
-
-    <main class="tracks-grid">
-        <a href="#" class="track-tile w-8">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1400');"></div>
-            <div class="track-content">
-                <p class="track-title">Imaging and Processing Techniques</p>
+    <main class="guide-container">
+        
+        <section class="guide-section">
+            <div class="guide-title">01. Manuscript Preparation</div>
+            <div class="guide-content">
+                <div class="instruction-block">
+                    <h4>General Requirements</h4>
+                    <p>Authors are invited to submit original, unpublished research papers that are not currently under review by another conference or journal.</p>
+                    <p>The working language of the conference is English. All manuscripts must be written and presented in English.</p>
+                </div>
+                <div class="instruction-block">
+                    <h4>Formatting & Style</h4>
+                    <p>Papers must be formatted according to the standard IEEE Conference Template.</p>
+                    
+                    <ul>
+                        <li><strong>Paper Size:</strong> A4.</li>
+                        <li><strong>Length:</strong> Maximum of 4 pages, including all figures, tables, and references.</li>
+                        <li><strong>File Format:</strong> Submissions must be in PDF format.</li>
+                    </ul>
+                </div>
             </div>
-        </a>
+        </section>
 
-        <a href="#" class="track-tile w-4">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000');"></div>
-            <div class="track-content">
-               
-                <p class="track-title">AI and Big Data</p>
+        <section class="guide-section">
+            <div class="guide-title">02. Submission Process</div>
+            <div class="guide-content">
+                <div class="instruction-block">
+                    <h4>Blind Review Policy</h4>
+                    <p>InGARSS 2026 follows a peer-review process. Ensure that your initial submission does not contain author names or affiliations if the specific track requires double-blind review.</p>
+                </div>
+                <div class="instruction-block">
+                    <h4>Templates & Tools</h4>
+                    <div class="download-box">
+                        <p style="color: var(--gold); font-family: 'IBM Plex Mono'; font-weight: 700;">// ACCESS_RESOURCES</p>
+                        <p>Download the official IEEE LaTeX or Word templates to ensure your paper meets the Xplore® compliance standards.</p>
+                        <a href="#" class="btn-download">Download Templates</a>
+                    </div>
+                </div>
             </div>
-        </a>
+        </section>
 
-        <a href="#" class="track-tile w-6">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=1000');"></div>
-            <div class="track-content">
-               
-                <p class="track-title">Remote Sensing Data Analysis</p>
+        <section class="guide-section">
+            <div class="guide-title">03. Final Submission & Copyright</div>
+            <div class="guide-content">
+                <div class="instruction-block">
+                    <h4>Registration Requirement</h4>
+                    <p>At least one author of an accepted paper must register at the full (non-student) rate and present the paper at the symposium to be included in the proceedings.</p>
+                </div>
+                <div class="instruction-block">
+                    <h4>Copyright Transfer</h4>
+                    <p>Accepted papers will require an electronic IEEE Copyright Form (eCF) before final publication in IEEE Xplore®.</p>
+                </div>
             </div>
-        </a>
+        </section>
 
-        <a href="#" class="track-tile w-6">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000');"></div>
-            <div class="track-content">
-               
-                <p class="track-title">Electromagnetic Modeling</p>
-            </div>
-        </a>
-
-        <a href="#" class="track-tile w-8">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1441911645956-df6e9bbc5496?q=80&w=1200');"></div>
-            <div class="track-content">
-               
-                <p class="track-title">Atmosphere, Cryosphere, Land, and Oceans</p>
-            </div>
-        </a>
-
-        <a href="#" class="track-tile w-4">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1400');"></div>
-            <div class="track-content">
-               
-                <p class="track-title">Missions, Platforms and Sensors</p>
-            </div>
-        </a>
-
-        <a href="#" class="track-tile w-6">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000');"></div>
-            <div class="track-content">
-               
-                <p class="track-title">Societal Engagement and Education</p>
-            </div>
-        </a>
-
-        <a href="#" class="track-tile w-6">
-            <div class="track-bg" style="background-image: url('https://images.unsplash.com/photo-1705769203542-ee21f83e7277?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?q=80&w=1000');"></div>
-            <div class="track-content">
-               
-                <p class="track-title">Policy and Impacts</p>
-            </div>
-        </a>
     </main>
 
-    <footer>
+    <footer style="margin-top: 0;">
         <div class="footer-col-brand">
             <div class="footer-brand-text">InGARSS '26</div>
-            <p class="footer-description">
-                The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Join us in Hyderabad for the future of remote sensing technology.
-            </p>
         </div>
-
-        <div class="footer-col-links">
-            <h5 class="footer-heading">Navigation</h5>
-            <ul class="footer-links-list">
-                <li><a href="index.html" class="footer-link">Home</a></li>
-                <li><a href="committee.html" class="footer-link">Committee</a></li>
-                <li><a href="cfp.html" class="footer-link">Call for Papers</a></li>
-                <li><a href="dates.html" class="footer-link">Important Dates</a></li>
-            </ul>
-        </div>
-
         <div class="footer-col-contact">
-            <h5 class="footer-heading">Legal & Contact</h5>
-            <div class="footer-contact-info">
-                <ul class="footer-links-list" style="margin-bottom: 1rem;">
-                    <li><a href="authors.html" class="footer-link">Author Guidelines</a></li>
-                    <li><a href="ieee-guidelines.html" class="footer-link">IEEE Guidelines</a></li>
-                </ul>
-                <p>Hyderabad, Telangana, India</p>
-                <a href="mailto:ingarss2026@gmail.com" class="footer-email">ingarss2026@gmail.com</a>
-            </div>
+            <a href="mailto:ingarss2026@gmail.com" class="footer-email">ingarss2026@gmail.com</a>
         </div>
     </footer>
 
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navbar = document.getElementById('mainNavbar');
+        menuToggle.addEventListener('click', () => {
+            navbar.classList.toggle('mobile-active');
+        });
+    </script>
 </body>
 </html>

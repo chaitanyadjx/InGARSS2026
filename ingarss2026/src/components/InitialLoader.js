@@ -30,7 +30,7 @@ export default function InitialLoader() {
       </div>
 
       {/* Loader Text */}
-      <div className="mt-6 sm:mt-8 font-mono uppercase font-bold tracking-[0.2em] sm:tracking-[0.25em] text-black text-xs sm:text-sm">
+      <div className="mt-6 sm:mt-8 font-mono   font-bold tracking-[0.2em] sm:tracking-[0.25em] text-black text-xs sm:text-sm">
         Initializing Sensors...
       </div>
 

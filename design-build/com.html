@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Committee | InGARSS 2026</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <style>
+        .committee-header {
+            padding: 120px 8% 30px;
+            background: var(--white);
+            border-bottom: var(--border-thick) solid var(--black);
+        }
+
+        .committee-header h1 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            text-transform:  ;
+            line-height: 0.9;
+        }
+
+        .ledger-container {
+            background: var(--bone);
+            padding-bottom: 80px;
+        }
+
+        .ledger-category {
+            background: var(--indigo);
+            color: var(--gold);
+            padding: 10px 8%;
+            font-family: 'IBM Plex Mono';
+            font-weight: 700;
+            text-transform:  ;
+            font-size: 0.75rem;
+            border-bottom: var(--border-thick) solid var(--black);
+            position: sticky;
+            top: 80px;
+            z-index: 100;
+            letter-spacing: 1px;
+        }
+
+        /* MICRO GRID SYSTEM */
+        .committee-grid {
+            display: grid;
+            /* Reduced min-width to 180px for a tighter fit */
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 15px; 
+            padding: 30px 8%;
+        }
+
+        /* SMALL BRUTALIST CARD */
+        .person-card {
+            background: var(--white);
+            border: 2px solid var(--black);
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* Smaller, sharper offset shadow */
+            box-shadow: 4px 4px 0 var(--black);
+            transition: all 0.15s ease;
+            min-height: 80px;
+        }
+
+        .person-card:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0 var(--terracotta);
+        }
+
+        .p-name {
+            display: block;
+            font-family: 'IBM Plex Sans';
+            font-weight: 700;
+            font-size: 0.75rem; /* Smaller Font */
+            line-height: 1.1;
+            text-transform:  ;
+            margin-bottom: 3px;
+            color: var(--black);
+        }
+
+        .p-org {
+            display: block;
+            font-family: 'IBM Plex Sans';
+            font-size: 0.65rem; /* Smaller Font */
+            color: #555;
+            line-height: 1.2;
+        }
+
+        .p-role {
+            display: block;
+            font-family: 'IBM Plex Mono';
+            font-size: 0.6rem; /* Smaller Font */
+            color: var(--terracotta);
+            font-weight: 600;
+            text-transform:  ;
+            margin-top: 5px;
+            padding-top: 5px;
+            border-top: 1px solid #eee;
+        }
+
+        @media (max-width: 480px) {
+            .committee-grid {
+                grid-template-columns: 1fr;
+                padding: 20px 5%;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar" id="mainNavbar">
+        <div class="nav-brand">InGARSS 2026</div>
+        </nav>
+
+    <header class="committee-header">
+        <p class="mono" style="color: var(--terracotta); font-size: 0.7rem;">// DATA_SET: COMMITTEE_V2</p>
+        <h1>Committee</h1>
+    </header>
+
+    <main class="ledger-container">
+        
+        <div class="ledger-category">01. General Chairs</div>
+        <div class="committee-grid">
+            <div class="person-card">
+                <span class="p-name">Dr. Shiv Mohan</span>
+                <span class="p-org">IEEE GRSS India Council</span>
+                <span class="p-role">General Chair</span>
+            </div>
+            <div class="person-card">
+                <span class="p-name">Dr. B.S. Daya Sagar</span>
+                <span class="p-org">ISI Bangalore, India</span>
+                <span class="p-role">General Chair</span>
+            </div>
+            <div class="person-card">
+                <span class="p-name">Prof. Avik Bhattacharya</span>
+                <span class="p-org">IIT Bombay, India</span>
+                <span class="p-role">General Co-Chair</span>
+            </div>
+            <div class="person-card">
+                <span class="p-name">Dr. Raj Kumar</span>
+                <span class="p-org">NRSC ISRO, Hyderabad</span>
+                <span class="p-role">General Co-Chair</span>
+            </div>
+        </div>
+
+        <div class="ledger-category">02. Technical Program Committee</div>
+        <div class="committee-grid">
+            <div class="person-card"><span class="p-name">Dr. Amit Kumar</span><span class="p-org">IIRS, Dehradun</span></div>
+            <div class="person-card"><span class="p-name">Dr. Anup Das</span><span class="p-org">SAC-ISRO, Ahmedabad</span></div>
+            <div class="person-card"><span class="p-name">Dr. G. Venugopal</span><span class="p-org">NRSC-ISRO, Hyderabad</span></div>
+            <div class="person-card"><span class="p-name">Dr. Praveen Kumar</span><span class="p-org">IIT Roorkee, India</span></div>
+            <div class="person-card"><span class="p-name">Prof. Onkar Dikshit</span><span class="p-org">IIT Kanpur, India</span></div>
+            <div class="person-card"><span class="p-name">Dr. R. Ramachandran</span><span class="p-org">NASA IMPACT, USA</span></div>
+            <div class="person-card"><span class="p-name">Dr. S.S. Rao</span><span class="p-org">IEEE Hyderabad Section</span></div>
+            <div class="person-card"><span class="p-name">Dr. Vineet Kumar</span><span class="p-org">IIT Bombay, India</span></div>
+            <div class="person-card"><span class="p-name">Dr. Shashi Kumar</span><span class="p-org">IIRS ISRO, Dehradun</span></div>
+            <div class="person-card"><span class="p-name">Prof. D. Singh</span><span class="p-org">IIT Roorkee, India</span></div>
+            <div class="person-card"><span class="p-name">Dr. Arundhati Misra</span><span class="p-org">SAC ISRO, Ahmedabad</span></div>
+            <div class="person-card"><span class="p-name">Dr. Sanghamitra Dutta</span><span class="p-org">NASA HQ, USA</span></div>
+        </div>
+
+    </main>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navbar = document.getElementById('mainNavbar');
+        menuToggle.addEventListener('click', () => {
+            navbar.classList.toggle('mobile-active');
+        });
+    </script>
+</body>
+</html>

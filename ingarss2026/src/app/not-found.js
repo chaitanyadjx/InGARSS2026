@@ -10,19 +10,19 @@ export default function NotFound() {
         </span>
 
         {/* Title */}
-        <h1 className="uppercase text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 tracking-tight">
+        <h1 className="  text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 tracking-tight">
           Coordinates Not Found
         </h1>
 
         {/* Description */}
         <p className="font-mono text-sm sm:text-base text-gray-600 mb-8 sm:mb-10">
-          // SIGNAL LOST: The requested satellite data or page does not exist at these coordinates.
+           SIGNAL LOST: The requested satellite data or page does not exist at these coordinates.
         </p>
 
         {/* Home Button */}
         <Link 
           href="/"
-          className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-black text-white font-mono font-bold uppercase text-xs sm:text-sm tracking-wide transition-all duration-150 hover:bg-[var(--gold)] hover:text-black hover:translate-x-[-5px] hover:translate-y-[-5px] hover:shadow-[5px_5px_0_var(--indigo)]"
+          className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-black text-white font-mono font-bold   text-xs sm:text-sm tracking-wide transition-all duration-150 hover:bg-[var(--gold)] hover:text-black hover:translate-x-[-5px] hover:translate-y-[-5px] hover:shadow-[5px_5px_0_var(--indigo)]"
         >
           Return to Home Page
         </Link>
