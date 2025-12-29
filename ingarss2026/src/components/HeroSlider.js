@@ -11,6 +11,14 @@ export default function HeroSlider() {
                     <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight   mb-4">India Geoscience & Remote Sensing Symposium</h1>
                     <p className="text-base md:text-base">Theme: Digital Earth - Modeling, Mapping, and Monitoring.</p>
                 </div>
+                {/* Logo on the right, in corner with small padding */}
+                <div className="hidden lg:block absolute top-4 right-4 md:top-8 md:right-8 z-20">
+                    <img 
+                        src="/assets/logo.jpeg" 
+                        alt="InGARSS 2026 Logo" 
+                        className="hidden lg:block h-16 w-16 md:h-24 md:w-24 lg:h-28 lg:w-28 rounded-lg border-4 border-white shadow-lg bg-white object-cover"
+                    />
+                </div>
             </div>
         </header>
     );

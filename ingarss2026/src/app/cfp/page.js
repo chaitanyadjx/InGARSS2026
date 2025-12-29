@@ -79,7 +79,7 @@ function TrackCard({ title, description, image, index, isSelected, onSelect }) {
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-[var(--indigo)] leading-tight mt-2 mb-4">
                     {title}
                 </h3>
-                <p className="text-sm sm:text-base leading-relaxed text-gray-700">
+                <p className="text-sm sm:text-base leading-relaxed text-gray-700 text-justify hyphens-auto   break-words">
                     {description}
                 </p>
             </div>
@@ -97,12 +97,28 @@ export default function CallForPapersPage() {
     return (
         <main className="min-h-screen bg-[var(--bone)]">
             {/* Page Header */}
-            <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-28 border-b-[3px] border-black">
-                <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]"><br></br></span>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
-                    Call for Papers
-                </h1>
-            </header>
+            <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-28 border-b-[3px] border-black mt-20 relative">
+                {/* Absolutely positioned logo at top right of header, with same top margin as header's pt-28 */}
+                    <img 
+                        src="/assets/logo.jpeg" 
+                        alt="InGARSS 2026 Logo" 
+                        className="absolute right-4 top-6 sm:right-6 sm:top-28 md:right-12 md:top-24 lg:right-20 lg:top-28 h-12 w-12 sm:h-14 sm:w-14 md:h-24 md:w-24 lg:h-28 lg:w-28 rounded-lg border-4 border-white shadow-lg bg-white object-cover z-10"
+                    />
+                    <div>
+                        <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em] block"><br /></span>
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
+                            Call for Papers
+                        </h1>
+                    </div>
+                </header>
+                {/* <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-28 border-b-[3px] border-black mt-20 relative min-h-[180px] sm:min-h-[0]">
+                <div>
+                    <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em] block"><br /></span>
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
+                        Call for Papers
+                    </h1>
+                </div>
+            </header> */}
 
             {/* Event Info Section */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-white border-b-[3px] border-black">
@@ -123,11 +139,11 @@ export default function CallForPapersPage() {
                         Theme: Digital Earth – Modeling, Mapping, and Monitoring.
                     </h2>
                     
-                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl">
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto   break-words">
 On behalf of the IEEE Geoscience and Remote Sensing Society (GRSS) and the InGARSS 2026 Organizing Committee, we are pleased to invite you to submit your research papers and abstracts to the 2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026), to be held from 01–04 December 2026 in Hyderabad, India. 
 As one of the flagship regional conferences of IEEE GRSS, InGARSS 2026 aims to be a premier forum that brings together researchers, practitioners, and industry professionals from India and across the globe to exchange ideas, share recent advances, and discuss emerging trends in geoscience and remote sensing. 
 All accepted and presented papers at InGARSS 2026 will be published in IEEE Xplore.                    </p>
-                    <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl">
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl text-justify hyphens-auto   break-words">
                         <strong>We warmly encourage you to contribute and be a part of InGARSS 2026, and to help make this symposium a vibrant and impactful scientific event.</strong>
                     </p>
                 </div>
@@ -147,8 +163,6 @@ All accepted and presented papers at InGARSS 2026 will be published in IEEE Xplo
                     ))}
                 </div>
             </section>
-
-            {/* Submit CTA */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-[var(--indigo)] border-t-[3px] border-black">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 sm:mb-6">

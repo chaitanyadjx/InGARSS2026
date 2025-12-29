@@ -87,8 +87,8 @@ function SpeakerCard({ name, affiliation, image }) {
                     </div>
                 )}
             </div>
-            <p className="text-xl md:text-2xl font-bold   leading-tight mb-2">{name}</p>
-            <p className="font-mono text-sm text-terracotta font-bold">{affiliation}</p>
+            <p className="text-xl md:text-2xl font-bold   leading-tight mb-2 text-justify hyphens-auto   break-words">{name}</p>
+            <p className="font-mono text-sm text-terracotta font-bold text-justify hyphens-auto   break-words">{affiliation}</p>
         </div>
     );
 }

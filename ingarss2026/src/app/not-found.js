@@ -15,7 +15,7 @@ export default function NotFound() {
         </h1>
 
         {/* Description */}
-        <p className="font-mono text-sm sm:text-base text-gray-600 mb-8 sm:mb-10">
+        <p className="font-mono text-sm sm:text-base text-gray-600 mb-8 sm:mb-10 text-justify hyphens-auto   break-words">
            SIGNAL LOST: The requested satellite data or page does not exist at these coordinates.
         </p>
 

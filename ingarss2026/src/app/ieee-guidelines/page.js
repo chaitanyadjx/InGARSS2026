@@ -51,7 +51,7 @@ function PortalCard({ tag, title, desc, action, href, isSelected, onSelect }) {
             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold   text-[var(--indigo)] leading-tight mb-3 sm:mb-6">
                 {title}
             </h3>
-            <p className="text-sm sm:text-base opacity-80 mb-5 sm:mb-8 leading-relaxed">
+            <p className="text-sm sm:text-base opacity-80 mb-5 sm:mb-8 leading-relaxed text-justify hyphens-auto   break-words">
                 {desc}
             </p>
             <a 
@@ -114,10 +114,10 @@ export default function IEEEGuidelinesPage() {
                     <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold   text-[var(--indigo)] mb-4 sm:mb-6">
                         Global Standards
                     </h2>
-                    <p className="text-sm sm:text-base lg:text-lg max-w-3xl mb-4 sm:mb-6 leading-relaxed">
+                    <p className="text-sm sm:text-base lg:text-lg max-w-3xl mb-4 sm:mb-6 leading-relaxed text-justify hyphens-auto   break-words">
                         All participants of InGARSS 2026 are required to adhere to the IEEE codes of conduct. These policies ensure a professional, safe, and ethically sound environment for the global geoscience and remote sensing community.
                     </p>
-                    <p className="font-mono font-bold text-[var(--terracotta)] text-sm sm:text-base">
+                    <p className="font-mono font-bold text-[var(--terracotta)] text-sm sm:text-base text-justify hyphens-auto   break-words">
                         [!] Failure to comply with IEEE policies may result in exclusion from the symposium proceedings.
                     </p>
                 </section>

@@ -74,7 +74,7 @@ export default function SubmitPage() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[var(--indigo)] mb-4">
             Paper Submission Portal
           </h2>
-          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl mb-6">
+          <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl mb-6 text-justify hyphens-auto   break-words">
             Submit your research paper for IEEE InGARSS 2026. All submissions are handled through the EDAS conference management system. Please review the guidelines and complete the checklist below before submitting.
           </p>
           
@@ -155,7 +155,7 @@ export default function SubmitPage() {
                 <h3 className="font-mono text-[var(--indigo)] text-xs sm:text-sm font-extrabold mb-1 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
                   {item.label}
                 </h3>
-                <p className="text-xs sm:text-sm leading-relaxed">
+                <p className="text-xs sm:text-sm leading-relaxed text-justify hyphens-auto   break-words">
                   {item.text}
                 </p>
               </div>
@@ -193,7 +193,7 @@ export default function SubmitPage() {
             </h2>
           </div>
           
-          <p className="text-sm sm:text-base mb-6 max-w-2xl">
+          <p className="text-sm sm:text-base mb-6 max-w-2xl text-justify hyphens-auto   break-words">
             Please confirm each item before proceeding to submit. All items must be checked to enable the submission button.
           </p>
 
@@ -293,10 +293,10 @@ export default function SubmitPage() {
             <h2 className="font-mono text-[var(--indigo)] font-extrabold text-xl sm:text-2xl mb-4">
               Questions about Submission?
             </h2>
-            <p className="text-sm sm:text-base leading-relaxed mb-4 max-w-2xl">
+            <p className="text-sm sm:text-base leading-relaxed mb-4 max-w-2xl text-justify hyphens-auto   break-words">
               If you have any questions regarding the submission process, paper formatting, or technical issues with EDAS, please contact us.
             </p>
-            <p className="font-mono font-bold text-[var(--terracotta)]">
+            <p className="font-mono font-bold text-[var(--terracotta)] text-justify hyphens-auto   break-words">
               Email:{' '}
               <a href="mailto:ingarss2026@gmail.com" className="underline hover:text-[var(--indigo)] transition-colors">
                 ingarss2026@gmail.com

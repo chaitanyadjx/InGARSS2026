@@ -86,10 +86,10 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
             {/* <span className={`font-mono font-bold text-xs sm:text-sm mb-2 sm:mb-3 block ${labelClasses}`}>
                 {label}
             </span> */}
-            <p className="text-2xl sm:text-3xl lg:text-2xl font-extrabold leading-none mb-3 sm:mb-4">
+            <p className="text-2xl sm:text-3xl lg:text-2xl font-extrabold leading-none mb-3 sm:mb-4 text-justify hyphens-auto   break-words">
                 {value}
             </p>
-            <p className={` font-semibold opacity-80 border-t pt-3 sm:pt-4 ${descBorderClasses}`}>
+            <p className={` font-semibold opacity-80 border-t pt-3 sm:pt-4 text-justify hyphens-auto   break-words ${descBorderClasses}`}>
                 {desc}
             </p>
         </div>

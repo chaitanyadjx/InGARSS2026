@@ -24,7 +24,7 @@ function GuideCard({ label, text, isSelected, onSelect }) {
       <h3 className="font-mono text-[var(--indigo)] text-sm font-extrabold mb-2 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
         {label}
       </h3>
-      <p className="text-xs sm:text-sm leading-relaxed">
+      <p className="text-xs sm:text-sm leading-relaxed text-justify hyphens-auto   break-words">
         {text}
       </p>
     </div>
@@ -86,7 +86,7 @@ export default function AuthorsPage() {
               <h3 className="font-mono text-[var(--indigo)] text-xl sm:text-2xl font-extrabold mb-4">
                 Download Templates
               </h3>
-              <p className="text-sm sm:text-base mb-4">
+              <p className="text-sm sm:text-base mb-4 text-justify hyphens-auto   break-words">
                 Use the official IEEE Conference Templates for your Paper submission.
               </p>
               <div className="flex flex-wrap gap-3">
@@ -114,7 +114,7 @@ export default function AuthorsPage() {
               <h3 className="font-mono text-[var(--indigo)] text-xl sm:text-2xl font-extrabold mb-4">
                 EDAS Submission Portal
               </h3>
-              <p className="text-sm sm:text-base mb-4">
+              <p className="text-sm sm:text-base mb-4 text-justify hyphens-auto   break-words">
                 Submit your paper via EDAS. 
               </p>
               <div className="flex flex-wrap gap-3">
@@ -231,7 +231,7 @@ export default function AuthorsPage() {
               <h3 className="font-mono text-[var(--indigo)] text-lg font-extrabold mb-3">
                 AI-Generated Content Disclosure
               </h3>
-              <p className="text-sm sm:text-base leading-relaxed">
+              <p className="text-sm sm:text-base leading-relaxed text-justify hyphens-auto   break-words">
                 The use of AI-generated content (text, figures, images, code) must be disclosed in the acknowledgments section. Identify the AI system used and specify which sections contain AI-generated content with a brief explanation. AI use for editing and grammar enhancement does not require disclosure but is recommended.
               </p>
             </div>
@@ -254,10 +254,10 @@ export default function AuthorsPage() {
             </h2>
             
             <div className="text-sm sm:text-base border-l-4 border-[var(--gold)] pl-4 sm:pl-6 max-w-[900px] leading-relaxed space-y-4">
-              <p className="font-semibold">
+              <p className="font-semibold text-justify hyphens-auto   break-words">
                 IEEE reserves the right to exclude a paper from distribution (e.g., not including it in IEEE Xplore) if the paper is not presented at the conference.
               </p>
-              <p>
+              <p className="text-justify hyphens-auto   break-words">
                 Papers are reviewed on the basis that they do not contain plagiarized material and have not been submitted to any other conference at the same time (double submission). IEEE will take action against any author who has engaged in either practice.
               </p>
             </div>

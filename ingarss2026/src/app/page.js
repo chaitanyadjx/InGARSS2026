@@ -31,7 +31,7 @@ export default function Home() {
             <section id="about" className="grid md:grid-cols-2 bg-white border-b-[3px] border-black">
                 <div className="p-8 md:p-16 lg:p-24 border-b md:border-b-0 md:border-r-[3px] border-black animate-fade-in-left">
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold   leading-tight my-6">Advancing Geoscience</h2>
-                    <p className="text-base md:text-lg leading-relaxed">
+                    <p className="text-base md:text-lg leading-relaxed text-justify hyphens-auto   break-words">
                         <strong>IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)</strong> is a premier GRSS, India flagship event  bringing together experts, researchers, engineers, and industry leaders to explore the intersection of <strong>Geoscience, Space, Satellite, Remote Sensing</strong> and <strong>Artificial Intelligence (AI) </strong> and the rapidly evolving field of similar domains.
                     </p>
                 </div>
@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="bg-bone p-8 md:p-16 flex items-center justify-center animate-fade-in-right">
                     <div className="bg-white border-[3px] border-black p-6 md:p-10 shadow-[12px_12px_0_#CEA964] sm:shadow-[15px_15px_0_#CEA964] md:shadow-[20px_20px_0_#CEA964] animate-float max-w-lg">
                         <h3 className="font-mono   text-indigo font-bold text-lg mb-4">Our Goals</h3>
-                        <p className="leading-relaxed">To provide unique platform for showcasing cutting-edge research, fostering interdisciplinary collaborations, and discussing future directions in geospatial and remote sensing science. It aims to advance these fields and promote sustainable and ethical AI/ML practices in the geoscience domain by bringing together researchers, practitioners, and policymakers.</p>
+                        <p className="leading-relaxed text-justify hyphens-auto   break-words">To provide unique platform for showcasing cutting-edge research, fostering interdisciplinary collaborations, and discussing future directions in geospatial and remote sensing science. It aims to advance these fields and promote sustainable and ethical AI/ML practices in the geoscience domain by bringing together researchers, practitioners, and policymakers.</p>
                     </div>
                 </div>
             </section>
@@ -56,7 +56,7 @@ export default function Home() {
                 <div className="bg-bone p-8 md:p-16 flex flex-col justify-center">
                     <span className="font-mono font-bold text-terracotta text-sm"> HOST LOCATION</span>
                     <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight my-4">Hyderabad, India</h2>
-                    <p className="text-base md:text-lg leading-relaxed mb-6">Experience the symposium in India&apos;s &quot;Cyber City&quot;. Hyderabad perfectly blends 400 years of history with a booming aerospace and IT sector, providing an inspiring backdrop for InGARSS 2026.</p>
+                    <p className="text-base md:text-lg leading-relaxed mb-6 text-justify hyphens-auto   break-words">Experience the symposium in India&apos;s &quot;Cyber City&quot;. Hyderabad perfectly blends 400 years of history with a booming aerospace and IT sector, providing an inspiring backdrop for InGARSS 2026.</p>
                     <Link href="#" className="font-bold   text-xs border-b-[3px] border-terracotta w-fit pb-1 hover:text-terracotta transition-colors">Explore Venue Details →</Link>
                 </div>
             </section>
@@ -68,7 +68,7 @@ export default function Home() {
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black mt-3 mb-4">
                       Share Your Research
                     </h2>
-                    <p className="text-black/70 text-base md:text-lg leading-relaxed">
+                    <p className="text-black/70 text-base md:text-lg leading-relaxed text-justify hyphens-auto   break-words">
                       December 1-4, 2026 • Hyderabad, India<br/>
                       <span className="font-bold text-black">Theme: Digital Earth - Modeling, Mapping, and Monitoring.
 
