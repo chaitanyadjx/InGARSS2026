@@ -28,7 +28,7 @@ export default function Navbar() {
                     </li>
 
                     <li className="border-r border-gray-400 relative group">
-                        <Link href="/#venuedates" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Venue</Link>
+                        <Link href="/#venue" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Venue</Link>
                     </li>
                                                             <li className="relative group border-r border-gray-400">
                         <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
