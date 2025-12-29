@@ -11,12 +11,12 @@ export default function NotFound() {
 
         {/* Title */}
         <h1 className="  text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 tracking-tight">
-          Coordinates Not Found
+          Page Not Found
         </h1>
 
         {/* Description */}
         <p className="font-mono text-sm sm:text-base text-gray-600 mb-8 sm:mb-10 text-justify hyphens-auto   break-words">
-           SIGNAL LOST: The requested satellite data or page does not exist at these coordinates.
+            ERROR : The requested data or page does not exist at these coordinates.
         </p>
 
         {/* Home Button */}

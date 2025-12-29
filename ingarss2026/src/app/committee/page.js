@@ -47,9 +47,8 @@ function PersonCard({ name, org, role, isSelected, onSelect }) {
 
 function CategoryHeader({ title }) {
     return (
-        // z-index 30 to stay above cards but below navbar
-        // mx-[8%] removed here to move it to the parent for better alignment
-        <div className="sticky top-20 z-30 pt-6 pb-2 bg-bone/95 backdrop-blur-sm">
+        // Removed sticky, top-20, z-30, and backdrop-blur classes
+        <div className="pt-6 pb-2">
             <div className="bg-indigo border-[3px] border-black inline-flex items-center shadow-[6px_6px_0_var(--gold)]">
                 <span className="font-bold text-sm md:text-base uppercase tracking-wider px-5 py-3 text-white">
                     {title}
@@ -58,7 +57,6 @@ function CategoryHeader({ title }) {
         </div>
     );
 }
-
 export default function CommitteePage() {
     const [selectedIndex, setSelectedIndex] = useState(null);
 
