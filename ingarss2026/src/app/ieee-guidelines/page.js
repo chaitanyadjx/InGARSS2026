@@ -1,5 +1,6 @@
-'use client';
 
+'use client';
+import PageHeader from '@/components/PageHeader';
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -77,12 +78,7 @@ export default function IEEEGuidelinesPage() {
     return (
         <main className="min-h-screen bg-[var(--bone)]">
             {/* Page Header */}
-            <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20md:py-20 lg:py-28 border-b-[3px] border-black">
-                <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]  "> <br></br></span>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-extrabold   leading-[0.85] tracking-tight mt-4 sm:mt-6">
-                    IEEE<br />Guidelines
-                </h1>
-            </header>
+            <PageHeader title="IEEE Guidelines" />
 
             {/* Content */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 lg:py-24 max-w-7xl mx-auto">

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import PageHeader from '@/components/PageHeader';
 
 const tracks = [
     {
@@ -60,26 +61,25 @@ function TrackCard({ title, description, image, index, isSelected, onSelect }) {
         ? "shadow-[12px_12px_0_var(--terracotta)] -translate-x-1 -translate-y-1 md:shadow-[8px_8px_0_black] md:translate-x-0 md:translate-y-0"
         : "shadow-[8px_8px_0_black]";
 
+    const isEven = index % 2 === 0;
     return (
         <div 
             onClick={onSelect}
             className={`bg-white border-[3px] border-black transition-all duration-200 overflow-hidden cursor-pointer
+                flex flex-col md:flex-row
                 md:hover:shadow-[12px_12px_0_var(--terracotta)] md:hover:-translate-x-1 md:hover:-translate-y-1 
                 ${selectionClass}`}
         >
-            {/* Image */}
-            <div 
-                className="h-48 sm:h-56 bg-cover bg-center border-b-[3px] border-black"
+            {/* Mobile: image above, text below. Desktop: alternate image/text */}
+            <div className={`w-full h-48 sm:h-56 lg:h-64 bg-cover bg-center border-b-[3px] border-black md:border-b-0 ${isEven ? 'md:w-40 md:sm:w-56 md:lg:w-64 md:h-48 md:sm:h-56 md:lg:h-64 md:border-r-[3px]' : 'md:w-40 md:sm:w-56 md:lg:w-64 md:h-48 md:sm:h-56 md:lg:h-64 md:border-l-[3px]' } flex-shrink-0`}
                 style={{ backgroundImage: `url('${image}')` }}
             />
-            
-            {/* Content */}
-            <div className="p-5 sm:p-6 lg:p-8">
+            <div className="flex flex-col justify-center p-5 sm:p-6 lg:p-8 flex-grow">
                 <span className="font-mono text-xs text-[var(--terracotta)] font-bold">TRACK {String(index + 1).padStart(2, '0')}</span>
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-[var(--indigo)] leading-tight mt-2 mb-4">
                     {title}
                 </h3>
-                <p className="text-sm sm:text-base leading-relaxed text-gray-700 text-justify hyphens-auto   break-words">
+                <p className="text-sm sm:text-base leading-relaxed text-gray-700 text-justify hyphens-auto break-words">
                     {description}
                 </p>
             </div>
@@ -97,28 +97,7 @@ export default function CallForPapersPage() {
     return (
         <main className="min-h-screen bg-[var(--bone)]">
             {/* Page Header */}
-            <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-28 border-b-[3px] border-black mt-20 relative">
-                {/* Absolutely positioned logo at top right of header, with same top margin as header's pt-28 */}
-                    <img 
-                        src="/assets/logo.jpeg" 
-                        alt="InGARSS 2026 Logo" 
-                        className="absolute right-4 top-6 sm:right-6 sm:top-28 md:right-12 md:top-24 lg:right-20 lg:top-28 h-12 w-12 sm:h-14 sm:w-14 md:h-24 md:w-24 lg:h-28 lg:w-28 rounded-lg border-4 border-white shadow-lg bg-white object-cover z-10"
-                    />
-                    <div>
-                        <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em] block"><br /></span>
-                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
-                            Call for Papers
-                        </h1>
-                    </div>
-                </header>
-                {/* <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-28 border-b-[3px] border-black mt-20 relative min-h-[180px] sm:min-h-[0]">
-                <div>
-                    <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em] block"><br /></span>
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
-                        Call for Papers
-                    </h1>
-                </div>
-            </header> */}
+            <PageHeader title="Call for Papers" />
 
             {/* Event Info Section */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-white border-b-[3px] border-black">
@@ -134,16 +113,19 @@ export default function CallForPapersPage() {
                             Hyderabad, INDIA
                         </div>
                     </div>
-                    
                     <h2 className="text- sm:text-2xl md:text-2xl font-extrabold text-[var(--indigo)] mb-4 sm:mb-6 leading-tight">
                         Theme: Digital Earth – Modeling, Mapping, and Monitoring.
                     </h2>
-                    
-                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto   break-words">
-On behalf of the IEEE Geoscience and Remote Sensing Society (GRSS) and the InGARSS 2026 Organizing Committee, we are pleased to invite you to submit your research papers and abstracts to the 2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026), to be held from 01–04 December 2026 in Hyderabad, India. 
-As one of the flagship regional conferences of IEEE GRSS, InGARSS 2026 aims to be a premier forum that brings together researchers, practitioners, and industry professionals from India and across the globe to exchange ideas, share recent advances, and discuss emerging trends in geoscience and remote sensing. 
-All accepted and presented papers at InGARSS 2026 will be published in IEEE Xplore.                    </p>
-                    <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl text-justify hyphens-auto   break-words">
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
+                        On behalf of the IEEE Geoscience and Remote Sensing Society (GRSS) and the InGARSS 2026 Organizing Committee, we are pleased to invite you to submit your research papers and abstracts to the 2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026), to be held from 01–04 December 2026 in Hyderabad, India.
+                    </p>
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
+                        As one of the flagship regional conferences of IEEE GRSS, InGARSS 2026 aims to be a premier forum that brings together researchers, practitioners, and industry professionals from India and across the globe to exchange ideas, share recent advances, and discuss emerging trends in geoscience and remote sensing.
+                    </p>
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
+                        All accepted and presented papers at InGARSS 2026 will be published in IEEE Xplore.
+                    </p>
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl text-justify hyphens-auto break-words">
                         <strong>We warmly encourage you to contribute and be a part of InGARSS 2026, and to help make this symposium a vibrant and impactful scientific event.</strong>
                     </p>
                 </div>
@@ -151,7 +133,7 @@ All accepted and presented papers at InGARSS 2026 will be published in IEEE Xplo
 
             {/* Tracks Grid */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-[var(--bone)]">
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 lg:gap-10 max-w-[1400px] mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 sm:gap-8 lg:gap-10 max-w-[1400px] mx-auto">
                     {tracks.map((track, index) => (
                         <TrackCard 
                             key={index} 

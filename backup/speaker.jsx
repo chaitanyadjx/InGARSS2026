@@ -114,12 +114,7 @@ export default function SpeakersPage() {
     return (
         <>
             {/* Page Header */}
-            <header className="bg-indigo text-white px-5 md:px-[8%] py-16 md:py-20 mt-20 border-b-[3px] border-black">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter">
-                    Speakers
-                </h1>
-                <span className="font-mono text-gold font-bold text-sm md:text-base mt-3 block px-1">Meet Our Distinguished Speakers</span>
-            </header>
+                <PageHeader title="Speakers" subtitle="Meet Our Distinguished Speakers" />
 
             {/* Advisory Committee */}
             <SpeakerSection 

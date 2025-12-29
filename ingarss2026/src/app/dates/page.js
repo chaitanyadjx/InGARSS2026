@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-
+import PageHeader from '@/components/PageHeader'
 const dates = [
     // Row 1: 3 items
     {
@@ -71,7 +71,11 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
     };
 
     const labelClasses = variant === "major" ? "text-gold" : "text-terracotta";
+    // Make the 3rd card's desc smaller so it wraps to 2 lines
     const descBorderClasses = variant === "major" ? " text-3xl sm:text-3xl border-white/20" : "text-base sm:text-base border-black/10";
+
+    // For the 3rd card (index 2), override desc size
+    const descSizeOverride = label === "Phase 02 — Close" ? "text-xs sm:text-sm" : "";
 
     // Shadow changes based on selection state
     const shadowClass = isSelected 
@@ -89,7 +93,7 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
             <p className="text-2xl sm:text-3xl lg:text-2xl font-extrabold leading-none mb-3 sm:mb-4 text-justify hyphens-auto   break-words">
                 {value}
             </p>
-            <p className={` font-semibold opacity-80 border-t pt-3 sm:pt-4 text-justify hyphens-auto   break-words ${descBorderClasses}`}>
+            <p className={` font-semibold opacity-80 border-t pt-3 sm:pt-4 text-justify hyphens-auto   break-words ${descBorderClasses} ${descSizeOverride}`}>
                 {desc}
             </p>
         </div>
@@ -106,11 +110,7 @@ export default function DatesPage() {
     return (
         <>
             {/* Page Header */}
-            <header className="bg-indigo text-white px-5 md:px-[8%] py-16 md:py-20 mt-16 border-b-[3px] border-black">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold uppercase leading-tight tracking-tighter">
-                    Important Dates
-                </h1>
-            </header>
+                <PageHeader title="Important Dates" />
 
             {/* Dates Section */}
             <section className="px-5 md:px-[8%] py-12 md:py-20">

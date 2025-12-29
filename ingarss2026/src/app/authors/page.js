@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-
+import PageHeader from '@/components/PageHeader'
 /**
  * Reusable Card Component
  * Logic: 
@@ -24,9 +24,7 @@ function GuideCard({ label, text, isSelected, onSelect }) {
       <h3 className="font-mono text-[var(--indigo)] text-sm font-extrabold mb-2 border-b-[2px] border-[var(--gold)] w-fit pb-0.5">
         {label}
       </h3>
-      <p className="text-xs sm:text-sm leading-relaxed text-justify hyphens-auto   break-words">
-        {text}
-      </p>
+      <p className="text-xs sm:text-sm leading-relaxed text-justify hyphens-auto   break-words" dangerouslySetInnerHTML={{ __html: text }} />
     </div>
   );
 }
@@ -40,7 +38,7 @@ export default function AuthorsPage() {
 
   const guidelineItems = [
     { label: "Submission Portal", text: "All papers must be submitted electronically through the EDAS conference submission portal. No other submission method is accepted." },
-    { label: "Language & File Format", text: "Submissions must be in English and formatted according to the IEEE conference template (A4 size). Submissions are only accepted in .doc, docx, .pdf format." },
+    { label: "Language & File Format", text: "Submissions must be in English and formatted according to the IEEE conference template (A4 size). Submissions are only accepted in <b>.doc</b>, <b>.docx</b>, <b>.pdf</b> format." },
     { label: "Originality", text: "Authors must submit original research papers that have not been published elsewhere or are currently under review by other journals or conferences." },
     { label: "Plagiarism Policy", text: "Overall similarity rate must not exceed 30%, and similarity to a single source must not exceed 10% for IEEE Xplore submission." }
   ];
@@ -68,13 +66,7 @@ export default function AuthorsPage() {
   return (
     <main className="min-h-screen bg-[var(--bone)]">
       {/* Page Header */}
-      <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-20 lg:py-28 border-b-[3px] border-black">
-        <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]"><br /></span>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
-          Author Guidelines
-        </h1>
-      </header>
-
+      <PageHeader title = "Author Guidelines"/>
       {/* Content Container */}
       <section className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-[8%] max-w-[1400px] mx-auto">
         
