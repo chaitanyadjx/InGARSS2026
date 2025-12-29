@@ -18,8 +18,7 @@ const committeeData = {
         { name: "Ale Alejandro C. Frery", org: "Victoria Univ., NZ" }
     ],
     financeChair: [
-        { name: "N. Srinivas Naik", org: "IIITDM Kurnool" },
-        { name: "Fabio Pacifici", org: "SVP of Engineering at Xoople" }
+        { name: "N. Srinivas Naik", org: "IIITDM Kurnool" }, 
     ],
     publicationChair: [
         { name: "Hitendra Sharma", org: "Vasavi College of Engg." }
