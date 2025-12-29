@@ -20,7 +20,7 @@ const dates = [
     {
         label: "Phase 02 — Close",
         value: "01 February 2026",
-        desc: "CCS(Community Contributed Session) Proposals Close",
+        desc: "CCS (Community Contributed Session) Proposals Close",
         variant: "tint-indigo"
     },
     // Row 2: 1 major item
@@ -70,14 +70,13 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
         "major": "bg-black text-white"
     };
 
-    const labelClasses = variant === "major" ? "text-gold" : "text-terracotta";
-    // Make the 3rd card's desc smaller so it wraps to 2 lines
     const descBorderClasses = variant === "major" ? " text-3xl sm:text-3xl border-white/20" : "text-base sm:text-base border-black/10";
 
-    // For the 3rd card (index 2), override desc size
-    const descSizeOverride = label === "Phase 02 — Close" ? "text-xs sm:text-sm" : "";
+    // FIX: Specific override for the long CCS string on mobile
+    // We remove text-justify and hyphens-auto to prevent the gaps
+    const isLongCCS = desc.includes("Community Contributed Session");
+    const descSizeOverride = isLongCCS ? "text-[1 rem] sm:text-sm leading-snug" : "";
 
-    // Shadow changes based on selection state
     const shadowClass = isSelected 
         ? "shadow-[12px_12px_0_#BC4749] -translate-x-1 -translate-y-1" 
         : "shadow-[8px_8px_0_black]";
@@ -87,13 +86,13 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
             className={`${baseClasses} ${variantClasses[variant]} ${shadowClass}`}
             onClick={onSelect}
         >
-            {/* <span className={`font-mono font-bold text-xs sm:text-sm mb-2 sm:mb-3 block ${labelClasses}`}>
-                {label}
-            </span> */}
-            <p className="text-2xl sm:text-3xl lg:text-2xl font-extrabold leading-none mb-3 sm:mb-4 text-justify hyphens-auto   break-words">
+            <p className="text-2xl sm:text-3xl lg:text-2xl font-extrabold leading-none mb-3 sm:mb-4 text-left">
                 {value}
             </p>
-            <p className={` font-semibold opacity-80 border-t pt-3 sm:pt-4 text-justify hyphens-auto   break-words ${descBorderClasses} ${descSizeOverride}`}>
+            {/* FIX: Replaced text-justify with text-left 
+               Removed hyphens-auto and break-words for the description 
+            */}
+            <p className={`font-semibold opacity-80 border-t pt-3 sm:pt-4 text-left ${descBorderClasses} ${descSizeOverride}`}>
                 {desc}
             </p>
         </div>

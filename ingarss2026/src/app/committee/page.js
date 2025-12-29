@@ -30,7 +30,7 @@ function PersonCard({ name, org, role, isSelected, onSelect }) {
     return (
         <div 
             onClick={onSelect}
-            className={`bg-white border-2 border-black p-3 flex flex-col justify-center transition-all duration-150 min-h-[80px] md:cursor-default cursor-pointer hover:shadow-[6px_6px_0_#BC4749] hover:-translate-x-0.5 hover:-translate-y-0.5 ${
+            className={`bg-white border-2 border-black p-3 flex flex-col justify-center transition-all duration-150 min-h-[90px] md:cursor-default cursor-pointer hover:shadow-[6px_6px_0_#BC4749] hover:-translate-x-0.5 hover:-translate-y-0.5 ${
                 isSelected 
                     ? 'md:shadow-[4px_4px_0_black] shadow-[6px_6px_0_#BC4749] md:translate-x-0 md:translate-y-0 -translate-x-0.5 -translate-y-0.5' 
                     : 'shadow-[4px_4px_0_black]'
@@ -45,12 +45,15 @@ function PersonCard({ name, org, role, isSelected, onSelect }) {
     );
 }
 
-function CategoryHeader({ number, title }) {
+function CategoryHeader({ title }) {
     return (
-        <div className="sticky top-20 z-30 mx-4 md:mx-[8%] my-6 ">
+        // z-index 30 to stay above cards but below navbar
+        // mx-[8%] removed here to move it to the parent for better alignment
+        <div className="sticky top-20 z-30 pt-6 pb-2 bg-bone/95 backdrop-blur-sm">
             <div className="bg-indigo border-[3px] border-black inline-flex items-center shadow-[6px_6px_0_var(--gold)]">
-                {/* <span className="bg-gold text-black font-mono font-bold text-lg md:text-xl px-4 py-3 border-r-[3px] border-black">{number}</span> */}
-                <span className="font-bold text-sm md:text-base uppercase tracking-wider px-5 py-3 text-white">{title}</span>
+                <span className="font-bold text-sm md:text-base uppercase tracking-wider px-5 py-3 text-white">
+                    {title}
+                </span>
             </div>
         </div>
     );
@@ -63,75 +66,38 @@ export default function CommitteePage() {
         setSelectedIndex(selectedIndex === id ? null : id);
     };
 
+    // Helper to render sections consistently
+    const renderSection = (title, data, prefix) => (
+        // relative + min-h-fit ensures the sticky header knows its boundary
+        <section className="relative px-4 md:px-[8%] mb-12">
+            <CategoryHeader title={title} />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 py-6">
+                {data.map((person, index) => (
+                    <PersonCard 
+                        key={index} 
+                        {...person} 
+                        isSelected={selectedIndex === `${prefix}-${index}`}
+                        onSelect={() => handleSelect(`${prefix}-${index}`)}
+                    />
+                ))}
+            </div>
+        </section>
+    );
+
     return (
         <main className="min-h-screen bg-bone">
-            {/* Page Header */}
             <PageHeader title="Committee" />
-
-            {/* 01. Advisory Committee */}
-            <CategoryHeader number="01" title="Advisory Committee" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
-                {committeeData.advisory.map((person, index) => (
-                    <PersonCard 
-                        key={index} 
-                        {...person} 
-                        isSelected={selectedIndex === `adv-${index}`}
-                        onSelect={() => handleSelect(`adv-${index}`)}
-                    />
-                ))}
+            
+            <div className="pt-8">
+                {renderSection("Advisory Committee", committeeData.advisory, "adv")}
+                {renderSection("General Chairs", committeeData.generalChairs, "general")}
+                {renderSection("Technical Program Committee", committeeData.technicalProgram, "technical")}
+                {renderSection("Finance Committee", committeeData.financeChair, "finance")}
+                {renderSection("Publication Chair", committeeData.publicationChair, "publication")}
             </div>
 
-            {/* 02. General Chairs */}
-            <CategoryHeader number="02" title="General Chairs" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
-                {committeeData.generalChairs.map((person, index) => (
-                    <PersonCard 
-                        key={index} 
-                        {...person} 
-                        isSelected={selectedIndex === `general-${index}`}
-                        onSelect={() => handleSelect(`general-${index}`)}
-                    />
-                ))}
-            </div>
-
-            {/* 03. Technical Program Committee */}
-            <CategoryHeader number="03" title="Technical Program Committee" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
-                {committeeData.technicalProgram.map((person, index) => (
-                    <PersonCard 
-                        key={index} 
-                        {...person} 
-                        isSelected={selectedIndex === `technical-${index}`}
-                        onSelect={() => handleSelect(`technical-${index}`)}
-                    />
-                ))}
-            </div>
-
-            {/* 04. Finance Committee */}
-            <CategoryHeader number="04" title="Finance Committee" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
-                {committeeData.financeChair.map((person, index) => (
-                    <PersonCard 
-                        key={index} 
-                        {...person} 
-                        isSelected={selectedIndex === `finance-${index}`}
-                        onSelect={() => handleSelect(`finance-${index}`)}
-                    />
-                ))}
-            </div>
-
-            {/* 05. Publication Committee */}
-            <CategoryHeader number="05" title="Publication Chair" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8 pb-24">
-                {committeeData.publicationChair.map((person, index) => (
-                    <PersonCard 
-                        key={index} 
-                        {...person} 
-                        isSelected={selectedIndex === `publication-${index}`}
-                        onSelect={() => handleSelect(`publication-${index}`)}
-                    />
-                ))}
-            </div>
+            {/* Bottom padding to prevent last section from getting stuck behind footer */}
+            <div className="h-24"></div>
         </main>
     );
 }
