@@ -1,13 +1,28 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+    // Prevent scroll on mobile when menu opens
+    useEffect(() => {
+        if (mobileMenuOpen && window.innerWidth < 1024) {
+            // Save current scroll position
+            const scrollY = window.scrollY;
+            // Restore it immediately to prevent auto-scroll
+            window.scrollTo(0, scrollY);
+        }
+    }, [mobileMenuOpen]);
+
     return (
-        <nav className="fixed top-0 w-full bg-black z-50 border-b-[3px] border-black ">
+        /* - Mobile: 'relative' so it stays at the top of the page and pushes content.
+           - Desktop: 'lg:fixed' so it stays at the top of the screen.
+        */
+       <>
+       <div className="hidden lg:block h-20 w-full" aria-hidden="true" />
+               <nav className="relative lg:fixed top-0 w-full bg-black z-50 border-b-[3px] border-black">
             <div className="grid grid-cols-[1fr_auto] lg:grid-cols-[200px_1fr_160px] h-20">
                 {/* Brand */}
                 <div className="bg-terracotta text-white flex items-center justify-left lg:justify-center font-bold text-xs sm:text-sm lg:text-base tracking-wider px-4 lg:px-5 border-r-[3px] border-black">
@@ -26,11 +41,10 @@ export default function Navbar() {
                     <li className="border-r border-gray-400">
                         <Link href="/committee" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Committee</Link>
                     </li>
-
                     <li className="border-r border-gray-400 relative group">
                         <Link href="/#venue" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Venue</Link>
                     </li>
-                                                            <li className="relative group border-r border-gray-400">
+                    <li className="relative group border-r border-gray-400">
                         <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
                             For Authors ↓
                         </div>
@@ -45,7 +59,6 @@ export default function Navbar() {
                     <li className="relative group">
                         <Link href="/dates" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Important Dates</Link>
                     </li>
-
                 </ul>
 
                 {/* Submit Button (Desktop) */}
@@ -57,24 +70,25 @@ export default function Navbar() {
                     </Link>
                 </div>
 
-                {/* Mobile Menu Toggle (Fixed to 3 lines) */}
+                {/* Mobile Menu Toggle */}
                 <button 
-                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                    className="lg:hidden flex flex-col justify-center items-center gap-1.5 px-5 bg-gold"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        setMobileMenuOpen(!mobileMenuOpen);
+                    }}
+                    className="lg:hidden flex flex-col justify-center items-center gap-1.5 px-5 bg-gold border-l-[3px] border-black"
                 >
-                    <span className="block w-6 h-0.5 bg-black"></span>
-                    <span className="block w-6 h-0.5 bg-black"></span>
-                    <span className="block w-6 h-0.5 bg-black"></span>
+                    <span className="block w-6 h-0.5 bg-black transition-all"></span>
+                    <span className="block w-6 h-0.5 bg-black transition-all"></span>
+                    <span className="block w-6 h-0.5 bg-black transition-all"></span>
                 </button>
             </div>
 
-            {/* Mobile Menu */}
-            <div className={`${mobileMenuOpen ? 'block' : 'hidden'} lg:hidden bg-white border-t-[3px] border-black fixed top-[83px] left-0 right-0 bottom-0 overflow-y-auto z-40`}>
+            {/* Mobile Menu - "Relative" position so it pushes content down */}
+            <div className={`${mobileMenuOpen ? 'block' : 'hidden'} lg:hidden bg-white border-t-[3px] border-black w-full relative`}>
                 <Link href="/" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Home</Link>
-                
                 <Link href="/committee" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Committee</Link>
                 
-                {/* For Authors Section */}
                 <div className="border-b border-gray-200">
                     <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">For Authors</div>
                     <Link href="/ieee-guidelines" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">IEEE Guidelines</Link>
@@ -85,12 +99,11 @@ export default function Navbar() {
                 </div>
                 
                 <Link href="/dates" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Important Dates</Link>
-
                 <Link href="/#venue" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Venue</Link>
-                
-                {/* Mobile Submit Paper as regular menu link */}
                 <Link href="/submit" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Submit Paper</Link>
             </div>
         </nav>
+       </>
+
     );
 }

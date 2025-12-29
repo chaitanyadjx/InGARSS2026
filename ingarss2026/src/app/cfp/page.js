@@ -123,7 +123,7 @@ export default function CallForPapersPage() {
                         As one of the flagship regional conferences of IEEE GRSS, InGARSS 2026 aims to be a premier forum that brings together researchers, practitioners, and industry professionals from India and across the globe to exchange ideas, share recent advances, and discuss emerging trends in geoscience and remote sensing.
                     </p>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
-                        All accepted and presented papers at InGARSS 2026 will be published in IEEE Xplore.
+                        All accepted and presented papers at InGARSS 2026 will be considered to submit to IEEE Xplore for publication in IEEE Xplore.
                     </p>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl text-justify hyphens-auto break-words">
                         <strong>We warmly encourage you to contribute and be a part of InGARSS 2026, and to help make this symposium a vibrant and impactful scientific event.</strong>

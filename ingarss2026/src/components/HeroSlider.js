@@ -1,6 +1,8 @@
 export default function HeroSlider() {
+    // On desktop, add top padding to account for fixed navbar (h-20 = 80px)
+    // On mobile, no extra padding since navbar is not fixed
     return (
-        <header className="relative h-[70vh] md:h-[85vh] mt-[100px] bg-white border-b-[3px] border-black overflow-hidden">
+        <header className="relative h-[70vh] md:h-[85vh] bg-white border-b-[3px] border-black overflow-hidden pt-0 lg:pt-20">
             <div className="absolute inset-0 flex items-center px-5 md:px-[8%]">
                 <div 
                     className="absolute inset-0 bg-cover bg-center" 

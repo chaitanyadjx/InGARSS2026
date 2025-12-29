@@ -9,7 +9,9 @@ export default function SubmitPage() {
     pdf: false,
     pageLimit: false,
     template: false,
-    deadline: false
+    deadline: false,
+    ai: false,
+    plag: false,
   });
 
   const [selectedGuideline, setSelectedGuideline] = useState(null);
@@ -23,16 +25,16 @@ export default function SubmitPage() {
   const handleGuidelineSelect = (index) => {
     setSelectedGuideline(selectedGuideline === index ? null : index);
   };
-
-  const checklistItems = [
-    { key: 'original', label: 'Original Work', desc: 'My paper is original and not under review elsewhere.' },
-    { key: 'english', label: 'English Language', desc: 'The Paper is written in English.' },
-    { key: 'pdf', label: 'Valid Format', desc: 'The submission file is in .doc,.docx, .pdf format.' },
-    { key: 'pageLimit', label: 'Page Limit', desc: 'Up to 5 pages free.' },
-    { key: 'template', label: 'IEEE Template', desc: 'I have used the standard IEEE Conference Template.' },
-    // { key: 'blind', label: 'Blind Submission', desc: 'Author names and affiliations are NOT included in the PDF.' },
-    { key: 'deadline', label: 'Deadline Aware', desc: 'I understand the submission deadline is 30 May 2026.' }
-  ];
+const checklistItems = [
+  { key: 'original', label: 'Original Work', desc: 'My paper is original and not under review elsewhere.' },
+  { key: 'english', label: 'English Language', desc: 'The Paper is written in English.' },
+  { key: 'pdf', label: 'Valid Format', desc: 'The submission file is in .pdf format.' },
+  { key: 'pageLimit', label: 'Page Limit', desc: 'The paper adheres to the page limit (up to 4 pages free).' },
+  { key: 'template', label: 'IEEE Template', desc: 'I have used the standard IEEE Conference Template.' },
+  { key: 'ai', label: 'AI Disclosure', desc: 'I have disclosed any AI-generated content (<25%) in the acknowledgments.' },
+  { key: 'plag', label: 'Plagiarism Check', desc: 'I have verified that the content is original and properly cited.' },
+  { key: 'deadline', label: 'Deadline Aware', desc: 'I understand the submission deadline is 30 May 2026.' }
+];
 
   const guidelineItems = [
     { label: "Originality", text: "Original, unpublished research not under review elsewhere." },
@@ -41,6 +43,8 @@ export default function SubmitPage() {
     { label: "Page Limit", text: "Up to 4 pages (free). 5 pages: ₹1,000/$15, 6 pages max: ₹2,000/$30. See Registration for fees." },
     { label: "Template", text: "Use standard IEEE Conference Template (A4 size)." },
     { label: "Blind Review", text: "Initial submission must not include author names or affiliations." },
+    { label: "AI-Generated Content Disclosure", text: "The use of AI-generated content (text, figures, images, code) must be disclosed in the acknowledgments section. Identify the AI system used and specify which sections contain AI-generated content with a brief explanation. AI use for editing and grammar enhancement does not require disclosure but is recommended. AI content less than 25%" },
+    { label: "Plagiarism", text: "All submissions will be checked for plagiarism. Papers found to contain plagiarized material will be rejected. Ensure all content is original or properly cited." },
     { label: "Registration", text: "At least one author must register at full (non-student) rate." },
     // { label: "Publication", text: "Accepted papers submitted to IEEE Xplore®." },
     { label: "Copyright", text: "Complete electronic IEEE Copyright Form (eCF)." }
