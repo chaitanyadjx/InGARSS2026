@@ -86,7 +86,7 @@ export default function AuthorsPage() {
                   href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--gold)] hover:text-black border-[2px] border-black"
+                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--black)] hover:text-black border-[2px] border-black"
                 >
                   LATEX
                 </a>
@@ -94,7 +94,7 @@ export default function AuthorsPage() {
                   href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--gold)] hover:text-black border-[2px] border-black"
+                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--black)] hover:text-black border-[2px] border-black"
                 >
                   MS WORD
                 </a>

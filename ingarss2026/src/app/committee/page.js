@@ -47,7 +47,7 @@ function PersonCard({ name, org, role, isSelected, onSelect }) {
 
 function CategoryHeader({ number, title }) {
     return (
-        <div className="sticky top-20 z-30 mx-4 md:mx-[8%] my-6">
+        <div className="sticky top-20 z-30 mx-4 md:mx-[8%] my-6 ">
             <div className="bg-indigo border-[3px] border-black inline-flex items-center shadow-[6px_6px_0_var(--gold)]">
                 {/* <span className="bg-gold text-black font-mono font-bold text-lg md:text-xl px-4 py-3 border-r-[3px] border-black">{number}</span> */}
                 <span className="font-bold text-sm md:text-base uppercase tracking-wider px-5 py-3 text-white">{title}</span>
