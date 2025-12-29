@@ -3,26 +3,26 @@
 import { useState } from 'react';
 
 const committeeData = {
+    advisory: [
+        { name: "Saibun Tjuatja", org: "University of Texas at Arlington, USA" },
+        { name: "Shiv Mohan", org: "IEEE GRSS" }
+    ],
     generalChairs: [
-        { name: "Dr. Shiv Mohan", org: "IEEE GRSS India Council", role: "General Chair" },
-        { name: "Dr. B.S. Daya Sagar", org: "ISI Bangalore, India", role: "General Chair" },
-        { name: "Prof. Avik Bhattacharya", org: "IIT Bombay, India", role: "General Co-Chair" },
-        { name: "Dr. Raj Kumar", org: "NRSC ISRO, Hyderabad", role: "General Co-Chair" },
+        { name: "Vijender Busi Reddy", org: "ADRIN, ISRO" },
+        { name: "Paul A. Rosen", org: "JPL NASA" }
     ],
     technicalProgram: [
-        { name: "Dr. Amit Kumar", org: "IIRS, Dehradun" },
-        { name: "Dr. Anup Das", org: "SAC-ISRO, Ahmedabad" },
-        { name: "Dr. G. Venugopal", org: "NRSC-ISRO, Hyderabad" },
-        { name: "Dr. Praveen Kumar", org: "IIT Roorkee, India" },
-        { name: "Prof. Onkar Dikshit", org: "IIT Kanpur, India" },
-        { name: "Dr. R. Ramachandran", org: "NASA IMPACT, USA" },
-        { name: "Dr. S.S. Rao", org: "IEEE Hyderabad Section" },
-        { name: "Dr. Vineet Kumar", org: "IIT Bombay, India" },
-        { name: "Dr. Shashi Kumar", org: "IIRS ISRO, Dehradun" },
-        { name: "Prof. D. Singh", org: "IIT Roorkee, India" },
-        { name: "Dr. Arundhati Misra", org: "SAC ISRO, Ahmedabad" },
-        { name: "Dr. Sanghamitra Dutta", org: "NASA HQ, USA" },
+        { name: "C. Sudhakar Reddy", org: "NRSC, ISRO" },
+        { name: "D. Rajesh Reddy", org: "ADRIN, ISRO" },
+        { name: "Ale Alejandro C. Frery", org: "Victoria Univ., NZ" }
     ],
+    financeChair: [
+        { name: "N. Srinivas Naik", org: "IIITDM Kurnool" },
+        { name: "Fabio Pacifici", org: "SVP of Engineering at Xoople" }
+    ],
+    publicationChair: [
+        { name: "Hitendra Sharma", org: "Vasavi College of Engg." }
+    ]
 };
 
 function PersonCard({ name, org, role, isSelected, onSelect }) {
@@ -48,7 +48,7 @@ function CategoryHeader({ number, title }) {
     return (
         <div className="sticky top-20 z-30 mx-4 md:mx-[8%] my-6">
             <div className="bg-indigo border-[3px] border-black inline-flex items-center shadow-[6px_6px_0_var(--gold)]">
-                <span className="bg-gold text-black font-mono font-bold text-lg md:text-xl px-4 py-3 border-r-[3px] border-black">{number}</span>
+                {/* <span className="bg-gold text-black font-mono font-bold text-lg md:text-xl px-4 py-3 border-r-[3px] border-black">{number}</span> */}
                 <span className="font-bold text-sm md:text-base uppercase tracking-wider px-5 py-3 text-white">{title}</span>
             </div>
         </div>
@@ -58,8 +58,8 @@ function CategoryHeader({ number, title }) {
 export default function CommitteePage() {
     const [selectedIndex, setSelectedIndex] = useState(null);
 
-    const handleSelect = (index) => {
-        setSelectedIndex(selectedIndex === index ? null : index);
+    const handleSelect = (id) => {
+        setSelectedIndex(selectedIndex === id ? null : id);
     };
 
     return (
@@ -69,11 +69,24 @@ export default function CommitteePage() {
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter">
                     Committee
                 </h1>
-                <span className="font-mono text-gold font-bold text-sm md:text-base mt-3 block px-2"> Meet our organizations committee</span>
+                <span className="font-mono text-gold font-bold text-sm md:text-base mt-3 block px-2"><br></br></span>
             </header>
 
-            {/* General Chairs */}
-            <CategoryHeader number="01" title="General Chairs" />
+            {/* 01. Advisory Committee */}
+            <CategoryHeader number="01" title="Advisory Committee" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
+                {committeeData.advisory.map((person, index) => (
+                    <PersonCard 
+                        key={index} 
+                        {...person} 
+                        isSelected={selectedIndex === `adv-${index}`}
+                        onSelect={() => handleSelect(`adv-${index}`)}
+                    />
+                ))}
+            </div>
+
+            {/* 02. General Chairs */}
+            <CategoryHeader number="02" title="General Chairs" />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
                 {committeeData.generalChairs.map((person, index) => (
                     <PersonCard 
@@ -85,15 +98,41 @@ export default function CommitteePage() {
                 ))}
             </div>
 
-            {/* Technical Program Committee */}
-            <CategoryHeader number="02" title="Technical Program Committee" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8 pb-20">
+            {/* 03. Technical Program Committee */}
+            <CategoryHeader number="03" title="Technical Program Committee" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
                 {committeeData.technicalProgram.map((person, index) => (
                     <PersonCard 
                         key={index} 
                         {...person} 
                         isSelected={selectedIndex === `technical-${index}`}
                         onSelect={() => handleSelect(`technical-${index}`)}
+                    />
+                ))}
+            </div>
+
+            {/* 04. Finance Committee */}
+            <CategoryHeader number="04" title="Finance Committee" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8">
+                {committeeData.financeChair.map((person, index) => (
+                    <PersonCard 
+                        key={index} 
+                        {...person} 
+                        isSelected={selectedIndex === `finance-${index}`}
+                        onSelect={() => handleSelect(`finance-${index}`)}
+                    />
+                ))}
+            </div>
+
+            {/* 05. Publication Committee */}
+            <CategoryHeader number="05" title="Publication Chair" />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 md:px-[8%] md:py-8 pb-24">
+                {committeeData.publicationChair.map((person, index) => (
+                    <PersonCard 
+                        key={index} 
+                        {...person} 
+                        isSelected={selectedIndex === `publication-${index}`}
+                        onSelect={() => handleSelect(`publication-${index}`)}
                     />
                 ))}
             </div>

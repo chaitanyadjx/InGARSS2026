@@ -39,30 +39,28 @@ export default function AuthorsPage() {
   };
 
   const guidelineItems = [
-    { label: "Submission Portal", text: "All papers must be submitted electronically through the Microsoft CMT conference submission portal. No other submission method is accepted." },
-    { label: "Language", text: "Submissions must be in English and formatted according to the IEEE conference template (A4 size)." },
-    { label: "File Format", text: "Submissions are only accepted in PDF format." },
-    { label: "Blind Review", text: "The initial submission must not contain any author names, affiliations, or contact information to facilitate a fair peer-review process." },
+    { label: "Submission Portal", text: "All papers must be submitted electronically through the EDAS conference submission portal. No other submission method is accepted." },
+    { label: "Language & File Format", text: "Submissions must be in English and formatted according to the IEEE conference template (A4 size). Submissions are only accepted in .doc, docx, .pdf format." },
     { label: "Originality", text: "Authors must submit original research papers that have not been published elsewhere or are currently under review by other journals or conferences." },
     { label: "Plagiarism Policy", text: "Overall similarity rate must not exceed 30%, and similarity to a single source must not exceed 10% for IEEE Xplore submission." }
   ];
 
   const pageLimitItems = [
-    { pages: "Up to 4 pages", fee: "No Extra Charge", note: "Main content excluding references" },
-    { pages: "5 pages", fee: "₹1,000 / $15", note: "Overlength fee applies" },
-    { pages: "6 pages (max)", fee: "₹2,000 / $30", note: "Total limit including everything" }
+    { pages: "Up to 5 pages", fee: "No Extra Charge", note: "Main content excluding references" },
+    { pages: "6 pages", fee: "₹1,000 / $15", note: "Overlength fee applies" },
+    { pages: "7 pages (max)", fee: "₹2,000 / $30", note: "Total limit including everything" }
   ];
 
   const reviewItems = [
     { label: "Peer Review", text: "All submitted papers will undergo a peer-review process by at least three independent reviewers following IEEE review guidelines." },
     { label: "Review Criteria", text: "Key criteria include originality, technical quality, clarity, and relevance to the conference tracks." },
-    { label: "Final Decision", text: "The decision of the Technical Program Committee (TPC) will be final." },
+    { label: "Final Decision", text: "The decision of the Technical Program Committee (TPC) Chair will be final." },
     { label: "Notification", text: "Authors will receive an email notification regarding the acceptance or rejection of their paper." }
   ];
 
   const publicationItems = [
     { label: "Presentation Required", text: "Accepted papers must be presented at the conference by one of the authors. Format (oral/poster) will be communicated upon acceptance." },
-    { label: "Registration", text: "At least one author must register at the full (non-student) rate for the paper to be included in the proceedings." },
+    { label: "Registration", text: "At least one author must register at the full rate for the paper to be included in the proceedings." },
     { label: "IEEE Xplore", text: "All accepted and presented papers will be submitted for inclusion in IEEE Xplore." },
     { label: "Copyright", text: "Authors of accepted papers are required to complete and submit an electronic IEEE Copyright Form (eCF)." }
   ];
@@ -73,7 +71,7 @@ export default function AuthorsPage() {
       <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-20 lg:py-28 border-b-[3px] border-black">
         <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]"><br /></span>
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
-          Author <br /> Guidelines
+          Author Guidelines
         </h1>
       </header>
 
@@ -96,7 +94,7 @@ export default function AuthorsPage() {
                   href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white font-mono font-bold text-xs sm:text-sm bg-black px-5 py-3 transition-all duration-150 hover:bg-[var(--gold)] hover:text-black border-[2px] border-black"
+                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--gold)] hover:text-black border-[2px] border-black"
                 >
                   LATEX
                 </a>
@@ -104,7 +102,7 @@ export default function AuthorsPage() {
                   href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white font-mono font-bold text-xs sm:text-sm bg-black px-5 py-3 transition-all duration-150 hover:bg-[var(--gold)] hover:text-black border-[2px] border-black"
+                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--gold)] hover:text-black border-[2px] border-black"
                 >
                   MS WORD
                 </a>
@@ -114,27 +112,19 @@ export default function AuthorsPage() {
             {/* CMT Portal */}
             <div>
               <h3 className="font-mono text-[var(--indigo)] text-xl sm:text-2xl font-extrabold mb-4">
-                CMT Submission Portal
+                EDAS Submission Portal
               </h3>
               <p className="text-sm sm:text-base mb-4">
-                Submit your paper via Microsoft CMT. Need help?
+                Submit your paper via EDAS. 
               </p>
               <div className="flex flex-wrap gap-3">
                 <a 
-                  href="https://cmt3.research.microsoft.com/docs/help/general/account-creation.html" 
+                  href="https://edas.info/listConferencesAuthor.php?c=34760" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-mono font-bold text-xs sm:text-sm bg-[var(--gold)] text-black px-5 py-3 border-[2px] border-black hover:bg-black hover:text-white transition-all"
                 >
-                  CREATE ACCOUNT
-                </a>
-                <a 
-                  href="https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-mono font-bold text-xs sm:text-sm bg-[var(--gold)] text-black px-5 py-3 border-[2px] border-black hover:bg-black hover:text-white transition-all"
-                >
-                  HOW TO SUBMIT
+                  EDAS Link
                 </a>
               </div>
             </div>
@@ -144,13 +134,12 @@ export default function AuthorsPage() {
         {/* Section 1: Submission Guidelines */}
         <div className="mb-10 sm:mb-12 lg:mb-16">
           <div className="flex items-center gap-4 mb-6">
-            <span className="font-mono text-[var(--terracotta)] font-bold text-sm">01</span>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[var(--indigo)]">
               Submission Guidelines
             </h2>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 sm:gap-4">
             {guidelineItems.map((item, index) => (
               <GuideCard 
                 key={index}
@@ -165,7 +154,6 @@ export default function AuthorsPage() {
         {/* Page Limits & Fees */}
         <div className="mb-10 sm:mb-12 lg:mb-16">
           <div className="flex items-center gap-4 mb-6">
-            <span className="font-mono text-[var(--terracotta)] font-bold text-sm">02</span>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[var(--indigo)]">
               Page Limits & Overlength Fees
             </h2>
@@ -196,7 +184,6 @@ export default function AuthorsPage() {
         {/* Section 3: Review Process */}
         <div className="mb-10 sm:mb-12 lg:mb-16">
           <div className="flex items-center gap-4 mb-6">
-            <span className="font-mono text-[var(--terracotta)] font-bold text-sm">03</span>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[var(--indigo)]">
               Review Process
             </h2>
@@ -217,7 +204,6 @@ export default function AuthorsPage() {
         {/* Section 4: Presentation & Publication */}
         <div className="mb-10 sm:mb-12 lg:mb-16">
           <div className="flex items-center gap-4 mb-6">
-            <span className="font-mono text-[var(--terracotta)] font-bold text-sm">04</span>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[var(--indigo)]">
               Presentation & Publication
             </h2>
@@ -259,7 +245,7 @@ export default function AuthorsPage() {
           }}
         >
           <div className="absolute -top-4 sm:-top-5 left-4 sm:left-8 md:left-12 bg-[var(--terracotta)] text-white px-4 sm:px-6 py-2 font-mono font-extrabold text-sm shadow-[6px_6px_0_black]">
-            Official POLICY
+            IEEE POLICY
           </div>
 
           <div className="mt-4 sm:mt-6">
@@ -273,12 +259,6 @@ export default function AuthorsPage() {
               </p>
               <p>
                 Papers are reviewed on the basis that they do not contain plagiarized material and have not been submitted to any other conference at the same time (double submission). IEEE will take action against any author who has engaged in either practice.
-              </p>
-              <p className="font-mono font-bold text-[var(--terracotta)]">
-                Queries:{' '}
-                <a href="mailto:ingarss2026@gmail.com" className="underline hover:text-[var(--indigo)] transition-colors">
-                  ingarss2026@gmail.com
-                </a>
               </p>
             </div>
           </div>

@@ -6,9 +6,9 @@ import Link from 'next/link';
 const dates = [
     // Row 1: 3 items
     {
-        label: "Phase 01 — Open",
+        label: "Community Contributed Session Proposals — Open",
         value: "01 January 2026",
-        desc: "Community Contributed Session Proposals Open",
+        desc: "CCS/Workshop/Tutorial Proposals Open",
         variant: "tint-gold"
     },
     {
@@ -20,7 +20,7 @@ const dates = [
     {
         label: "Phase 02 — Close",
         value: "01 February 2026",
-        desc: "Community Contributed Session Proposals Close",
+        desc: "CCS(Community Contributed Session) Proposals Close",
         variant: "tint-indigo"
     },
     // Row 2: 1 major item
@@ -31,18 +31,19 @@ const dates = [
         variant: "major"
     },
     // Row 3: 3 items
-    {
-        label: "Notification",
+        {
+        label: "Registration",
         value: "15 July 2026",
-        desc: "Acceptance Notification",
+        desc: "Acceptance Notification ",
         variant: "default"
     },
     {
-        label: "Registration",
-        value: "15 July 2026",
+        label: "Notification",
+        value: "30 July 2026",
         desc: "Registration Deadline",
         variant: "default"
     },
+
     {
         label: "Final Version",
         value: "30 July 2026",
@@ -70,7 +71,7 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
     };
 
     const labelClasses = variant === "major" ? "text-gold" : "text-terracotta";
-    const descBorderClasses = variant === "major" ? "border-white/20" : "border-black/10";
+    const descBorderClasses = variant === "major" ? " text-3xl sm:text-3xl border-white/20" : "text-base sm:text-base border-black/10";
 
     // Shadow changes based on selection state
     const shadowClass = isSelected 
@@ -82,13 +83,13 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
             className={`${baseClasses} ${variantClasses[variant]} ${shadowClass}`}
             onClick={onSelect}
         >
-            <span className={`font-mono font-bold text-xs sm:text-sm mb-2 sm:mb-3 block ${labelClasses}`}>
+            {/* <span className={`font-mono font-bold text-xs sm:text-sm mb-2 sm:mb-3 block ${labelClasses}`}>
                 {label}
-            </span>
-            <p className="text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-none mb-3 sm:mb-4">
+            </span> */}
+            <p className="text-2xl sm:text-3xl lg:text-2xl font-extrabold leading-none mb-3 sm:mb-4">
                 {value}
             </p>
-            <p className={`text-sm sm:text-base font-semibold opacity-80 border-t pt-3 sm:pt-4 ${descBorderClasses}`}>
+            <p className={` font-semibold opacity-80 border-t pt-3 sm:pt-4 ${descBorderClasses}`}>
                 {desc}
             </p>
         </div>
@@ -107,7 +108,7 @@ export default function DatesPage() {
             {/* Page Header */}
             <header className="bg-indigo text-white px-5 md:px-[8%] py-16 md:py-20 mt-16 border-b-[3px] border-black">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold uppercase leading-tight tracking-tighter">
-                    Important<br />Dates
+                    Important Dates
                 </h1>
             </header>
 
@@ -130,9 +131,6 @@ export default function DatesPage() {
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 sm:mb-6">
                         Ready to Submit?
                     </h2>
-                    <p className="text-white/80 text-sm sm:text-base md:text-lg mb-6 sm:mb-8">
-                        Paper submissions will open in January 2026. Stay tuned for more details.
-                    </p>
                     <a 
                         href="/submit"
                         className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[8px_8px_0_black] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all duration-150"

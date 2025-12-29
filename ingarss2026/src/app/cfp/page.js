@@ -100,7 +100,7 @@ export default function CallForPapersPage() {
             <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20 md:py-24 lg:py-28 border-b-[3px] border-black">
                 <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]"><br></br></span>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[0.85] tracking-tight mt-4 sm:mt-6">
-                    Suggestive<br />Topic List
+                    Call for Papers
                 </h1>
             </header>
 
@@ -112,22 +112,23 @@ export default function CallForPapersPage() {
                             InGARSS 2026
                         </div>
                         <div className="bg-[var(--terracotta)] text-white px-4 py-2 font-mono font-bold text-xs sm:text-sm">
-                            DECEMBER 8–11, 2026
+                            DECEMBER 1–4, 2026
                         </div>
                         <div className="bg-[var(--gold)] text-black px-4 py-2 font-mono font-bold text-xs sm:text-sm">
                             Hyderabad, INDIA
                         </div>
                     </div>
                     
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[var(--indigo)] mb-4 sm:mb-6 leading-tight">
-                        Theme: Digital Earth – Vision 2035
+                    <h2 className="text- sm:text-2xl md:text-2xl font-extrabold text-[var(--indigo)] mb-4 sm:mb-6 leading-tight">
+                        Theme: Digital Earth – Modeling, Mapping, and Monitoring.
                     </h2>
                     
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl">
-                        The India Geoscience and Remote Sensing Symposium (InGARSS) 2026 invites original contributions covering a wide range of topics in geoscience and remote sensing. Below are the suggestive tracks with subtopics (but not limited to...).
-                    </p>
+On behalf of the IEEE Geoscience and Remote Sensing Society (GRSS) and the InGARSS 2026 Organizing Committee, we are pleased to invite you to submit your research papers and abstracts to the 2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026), to be held from 01–04 December 2026 in Hyderabad, India. 
+As one of the flagship regional conferences of IEEE GRSS, InGARSS 2026 aims to be a premier forum that brings together researchers, practitioners, and industry professionals from India and across the globe to exchange ideas, share recent advances, and discuss emerging trends in geoscience and remote sensing. 
+All accepted and presented papers at InGARSS 2026 will be published in IEEE Xplore.                    </p>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl">
-                        <strong>We encourage submissions that push the boundaries of Earth observation, AI, and geospatial technologies.</strong>
+                        <strong>We warmly encourage you to contribute and be a part of InGARSS 2026, and to help make this symposium a vibrant and impactful scientific event.</strong>
                     </p>
                 </div>
             </section>
@@ -153,9 +154,6 @@ export default function CallForPapersPage() {
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 sm:mb-6">
                         Ready to Submit?
                     </h2>
-                    <p className="text-white/80 text-sm sm:text-base md:text-lg mb-6 sm:mb-8">
-                        Paper submissions will open in January 2026. Stay tuned for more details.
-                    </p>
                     <a 
                         href="#"
                         className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[8px_8px_0_black] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all duration-150"

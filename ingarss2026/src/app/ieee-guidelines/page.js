@@ -4,34 +4,35 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const guidelines = [
-    {
-        tag: "Compliance  01",
-        title: "Event Terms & Conditions",
-        desc: "Official IEEE conference terms governing attendance, participation, and symposium conduct.",
-        action: "View Terms  Open",
-        href: "https://www.ieee.org/conferences/event-terms-and-conditions.html"
-    },
-    {
-        tag: "Security  02",
-        title: "IEEE Privacy Policy",
-        desc: "Details on how IEEE protects your personal data and maintains symposium security standards.",
-        action: "View Policy  Open",
-        href: "https://www.ieee.org/security-privacy.html"
-    },
-    {
-        tag: "Authorship  03",
+        {
+        tag: "Authorship",
         title: "IEEE Author Center",
         desc: "The central hub for paper templates, writing tools, and publication guidelines for IEEE conferences.",
-        action: "Open Center  Open",
+        action: "View Author Center",
         href: "https://conferences.ieeeauthorcenter.ieee.org/"
     },
     {
-        tag: "Standards  04",
+        tag: "Standards",
         title: "Ethical Guidelines",
         desc: "Comprehensive policies on ethical standards, plagiarism, and research integrity for symposia.",
-        action: "View Ethics  Open",
+        action: "View Ethics",
         href: "https://ieeemce.org/planning-basics/general-guidelines/ethical-guidelines-and-policies/"
-    }
+    },
+    {
+        tag: "Compliance",
+        title: "Registration Terms & Conditions",
+        desc: "Official IEEE conference terms governing attendance, participation, and symposium conduct.",
+        action: "View Terms",
+        href: "https://www.ieee.org/conferences/event-terms-and-conditions.html"
+    },
+    {
+        tag: "Security",
+        title: "IEEE Privacy Policy",
+        desc: "Details on how IEEE protects your personal data and maintains symposium security standards.",
+        action: "View Policy",
+        href: "https://www.ieee.org/security-privacy.html"
+    },
+
 ];
 
 function PortalCard({ tag, title, desc, action, href, isSelected, onSelect }) {

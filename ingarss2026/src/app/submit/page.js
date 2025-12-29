@@ -9,7 +9,6 @@ export default function SubmitPage() {
     pdf: false,
     pageLimit: false,
     template: false,
-    blind: false,
     deadline: false
   });
 
@@ -28,11 +27,11 @@ export default function SubmitPage() {
   const checklistItems = [
     { key: 'original', label: 'Original Work', desc: 'My paper is original and not under review elsewhere.' },
     { key: 'english', label: 'English Language', desc: 'The Paper is written in English.' },
-    { key: 'pdf', label: 'PDF Format', desc: 'The submission file is in PDF format.' },
-    { key: 'pageLimit', label: 'Page Limit', desc: 'Up to 4 pages free. Overlength fees apply for 5-6 pages (max 6 pages total).' },
-    { key: 'template', label: 'IEEE Template', desc: 'I have used the standard IEEE Conference Template (A4 size).' },
-    { key: 'blind', label: 'Blind Submission', desc: 'Author names and affiliations are NOT included in the PDF.' },
-    { key: 'deadline', label: 'Deadline Aware', desc: 'I understand the submission deadline is July 15, 2026.' }
+    { key: 'pdf', label: 'Valid Format', desc: 'The submission file is in .doc,.docx, .pdf format.' },
+    { key: 'pageLimit', label: 'Page Limit', desc: 'Up to 5 pages free.' },
+    { key: 'template', label: 'IEEE Template', desc: 'I have used the standard IEEE Conference Template.' },
+    // { key: 'blind', label: 'Blind Submission', desc: 'Author names and affiliations are NOT included in the PDF.' },
+    { key: 'deadline', label: 'Deadline Aware', desc: 'I understand the submission deadline is 30 May 2026.' }
   ];
 
   const guidelineItems = [
@@ -43,7 +42,7 @@ export default function SubmitPage() {
     { label: "Template", text: "Use standard IEEE Conference Template (A4 size)." },
     { label: "Blind Review", text: "Initial submission must not include author names or affiliations." },
     { label: "Registration", text: "At least one author must register at full (non-student) rate." },
-    { label: "Publication", text: "Accepted papers submitted to IEEE Xplore®." },
+    // { label: "Publication", text: "Accepted papers submitted to IEEE Xplore®." },
     { label: "Copyright", text: "Complete electronic IEEE Copyright Form (eCF)." }
   ];
 
@@ -52,7 +51,7 @@ export default function SubmitPage() {
             <header className="bg-[var(--indigo)] text-white px-4 sm:px-6 md:px-[8%] pt-28 pb-16 sm:pt-24 sm:pb-20md:py-20 lg:py-28 border-b-[3px] border-black">
                 <span className="font-mono text-[var(--gold)] font-bold text-xs sm:text-sm tracking-[0.2em]  "> <br></br></span>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-extrabold   leading-[0.85] tracking-tight mt-4 sm:mt-6">
-                    Submimssion  <br />of Paper
+                    Submimssion  of Paper
                 </h1>
             </header>
       {/* Content Container */}
@@ -62,10 +61,10 @@ export default function SubmitPage() {
         <div className="bg-white border-[3px] border-black p-6 sm:p-8 lg:p-10 shadow-[10px_10px_0_var(--terracotta)] mb-10 sm:mb-12 lg:mb-16">
           <div className="flex flex-wrap gap-4 sm:gap-6 mb-6">
             <div className="bg-[var(--indigo)] text-white px-4 py-2 font-mono font-bold text-xs sm:text-sm">
-              VIA CMT PORTAL
+              VIA EDAS PORTAL
             </div>
             <div className="bg-[var(--terracotta)] text-white px-4 py-2 font-mono font-bold text-xs sm:text-sm">
-              DEADLINE: JULY 15, 2026
+              DEADLINE: 30 MAY, 2026
             </div>
             <div className="bg-[var(--gold)] text-black px-4 py-2 font-mono font-bold text-xs sm:text-sm">
               IEEE XPLORE® COMPLIANT
@@ -76,7 +75,7 @@ export default function SubmitPage() {
             Paper Submission Portal
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl mb-6">
-            Submit your research paper for IEEE InGARSS 2026. All submissions are handled through the Microsoft CMT conference management system. Please review the guidelines and complete the checklist below before submitting.
+            Submit your research paper for IEEE InGARSS 2026. All submissions are handled through the EDAS conference management system. Please review the guidelines and complete the checklist below before submitting.
           </p>
           
           <a 
@@ -87,7 +86,7 @@ export default function SubmitPage() {
           </a>
 
           {/* Timeline */}
-          <div className="border-t-[3px] border-black pt-6">
+          {/* <div className="border-t-[3px] border-black pt-6">
             <h3 className="font-mono font-bold text-sm text-[var(--indigo)] mb-4">IMPORTANT DATES</h3>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
@@ -96,29 +95,29 @@ export default function SubmitPage() {
                     <td className="py-3 pr-4">
                       <span className="inline-block w-3 h-3 bg-[var(--terracotta)] border-2 border-black mr-3"></span>
                     </td>
-                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">July 15, 2026</td>
-                    <td className="py-3 text-sm sm:text-base font-semibold">Paper Submission Deadline</td>
+                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">01 Jan, 2026</td>
+                    <td className="py-3 text-sm sm:text-base font-semibold">Call for papers open</td>
                   </tr>
                   <tr className="border-b-2 border-black">
                     <td className="py-3 pr-4">
                       <span className="inline-block w-3 h-3 bg-[var(--gold)] border-2 border-black mr-3"></span>
                     </td>
-                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">September 15, 2026</td>
-                    <td className="py-3 text-sm sm:text-base font-semibold">Acceptance Notification</td>
+                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">: 01 Jan, 2026</td>
+                    <td className="py-3 text-sm sm:text-base font-semibold">CCS/Workshop/Tutorials Proposals Open</td>
                   </tr>
                   <tr className="border-b-2 border-black">
                     <td className="py-3 pr-4">
                       <span className="inline-block w-3 h-3 bg-[var(--indigo)] border-2 border-black mr-3"></span>
                     </td>
-                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">October 15, 2026</td>
-                    <td className="py-3 text-sm sm:text-base font-semibold">Camera-Ready Paper Deadline</td>
+                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">30 May, 2026</td>
+                    <td className="py-3 text-sm sm:text-base font-semibold">Paper submission deadline</td>
                   </tr>
                   <tr className="border-b-2 border-black">
                     <td className="py-3 pr-4">
                       <span className="inline-block w-3 h-3 bg-[var(--indigo)] border-2 border-black mr-3"></span>
                     </td>
-                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">October 15, 2026</td>
-                    <td className="py-3 text-sm sm:text-base font-semibold">Author Registration Deadline</td>
+                    <td className="py-3 pr-6 font-mono font-bold text-sm whitespace-nowrap">01 Feb, 2026</td>
+                    <td className="py-3 text-sm sm:text-base font-semibold">CCS Proposal Close</td>
                   </tr>
                   <tr>
                     <td className="py-3 pr-4">
@@ -130,11 +129,11 @@ export default function SubmitPage() {
                 </tbody>
               </table>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Submission Guidelines - Compact */}
-        <div className="mb-10 sm:mb-12 lg:mb-16">
+        {/* <div className="mb-10 sm:mb-12 lg:mb-16">
           <div className="flex items-center gap-4 mb-6">
             <span className="font-mono text-[var(--terracotta)] font-bold text-sm">01</span>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[var(--indigo)]">
@@ -161,10 +160,10 @@ export default function SubmitPage() {
                 </p>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Templates Download */}
-          <div className="bg-[var(--indigo)] border-[3px] border-black p-4 sm:p-5 shadow-[6px_6px_0_black] inline-flex flex-wrap items-center gap-4">
+          {/* <div className="bg-[var(--indigo)] border-[3px] border-black p-4 sm:p-5 shadow-[6px_6px_0_black] inline-flex flex-wrap items-center gap-4">
             <span className="font-mono text-white text-sm font-bold">Download Templates:</span>
             <a 
               href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip" 
@@ -183,7 +182,7 @@ export default function SubmitPage() {
               MS WORD
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* Submission Checklist */}
         <div className="bg-white border-[3px] border-black p-6 sm:p-8 lg:p-10 shadow-[12px_12px_0_black] mb-10 sm:mb-12">
@@ -247,17 +246,19 @@ export default function SubmitPage() {
           {/* Submit Button */}
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
             <a 
-              href={allChecked ? "https://cmt3.research.microsoft.com/InGARSS2026" : "/submit"}
+
+
+              href={allChecked ? "https://edas.info/listConferencesAuthor.php?c=34760" : "/submit"}
               target={allChecked ? "_blank" : undefined}
               rel={allChecked ? "noopener noreferrer" : undefined}
               onClick={(e) => !allChecked && e.preventDefault()}
               className={`inline-flex items-center gap-3 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black transition-all duration-150
                 ${allChecked 
-                  ? 'bg-[#A3FF12] text-black shadow-[8px_8px_0_black] hover:shadow-[4px_4px_0_black] hover:translate-x-1 hover:translate-y-1 cursor-pointer' 
+                  ? 'bg-[#CEA964] text-black shadow-[8px_8px_0_black] hover:shadow-[4px_4px_0_black] hover:translate-x-1 hover:translate-y-1 cursor-pointer' 
                   : 'bg-gray-300 text-gray-500 cursor-not-allowed'
                 }`}
             >
-              SUBMIT VIA CMT
+              SUBMIT VIA EDAS
               <svg 
                 width="20" 
                 height="20" 
@@ -293,7 +294,7 @@ export default function SubmitPage() {
               Questions about Submission?
             </h2>
             <p className="text-sm sm:text-base leading-relaxed mb-4 max-w-2xl">
-              If you have any questions regarding the submission process, paper formatting, or technical issues with CMT, please contact us.
+              If you have any questions regarding the submission process, paper formatting, or technical issues with EDAS, please contact us.
             </p>
             <p className="font-mono font-bold text-[var(--terracotta)]">
               Email:{' '}

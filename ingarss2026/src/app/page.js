@@ -32,7 +32,7 @@ export default function Home() {
                 <div className="p-8 md:p-16 lg:p-24 border-b md:border-b-0 md:border-r-[3px] border-black animate-fade-in-left">
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold   leading-tight my-6">Advancing Geoscience</h2>
                     <p className="text-base md:text-lg leading-relaxed">
-                        <strong>IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)</strong> is a premier event bringing together experts, researchers, engineers, and industry leaders to explore the intersection of <strong>Geoscience, Space, Satellite, Remote Sensing</strong> and <strong>Artificial Intelligence (AI) </strong> and the rapidly evolving field of similar domains.
+                        <strong>IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)</strong> is a premier GRSS, India flagship event  bringing together experts, researchers, engineers, and industry leaders to explore the intersection of <strong>Geoscience, Space, Satellite, Remote Sensing</strong> and <strong>Artificial Intelligence (AI) </strong> and the rapidly evolving field of similar domains.
                     </p>
                 </div>
 
@@ -44,29 +44,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Event Summary CTA */}
-           
-            
-            {/* Important Dates */}
-            <section id="dates" className="grid md:grid-cols-2 bg-indigo text-white border-b-[3px] border-black">
-                <div className="p-8 md:p-16 lg:p-24 border-b md:border-b-0 md:border-r-[3px] border-gold">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold   leading-tight">Important<br />Dates</h2>
-                </div>
-                <div className="bg-black">
-                    <div className="p-6 md:p-10 border-b border-indigo">
-                        <h5 className="font-mono text-gold text-sm mb-2">SYMPOSIUM DATES</h5>
-                        <p className="text-xl md:text-2xl font-bold">01 – 04 December 2026</p>
-                    </div>
-                    <div className="p-6 md:p-10 border-b border-indigo">
-                        <h5 className="font-mono text-gold mb-2">SUBMISSION DEADLINE</h5>
-                        <p className="text-xl md:text-2xl font-bold">31 May 2026</p>
-                    </div>
-                    <div className="p-6 md:p-10 border-b border-indigo ">
-                        <h5 className="font-mono text-gold mb-2">REGISTRATION OPENS</h5>
-                        <p className="text-xl md:text-2xl font-bold">01 January 2026</p>
-                    </div>
-                </div>
-            </section>
 
             {/* Venue */}
             <section id="venue" className="grid md:grid-cols-[1.2fr_0.8fr] bg-white border-b-[3px] border-black">
@@ -92,8 +69,8 @@ export default function Home() {
                       Share Your Research
                     </h2>
                     <p className="text-black/70 text-base md:text-lg leading-relaxed">
-                      December 8–11, 2026 • Hyderabad, India<br/>
-                      <span className="font-bold text-black">Theme: Digital Earth: Modeling, Mapping, and Monitoring.
+                      December 1-4, 2026 • Hyderabad, India<br/>
+                      <span className="font-bold text-black">Theme: Digital Earth - Modeling, Mapping, and Monitoring.
 
 </span>
                     </p>
@@ -124,7 +101,7 @@ export default function Home() {
                     rel="noopener noreferrer download"
                     className="font-mono font-bold text-xs sm:text-sm bg-black text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:shadow-[0px_0px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] transition-all text-center uppercase active:shadow-[0px_0px_0_black] active:translate-x-[3px] active:translate-y-[3px]"
                     >
-                    Download Poster
+                    Download Flyer
                     </a>
                   </div>
                 </div>

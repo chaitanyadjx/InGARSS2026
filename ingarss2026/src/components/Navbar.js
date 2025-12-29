@@ -13,7 +13,7 @@ export default function Navbar() {
                 <div className="bg-terracotta text-white flex items-center justify-left lg:justify-center font-bold text-xs sm:text-sm lg:text-base tracking-wider px-4 lg:px-5 border-r-[3px] border-black">
                     <img src="/assets/logo.jpeg" alt="InGARSS 2026" className="h-16 w-16 mr-3 object-cover rounded-md border-2 border-white shadow-sm" />
                     <span className="inline lg:hidden text-left leading-tight">India Geoscience &<br/>Remote Sensing<br/>Symposium 2026</span>
-                    <span className="hidden lg:inline whitespace-nowrap">InGARSS '26</span>
+                    <span className="hidden lg:inline whitespace-nowrap">InGARSS 2026</span>
                 </div>
 
                 {/* Desktop Menu */}
@@ -21,7 +21,10 @@ export default function Navbar() {
                     <li className="border-r border-gray-400">
                         <Link href="/" className="flex items-center justify-center h-full font-mono font-semibold text-xs   hover:bg-indigo hover:text-white transition-all duration-300 px-3">Home</Link>
                     </li>
-                    <li className="border-r border-gray-400 relative group">
+                    <li className="border-r border-gray-400">
+                        <Link href="/committee" className="flex items-center justify-center h-full font-mono font-semibold text-xs   hover:bg-indigo hover:text-white transition-all duration-300 px-3">Committee</Link>
+                    </li>
+                    {/* <li className="border-r border-gray-400 relative group">
                         <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs   cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
                             People ↓
                         </div>
@@ -29,7 +32,7 @@ export default function Navbar() {
                             <Link href="/committee" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Committee</Link>
                             <Link href="/speakers" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Speakers</Link>
                         </div>
-                    </li>
+                    </li> */}
                         <li className=" relative group border-r border-gray-400">
                         <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs   cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
                             For Authors ↓
@@ -47,43 +50,18 @@ export default function Navbar() {
                     </li>
 
                     <li className="relative group">
-                        <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs   cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
-                            Program Details ↓
-                        </div>
-                        <div className="hidden group-hover:block absolute top-full left-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
-                            <Link href="/#venue" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Venue: Hyderabad</Link>
-                        </div>
+                                               <Link href="/#venue" className="flex items-center justify-center h-full font-mono font-semibold text-xs   hover:bg-indigo hover:text-white transition-all duration-300 px-3">Venue</Link>
+
+                        
                     </li>
                 </ul>
-                <div className="hidden lg:block border-l-[3px] border-black bg-[#A3FF12]">
+                <div className="hidden lg:block border-l-[3px] border-black bg-[#CEA964]">
     <Link 
         href="/submit" 
-        className="flex items-center justify-center h-full w-full px-4 group"
+        className="flex items-center justify-center h-full w-full px-2 group"
     >
-        <span className="relative uppercase flex items-center gap-3 px-5 py-2 bg-[#A3FF12] text-black font-mono font-bold text-sm border-2 border-black shadow-[5px_5px_0px_#000] group-hover:shadow-none group-hover:translate-x-[5px] group-hover:translate-y-[5px] transition-all duration-150">
-            Submit 
-            <svg 
-                width="20" 
-                height="20" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="currentColor" 
-                strokeWidth="3" 
-                strokeLinecap="square" 
-                strokeLinejoin="miter"
-                className="mb-0.5"
-            >
-                {/* Main Page with Dog-Ear Cutout */}
-                <path d="M4 2H15L20 7V22H4V2Z" />
-                
-                {/* The Dog-Ear (Folded Corner) */}
-                <path d="M15 2V7H20" fill="currentColor" fillOpacity="0.2" />
-                
-                {/* Technical Lines for "Research Paper" feel */}
-                <line x1="8" y1="12" x2="16" y2="12" />
-                <line x1="8" y1="16" x2="13" y2="16" />
-            </svg>
+        <span className="relative text-sm uppercase flex items-center gap-3 px-5 py-3 bg-[#CEA964] text-black font-mono font-bold rounded text-xs border-2 border-black shadow-[5px_5px_0px_#000] group-hover:shadow-none group-hover:translate-x-[5px] group-hover:translate-y-[5px] transition-all duration-150">
+            Submit Paper
         </span>
     </Link>
 </div>
