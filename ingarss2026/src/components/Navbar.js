@@ -11,7 +11,9 @@ export default function Navbar() {
             <div className="grid grid-cols-[1fr_auto] lg:grid-cols-[200px_1fr_160px] h-20">
                 {/* Brand */}
                 <div className="bg-terracotta text-white flex items-center justify-left lg:justify-center font-bold text-xs sm:text-sm lg:text-base tracking-wider px-4 lg:px-5 border-r-[3px] border-black">
-                    <img src="/assets/logo.jpeg" alt="InGARSS 2026" className="lg:hidden h-16 w-16 mr-3 object-cover rounded-md border-2 border-white shadow-sm" />
+                    <Link href="/" className="flex items-center">
+                        <img src="/assets/logo.jpeg" alt="InGARSS 2026" className="lg:hidden h-16 w-16 mr-3 object-cover rounded-md border-2 border-white shadow-sm" />
+                    </Link>
                     <span className="inline lg:hidden text-left leading-tight">India Geoscience &<br/>Remote Sensing<br/>Symposium 2026</span>
                     <span className="hidden lg:inline whitespace-nowrap">InGARSS 2026</span>
                 </div>
@@ -86,12 +88,8 @@ export default function Navbar() {
 
                 <Link href="/#venue" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Venue</Link>
                 
-                {/* Mobile Submit Paper CTA */}
-                <div className="bg-gold p-6">
-                    <Link href="/submit" onClick={() => setMobileMenuOpen(false)} className="flex items-center justify-center gap-2 px-6 py-4 font-mono font-bold text-base bg-black text-white border-2 border-black shadow-[6px_6px_0px_rgba(0,0,0,1)] active:shadow-none active:translate-x-[4px] active:translate-y-[4px] transition-all duration-200 uppercase">
-                        Submit Paper
-                    </Link>
-                </div>
+                {/* Mobile Submit Paper as regular menu link */}
+                <Link href="/submit" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Submit Paper</Link>
             </div>
         </nav>
     );
