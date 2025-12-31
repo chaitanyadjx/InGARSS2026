@@ -95,7 +95,7 @@ export default function Home() {
                       IMPORTANT DATES
                     </Link>
                     <a 
-                    href="/assets/poster.jpeg" 
+                    href="/assets/flyer.pdf" 
                     download
                     target="_blank"
                     rel="noopener noreferrer download"
