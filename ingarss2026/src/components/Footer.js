@@ -7,7 +7,7 @@ export default function Footer() {
                 {/* Left - Brand & Contact */}
                 <div className="flex flex-col gap-8">
                     <div>
-                        <div className="text-3xl md:text-4xl font-bold border-b-4 border-terracotta inline-block w-fit mb-4">InGARSS &apos;26</div>
+                        <div className="text-3xl md:text-4xl font-bold border-b-4 border-terracotta inline-block w-fit mb-4">InGARSS 2026</div>
                         <p className="max-w-md text-sm opacity-70 leading-relaxed">The flagship regional conference of the IEEE Geoscience and Remote Sensing Society (GRSS). Join us in Hyderabad for the future of remote sensing technology.</p>
                     </div>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 pt-4 border-t border-white/10">
