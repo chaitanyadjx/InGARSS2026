@@ -44,68 +44,7 @@ export default function Home() {
                 </div>
             </section>
 
-
-
-            {/* COMBINED ORGANIZATION & INVITATION SECTION */}
-            <section className="grid md:grid-cols-[0.9fr_1.1fr] bg-white border-b-[3px] border-black">
-                
-                {/* LEFT COLUMN: Organizations */}
-                <div className="bg-bone p-8 md:p-12 border-b md:border-b-0 md:border-r-[3px] border-black flex flex-col items-center justify-center space-y-12">
-                    <div className="w-full flex flex-col items-center">
-                        <span className="font-mono font-bold text-indigo text-xs tracking-widest uppercase mb-4">Organized By</span>
-                        <div className="bg-white border-[3px] border-black p-6 shadow-[10px_10px_0_black] hover:shadow-[10px_10px_0_#BC4749] transition-all duration-300 hover:-translate-y-1">
-                            <img src="/assets/hydlogo.png" alt="IEEE GRSS Hyderabad" className="w-full h-auto max-h-[180px] md:max-h-[220px] object-contain" />
-                        </div>
-                    </div>
-
-                    <div className="w-full flex flex-col items-center">
-                        <span className="font-mono font-bold text-black text-xs tracking-widest uppercase mb-4">Collaborating Chapters</span>
-                        <div className="bg-white border-[3px] border-black p-6 shadow-[10px_10px_0_black] hover:shadow-[10px_10px_0_#BC4749] transition-all duration-300 hover:-translate-y-1">
-                            <img src="/assets/othergrss.png" alt="GRSS Chapters" className="w-full h-auto max-h-[350px] md:max-h-[450px] object-contain" />
-                        </div>
-                    </div>
-                </div>
-
-                 {/* RIGHT COLUMN: Invitation Letter */}
-                <div className="p-8 md:p-12 lg:p-20 flex items-center justify-center bg-white overflow-hidden">
-                    <div className="border-[3px] border-black p-8 md:p-12 shadow-[15px_15px_0_#BC4749] hover:shadow-[15px_15px_0_#BC4749] transition-all duration-300 relative bg-white w-full max-w-2xl group">
-                        
-                        {/* THE RIBBON / STAMP */}
-                        <div className="absolute -top-6 -right-6 bg-terracotta text-white font-mono text-[10px] md:text-xs p-3 md:p-4 border-[3px] border-black rotate-12 shadow-[5px_5px_0_black] group-hover:shadow-[5px_5px_0_black] transition-all duration-300 z-10 uppercase font-black tracking-tighter">
-                            Official Invite '26
-                        </div>
-                        
-                        <span className="font-mono text-indigo font-bold block mb-2 tracking-tighter uppercase text-sm">Welcome Message</span>
-                        <h2 className="text-3xl md:text-4xl font-black mb-8 border-b-4 border-black pb-4 leading-tight uppercase">Invitation to Participate</h2>
-                        
-                        <div className="space-y-6 text-base md:text-lg leading-relaxed text-justify hyphens-auto break-words text-black/90 font-medium">
-                            <p>Dear Participant,</p>
-                            <p >
-                                We are delighted to invite you to the <strong>2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS)</strong>, 
-                                hosted in the vibrant "Cyber City" of <strong>Hyderabad, India</strong>.
-                            </p>
-                            <p>
-                                As a distinguished expert in the field, your insights and contributions are invaluable to the success of our symposium. 
-                                The 2026 theme, <span className="italic font-bold text-indigo">"Digital Earth: Modeling, Mapping, and Monitoring"</span>, 
-                                reflects our commitment to leveraging geospatial technologies to address critical global challenges and drive innovation.
-                            </p>
-                            <p>
-                                InGARSS 2026 offers a dynamic platform to share your recent work, engage in panel discussions on emerging trends, and network with professionals from academia, industry, and policymaking sectors including ISRO and NASA.
-                            </p>
-                            <p>
-                                We look forward to your positive response and the privilege of welcoming you to Hyderabad.
-                            </p>
-                        </div>
-
-                        <div className="mt-12 pt-8 border-t-[3px] border-black">
-                            <p className="text-lg font-bold">Warm regards,</p>
-                            <p className="text-xl font-black text-indigo uppercase tracking-tight mt-1">General Chairs, InGARSS 2026</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-                        {/* QUICK LINKS SECTION */}
+            {/* QUICK LINKS SECTION */}
             <section className="bg-[var(--gold)] border-b-[3px] border-black">
               <div className="p-8 md:p-16 lg:p-20 max-w-6xl mx-auto">
                 <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
@@ -124,6 +63,65 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </section>
+
+            {/* COMBINED ORGANIZATION & INVITATION SECTION */}
+            <section className="grid md:grid-cols-[0.9fr_1.1fr] bg-white border-b-[3px] border-black">
+                
+                {/* RIGHT COLUMN (INVITATION) - COMES FIRST ON MOBILE (order-1) */}
+                <div className="p-6 md:p-12 lg:p-20 flex items-center justify-center bg-white overflow-hidden order-1 md:order-2 border-b-[3px] md:border-b-0 border-black">
+                    <div className="border-[3px] border-black p-6 md:p-12 shadow-[10px_10px_0_black] md:shadow-[15px_15px_0_black] hover:shadow-[10px_10px_0_#BC4749] md:hover:shadow-[15px_15px_0_#BC4749] transition-all duration-300 relative bg-white w-full max-w-2xl group">
+                        
+                        <div className="absolute -top-4 -right-4 md:-top-6 md:-right-6 bg-terracotta text-white font-mono text-[8px] md:text-xs p-2 md:p-4 border-[2px] md:border-[3px] border-black rotate-12 shadow-[3px_3px_0_black] group-hover:shadow-[3px_3px_0_indigo] transition-all duration-300 z-10 uppercase font-black tracking-tighter">
+                            Official Invite 2026
+                        </div>
+                        
+                        <span className="font-mono text-indigo font-bold block mb-1 md:mb-2 tracking-tighter uppercase text-[10px] md:text-sm">Welcome Message</span>
+                        <h2 className="text-xl md:text-4xl font-black mb-4 md:mb-8 border-b-2 md:border-b-4 border-black pb-2 md:pb-4 leading-tight uppercase">Invitation to Participate</h2>
+                        
+                        <div className="space-y-4 md:space-y-6 text-sm md:text-lg leading-relaxed text-justify text-black/90 font-medium">
+                            <p>Dear Participant,</p>
+                            <p>
+                                We are delighted to invite you to the <strong>2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS)</strong>, 
+                                hosted in the vibrant "Cyber City" of <strong>Hyderabad, India</strong>.
+                            </p>
+                            <p className="hidden sm:block">
+                                As a distinguished expert in the field, your insights and contributions are invaluable to the success of our symposium. 
+                                The 2026 theme, <span className="italic font-bold text-indigo">"Digital Earth: Modeling, Mapping, and Monitoring"</span>, 
+                                reflects our commitment to leveraging geospatial technologies.
+                            </p>
+                            <p>
+                                InGARSS 2026 offers a dynamic platform to share your recent work, engage in panel discussions, and network with professionals from ISRO and NASA.
+                            </p>
+                            <p>
+                                We look forward to your positive response and the privilege of welcoming you to Hyderabad.
+                            </p>
+                        </div>
+
+                        <div className="mt-6 md:mt-12 pt-4 md:pt-8 border-t-[2px] md:border-t-[3px] border-black">
+                            <p className="text-sm md:text-lg font-bold">Warm regards,</p>
+                            <p className="text-base md:text-xl font-black text-indigo uppercase tracking-tight mt-1">General Chairs, InGARSS 2026</p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* LEFT COLUMN (ORGANIZATIONS) - COMES SECOND ON MOBILE (order-2) */}
+                <div className="bg-bone p-6 md:p-12 border-black md:border-r-[3px] flex flex-col items-center justify-center space-y-8 md:space-y-12 order-2 md:order-1">
+                    <div className="w-full flex flex-col items-center">
+                        <span className="font-mono font-bold text-indigo text-[10px] md:text-xs tracking-widest uppercase mb-3">Organized By</span>
+                        <div className="bg-white border-[2px] md:border-[3px] border-black p-4 md:p-6 shadow-[8px_8px_0_black] hover:shadow-[8px_8px_0_#BC4749] transition-all duration-300 hover:-translate-y-1 w-full max-w-[280px] md:max-w-xs flex justify-center">
+                            <img src="/assets/hydlogo.png" alt="IEEE GRSS Hyderabad" className="w-full h-auto max-h-[120px] md:max-h-[220px] object-contain" />
+                        </div>
+                    </div>
+
+                    <div className="w-full flex flex-col items-center">
+                        <span className="font-mono font-bold text-terracotta text-[10px] md:text-xs tracking-widest uppercase mb-3">Collaborating Chapters</span>
+                        <div className="bg-white border-[2px] md:border-[3px] border-black p-4 md:p-6 shadow-[8px_8px_0_black] hover:shadow-[8px_8px_0_#BC4749] transition-all duration-300 hover:-translate-y-1 w-full max-w-[280px] md:max-w-md flex justify-center">
+                            <img src="/assets/othergrss.png" alt="GRSS Chapters" className="w-full h-auto max-h-[250px] md:max-h-[450px] object-contain" />
+                        </div>
+                    </div>
+                </div>
+
             </section>
         </>
     );
