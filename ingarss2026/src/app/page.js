@@ -59,7 +59,7 @@ export default function Home() {
                     </div>
 
                     <div className="w-full flex flex-col items-center">
-                        <span className="font-mono font-bold text-terracotta text-xs tracking-widest uppercase mb-4">Collaborating Chapters</span>
+                        <span className="font-mono font-bold text-black text-xs tracking-widest uppercase mb-4">Collaborating Chapters</span>
                         <div className="bg-white border-[3px] border-black p-6 shadow-[10px_10px_0_black] hover:shadow-[10px_10px_0_#BC4749] transition-all duration-300 hover:-translate-y-1">
                             <img src="/assets/othergrss.png" alt="GRSS Chapters" className="w-full h-auto max-h-[350px] md:max-h-[450px] object-contain" />
                         </div>
@@ -78,9 +78,9 @@ export default function Home() {
                         <span className="font-mono text-indigo font-bold block mb-2 tracking-tighter uppercase text-sm">Welcome Message</span>
                         <h2 className="text-3xl md:text-4xl font-black mb-8 border-b-4 border-black pb-4 leading-tight uppercase">Invitation to Participate</h2>
                         
-                        <div className="space-y-6 text-base md:text-lg leading-relaxed text-justify text-black/90 font-medium">
+                        <div className="space-y-6 text-base md:text-lg leading-relaxed text-justify hyphens-auto break-words text-black/90 font-medium">
                             <p>Dear Participant,</p>
-                            <p>
+                            <p >
                                 We are delighted to invite you to the <strong>2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS)</strong>, 
                                 hosted in the vibrant "Cyber City" of <strong>Hyderabad, India</strong>.
                             </p>
