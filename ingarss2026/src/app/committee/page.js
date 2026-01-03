@@ -76,7 +76,7 @@ export default function CommitteePage() {
             
             <div className="pt-8">
                 {/* All sections will now use the logic with brackets in name */}
-                {renderSection("Advisory Committee", committeeData.advisory, "adv")}
+
                 {renderSection("General Chairs", committeeData.generalChairs, "general")}
                 {renderSection("Technical Program Committee", committeeData.technicalProgram, "technical")}
                 {renderSection("Finance Committee", committeeData.financeChair, "finance")}
@@ -90,7 +90,8 @@ export default function CommitteePage() {
                 {renderSection("Award Committee", committeeData.awardCommittee, "award")}
                 {renderSection("Travel Grant Committee", committeeData.travelGrant, "travel")}
                 {renderSection("Webmaster & Social Committee", committeeData.webmasterSocial, "web")}
-                {renderSection("Organizing Committee Chapters", committeeData.organizingChapters, "chapters")}
+                {renderSection("Organizing Committee", committeeData.organizingChapters, "chapters")}
+                                {renderSection("Advisory Committee", committeeData.advisory, "adv")}
             </div>
 
             <div className="h-24"></div>
@@ -120,10 +121,10 @@ const committeeData = {
         { name: "Alejandro C. Frery", org: "Victoria Univ., NZ", role: "Co-Chair" }
     ],
     financeChair: [
-        { name: "N. Srinivas Naik", org: "IIITDM Kurnool" }
+        { name: "N. Srinivas Naik", org: "IIITDM Kurnool", role: "Chair" },
     ],
     publicationChair: [
-        { name: "Hitendra Sharma", org: "Vasavi College of Engg." }
+        { name: "Hitendra Sharma", org: "Vasavi College of Engg.", role: "Chair" }
     ],
     localOrganizing: [
         { name: "A. Kavitha", org: "JNTUH", role: "Chair" }
