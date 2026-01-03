@@ -3,9 +3,12 @@
 import { useState } from 'react';
 import PageHeader from '@/components/PageHeader';
 
-// ... committeeData remains the same ...
+// ... committeeData remains the same as your provided object ...
 
 function PersonCard({ name, org, role, isSelected, onSelect }) {
+    // Combine name and role for the display
+    const displayName = role ? `${name} (${role})` : name;
+
     return (
         <div 
             onClick={onSelect}
@@ -15,15 +18,12 @@ function PersonCard({ name, org, role, isSelected, onSelect }) {
                     : 'shadow-[4px_4px_0_black]'
             }`}
         >
-            <span className="block font-bold text-[0.7rem] md:text-xs leading-tight mb-1">{name}</span>
+            <span className="block font-bold text-[0.7rem] md:text-xs leading-tight mb-1">
+                {displayName}
+            </span>
             <span className="block text-[0.6rem] md:text-[0.65rem] text-gray-600 leading-tight break-words">
                 {org}
             </span>
-            {role && (
-                <span className="block font-mono text-[0.55rem] md:text-[0.6rem] text-terracotta font-semibold mt-2 pt-2 border-t border-gray-200">
-                    {role}
-                </span>
-            )}
         </div>
     );
 }
@@ -32,7 +32,7 @@ function CategoryHeader({ title }) {
     return (
         <div className="pt-6 pb-2">
             <div className="bg-indigo border-[3px] border-black inline-flex items-center shadow-[6px_6px_0_var(--gold)]">
-                <span className="font-bold text-xs md:text-base uppercase tracking-wider px-4 md:px-5 py-2 md:py-3 text-white">
+                <span className="font-bold text-xs md:text-sm lg:text-base uppercase tracking-wider px-4 md:px-5 py-2 md:py-3 text-white">
                     {title}
                 </span>
             </div>
@@ -49,15 +49,12 @@ export default function CommitteePage() {
 
     const renderSection = (title, data, prefix) => {
         if (!data || data.length === 0) return null;
-        
         return (
             <section className="relative px-4 md:px-[8%] mb-12">
                 <CategoryHeader title={title} />
-                {/* grid-cols-2: Shows 2 items side-by-side on phones
-                    sm:grid-cols-2: stays 2 for small tablets
-                    md:grid-cols-3: shifts to 3 for tablets
-                    lg:grid-cols-4: 4 for laptops
-                    xl:grid-cols-5: 5 for large desktops
+                {/* grid-cols-2: Ensures on mobile we see 2 cards side-by-side 
+                    md:grid-cols-3: Tablets 
+                    xl:grid-cols-5: Large screens
                 */}
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-4 py-6">
                     {data.map((person, index) => (
@@ -78,6 +75,7 @@ export default function CommitteePage() {
             <PageHeader title="Committee" />
             
             <div className="pt-8">
+                {/* All sections will now use the logic with brackets in name */}
                 {renderSection("Advisory Committee", committeeData.advisory, "adv")}
                 {renderSection("General Chairs", committeeData.generalChairs, "general")}
                 {renderSection("Technical Program Committee", committeeData.technicalProgram, "technical")}
@@ -99,8 +97,6 @@ export default function CommitteePage() {
         </main>
     );
 }
-
-
 
 const committeeData = {
     advisory: [

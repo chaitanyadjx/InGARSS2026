@@ -115,7 +115,7 @@ export default function Home() {
                     </div>
 
                     <div className="w-full flex flex-col items-center">
-                        <span className="font-mono font-bold text-black text-[10px] md:text-xs tracking-widest uppercase mb-3">Collaborating Chapters</span>
+                        <span className="font-mono font-bold text-terracotta text-[10px] md:text-xs tracking-widest uppercase mb-3">Collaborating Chapters</span>
                         <div className="bg-white border-[2px] md:border-[3px] border-black p-4 md:p-6 shadow-[8px_8px_0_black] hover:shadow-[8px_8px_0_#BC4749] transition-all duration-300 hover:-translate-y-1 w-full max-w-[280px] md:max-w-md flex justify-center">
                             <img src="/assets/othergrss.png" alt="GRSS Chapters" className="w-full h-auto max-h-[250px] md:max-h-[450px] object-contain" />
                         </div>
