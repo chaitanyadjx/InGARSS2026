@@ -145,7 +145,7 @@ const committeeData = {
         { name: "Ms. Rahisha T", org: "IIIT Bangalore", role: "Co-Chair" }
     ],
     publicityChair: [
-        { name: "L. Nirmala Devi", org: "Osmania University" }
+        { name: "L. Nirmala Devi", org: "Osmania University" , role: "Chair" }
     ],
     awardCommittee: [
         { name: "Anup Das", org: "SAC, ISRO", role: "Chair" }
