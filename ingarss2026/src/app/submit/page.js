@@ -247,7 +247,7 @@ const checklistItems = [
             <a 
 
 
-              href={allChecked ? "https://edas.info/listConferencesAuthor.php?c=34760" : "/submit"}
+              href={allChecked ? "https://edas.info/N34760" : "/submit"}
               target={allChecked ? "_blank" : undefined}
               rel={allChecked ? "noopener noreferrer" : undefined}
               onClick={(e) => !allChecked && e.preventDefault()}

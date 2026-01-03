@@ -111,7 +111,7 @@ export default function AuthorsPage() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <a 
-                  href="https://edas.info/listConferencesAuthor.php?c=34760" 
+                  href="https://edas.info/N34760" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-mono font-bold text-xs sm:text-sm bg-[var(--gold)] text-black px-5 py-3 border-[2px] border-black hover:bg-black hover:text-white transition-all"
