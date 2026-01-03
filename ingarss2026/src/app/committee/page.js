@@ -5,23 +5,74 @@ import PageHeader from '@/components/PageHeader';
 
 const committeeData = {
     advisory: [
-        { name: "Saibun Tjuatja", org: "University of Texas at Arlington, USA" },
-        { name: "Shiv Mohan", org: "IEEE GRSS" }
+        { name: "Saibun Tjuatja", org: "University of Texas at Arlington" },
+        { name: "Shiv Mohan", org: "IEEE GRSS India Liaison, India" },
+        { name: "Prakash Chauhan", org: "NRSC, ISRO, India" },
+        { name: "CVN Rao", org: "SAC, ISRO, India" },
+        { name: "Ashish Ghosh", org: "IIIT, Bhubhaneshwar" },
+        { name: "B. S. Daya Sagar", org: "ISI Bangalore" },
+        { name: "Keely Roth", org: "Planet labs" },
+        { name: "Tianlin Wang", org: "JPL, NASA" },
+        { name: "Fairouz Stambouli", org: "German Aerospace Center, Germany" }
     ],
     generalChairs: [
-        { name: "Vijender Busi Reddy", org: "ADRIN, ISRO" },
-        { name: "Paul A. Rosen", org: "JPL NASA" }
+        { name: "Vijender Busi Reddy", org: "ADRIN, ISRO", role: "Chair" },
+        { name: "Paul A. Rosen", org: "JPL NASA", role: "Co-Chair" }
     ],
     technicalProgram: [
-        { name: "C. Sudhakar Reddy", org: "NRSC, ISRO" },
-        { name: "D. Rajesh Reddy", org: "ADRIN, ISRO" },
-        { name: "Ale Alejandro C. Frery", org: "Victoria Univ., NZ" }
+        { name: "C. Sudhakar Reddy", org: "NRSC, ISRO", role: "Chair" },
+        { name: "D. Rajesh Reddy", org: "ADRIN, ISRO", role: "Co-Chair" },
+        { name: "Alejandro C. Frery", org: "Victoria Univ., NZ", role: "Co-Chair" }
     ],
     financeChair: [
-        { name: "N. Srinivas Naik", org: "IIITDM Kurnool" }, 
+        { name: "N. Srinivas Naik", org: "IIITDM Kurnool" }
     ],
     publicationChair: [
         { name: "Hitendra Sharma", org: "Vasavi College of Engg." }
+    ],
+    localOrganizing: [
+        { name: "A. Kavitha", org: "JNTUH", role: "Chair" }
+    ],
+    tutorialsExhibits: [
+        { name: "Shyam Lal", org: "NITK Surathkal", role: "Chair" }
+    ],
+    specialIssue: [
+        { name: "Avik Bhattacharya", org: "IIT Bombay, India", role: "Chair" }
+    ],
+    industryRelations: [], 
+    wieActivity: [], 
+    deiabActivity: [
+        { name: "Sai Kumar Tara", org: "BVRIT", role: "Chair" }
+    ],
+    ypActivity: [
+        { name: "Mr. Khalid Ahmad", org: "GRSS YP Regional Coordinator", role: "Chair" },
+        { name: "Ms. Rahisha T", org: "IIIT Bangalore", role: "Co-Chair" }
+    ],
+    publicityChair: [
+        { name: "L. Nirmala Devi", org: "Osmania University" }
+    ],
+    awardCommittee: [
+        { name: "Anup Das", org: "SAC, ISRO", role: "Chair" }
+    ],
+    travelGrant: [
+        { name: "Surajit Ghosh", org: "IWMI Colombo, Sri Lanka", role: "Chair" }
+    ],
+    webmasterSocial: [
+        { name: "Anisha", org: "IIITDM, Kurnool", role: "Chair" },
+        { name: "Chaitanya Jambhulkar", org: "IIITDM, Kurnool", role: "Co-Chair" },
+        { name: "Suraj Kodakandla", org: "IIITDM, Kurnool", role: "Co-Chair" }
+    ],
+    organizingChapters: [
+        { name: "Chair", org: "IEEE GRSS Gujarat Chapter" },
+        { name: "Chair", org: "IEEE GRSS Uttar Pradesh Chapter" },
+        { name: "Chair", org: "IEEE GRSS Kerala Chapter" },
+        { name: "Chair", org: "IEEE GRSS Bombay Chapter" },
+        { name: "Chair", org: "IEEE GRSS Delhi Chapter" },
+        { name: "Chair", org: "IEEE GRSS Madras Chapter" },
+        { name: "Chair", org: "IEEE GRSS Madhya Pradesh Chapter" },
+        { name: "Chair", org: "IEEE GRSS Bangalore Chapter" },
+        { name: "Chair", org: "IEEE GRSS Kolkata Chapter" },
+        { name: "Chair", org: "IEEE GRSS Hyderabad Chapter" }
     ]
 };
 
@@ -46,7 +97,6 @@ function PersonCard({ name, org, role, isSelected, onSelect }) {
 
 function CategoryHeader({ title }) {
     return (
-        // Removed sticky, top-20, z-30, and backdrop-blur classes
         <div className="pt-6 pb-2">
             <div className="bg-indigo border-[3px] border-black inline-flex items-center shadow-[6px_6px_0_var(--gold)]">
                 <span className="font-bold text-sm md:text-base uppercase tracking-wider px-5 py-3 text-white">
@@ -56,6 +106,7 @@ function CategoryHeader({ title }) {
         </div>
     );
 }
+
 export default function CommitteePage() {
     const [selectedIndex, setSelectedIndex] = useState(null);
 
@@ -63,23 +114,24 @@ export default function CommitteePage() {
         setSelectedIndex(selectedIndex === id ? null : id);
     };
 
-    // Helper to render sections consistently
-    const renderSection = (title, data, prefix) => (
-        // relative + min-h-fit ensures the sticky header knows its boundary
-        <section className="relative px-4 md:px-[8%] mb-12">
-            <CategoryHeader title={title} />
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 py-6">
-                {data.map((person, index) => (
-                    <PersonCard 
-                        key={index} 
-                        {...person} 
-                        isSelected={selectedIndex === `${prefix}-${index}`}
-                        onSelect={() => handleSelect(`${prefix}-${index}`)}
-                    />
-                ))}
-            </div>
-        </section>
-    );
+    const renderSection = (title, data, prefix) => {
+        if (!data || data.length === 0) return null;
+        return (
+            <section className="relative px-4 md:px-[8%] mb-12">
+                <CategoryHeader title={title} />
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 py-6">
+                    {data.map((person, index) => (
+                        <PersonCard 
+                            key={`${prefix}-${index}`} 
+                            {...person} 
+                            isSelected={selectedIndex === `${prefix}-${index}`}
+                            onSelect={() => handleSelect(`${prefix}-${index}`)}
+                        />
+                    ))}
+                </div>
+            </section>
+        );
+    };
 
     return (
         <main className="min-h-screen bg-bone">
@@ -91,9 +143,18 @@ export default function CommitteePage() {
                 {renderSection("Technical Program Committee", committeeData.technicalProgram, "technical")}
                 {renderSection("Finance Committee", committeeData.financeChair, "finance")}
                 {renderSection("Publication Chair", committeeData.publicationChair, "publication")}
+                {renderSection("Local Organizing Committee", committeeData.localOrganizing, "local")}
+                {renderSection("Tutorials and Exhibits Chair", committeeData.tutorialsExhibits, "tutorial")}
+                {renderSection("Special Issue Chair", committeeData.specialIssue, "special")}
+                {renderSection("DEIAB Activity Chair", committeeData.deiabActivity, "deiab")}
+                {renderSection("YP Activity Committee", committeeData.ypActivity, "yp")}
+                {renderSection("Publicity Chair", committeeData.publicityChair, "publicity")}
+                {renderSection("Award Committee", committeeData.awardCommittee, "award")}
+                {renderSection("Travel Grant Committee", committeeData.travelGrant, "travel")}
+                {renderSection("Webmaster & Social Committee", committeeData.webmasterSocial, "web")}
+                {renderSection("Organizing Committee Chapters", committeeData.organizingChapters, "chapters")}
             </div>
 
-            {/* Bottom padding to prevent last section from getting stuck behind footer */}
             <div className="h-24"></div>
         </main>
     );
