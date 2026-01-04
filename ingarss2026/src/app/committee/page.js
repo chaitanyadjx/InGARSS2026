@@ -117,7 +117,7 @@ const committeeData = {
     ],
     technicalProgram: [
         { name: "C. Sudhakar Reddy", org: "NRSC, ISRO", role: "Chair" },
-        { name: "D. Rajesh Reddy", org: "ADRIN, ISRO", role: "Co-Chair" },
+               { name: "Shyam Lal", org: "NITK Surathkal", role: "Chair" },
         { name: "Alejandro C. Frery", org: "Victoria Univ., NZ", role: "Co-Chair" }
     ],
     financeChair: [
@@ -130,7 +130,8 @@ const committeeData = {
         { name: "A. Kavitha", org: "JNTUH", role: "Chair" }
     ],
     tutorialsExhibits: [
-        { name: "Shyam Lal", org: "NITK Surathkal", role: "Chair" }
+
+         { name: "D. Rajesh Reddy", org: "ADRIN, ISRO", role: "Chair" },
     ],
     specialIssue: [
         { name: "Avik Bhattacharya", org: "IIT Bombay, India", role: "Chair" }
@@ -141,7 +142,7 @@ const committeeData = {
         { name: "Sai Kumar Tara", org: "BVRIT", role: "Chair" }
     ],
     ypActivity: [
-        { name: "Mr. Khalid Ahmad", org: "GRSS YP Regional Coordinator", role: "Chair" },
+        { name: "Mr. Mohammmed Khalid", org: "GRSS YP Regional Coordinator", role: "Chair" },
         { name: "Ms. Rahisha T", org: "IIIT Bangalore", role: "Co-Chair" }
     ],
     publicityChair: [
