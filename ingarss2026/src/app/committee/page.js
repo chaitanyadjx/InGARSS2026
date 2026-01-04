@@ -117,7 +117,7 @@ const committeeData = {
     ],
     technicalProgram: [
         { name: "C. Sudhakar Reddy", org: "NRSC, ISRO", role: "Chair" },
-               { name: "Shyam Lal", org: "NITK Surathkal", role: "Chair" },
+               { name: "Shyam Lal", org: "NITK Surathkal", role: "Co-Chair" },
         { name: "Alejandro C. Frery", org: "Victoria Univ., NZ", role: "Co-Chair" }
     ],
     financeChair: [
