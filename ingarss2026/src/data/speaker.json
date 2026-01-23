@@ -1,0 +1,91 @@
+{
+  "page": "speaker",
+  "title": "Speakers",
+  "sections": [
+    {
+      "id": "advisory",
+      "title": "Advisory Committee",
+      "pillClass": "bg-gold text-black shadow-[10px_10px_0_black]",
+      "bgClass": "",
+      "members": [
+        {
+          "name": "Saibun Tjuatja",
+          "affiliation": "University of Texas at Arlington, USA",
+          "image": "https://profiles.digitalmeasures.com/clients/1d35c932-8c2a-5c36-87f1-18cc1edaec2c/users/2058183/instruments/1278/images?fieldId=1554804"
+        },
+        {
+          "name": "Shiv Mohan",
+          "affiliation": "IEEE GRSS",
+          "image": "https://www.grss-ieee.org/wp-content/uploads/2025/09/shiv-mohan.jpg"
+        }
+      ]
+    },
+    {
+      "id": "generalChairs",
+      "title": "General Chairs",
+      "pillClass": "bg-indigo text-white shadow-[10px_10px_0_var(--gold)]",
+      "bgClass": "bg-white",
+      "members": [
+        {
+          "name": "Vijender Busi Reddy",
+          "affiliation": "ADRIN, ISRO",
+          "image": "https://i1.rgstatic.net/ii/profile.image/565310516613120-1511791938111_Q128/Vijender-Reddy.jpg"
+        },
+        {
+          "name": "Paul A. Rosen",
+          "affiliation": "JPL NASA",
+          "image": "https://www.jpl.nasa.gov/site/research/media/images/rosen.max-400x400.jpg"
+        }
+      ]
+    },
+    {
+      "id": "technicalProgram",
+      "title": "Technical Program Committee",
+      "pillClass": "bg-terracotta text-white shadow-[10px_10px_0_black]",
+      "bgClass": "",
+      "members": [
+        {
+          "name": "C. Sudhakar Reddy",
+          "affiliation": "NRSC, ISRO",
+          "image": ""
+        },
+        {
+          "name": "D. Rajesh Reddy",
+          "affiliation": "ADRIN, ISRO",
+          "image": ""
+        },
+        {
+          "name": "Alejandro C. Frery",
+          "affiliation": "Victoria Univ., NZ",
+          "image": "https://people.wgtn.ac.nz/alejandro.frery/thumbnail"
+        }
+      ]
+    },
+    {
+      "id": "financeChair",
+      "title": "Finance Chair",
+      "pillClass": "bg-gold text-black shadow-[10px_10px_0_black]",
+      "bgClass": "bg-white",
+      "members": [
+        {
+          "name": "N. Srinivas Naik",
+          "affiliation": "IIITDM Kurnool",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxeYX2sFSOMUl5Vji3nOxx7UT6hXqlTCGBQ&s"
+        }
+      ]
+    },
+    {
+      "id": "publicationChair",
+      "title": "Publication Chair",
+      "pillClass": "bg-indigo text-white shadow-[10px_10px_0_var(--gold)]",
+      "bgClass": "",
+      "members": [
+        {
+          "name": "Hitendra Sharma",
+          "affiliation": "Vasavi College of Engg.",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "page": "cfp",
+  "title": "Call for Papers",
+  "tracks": [
+    {
+      "title": "Agriculture, Forest and Environment",
+      "description": "This track focuses on the application of remote sensing and geospatial analytics for monitoring agricultural systems, forest resources, and environmental processes. It covers crop assessment, forest inventory, ecosystem monitoring, climate impacts, and AI-driven decision support for sustainable resource management.",
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1400",
+      "span": "lg:col-span-8"
+    },
+    {
+      "title": "Digital Mapping & Cartographic Systems",
+      "description": "Creation, visualization, and dissemination of spatial maps. Topics include high-resolution topographic and thematic mapping, 3D/4D urban and landscape mapping, semantic mapping & digital twins, Web GIS and interactive spatio-temporal maps, standards and interoperability (OGC, ISO).",
+      "image": "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?q=80&w=1000",
+      "span": "lg:col-span-4"
+    },
+    {
+      "title": "Disaster Management & Early Warning Systems",
+      "description": "EO and models for hazard assessment and mitigation. Topics include earthquake, landslide, flood, cyclone monitoring, rapid mapping for emergency response, early warning systems and risk communication, resilience planning and recovery analytics.",
+      "image": "https://images.unsplash.com/photo-1547683905-f686c993aae5?q=80&w=1000",
+      "span": "lg:col-span-6"
+    },
+    {
+      "title": "Future Directions & Innovation",
+      "description": "Forward-looking themes shaping the next decade. Topics include quantum computing for geospatial simulation, AI agents in Earth system modeling, next-gen digital Earth platforms, edge computing for real-time monitoring.",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000",
+      "span": "lg:col-span-6"
+    },
+    {
+      "title": "Geospatial Data Acquisition & Sensing Technologies",
+      "description": "Sensors and platforms for Earth observation. Topics include satellite, UAV, airborne & ground-based sensors, hyperspectral, LiDAR, SAR, multisensor synergies, CubeSats and small satellite constellations.",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200",
+      "span": "lg:col-span-8"
+    },
+    {
+      "title": "Machine Learning & AI for Digital Earth",
+      "description": "AI/ML for modelling, detection, prediction, and mapping. Topics include deep learning for image classification and segmentation, physics-informed machine learning, AI for SAR and hyperspectral analysis, self-supervised and transfer learning, explainable AI for geospatial applications.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1400",
+      "span": "lg:col-span-4"
+    },
+    {
+      "title": "Planetary and Space Sciences",
+      "description": "This track focuses on remote sensing techniques for the observation and analysis of planetary surfaces, atmospheres, and interiors, as well as other celestial bodies. It covers data from space missions, imaging and spectroscopic analysis, radar observations, and modeling for planetary science, exploration, and comparative planetology.",
+      "image": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?q=80&w=1000",
+      "span": "lg:col-span-6"
+    },
+    {
+      "title": "Special Scientific Theme: NISAR",
+      "description": "This track focuses on science, data products, and applications of the NISAR mission, leveraging L- and S-band SAR observations. It covers interferometry, time-series analysis, surface deformation, ecosystem monitoring, cryosphere dynamics, disaster assessment, and Earth system studies using NISAR data.",
+      "image": "https://science.iirs.gov.in/wp-content/uploads/2025/07/NISAR_IIRS.png",
+      "span": "lg:col-span-6"
+    }
+  ]
+}

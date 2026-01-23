@@ -1,0 +1,267 @@
+{
+  "page": "committee",
+  "title": "Committee",
+  "sections": [
+    {
+      "id": "generalChairs",
+      "title": "General Chairs",
+      "members": [
+        {
+          "name": "Vijender Busi Reddy",
+          "org": "ADRIN, ISRO",
+          "role": "Chair"
+        },
+        {
+          "name": "Paul A. Rosen",
+          "org": "JPL NASA",
+          "role": "Co-Chair"
+        }
+      ]
+    },
+    {
+      "id": "technicalProgram",
+      "title": "Technical Program Committee",
+      "members": [
+        {
+          "name": "C. Sudhakar Reddy",
+          "org": "NRSC, ISRO",
+          "role": "Chair"
+        },
+        {
+          "name": "Shyam Lal",
+          "org": "NITK Surathkal",
+          "role": "Co-Chair"
+        },
+        {
+          "name": "Alejandro C. Frery",
+          "org": "Victoria Univ., NZ",
+          "role": "Co-Chair"
+        }
+      ]
+    },
+    {
+      "id": "financeChair",
+      "title": "Finance Committee",
+      "members": [
+        {
+          "name": "N. Srinivas Naik",
+          "org": "IIITDM Kurnool",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "publicationChair",
+      "title": "Publication Chair",
+      "members": [
+        {
+          "name": "Hitendra Sharma",
+          "org": "Vasavi College of Engg.",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "localOrganizing",
+      "title": "Local Organizing Committee",
+      "members": [
+        {
+          "name": "A. Kavitha",
+          "org": "JNTUH",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "tutorialsExhibits",
+      "title": "Tutorials and Exhibits Chair",
+      "members": [
+        {
+          "name": "D. Rajesh Reddy",
+          "org": "ADRIN, ISRO",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "specialIssue",
+      "title": "Special Issue Chair",
+      "members": [
+        {
+          "name": "Avik Bhattacharya",
+          "org": "IIT Bombay, India",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "deiabActivity",
+      "title": "DEIAB Activity Chair",
+      "members": [
+        {
+          "name": "Sai Kumar Tara",
+          "org": "BVRIT",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "ypActivity",
+      "title": "YP Activity Committee",
+      "members": [
+        {
+          "name": "Mr. Mohammmed Khalid",
+          "org": "GRSS YP Regional Coordinator",
+          "role": "Chair"
+        },
+        {
+          "name": "Ms. Rahisha T",
+          "org": "IIIT Bangalore",
+          "role": "Co-Chair"
+        }
+      ]
+    },
+    {
+      "id": "publicityChair",
+      "title": "Publicity Chair",
+      "members": [
+        {
+          "name": "L. Nirmala Devi",
+          "org": "Osmania University",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "awardCommittee",
+      "title": "Award Committee",
+      "members": [
+        {
+          "name": "Anup Das",
+          "org": "SAC, ISRO",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "travelGrant",
+      "title": "Travel Grant Committee",
+      "members": [
+        {
+          "name": "Surajit Ghosh",
+          "org": "IWMI Colombo, Sri Lanka",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "id": "webmasterSocial",
+      "title": "Webmaster & Social Committee",
+      "members": [
+        {
+          "name": "Anisha",
+          "org": "IIITDM, Kurnool",
+          "role": "Chair"
+        },
+        {
+          "name": "Chaitanya Jambhulkar",
+          "org": "IIITDM, Kurnool",
+          "role": "Co-Chair"
+        },
+        {
+          "name": "Suraj Kodakandla",
+          "org": "IIITDM, Kurnool",
+          "role": "Co-Chair"
+        }
+      ]
+    },
+    {
+      "id": "organizingChapters",
+      "title": "Organizing Committee",
+      "members": [
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Gujarat Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Uttar Pradesh Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Kerala Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Bombay Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Delhi Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Madras Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Madhya Pradesh Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Bangalore Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Kolkata Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Hyderabad Chapter"
+        }
+      ]
+    },
+    {
+      "id": "advisory",
+      "title": "Advisory Committee",
+      "members": [
+        {
+          "name": "Saibun Tjuatja",
+          "org": "University of Texas at Arlington"
+        },
+        {
+          "name": "Shiv Mohan",
+          "org": "IEEE GRSS India Liaison, India"
+        },
+        {
+          "name": "Prakash Chauhan",
+          "org": "NRSC, ISRO, India"
+        },
+        {
+          "name": "CVN Rao",
+          "org": "SAC, ISRO, India"
+        },
+        {
+          "name": "Ashish Ghosh",
+          "org": "IIIT, Bhubhaneshwar"
+        },
+        {
+          "name": "B. S. Daya Sagar",
+          "org": "ISI Bangalore"
+        },
+        {
+          "name": "Keely Roth",
+          "org": "Planet labs"
+        },
+        {
+          "name": "Tianlin Wang",
+          "org": "JPL, NASA"
+        },
+        {
+          "name": "Fairouz Stambouli",
+          "org": "German Aerospace Center, Germany"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page": "home",
+  "sections": {
+    "purpose": {
+      "leftColumn": {
+        "title": "Advancing Geoscience",
+        "description": "<strong>IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)</strong> is a premier GRSS, India flagship event bringing together experts, researchers, engineers, and industry leaders to explore the intersection of <strong>Geoscience, Space, Satellite, Remote Sensing</strong> and <strong>Artificial Intelligence (AI) </strong> and the rapidly evolving field of similar domains."
+      },
+      "rightColumn": {
+        "heading": "Our Goals",
+        "description": "To provide unique platform for showcasing cutting-edge research, fostering interdisciplinary collaborations, and discussing future directions in geospatial and remote sensing science. It aims to advance these fields and promote sustainable and ethical AI/ML practices in the geoscience domain by bringing together researchers, practitioners, and policymakers."
+      }
+    },
+    "venue": {
+      "location": "Hyderabad, India",
+      "label": "HOST LOCATION",
+      "description": "Experience the symposium in India's \"Cyber City\". Hyderabad perfectly blends 400 years of history with a booming aerospace and IT sector, providing an inspiring backdrop for InGARSS 2026.",
+      "image": "https://images.unsplash.com/photo-1441911645956-df6e9bbc5496?q=80&w=1170&auto=format&fit=crop",
+      "imageCaption": "HISTORIC SITE: CHARMINAR",
+      "detailsLink": "#"
+    },
+    "quickLinks": {
+      "title": "Share Your Research",
+      "subtitle": "December 1-4, 2026 • Hyderabad, India",
+      "theme": "Theme: Digital Earth - Modeling, Mapping, and Monitoring.",
+      "links": [
+        {
+          "label": "CALL FOR PAPERS",
+          "href": "/cfp",
+          "color": "white"
+        },
+        {
+          "label": "SUBMIT PAPER",
+          "href": "/submit",
+          "color": "terracotta"
+        },
+        {
+          "label": "IMPORTANT DATES",
+          "href": "/dates",
+          "color": "indigo"
+        },
+        {
+          "label": "Download Flyer",
+          "href": "/assets/flyer.pdf",
+          "color": "black",
+          "download": true
+        }
+      ]
+    },
+    "invitation": {
+      "tag": "Official Invite 2026",
+      "labelSmall": "Welcome Message",
+      "title": "Invitation to Participate",
+      "greeting": "Dear Participant,",
+      "paragraphs": [
+        "We are delighted to invite you to the <strong>2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS)</strong>, hosted in the vibrant \"Cyber City\" of <strong>Hyderabad, India</strong>.",
+        "As a distinguished expert in the field, your insights and contributions are invaluable to the success of our symposium. The 2026 theme, <span class=\"italic font-bold text-indigo\">\"Digital Earth: Modeling, Mapping, and Monitoring\"</span>, reflects our commitment to leveraging geospatial technologies.",
+        "InGARSS 2026 offers a dynamic platform to share your recent work, engage in panel discussions, and network with professionals from ISRO and NASA.",
+        "We look forward to your positive response and the privilege of welcoming you to Hyderabad."
+      ]
+    }
+  }
+}

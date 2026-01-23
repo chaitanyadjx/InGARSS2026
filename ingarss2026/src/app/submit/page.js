@@ -1,7 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import PageHeader from "@/components/PageHeader"
+import PageHeader from "@/components/PageHeader";
+import submitData from '@/data/submit.json';
+
 export default function SubmitPage() {
   const [checklist, setChecklist] = useState({
     original: false,
@@ -25,30 +27,9 @@ export default function SubmitPage() {
   const handleGuidelineSelect = (index) => {
     setSelectedGuideline(selectedGuideline === index ? null : index);
   };
-const checklistItems = [
-  { key: 'original', label: 'Original Work', desc: 'My paper is original and not under review elsewhere.' },
-  { key: 'english', label: 'English Language', desc: 'The Paper is written in English.' },
-  { key: 'pdf', label: 'Valid Format', desc: 'The submission file is in .pdf format.' },
-  { key: 'pageLimit', label: 'Page Limit', desc: 'The paper adheres to the page limit (up to 4 pages free).' },
-  { key: 'template', label: 'IEEE Template', desc: 'I have used the standard IEEE Conference Template.' },
-  { key: 'ai', label: 'AI Disclosure', desc: 'I have disclosed any AI-generated content (<25%) in the acknowledgments.' },
-  { key: 'plag', label: 'Plagiarism Check', desc: 'I have verified that the content is original and properly cited.' },
-  { key: 'deadline', label: 'Deadline Aware', desc: 'I understand the submission deadline is 30 May 2026.' }
-];
 
-  const guidelineItems = [
-    { label: "Originality", text: "Original, unpublished research not under review elsewhere." },
-    { label: "Language", text: "Papers must be in English." },
-    { label: "Format", text: "PDF format only." },
-    { label: "Page Limit", text: "Up to 4 pages (free). 5 pages: ₹1,000/$15, 6 pages max: ₹2,000/$30. See Registration for fees." },
-    { label: "Template", text: "Use standard IEEE Conference Template (A4 size)." },
-    { label: "Blind Review", text: "Initial submission must not include author names or affiliations." },
-    { label: "AI-Generated Content Disclosure", text: "The use of AI-generated content (text, figures, images, code) must be disclosed in the acknowledgments section. Identify the AI system used and specify which sections contain AI-generated content with a brief explanation. AI use for editing and grammar enhancement does not require disclosure but is recommended. AI content less than 25%" },
-    { label: "Plagiarism", text: "All submissions will be checked for plagiarism. Papers found to contain plagiarized material will be rejected. Ensure all content is original or properly cited." },
-    { label: "Registration", text: "At least one author must register at full (non-student) rate." },
-    // { label: "Publication", text: "Accepted papers submitted to IEEE Xplore®." },
-    { label: "Copyright", text: "Complete electronic IEEE Copyright Form (eCF)." }
-  ];
+  const checklistItems = submitData.checklistItems;
+  const guidelineItems = submitData.guidelineItems;
 
   return (
     <main className="min-h-screen bg-[var(--bone)]">
@@ -59,29 +40,25 @@ const checklistItems = [
         {/* General Info Banner */}
         <div className="bg-white border-[3px] border-black p-6 sm:p-8 lg:p-10 shadow-[10px_10px_0_var(--terracotta)] mb-10 sm:mb-12 lg:mb-16">
           <div className="flex flex-wrap gap-4 sm:gap-6 mb-6">
-            <div className="bg-[var(--indigo)] text-white px-4 py-2 font-mono font-bold text-xs sm:text-sm">
-              VIA EDAS PORTAL
-            </div>
-            <div className="bg-[var(--terracotta)] text-white px-4 py-2 font-mono font-bold text-xs sm:text-sm">
-              DEADLINE: 30 MAY, 2026
-            </div>
-            <div className="bg-[var(--gold)] text-black px-4 py-2 font-mono font-bold text-xs sm:text-sm">
-              IEEE XPLORE® COMPLIANT
-            </div>
+            {submitData.bannerTags.map((tag, idx) => (
+              <div key={idx} className={`bg-[var(--${tag.color})] text-${tag.color === 'gold' ? 'black' : 'white'} px-4 py-2 font-mono font-bold text-xs sm:text-sm`}>
+                {tag.text}
+              </div>
+            ))}
           </div>
           
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[var(--indigo)] mb-4">
-            Paper Submission Portal
+            {submitData.intro.title}
           </h2>
           <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-3xl mb-6 text-justify hyphens-auto   break-words">
-            Submit your research paper for IEEE InGARSS 2026. All submissions are handled through the EDAS conference management system. Please review the guidelines and complete the checklist below before submitting.
+            {submitData.intro.description}
           </p>
           
           <a 
-            href="/cfp" 
+            href={submitData.intro.cfpLink}
             className="inline-flex items-center gap-2 font-mono font-bold text-sm text-[var(--terracotta)] hover:text-[var(--indigo)] transition-colors mb-8"
           >
-            → View Call for Papers & Topic List
+            {submitData.intro.cfpLinkText}
           </a>
 
           {/* Timeline */}

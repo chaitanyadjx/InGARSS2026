@@ -2,62 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import PageHeader from '@/components/PageHeader'
-const dates = [
-    // Row 1: 3 items
-    {
-        label: "Community Contributed Session Proposals — Open",
-        value: "01 January 2026",
-        desc: "CCS/Workshop/Tutorial Proposals Open",
-        variant: "tint-gold"
-    },
-    {
-        label: "Phase 01 — Open",
-        value: "01 January 2026",
-        desc: "Call for Papers Open",
-        variant: "tint-gold"
-    },
-    {
-        label: "Phase 02 — Close",
-        value: "01 February 2026",
-        desc: "CCS (Community Contributed Session) Proposals Close",
-        variant: "tint-indigo"
-    },
-    // Row 2: 1 major item
-    {
-        label: "CRITICAL DEADLINE",
-        value: "30 May 2026",
-        desc: "Paper Submission Deadline",
-        variant: "major"
-    },
-    // Row 3: 3 items
-        {
-        label: "Registration",
-        value: "15 July 2026",
-        desc: "Acceptance Notification ",
-        variant: "default"
-    },
-    {
-        label: "Notification",
-        value: "30 July 2026",
-        desc: "Registration Deadline",
-        variant: "default"
-    },
+import PageHeader from '@/components/PageHeader';
+import datesData from '@/data/dates.json';
 
-    {
-        label: "Final Version",
-        value: "30 July 2026",
-        desc: "Camera-Ready Submission Deadline",
-        variant: "tint-indigo"
-    },
-    // Row 4: 1 major item
-    {
-        label: "EVENT DATES",
-        value: "01 — 04 DEC 2026",
-        desc: "InGARSS 2026 Symposium Dates",
-        variant: "major"
-    }
-];
+const dates = datesData.dates;
 
 function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
     const isMajor = variant === "major";

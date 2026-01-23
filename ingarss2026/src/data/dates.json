@@ -1,0 +1,54 @@
+{
+  "page": "dates",
+  "title": "Important Dates",
+  "dates": [
+    {
+      "label": "Community Contributed Session Proposals — Open",
+      "value": "01 January 2026",
+      "desc": "CCS/Workshop/Tutorial Proposals Open",
+      "variant": "tint-gold"
+    },
+    {
+      "label": "Phase 01 — Open",
+      "value": "01 January 2026",
+      "desc": "Call for Papers Open",
+      "variant": "tint-gold"
+    },
+    {
+      "label": "Phase 02 — Close",
+      "value": "01 February 2026",
+      "desc": "CCS (Community Contributed Session) Proposals Close",
+      "variant": "tint-indigo"
+    },
+    {
+      "label": "CRITICAL DEADLINE",
+      "value": "30 May 2026",
+      "desc": "Paper Submission Deadline",
+      "variant": "major"
+    },
+    {
+      "label": "Registration",
+      "value": "15 July 2026",
+      "desc": "Acceptance Notification",
+      "variant": "default"
+    },
+    {
+      "label": "Notification",
+      "value": "30 July 2026",
+      "desc": "Registration Deadline",
+      "variant": "default"
+    },
+    {
+      "label": "Final Version",
+      "value": "30 July 2026",
+      "desc": "Camera-Ready Submission Deadline",
+      "variant": "tint-indigo"
+    },
+    {
+      "label": "EVENT DATES",
+      "value": "01 — 04 DEC 2026",
+      "desc": "InGARSS 2026 Symposium Dates",
+      "variant": "major"
+    }
+  ]
+}

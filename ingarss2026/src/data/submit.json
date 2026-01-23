@@ -1,0 +1,108 @@
+{
+  "page": "submit",
+  "title": "Submission of Paper",
+  "bannerTags": [
+    {
+      "text": "VIA EDAS PORTAL",
+      "color": "indigo"
+    },
+    {
+      "text": "DEADLINE: 30 MAY, 2026",
+      "color": "terracotta"
+    },
+    {
+      "text": "IEEE XPLORE® COMPLIANT",
+      "color": "gold"
+    }
+  ],
+  "intro": {
+    "title": "Paper Submission Portal",
+    "description": "Submit your research paper for IEEE InGARSS 2026. All submissions are handled through the EDAS conference management system. Please review the guidelines and complete the checklist below before submitting.",
+    "cfpLink": "/cfp",
+    "cfpLinkText": "→ View Call for Papers & Topic List"
+  },
+  "checklistItems": [
+    {
+      "key": "original",
+      "label": "Original Work",
+      "desc": "My paper is original and not under review elsewhere."
+    },
+    {
+      "key": "english",
+      "label": "English Language",
+      "desc": "The Paper is written in English."
+    },
+    {
+      "key": "pdf",
+      "label": "Valid Format",
+      "desc": "The submission file is in .pdf format."
+    },
+    {
+      "key": "pageLimit",
+      "label": "Page Limit",
+      "desc": "The paper adheres to the page limit (up to 4 pages free)."
+    },
+    {
+      "key": "template",
+      "label": "IEEE Template",
+      "desc": "I have used the standard IEEE Conference Template."
+    },
+    {
+      "key": "ai",
+      "label": "AI Disclosure",
+      "desc": "I have disclosed any AI-generated content (<25%) in the acknowledgments."
+    },
+    {
+      "key": "plag",
+      "label": "Plagiarism Check",
+      "desc": "I have verified that the content is original and properly cited."
+    },
+    {
+      "key": "deadline",
+      "label": "Deadline Aware",
+      "desc": "I understand the submission deadline is 30 May 2026."
+    }
+  ],
+  "guidelineItems": [
+    {
+      "label": "Originality",
+      "text": "Original, unpublished research not under review elsewhere."
+    },
+    {
+      "label": "Language",
+      "text": "Papers must be in English."
+    },
+    {
+      "label": "Format",
+      "text": "PDF format only."
+    },
+    {
+      "label": "Page Limit",
+      "text": "Up to 4 pages (free). 5 pages: ₹1,000/$15, 6 pages max: ₹2,000/$30. See Registration for fees."
+    },
+    {
+      "label": "Template",
+      "text": "Use standard IEEE Conference Template (A4 size)."
+    },
+    {
+      "label": "Blind Review",
+      "text": "Initial submission must not include author names or affiliations."
+    },
+    {
+      "label": "AI-Generated Content Disclosure",
+      "text": "The use of AI-generated content (text, figures, images, code) must be disclosed in the acknowledgments section. Identify the AI system used and specify which sections contain AI-generated content with a brief explanation. AI use for editing and grammar enhancement does not require disclosure but is recommended. AI content less than 25%"
+    },
+    {
+      "label": "Plagiarism",
+      "text": "All submissions will be checked for plagiarism. Papers found to contain plagiarized material will be rejected. Ensure all content is original or properly cited."
+    },
+    {
+      "label": "Registration",
+      "text": "At least one author must register at full (non-student) rate."
+    },
+    {
+      "label": "Copyright",
+      "text": "Complete electronic IEEE Copyright Form (eCF)."
+    }
+  ]
+}

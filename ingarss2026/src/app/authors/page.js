@@ -1,7 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import PageHeader from '@/components/PageHeader'
+import PageHeader from '@/components/PageHeader';
+import authorsData from '@/data/authors.json';
+
 /**
  * Reusable Card Component
  * Logic: 
@@ -36,32 +38,10 @@ export default function AuthorsPage() {
     setSelectedId(selectedId === id ? null : id);
   };
 
-  const guidelineItems = [
-    { label: "Submission Portal", text: "All papers must be submitted electronically through the EDAS conference submission portal. No other submission method is accepted." },
-    { label: "Language & File Format", text: "Submissions must be in English and formatted according to the IEEE conference template (A4 size). Submissions are only accepted in <b>.doc</b>, <b>.docx</b>, <b>.pdf</b> format." },
-    { label: "Originality", text: "Authors must submit original research papers that have not been published elsewhere or are currently under review by other journals or conferences." },
-    { label: "Plagiarism Policy", text: "Overall similarity rate must not exceed 30%, and similarity to a single source must not exceed 10% for IEEE Xplore submission." }
-  ];
-
-  const pageLimitItems = [
-    { pages: "Up to 5 pages", fee: "No Extra Charge", note: "Main content excluding references" },
-    { pages: "6 pages", fee: "₹1,000 / $15", note: "Overlength fee applies" },
-    { pages: "7 pages (max)", fee: "₹2,000 / $30", note: "Total limit including everything" }
-  ];
-
-  const reviewItems = [
-    { label: "Peer Review", text: "All submitted papers will undergo a peer-review process by at least three independent reviewers following IEEE review guidelines." },
-    { label: "Review Criteria", text: "Key criteria include originality, technical quality, clarity, and relevance to the conference tracks." },
-    { label: "Final Decision", text: "The decision of the Technical Program Committee (TPC) Chair will be final." },
-    { label: "Notification", text: "Authors will receive an email notification regarding the acceptance or rejection of their paper." }
-  ];
-
-  const publicationItems = [
-    { label: "Presentation Required", text: "Accepted papers must be presented at the conference by one of the authors. Format (oral/poster) will be communicated upon acceptance." },
-    { label: "Registration", text: "At least one author must register at the full rate for the paper to be included in the proceedings." },
-    { label: "IEEE Xplore", text: "All accepted and presented papers will be submitted for inclusion in IEEE Xplore." },
-    { label: "Copyright", text: "Authors of accepted papers are required to complete and submit an electronic IEEE Copyright Form (eCF)." }
-  ];
+  const guidelineItems = authorsData.guidelines;
+  const pageLimitItems = authorsData.pageLimit;
+  const reviewItems = authorsData.review;
+  const publicationItems = authorsData.publication;
 
   return (
     <main className="min-h-screen bg-[var(--bone)]">
@@ -76,28 +56,23 @@ export default function AuthorsPage() {
             {/* Templates */}
             <div>
               <h3 className="font-mono text-[var(--indigo)] text-xl sm:text-2xl font-extrabold mb-4">
-                Download Templates
+                {authorsData.templates.title}
               </h3>
               <p className="text-sm sm:text-base mb-4 text-justify hyphens-auto   break-words">
-                Use the official IEEE Conference Templates for your Paper submission.
+                {authorsData.templates.description}
               </p>
               <div className="flex flex-wrap gap-3">
-                <a 
-                  href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--black)] hover:text-black border-[2px] border-black"
-                >
-                  LATEX
-                </a>
-                <a 
-                  href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--black)] hover:text-black border-[2px] border-black"
-                >
-                  MS WORD
-                </a>
+                {authorsData.templates.links.map((link, idx) => (
+                  <a 
+                    key={idx}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-black font-mono font-bold text-xs sm:text-sm bg-gold px-5 py-3 transition-all duration-150 hover:bg-[var(--black)] hover:text-black border-[2px] border-black"
+                  >
+                    {link.label}
+                  </a>
+                ))}
               </div>
             </div>
 
