@@ -4,7 +4,7 @@
   "sections": [
     {
       "id": "generalChairs",
-      "title": "General Chairs",
+      "title": "General Chair",
       "members": [
         {
           "name": "Vijender Busi Reddy",
@@ -22,7 +22,7 @@
       "id": "technicalProgram",
       "title": "Technical Program Committee",
       "members": [
-        {
+                {
           "name": "A. Kavitha",
           "org": "JNTUH",
           "role": "Co-Chair"
@@ -39,7 +39,36 @@
         }
       ]
     },
-    
+    {
+      "id": "tpcMembers",
+      "title": "TPC Members",
+      "members": [
+        {
+          "name": "Tianlin Wang",
+          "org": "JPL, NASA"
+        },
+        {
+          "name": "Dipak Misra",
+          "org": "IIST"
+        },
+        {
+          "name": "Shyam Lal",
+          "org": "NITK"
+        },
+        {
+          "name": "Dharmendra Panday",
+          "org": "SAC, ISRO"
+        },
+        {
+          "name": "Ramakrishna Adi Reddy",
+          "org": "Apple Inc."
+        },
+        {
+          "name": "D. Sudheer Reddy",
+          "org": "ADRIN, ISRO"
+        }
+      ]
+    },
     {
       "id": "financeChair",
       "title": "Finance Chair",
@@ -110,25 +139,14 @@
       "title": "YP Activity Committee",
       "members": [
         {
-          "name": "Khalid Ahmad",
+          "name": "Mr. Khalid Ahmad",
           "org": "GRSS YP Regional Coordinator",
           "role": "Chair"
         },
         {
-          "name": "Rahisha T",
+          "name": "Ms. Rahisha T",
           "org": "IIIT Bangalore",
           "role": "Co-Chair"
-        }
-      ]
-    },
-    {
-      "id": "publicityChair",
-      "title": "Publicity Chair",
-      "members": [
-        {
-          "name": "L. Nirmala Devi",
-          "org": "Osmania University",
-          "role": "Chair"
         }
       ]
     },
@@ -172,52 +190,6 @@
           "name": "Suraj Kodakandla",
           "org": "IIITDM, Kurnool",
           "role": "Co-Chair"
-        }
-      ]
-    },
-    {
-      "id": "organizingChapters",
-      "title": "Organizing Committee",
-      "members": [
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Gujarat Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Uttar Pradesh Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Kerala Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Bombay Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Delhi Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Madras Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Madhya Pradesh Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Bangalore Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Kolkata Chapter"
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Hyderabad Chapter"
         }
       ]
     },

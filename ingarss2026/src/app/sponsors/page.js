@@ -246,7 +246,7 @@ export default function SponsorsPage() {
                             href={`mailto:${contact.email}`}
                             className="inline-block bg-white text-terracotta font-mono font-bold px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-none hover:translate-x-[6px] hover:translate-y-[6px] transition-all duration-150"
                         >
-                            📧 {contact.email}
+                             {contact.email}
                         </a>
                     </div>
                     <p className="mt-6 font-mono text-sm opacity-75">
