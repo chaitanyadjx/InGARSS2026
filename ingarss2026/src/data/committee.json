@@ -23,13 +23,13 @@
       "title": "Technical Program Committee",
       "members": [
         {
-          "name": "C. Sudhakar Reddy",
-          "org": "NRSC, ISRO",
-          "role": "Chair"
+          "name": "A. Kavitha",
+          "org": "JNTUH",
+          "role": "Co-Chair"
         },
         {
-          "name": "Shyam Lal",
-          "org": "NITK Surathkal",
+          "name": "C. Sudhakar Reddy",
+          "org": "NRSC, ISRO",
           "role": "Co-Chair"
         },
         {
@@ -39,9 +39,10 @@
         }
       ]
     },
+    
     {
       "id": "financeChair",
-      "title": "Finance Committee",
+      "title": "Finance Chair",
       "members": [
         {
           "name": "N. Srinivas Naik",
@@ -62,23 +63,12 @@
       ]
     },
     {
-      "id": "localOrganizing",
-      "title": "Local Organizing Committee",
-      "members": [
-        {
-          "name": "A. Kavitha",
-          "org": "JNTUH",
-          "role": "Chair"
-        }
-      ]
-    },
-    {
       "id": "tutorialsExhibits",
       "title": "Tutorials and Exhibits Chair",
       "members": [
         {
-          "name": "D. Rajesh Reddy",
-          "org": "ADRIN, ISRO",
+          "name": "Rajesh Reddy",
+          "org": "ADRIN",
           "role": "Chair"
         }
       ]
@@ -93,6 +83,16 @@
           "role": "Chair"
         }
       ]
+    },
+    {
+      "id": "industryRelations",
+      "title": "Industry Relations Chair",
+      "members": []
+    },
+    {
+      "id": "wieActivity",
+      "title": "WIE Activity Committee",
+      "members": []
     },
     {
       "id": "deiabActivity",
@@ -110,12 +110,12 @@
       "title": "YP Activity Committee",
       "members": [
         {
-          "name": "Mr. Mohammmed Khalid",
+          "name": "Khalid Ahmad",
           "org": "GRSS YP Regional Coordinator",
           "role": "Chair"
         },
         {
-          "name": "Ms. Rahisha T",
+          "name": "Rahisha T",
           "org": "IIIT Bangalore",
           "role": "Co-Chair"
         }
@@ -156,7 +156,7 @@
     },
     {
       "id": "webmasterSocial",
-      "title": "Webmaster & Social Committee",
+      "title": "Webmaster and Social Network Committee",
       "members": [
         {
           "name": "Anisha",
@@ -164,7 +164,7 @@
           "role": "Chair"
         },
         {
-          "name": "Chaitanya Jambhulkar",
+          "name": "Chaitanya",
           "org": "IIITDM, Kurnool",
           "role": "Co-Chair"
         },
@@ -242,24 +242,40 @@
           "org": "SAC, ISRO, India"
         },
         {
-          "name": "Ashish Ghosh",
-          "org": "IIIT, Bhubhaneshwar"
-        },
-        {
           "name": "B. S. Daya Sagar",
           "org": "ISI Bangalore"
         },
         {
           "name": "Keely Roth",
-          "org": "Planet labs"
-        },
-        {
-          "name": "Tianlin Wang",
-          "org": "JPL, NASA"
+          "org": "Planet Labs"
         },
         {
           "name": "Fairouz Stambouli",
           "org": "German Aerospace Center, Germany"
+        },
+        {
+          "name": "S. Venkataraman",
+          "org": "Director, CR Rao Institute"
+        },
+        {
+          "name": "MGPL Narayana",
+          "org": "TCS (Retd.)"
+        },
+        {
+          "name": "Bala Prasad Peddigari",
+          "org": "TCS"
+        },
+        {
+          "name": "N. Venkatesh",
+          "org": "Silicon Labs"
+        },
+        {
+          "name": "Sreenivas Jasti",
+          "org": "TCS"
+        },
+        {
+          "name": "Balakrishnan Nair",
+          "org": "INCOIS"
         }
       ]
     }

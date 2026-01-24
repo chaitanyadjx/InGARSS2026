@@ -41,14 +41,15 @@ export default function Navbar() {
                     <li className="border-r border-gray-400">
                         <Link href="/committee" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Committee</Link>
                     </li>
-                    <li className="border-r border-gray-400 relative group">
-                        <Link href="/#venue" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Venue</Link>
+                    <li className="border-r border-gray-400">
+                        <Link href="/speaker" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Speakers</Link>
                     </li>
                     <li className="relative group border-r border-gray-400">
                         <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
                             For Authors ↓
                         </div>
                         <div className="hidden group-hover:block absolute top-full left-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
+                            <Link href="/dates" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Important Dates</Link>
                             <Link href="/ieee-guidelines" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">IEEE Guidelines</Link>
                             <Link href="/authors" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Author Guidelines</Link>
                             <Link href="/cfp" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Call for Papers</Link>
@@ -57,7 +58,14 @@ export default function Navbar() {
                         </div>
                     </li>
                     <li className="relative group">
-                        <Link href="/dates" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Important Dates</Link>
+                        <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
+                            General ↓
+                        </div>
+                        <div className="hidden group-hover:block absolute top-full right-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
+                            <Link href="/sponsors" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Sponsors</Link>
+                            <Link href="/past-conferences" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Past Conferences</Link>
+                            <Link href="/#venue" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Venue</Link>
+                        </div>
                     </li>
                 </ul>
 
@@ -88,9 +96,11 @@ export default function Navbar() {
             <div className={`${mobileMenuOpen ? 'block' : 'hidden'} lg:hidden bg-white border-t-[3px] border-black w-full relative`}>
                 <Link href="/" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Home</Link>
                 <Link href="/committee" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Committee</Link>
+                <Link href="/speaker" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Speakers</Link>
                 
                 <div className="border-b border-gray-200">
                     <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">For Authors</div>
+                    <Link href="/dates" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Important Dates</Link>
                     <Link href="/ieee-guidelines" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">IEEE Guidelines</Link>
                     <Link href="/authors" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Author Guidelines</Link>
                     <Link href="/cfp" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Call for Papers</Link>
@@ -98,8 +108,13 @@ export default function Navbar() {
                     <Link href="/registration" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Registration</Link>
                 </div>
                 
-                <Link href="/dates" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Important Dates</Link>
-                <Link href="/#venue" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Venue</Link>
+                <div className="border-b border-gray-200">
+                    <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">General</div>
+                    <Link href="/sponsors" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Sponsors</Link>
+                    <Link href="/past-conferences" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Past Conferences</Link>
+                    <Link href="/#venue" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Venue</Link>
+                </div>
+
                 <Link href="/submit" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Submit Paper</Link>
             </div>
         </nav>

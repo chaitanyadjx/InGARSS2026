@@ -1,0 +1,110 @@
+{
+  "page": "past-conferences",
+  "title": "Past Conferences",
+  "subtitle": "A Legacy of Excellence in Geoscience & Remote Sensing",
+  "intro": "The IEEE India Geoscience and Remote Sensing Symposium (InGARSS) has been bringing together researchers, scientists, and industry professionals since 2020. Explore our journey through the years.",
+  "websites": [
+    {
+      "year": "2020",
+      "url": "https://www.ingarss2020.org/",
+      "label": "InGARSS 2020"
+    },
+    {
+      "year": "2021",
+      "url": "https://www.grss-ieee.org/resources/news/ingarss2021-call-for-papers/",
+      "label": "InGARSS 2021"
+    },
+    {
+      "year": "2023",
+      "url": "https://ingarss.org/",
+      "label": "InGARSS 2023"
+    },
+    {
+      "year": "2024",
+      "url": "https://www.grss-ieee.org/resources/news/ingarss-2024/",
+      "label": "InGARSS 2024"
+    },
+    {
+      "year": "2025",
+      "url": "https://www.ingarss-2025.in/",
+      "label": "InGARSS 2025"
+    },
+    {
+      "year": "2026",
+      "url": "https://ingarss2026.co.in/",
+      "label": "InGARSS 2026"
+    }
+  ],
+  "conferences": [
+    {
+      "year": "2020",
+      "edition": "1st Edition",
+      "location": "Virtual",
+      "chairs": ["Dr. Paul Rosen", "Dr. Shiv Mohan"],
+      "image": "https://i.postimg.cc/L5RGpK53/image.png",
+      "highlight": false
+    },
+    {
+      "year": "2021",
+      "edition": "2nd Edition",
+      "location": "Virtual",
+      "chairs": ["Dr. Paul Rosen", "Dr. Raj Kumar", "Dr. Shiv Mohan"],
+      "image": "https://i.postimg.cc/Z5yHVsKS/image.png",
+      "highlight": false
+    },
+    {
+      "year": "2023",
+      "edition": "3rd Edition",
+      "location": "Bangalore",
+      "chairs": ["Dr. B. S. Daya Sagar", "Dr. Jaya S. Nair", "Dr. Avik Bhattacharya"],
+      "image": "https://i.postimg.cc/HLMSkYr3/image.png",
+      "highlight": false
+    },
+    {
+      "year": "2024",
+      "edition": "4th Edition",
+      "location": "Goa",
+      "chairs": ["Dr. D. Singh", "Dr. Gulab Singh"],
+      "image": "https://i.postimg.cc/L5Pfz5MQ/image.png",
+      "highlight": false
+    },
+    {
+      "year": "2025",
+      "edition": "5th Edition",
+      "location": "Bhubaneswar",
+      "chairs": ["Dr. Ashish Ghosh", "Dr. Paul Rosen"],
+      "image": "https://i.postimg.cc/qRf5shfM/image.png",
+      "highlight": false
+    },
+    {
+      "year": "2026",
+      "edition": "6th Edition",
+      "location": "Hyderabad",
+      "chairs": ["Dr. V. Reddy", "Dr. Paul Rosen"],
+      "image": "https://i.postimg.cc/mgs3yYkw/image.png",
+      "highlight": true
+    }
+  ],
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Moments from Previous Editions",
+    "images": [
+      {
+        "src": "https://i.postimg.cc/FHHzvzBd/image.png",
+        "alt": "InGARSS 2025 Session"
+      },
+      {
+        "src": "https://i.postimg.cc/5yKGFPfW/image.png",
+        "alt": "InGARSS 2025 Inauguration"
+      },
+      {
+        "src": "https://i.postimg.cc/V6DZ37rd/image.png",
+        "alt": "InGARSS 2023 Session"
+      },
+      {
+        "src": "https://i.postimg.cc/0yDW85Kq/image.png",
+        "alt": "InGARSS 2023 Session"
+      }
+    ]
+  }
+}

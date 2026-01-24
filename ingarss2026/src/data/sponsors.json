@@ -1,0 +1,237 @@
+{
+  "page": "sponsors",
+  "title": "Sponsorship & Exhibition",
+  "hero": {
+    "subtitle": "Partner with InGARSS 2026",
+    "description": "Join us in shaping the future of Geoscience and Remote Sensing at one of the most influential forums in the region."
+  },
+  "aboutProgram": {
+    "title": "About InGARSS 2026",
+    "paragraphs": [
+      "The <strong>2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)</strong> will be held from <strong>01–04 December 2026</strong> in Hyderabad, India. As one of the flagship regional conferences of IEEE GRSS, InGARSS 2026 aims to be a premier forum bringing together researchers, practitioners, and industry professionals from India and across the globe.",
+      "With the theme <strong>\"Digital Earth – Modeling, Mapping, and Monitoring\"</strong>, the symposium will feature keynote speeches, technical sessions, tutorials, exhibitions, and networking opportunities covering cutting-edge advances in geoscience and remote sensing.",
+      "All accepted and presented papers will be submitted to IEEE Xplore for publication, ensuring global visibility for your research and brand."
+    ]
+  },
+  "eventInfo": {
+    "expectedAbstracts": "400+",
+    "expectedParticipants": "300+"
+  },
+  "whySponsor": {
+    "title": "Why Sponsor or Exhibit at InGARSS 2026?",
+    "benefits": [
+      {
+        "title": "Connect with Leaders",
+        "description": "Network with top professionals, customers, and emerging talent in geoscience and remote sensing"
+      },
+      {
+        "title": "Global Exposure",
+        "description": "Gain international visibility and strengthen your industry leadership position"
+      },
+      {
+        "title": "Cost-Effective",
+        "description": "Benefit from bundled registrations, discounts, and flexible sponsorship packages"
+      },
+      {
+        "title": "Support Academia",
+        "description": "Enable public sector and academic participation at minimal cost"
+      },
+      {
+        "title": "Strategic Venue",
+        "description": "Engage with key stakeholders in Hyderabad - India's Cyber City and aerospace hub"
+      },
+      {
+        "title": "Showcase Innovation",
+        "description": "Demo your products and services to researchers, engineers, and decision-makers"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "price": "₹10,00,000",
+      "priceNote": "+ Tax as applicable",
+      "availability": "1 Available",
+      "color": "bg-gradient-to-br from-cyan-100 to-cyan-300",
+      "borderColor": "border-cyan-500",
+      "textColor": "text-cyan-900",
+      "features": [
+        "Five complimentary conference registrations",
+        "One plenary talk on the opening day",
+        "One invited talk in conference sessions",
+        "Everything offered in Platinum Sponsorship"
+      ],
+      "highlight": false
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum",
+      "price": "₹7,00,000",
+      "priceNote": "+ Tax as applicable",
+      "availability": "2 Available",
+      "color": "bg-gradient-to-br from-gray-100 to-gray-300",
+      "borderColor": "border-gray-500",
+      "textColor": "text-gray-900",
+      "features": [
+        "Two invited talks in conference sessions",
+        "Highest-level sponsor recognition across conference platforms",
+        "Everything offered in Gold Sponsorship"
+      ],
+      "highlight": false
+    },
+    {
+      "id": "gold",
+      "name": "Gold",
+      "price": "₹5,00,000",
+      "priceNote": "+ Tax as applicable",
+      "availability": "3 Available",
+      "color": "bg-gradient-to-br from-yellow-100 to-yellow-300",
+      "borderColor": "border-yellow-600",
+      "textColor": "text-yellow-900",
+      "features": [
+        "Three complimentary conference registrations",
+        "Include sponsor-provided materials in conference bags",
+        "Everything offered in Silver Sponsorship"
+      ],
+      "highlight": false
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "price": "₹3,00,000",
+      "priceNote": "+ Tax as applicable",
+      "availability": "Unlimited",
+      "color": "bg-gradient-to-br from-slate-100 to-slate-300",
+      "borderColor": "border-slate-500",
+      "textColor": "text-slate-900",
+      "features": [
+        "Two complimentary conference registrations",
+        "Sponsor banner displayed throughout the conference",
+        "Press release with media interaction opportunity",
+        "Demo/showcase products in exhibition area",
+        "Everything offered in Bronze Sponsorship"
+      ],
+      "highlight": false
+    },
+    {
+      "id": "bronze",
+      "name": "Bronze",
+      "price": "₹1,50,000 – ₹2,00,000",
+      "priceNote": "+ Tax as applicable",
+      "availability": "Unlimited",
+      "color": "bg-gradient-to-br from-orange-100 to-orange-300",
+      "borderColor": "border-orange-600",
+      "textColor": "text-orange-900",
+      "features": [
+        "One complimentary conference registration",
+        "Logo on all conference programs",
+        "Logo on main conference website with hyperlink",
+        "Press release in the conference media kit",
+        "Invited talk in one conference session"
+      ],
+      "highlight": false
+    },
+    {
+      "id": "event",
+      "name": "Event Sponsorship",
+      "price": "₹1,00,000 – ₹1,50,000",
+      "priceNote": "+ Tax as applicable",
+      "availability": "Multiple Events",
+      "color": "bg-gradient-to-br from-indigo-100 to-indigo-200",
+      "borderColor": "border-indigo-500",
+      "textColor": "text-indigo-900",
+      "features": [
+        "One complimentary conference registration",
+        "Logo on specific event promotional contents (WIE/DEIAB/YP events, etc.)",
+        "Logo on event web page with hyperlink",
+        "Press release in the event media kit",
+        "Invited talk in one event session"
+      ],
+      "highlight": false
+    }
+  ],
+  "comparisonTable": {
+    "headers": ["Feature", "Diamond", "Platinum", "Gold", "Silver", "Bronze", "Event"],
+    "rows": [
+      {
+        "feature": "Logo on conference website with hyperlink",
+        "diamond": true,
+        "platinum": true,
+        "gold": true,
+        "silver": true,
+        "bronze": true,
+        "event": true
+      },
+      {
+        "feature": "Visibility in conference proceedings",
+        "diamond": true,
+        "platinum": true,
+        "gold": true,
+        "silver": true,
+        "bronze": true,
+        "event": false
+      },
+      {
+        "feature": "Logo on sponsors recognition banner",
+        "diamond": true,
+        "platinum": true,
+        "gold": true,
+        "silver": true,
+        "bronze": true,
+        "event": false
+      },
+      {
+        "feature": "Online program ad",
+        "diamond": true,
+        "platinum": true,
+        "gold": true,
+        "silver": true,
+        "bronze": false,
+        "event": false
+      },
+      {
+        "feature": "Logo displayed at sessions",
+        "diamond": true,
+        "platinum": true,
+        "gold": true,
+        "silver": false,
+        "bronze": false,
+        "event": false
+      },
+      {
+        "feature": "Exhibition area",
+        "diamond": true,
+        "platinum": true,
+        "gold": true,
+        "silver": true,
+        "bronze": false,
+        "event": false
+      },
+      {
+        "feature": "Complimentary registrations",
+        "diamond": "5",
+        "platinum": "3",
+        "gold": "3",
+        "silver": "2",
+        "bronze": "1",
+        "event": "1"
+      },
+      {
+        "feature": "Plenary talk on opening day",
+        "diamond": true,
+        "platinum": false,
+        "gold": false,
+        "silver": false,
+        "bronze": false,
+        "event": false
+      }
+    ]
+  },
+  "contact": {
+    "title": "Interested in Sponsoring?",
+    "description": "We offer flexible and customizable sponsorship packages to align with your organizational goals. Contact us to discuss how InGARSS 2026 can support your objectives.",
+    "email": "sponsors@ingarss2026.org",
+    "note": "Custom packages available upon request"
+  }
+}
