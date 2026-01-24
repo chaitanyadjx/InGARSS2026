@@ -146,14 +146,14 @@ function GallerySlider({ images }) {
                 {/* Navigation Arrows */}
                 <button 
                     onClick={goToPrevious}
-                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-white border-[3px] border-black w-12 h-12 flex items-center justify-center shadow-[4px_4px_0_black] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-150 font-bold text-xl z-20"
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-white border-[3px] border-black w-12 h-12 flex items-center justify-center shadow-[4px_4px_0_black] hover:bg-gold transition-colors duration-150 font-bold text-xl z-20"
                     aria-label="Previous image"
                 >
                     ←
                 </button>
                 <button 
                     onClick={goToNext}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-white border-[3px] border-black w-12 h-12 flex items-center justify-center shadow-[4px_4px_0_black] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-150 font-bold text-xl z-20"
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-white border-[3px] border-black w-12 h-12 flex items-center justify-center shadow-[4px_4px_0_black] hover:bg-gold transition-colors duration-150 font-bold text-xl z-20"
                     aria-label="Next image"
                 >
                     →
@@ -244,7 +244,7 @@ export default function PastConferencesPage() {
                             Visit Past Conference Websites
                         </h2>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                         {websites.map((site, index) => (
                             <WebsiteLink key={index} {...site} />
                         ))}

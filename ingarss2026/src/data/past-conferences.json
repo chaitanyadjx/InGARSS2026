@@ -28,11 +28,6 @@
       "year": "2025",
       "url": "https://www.ingarss-2025.in/",
       "label": "InGARSS 2025"
-    },
-    {
-      "year": "2026",
-      "url": "https://ingarss2026.co.in/",
-      "label": "InGARSS 2026"
     }
   ],
   "conferences": [
@@ -75,14 +70,6 @@
       "chairs": ["Dr. Ashish Ghosh", "Dr. Paul Rosen"],
       "image": "https://i.postimg.cc/qRf5shfM/image.png",
       "highlight": false
-    },
-    {
-      "year": "2026",
-      "edition": "6th Edition",
-      "location": "Hyderabad",
-      "chairs": ["Dr. V. Reddy", "Dr. Paul Rosen"],
-      "image": "https://i.postimg.cc/mgs3yYkw/image.png",
-      "highlight": true
     }
   ],
   "gallery": {
@@ -90,19 +77,19 @@
     "subtitle": "Moments from Previous Editions",
     "images": [
       {
-        "src": "https://i.postimg.cc/FHHzvzBd/image.png",
+        "src": "/assets/Picture1.jpg",
         "alt": "InGARSS 2025 Session"
       },
       {
-        "src": "https://i.postimg.cc/5yKGFPfW/image.png",
+        "src": "/assets/Picture2.jpg",
         "alt": "InGARSS 2025 Inauguration"
       },
       {
-        "src": "https://i.postimg.cc/V6DZ37rd/image.png",
+        "src": "/assets/Picture3.jpg",
         "alt": "InGARSS 2023 Session"
       },
       {
-        "src": "https://i.postimg.cc/0yDW85Kq/image.png",
+        "src": "/assets/Picture4.jpg",
         "alt": "InGARSS 2023 Session"
       }
     ]

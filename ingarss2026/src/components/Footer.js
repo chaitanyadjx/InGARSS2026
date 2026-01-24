@@ -22,12 +22,14 @@ export default function Footer() {
                     <ul className="grid grid-cols-2 gap-x-8 gap-y-3">
                         <li><Link href="/" className="text-sm font-semibold hover:text-gold transition-all">Home</Link></li>
                         <li><Link href="/committee" className="text-sm font-semibold hover:text-gold transition-all">Committee</Link></li>
-                        {/* <li><Link href="/speakers" className="text-sm font-semibold hover:text-gold transition-all">KeyNote Speakers</Link></li> */}
+                        <li><Link href="/speaker" className="text-sm font-semibold hover:text-gold transition-all">Speakers</Link></li>
                         <li><Link href="/cfp" className="text-sm font-semibold hover:text-gold transition-all">Call for Papers</Link></li>
                         <li><Link href="/dates" className="text-sm font-semibold hover:text-gold transition-all">Important Dates</Link></li>
                         <li><Link href="/authors" className="text-sm font-semibold hover:text-gold transition-all">Author Guidelines</Link></li>
                         <li><Link href="/registration" className="text-sm font-semibold hover:text-gold transition-all">Registration</Link></li>
                         <li><Link href="/submit" className="text-sm font-semibold hover:text-gold transition-all">Submit Paper</Link></li>
+                        <li><Link href="/sponsors" className="text-sm font-semibold hover:text-gold transition-all">Sponsors</Link></li>
+                        <li><Link href="/past-conferences" className="text-sm font-semibold hover:text-gold transition-all">Past Conferences</Link></li>
                     </ul>
                 </div>
             </div>
