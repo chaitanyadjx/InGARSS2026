@@ -193,7 +193,55 @@
         }
       ]
     },
+
     {
+      "id": "organizingCommittee",
+      "title": "Organizing Committee",
+      "members": [
+                {
+          "name": "Chair",
+          "org": "IEEE GRSS Hyderabad Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Gujarat Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Uttar Pradesh Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Kerala Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Bombay Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Delhi Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Madras Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Madhya Pradesh Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Bangalore Chapter"
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Kolkata Chapter"
+        }
+
+      ]
+    },
+        {
       "id": "advisory",
       "title": "Advisory Committee",
       "members": [
