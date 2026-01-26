@@ -88,6 +88,10 @@
           "name": "Hitendra Sharma",
           "org": "Vasavi College of Engg.",
           "role": "Chair"
+        }, {
+          "name": "D. Rajsh Reddy",
+          "org": "ADRIN, ISRO",
+          "role": "Co-Chair"
         }
       ]
     },
@@ -96,8 +100,8 @@
       "title": "Tutorials and Exhibits Chair",
       "members": [
         {
-          "name": "Rajesh Reddy",
-          "org": "ADRIN",
+          "name": "Dilip Kumar Dalei",
+          "org": "DRDO",
           "role": "Chair"
         }
       ]
@@ -182,7 +186,7 @@
           "role": "Chair"
         },
         {
-          "name": "Chaitanya",
+          "name": "Chaitanya Jambhulkar",
           "org": "IIITDM, Kurnool",
           "role": "Co-Chair"
         },
@@ -254,10 +258,6 @@
           "org": "IEEE GRSS India Liaison, India"
         },
         {
-          "name": "Prakash Chauhan",
-          "org": "NRSC, ISRO, India"
-        },
-        {
           "name": "CVN Rao",
           "org": "SAC, ISRO, India"
         },
@@ -276,27 +276,9 @@
         {
           "name": "S. Venkataraman",
           "org": "Director, CR Rao Institute"
-        },
-        {
-          "name": "MGPL Narayana",
-          "org": "TCS (Retd.)"
-        },
-        {
-          "name": "Bala Prasad Peddigari",
-          "org": "TCS"
-        },
-        {
-          "name": "N. Venkatesh",
-          "org": "Silicon Labs"
-        },
-        {
-          "name": "Sreenivas Jasti",
-          "org": "TCS"
-        },
-        {
-          "name": "Balakrishnan Nair",
-          "org": "INCOIS"
         }
+
+
       ]
     }
   ]

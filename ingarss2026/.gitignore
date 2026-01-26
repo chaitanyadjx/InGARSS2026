@@ -43,3 +43,5 @@ next-env.d.ts
 
 backup
 out
+scripts
+deploy.sh
