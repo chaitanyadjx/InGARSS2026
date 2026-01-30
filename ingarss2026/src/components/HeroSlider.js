@@ -10,7 +10,7 @@ export default function HeroSlider() {
                 ></div>
                 <div className="relative z-10 border-[3px] border-black p-6 md:p-10 max-w-2xl bg-white/95 shadow-[15px_15px_0_#BC4749] md:shadow-[20px_20px_0_#BC4749] animate-float">
                     <p className="font-mono font-bold mb-3 text-sm md:text-base text-terracotta">01 – 04 December 2026, Hyderabad, India</p>
-                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight   mb-4">India Geoscience & Remote Sensing Symposium</h1>
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight   mb-4">IEEE India Geoscience & Remote Sensing Symposium</h1>
                     <p className="text-base md:text-base">Theme: Digital Earth - Modeling, Mapping, and Monitoring.</p>
                 </div>
                 {/* Logo on the right, in corner with small padding */}

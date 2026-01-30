@@ -1,0 +1,53 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: ingarss2026/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./ingarss2026
+        run: npm ci
+
+      - name: Build Next.js static export
+        working-directory: ./ingarss2026
+        run: npm run build
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.AWS_SSH_KEY }}" > ~/.ssh/workshop_aws.pem
+          chmod 400 ~/.ssh/workshop_aws.pem
+          ssh-keyscan -H 54.66.242.45 >> ~/.ssh/known_hosts
+
+      - name: Deploy to AWS server
+        working-directory: ./ingarss2026
+        run: |
+          rsync -avz --delete -e "ssh -i ~/.ssh/workshop_aws.pem" ./out/ ubuntu@54.66.242.45:~/out
+
+      - name: Update nginx and restart
+        run: |
+          ssh -i ~/.ssh/workshop_aws.pem ubuntu@54.66.242.45 << 'EOF'
+            sudo rsync -av --delete /home/ubuntu/out/ /var/www/ingarss2026/
+            sudo nginx -t && sudo systemctl restart nginx
+          EOF
+
+      - name: Cleanup SSH key
+        if: always()
+        run: rm -f ~/.ssh/workshop_aws.pem

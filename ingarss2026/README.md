@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# InGARSS 2026 Website
+
+A [Next.js](https://nextjs.org) static website for the InGARSS 2026 conference.
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+This generates a static export in the `out/` folder.
 
-To learn more about Next.js, take a look at the following resources:
+## Testing Production Build Locally
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npx serve out
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Automated Deployment (GitHub Actions)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website automatically deploys when you push to the `main` branch.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### What happens automatically:
+1. Next.js builds the static site
+2. Site is deployed to AWS server
+3. Nginx is restarted
+
+### Required GitHub Secrets:
+Go to **Repository Settings → Secrets → Actions** and add:
+
+| Secret Name | Value |
+|-------------|-------|
+| `AWS_SSH_KEY` | Contents of `workshop_aws.pem` file |
+
+### Manual Triggers:
+- Go to **Actions** tab in GitHub
+- Select **"Deploy to Production"**
+- Click **"Run workflow"**
+
+---
+
+## 🔧 Manual Deployment (Without GitHub Actions)
+
+(Commands to be done on WSL/Linux)
+
+1. Build the project and get the `out/` folder
+2. Put it in the same folder as `workshop_aws.pem`
+3. Make pem file read only:
+   ```bash
+   chmod 400 ./workshop_aws.pem
+   ```
+4. Upload to server:
+   ```bash
+   rsync -avz -e "ssh -i ./workshop_aws.pem" ./out/ ubuntu@54.66.242.45:~/out
+   ```
+5. SSH into the server:
+   ```bash
+   ssh -i "./workshop_aws.pem" ubuntu@54.66.242.45
+   ```
+6. Copy to nginx directory:
+   ```bash
+   sudo rsync -av --delete /home/ubuntu/out/ /var/www/ingarss2026/
+   ```
+7. Verify and restart nginx:
+   ```bash
+   sudo nginx -t
+   sudo systemctl restart nginx
+   ```
+8. Logout: `logout`
+
+---
+
+## 📝 Making Content Changes
+
+1. Edit the relevant JSON file in `src/data/` (e.g., `committee.json`)
+2. Commit and push to `main` branch
+3. GitHub Action will auto-deploy

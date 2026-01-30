@@ -22,8 +22,8 @@
       "id": "technicalProgram",
       "title": "Technical Program Committee",
       "members": [
-                {
-          "name": "A. Kavitha",
+        {
+          "name": "Dr. A. Kavitha",
           "org": "JNTUH",
           "role": "Co-Chair"
         },
@@ -45,27 +45,33 @@
       "members": [
         {
           "name": "Tianlin Wang",
-          "org": "JPL, NASA"
+          "org": "JPL, NASA",
+          "role": ""
         },
         {
           "name": "Dipak Misra",
-          "org": "IIST"
+          "org": "IIST",
+          "role": ""
         },
         {
           "name": "Shyam Lal",
-          "org": "NITK"
+          "org": "NITK",
+          "role": ""
         },
         {
           "name": "Dharmendra Panday",
-          "org": "SAC, ISRO"
+          "org": "SAC, ISRO",
+          "role": ""
         },
         {
           "name": "Ramakrishna Adi Reddy",
-          "org": "Apple Inc."
+          "org": "Apple Inc.",
+          "role": ""
         },
         {
           "name": "D. Sudheer Reddy",
-          "org": "ADRIN, ISRO"
+          "org": "ADRIN, ISRO",
+          "role": ""
         }
       ]
     },
@@ -88,7 +94,8 @@
           "name": "Hitendra Sharma",
           "org": "Vasavi College of Engg.",
           "role": "Chair"
-        }, {
+        },
+        {
           "name": "D. Rajsh Reddy",
           "org": "ADRIN, ISRO",
           "role": "Co-Chair"
@@ -197,88 +204,101 @@
         }
       ]
     },
-
     {
       "id": "organizingCommittee",
       "title": "Organizing Committee",
       "members": [
-                {
+        {
           "name": "Chair",
-          "org": "IEEE GRSS Hyderabad Chapter"
+          "org": "IEEE GRSS Hyderabad Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Gujarat Chapter"
+          "org": "IEEE GRSS Gujarat Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Uttar Pradesh Chapter"
+          "org": "IEEE GRSS Uttar Pradesh Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Kerala Chapter"
+          "org": "IEEE GRSS Kerala Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Bombay Chapter"
+          "org": "IEEE GRSS Bombay Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Delhi Chapter"
+          "org": "IEEE GRSS Delhi Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Madras Chapter"
+          "org": "IEEE GRSS Madras Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Madhya Pradesh Chapter"
+          "org": "IEEE GRSS Madhya Pradesh Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Bangalore Chapter"
+          "org": "IEEE GRSS Bangalore Chapter",
+          "role": ""
         },
         {
           "name": "Chair",
-          "org": "IEEE GRSS Kolkata Chapter"
+          "org": "IEEE GRSS Kolkata Chapter",
+          "role": ""
         }
-
       ]
     },
-        {
+    {
       "id": "advisory",
       "title": "Advisory Committee",
       "members": [
         {
           "name": "Saibun Tjuatja",
-          "org": "University of Texas at Arlington"
+          "org": "University of Texas at Arlington",
+          "role": ""
         },
         {
           "name": "Shiv Mohan",
-          "org": "IEEE GRSS India Liaison, India"
+          "org": "IEEE GRSS India Liaison, India",
+          "role": ""
         },
         {
           "name": "CVN Rao",
-          "org": "SAC, ISRO, India"
+          "org": "SAC, ISRO, India",
+          "role": ""
         },
         {
           "name": "B. S. Daya Sagar",
-          "org": "ISI Bangalore"
+          "org": "ISI Bangalore",
+          "role": ""
         },
         {
           "name": "Keely Roth",
-          "org": "Planet Labs"
+          "org": "Planet Labs",
+          "role": ""
         },
         {
           "name": "Fairouz Stambouli",
-          "org": "German Aerospace Center, Germany"
+          "org": "German Aerospace Center, Germany",
+          "role": ""
         },
         {
           "name": "S. Venkataraman",
-          "org": "Director, CR Rao Institute"
+          "org": "Director, CR Rao Institute",
+          "role": ""
         }
-
-
       ]
     }
   ]

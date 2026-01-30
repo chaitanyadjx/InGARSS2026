@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "wsl ~ -e bash -c 'cd /mnt/a/Programming/Projects/InGARSS2026/ingarss2026"
   },
   "dependencies": {
     "next": "16.1.1",
