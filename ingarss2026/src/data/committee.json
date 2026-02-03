@@ -39,6 +39,17 @@
         }
       ]
     },
+     {
+      "id": "Program",
+      "title": "Program chair",
+      "members": [
+        {
+          "name": "Dr. A. Kavitha",
+          "org": "JNTUH",
+          "role": ""
+        }
+      ]
+    },
     {
       "id": "tpcMembers",
       "title": "TPC Members",
@@ -61,6 +72,11 @@
         {
           "name": "Dharmendra Panday",
           "org": "SAC, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Raghavendra Kune",
+          "org": "ADRIN, ISRO",
           "role": ""
         },
         {
