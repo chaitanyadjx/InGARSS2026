@@ -110,11 +110,6 @@
           "name": "Hitendra Sharma",
           "org": "Vasavi College of Engg.",
           "role": "Chair"
-        },
-        {
-          "name": "D. Rajsh Reddy",
-          "org": "ADRIN, ISRO",
-          "role": "Co-Chair"
         }
       ]
     },
@@ -126,6 +121,11 @@
           "name": "Dilip Kumar Dalei",
           "org": "DRDO",
           "role": "Chair"
+        },
+        {
+          "name": "D. Rajsh Reddy",
+          "org": "ADRIN, ISRO",
+          "role": "Co-Chair"
         }
       ]
     },
