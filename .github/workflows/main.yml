@@ -1,0 +1,70 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: ingarss2026/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./ingarss2026
+        run: npm ci
+
+      - name: Build Next.js static export
+        working-directory: ./ingarss2026
+        run: |
+          # Force a fresh build to ensure JSON changes are baked in
+          rm -rf .next
+          npm run build
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.AWS_SSH_KEY }}" > ~/.ssh/workshop_aws.pem
+          chmod 400 ~/.ssh/workshop_aws.pem
+          ssh-keyscan -H 54.66.242.45 >> ~/.ssh/known_hosts
+
+      - name: Direct Deploy to Web Root
+        working-directory: ./ingarss2026
+        run: |
+          # This command skips the 'home' folder and goes straight to /var/www/
+          # It uses sudo on the server-side automatically
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/workshop_aws.pem" \
+            --rsync-path="sudo rsync" \
+            ./out/ ubuntu@54.66.242.45:/var/www/ingarss2026/
+
+      - name: Refresh Server State
+        run: |
+          ssh -i ~/.ssh/workshop_aws.pem ubuntu@54.66.242.45 << 'EOF'
+            # 1. Ensure Nginx owns the new files
+            sudo chown -R www-data:www-data /var/www/ingarss2026
+            
+            # 2. Clear any potential Nginx cache
+            sudo rm -rf /var/cache/nginx/*
+            
+            # 3. Reload Nginx to pick up file changes
+            sudo nginx -t && sudo systemctl reload nginx
+            
+            echo "✅ Deployment complete. Verification:"
+            ls -lt /var/www/ingarss2026 | head -n 5
+          EOF
+
+      - name: Cleanup SSH key
+        if: always()
+        run: rm -f ~/.ssh/workshop_aws.pem
