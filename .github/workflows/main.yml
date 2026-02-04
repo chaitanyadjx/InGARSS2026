@@ -30,6 +30,7 @@ jobs:
         run: |
           # Force a fresh build to ensure JSON changes are baked in
           rm -rf .next
+          rm -rf out
           npm run build
 
       - name: Setup SSH key
