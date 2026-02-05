@@ -133,6 +133,62 @@
       ]
     },
     {
+      "id": "organizingCommittee",
+      "title": "Organizing Committee",
+      "members": [
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Hyderabad Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Gujarat Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Uttar Pradesh Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Kerala Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Bombay Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Delhi Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Madras Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Madhya Pradesh Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Bangalore Chapter",
+          "role": ""
+        },
+        {
+          "name": "Chair",
+          "org": "IEEE GRSS Kolkata Chapter",
+          "role": ""
+        }
+      ]
+    },
+    {
       "id": "financeChair",
       "title": "Finance Committee",
       "members": [
@@ -249,62 +305,6 @@
           "role": "Co-Chair"
         }
       ]
-    },
-    {
-      "id": "organizingCommittee",
-      "title": "Organizing Committee",
-      "members": [
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Hyderabad Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Gujarat Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Uttar Pradesh Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Kerala Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Bombay Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Delhi Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Madras Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Madhya Pradesh Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Bangalore Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Kolkata Chapter",
-          "role": ""
-        }
-      ]
-    }    
+    }
   ]
 }
