@@ -3,6 +3,47 @@
   "title": "Committee",
   "sections": [
     {
+      "id": "advisory",
+      "title": "Advisory Committee",
+      "members": [
+        {
+          "name": "Saibun Tjuatja",
+          "org": "University of Texas at Arlington",
+          "role": ""
+        },
+        {
+          "name": "Shiv Mohan",
+          "org": "IEEE GRSS India Liaison, India",
+          "role": ""
+        },
+        {
+          "name": "CVN Rao",
+          "org": "SAC, ISRO, India",
+          "role": ""
+        },
+        {
+          "name": "B. S. Daya Sagar",
+          "org": "ISI Bangalore",
+          "role": ""
+        },
+        {
+          "name": "Keely Roth",
+          "org": "Planet Labs",
+          "role": ""
+        },
+        {
+          "name": "Fairouz Stambouli",
+          "org": "German Aerospace Center, Germany",
+          "role": ""
+        },
+        {
+          "name": "S. Venkataraman",
+          "org": "Director, CR Rao Institute",
+          "role": ""
+        }
+      ]
+    },    
+    {
       "id": "generalChairs",
       "title": "General Chair",
       "members": [
@@ -46,7 +87,7 @@
         {
           "name": "Dr. A. Kavitha",
           "org": "JNTUH",
-          "role": ""
+          "role": "Chair"
         }
       ]
     },
@@ -93,7 +134,7 @@
     },
     {
       "id": "financeChair",
-      "title": "Finance Chair",
+      "title": "Finance Committee",
       "members": [
         {
           "name": "N. Srinivas Naik",
@@ -104,7 +145,7 @@
     },
     {
       "id": "publicationChair",
-      "title": "Publication Chair",
+      "title": "Publication Committee",
       "members": [
         {
           "name": "Hitendra Sharma",
@@ -115,7 +156,7 @@
     },
     {
       "id": "tutorialsExhibits",
-      "title": "Tutorials and Exhibits Chair",
+      "title": "Tutorials and Exhibits Committee",
       "members": [
         {
           "name": "Dilip Kumar Dalei",
@@ -131,7 +172,7 @@
     },
     {
       "id": "specialIssue",
-      "title": "Special Issue Chair",
+      "title": "Special Issue Committee",
       "members": [
         {
           "name": "Avik Bhattacharya",
@@ -142,7 +183,7 @@
     },
     {
       "id": "industryRelations",
-      "title": "Industry Relations Chair",
+      "title": "Industry Relations Committee",
       "members": []
     },
     {
@@ -264,47 +305,6 @@
           "role": ""
         }
       ]
-    },
-    {
-      "id": "advisory",
-      "title": "Advisory Committee",
-      "members": [
-        {
-          "name": "Saibun Tjuatja",
-          "org": "University of Texas at Arlington",
-          "role": ""
-        },
-        {
-          "name": "Shiv Mohan",
-          "org": "IEEE GRSS India Liaison, India",
-          "role": ""
-        },
-        {
-          "name": "CVN Rao",
-          "org": "SAC, ISRO, India",
-          "role": ""
-        },
-        {
-          "name": "B. S. Daya Sagar",
-          "org": "ISI Bangalore",
-          "role": ""
-        },
-        {
-          "name": "Keely Roth",
-          "org": "Planet Labs",
-          "role": ""
-        },
-        {
-          "name": "Fairouz Stambouli",
-          "org": "German Aerospace Center, Germany",
-          "role": ""
-        },
-        {
-          "name": "S. Venkataraman",
-          "org": "Director, CR Rao Institute",
-          "role": ""
-        }
-      ]
-    }
+    }    
   ]
 }
