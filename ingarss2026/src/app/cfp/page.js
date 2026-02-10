@@ -32,7 +32,7 @@ function TrackCard({ title, description, image, index, isSelected, onSelect }) {
                 } flex-shrink-0`}
                 style={{ backgroundImage: `url('${image}')` }}
             />
-            <div className={`flex flex-col justify-center p-5 sm:p-6 lg:p-8 flex-grow ${!isEven ? 'md:order-first' : ''}`}>
+            <div className="flex flex-col justify-center p-5 sm:p-6 lg:p-8 flex-grow">
                 <span className="font-mono text-xs text-[var(--terracotta)] font-bold">TRACK {String(index + 1).padStart(2, '0')}</span>
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-[var(--indigo)] leading-tight mt-2 mb-4">
                     {title}
