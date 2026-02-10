@@ -24,10 +24,15 @@ function TrackCard({ title, description, image, index, isSelected, onSelect }) {
                 ${selectionClass}`}
         >
             {/* Mobile: image above, text below. Desktop: alternate image/text */}
-            <div className={`w-full h-48 sm:h-56 lg:h-64 bg-cover bg-center border-b-[3px] border-black md:border-b-0 ${isEven ? 'md:w-40 md:sm:w-56 md:lg:w-64 md:h-48 md:sm:h-56 md:lg:h-64 md:border-r-[3px]' : 'md:w-40 md:sm:w-56 md:lg:w-64 md:h-48 md:sm:h-56 md:lg:h-64 md:border-l-[3px]' } flex-shrink-0`}
+            <div 
+                className={`w-full h-48 sm:h-56 lg:h-64 bg-cover bg-center border-b-[3px] border-black md:border-b-0 ${
+                    isEven 
+                        ? 'md:w-40 md:sm:w-56 md:lg:w-64 md:h-48 md:sm:h-56 md:lg:h-64 md:border-r-[3px]' 
+                        : 'md:w-40 md:sm:w-56 md:lg:w-64 md:h-48 md:sm:h-56 md:lg:h-64 md:border-l-[3px]'
+                } flex-shrink-0`}
                 style={{ backgroundImage: `url('${image}')` }}
             />
-            <div className="flex flex-col justify-center p-5 sm:p-6 lg:p-8 flex-grow">
+            <div className={`flex flex-col justify-center p-5 sm:p-6 lg:p-8 flex-grow ${!isEven ? 'md:order-first' : ''}`}>
                 <span className="font-mono text-xs text-[var(--terracotta)] font-bold">TRACK {String(index + 1).padStart(2, '0')}</span>
                 <h3 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-[var(--indigo)] leading-tight mt-2 mb-4">
                     {title}
@@ -66,7 +71,7 @@ export default function CallForPapersPage() {
                             Hyderabad, INDIA
                         </div>
                     </div>
-                    <h2 className="text- sm:text-2xl md:text-2xl font-extrabold text-[var(--indigo)] mb-4 sm:mb-6 leading-tight">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[var(--indigo)] mb-4 sm:mb-6 leading-tight">
                         Theme: Digital Earth – Modeling, Mapping, and Monitoring.
                     </h2>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
@@ -77,6 +82,12 @@ export default function CallForPapersPage() {
                     </p>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
                         All accepted and presented papers at InGARSS 2026 will be considered to submit to IEEE Xplore for publication in IEEE Xplore.
+                    </p>
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
+                        Extended versions of accepted, presented, and published papers will be eligible for submission to a Special Issue of the IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS).
+                    </p>
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
+                        Travel support will be provided to student authors from India and abroad to present their papers/posters at InGARSS 2026 and to attend the entire symposium. The support amount will be determined based on fund availability. The application link will be made available soon.
                     </p>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl text-justify hyphens-auto break-words">
                         <strong>We warmly encourage you to contribute and be a part of InGARSS 2026, and to help make this symposium a vibrant and impactful scientific event.</strong>
@@ -98,12 +109,19 @@ export default function CallForPapersPage() {
                     ))}
                 </div>
             </section>
+
+            {/* Submit CTA Section */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-[var(--indigo)] border-t-[3px] border-black">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 sm:mb-6">
                         Ready to Submit?
                     </h2>
-<Link href="/submit" className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[8px_8px_0_black] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all duration-150">SUBMIT PAPER →</Link>
+                    <Link 
+                        href="/submit" 
+                        className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[8px_8px_0_black] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all duration-150"
+                    >
+                        SUBMIT PAPER →
+                    </Link>
                 </div>
             </section>
         </main>
