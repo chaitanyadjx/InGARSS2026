@@ -1,5 +1,53 @@
 {
   "page": "registration",
   "title": "Registration",
-  "content": "TBD"
+  "tableTitle": "Registration Charges - Tentative",
+  "note": "18% GST excluded",
+  "categories": [
+    {
+      "label": "IEEE GRSS Students Members",
+      "indian": "₹ 4,000",
+      "international": "$250"
+    },
+    {
+      "label": "IEEE Student Member",
+      "indian": "₹ 5,000",
+      "international": "$300"
+    },
+    {
+      "label": "Student Non-IEEE Member",
+      "indian": "₹ 6,000",
+      "international": "$400"
+    },
+    {
+      "label": "IEEE Professional – GRSS Member",
+      "indian": "₹ 8,000",
+      "international": "$400"
+    },
+    {
+      "label": "IEEE Professional Member",
+      "indian": "₹ 10,000",
+      "international": "$450"
+    },
+    {
+      "label": "Professional Non-IEEE Member",
+      "indian": "₹ 12,000",
+      "international": "$500"
+    },
+    {
+      "label": "Attendee Only",
+      "indian": "₹ 3,500",
+      "international": "$250"
+    },
+    {
+      "label": "Extra Per Page",
+      "indian": "₹ 1,000",
+      "international": "$300"
+    },
+    {
+      "label": "Tutorial / Registrations (Students/Professional) – One Day",
+      "indian": "₹ 2,000",
+      "international": "$150"
+    }
+  ]
 }
