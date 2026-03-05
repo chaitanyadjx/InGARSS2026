@@ -7,37 +7,37 @@
       "title": "Advisory Committee",
       "members": [
         {
-          "name": "Saibun Tjuatja",
-          "org": "University of Texas at Arlington",
+          "name": "Dr. Saibun Tjuatja",
+          "org": "University of Texas",
           "role": ""
         },
         {
-          "name": "Shiv Mohan",
-          "org": " ",
+          "name": "Dr. Prakash Chauhan",
+          "org": "Director, NRSC",
           "role": ""
         },
         {
-          "name": "CVN Rao",
-          "org": "SAC, ISRO, India",
+          "name": "Dr. Balakrishnan Nair",
+          "org": "Director, INCOIS",
           "role": ""
         },
         {
-          "name": "B. S. Daya Sagar",
+          "name": "Dr. CVN Rao",
+          "org": "SAC, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. B. S. Daya Sagar",
           "org": "ISI Bangalore",
           "role": ""
         },
         {
-          "name": "Keely Roth",
-          "org": "Planet Labs",
-          "role": ""
-        },
-        {
-          "name": "Fairouz Stambouli",
+          "name": "Dr. Fairouz Stambouli",
           "org": "German Aerospace Center, Germany",
           "role": ""
         },
         {
-          "name": "S. Venkataraman",
+          "name": "Dr. S. Venkataraman",
           "org": "Director, CR Rao Institute",
           "role": ""
         }
@@ -48,13 +48,13 @@
       "title": "General Chairs",
       "members": [
         {
-          "name": "Vijender Busi Reddy",
-          "org": "ADRIN, ISRO",
+          "name": "Dr. Vijender Busi Reddy",
+          "org": "ADRIN",
           "role": "Chair"
         },
         {
-          "name": "Paul A. Rosen",
-          "org": "JPL NASA",
+          "name": "Dr. Paul A. Rosen",
+          "org": "JPL, NASA",
           "role": "Co-Chair"
         }
       ]
@@ -64,18 +64,18 @@
       "title": "Technical Program Committee",
       "members": [
         {
-          "name": "C. Sudhakar Reddy",
+          "name": "Dr. C. Sudhakar Reddy",
           "org": "NRSC, ISRO",
           "role": "Co-Chair"
         },
-         {
-          "name": "L. Nirmala Devi",
+        {
+          "name": "Dr. L. Nirmala Devi",
           "org": "Osmania University",
           "role": "Co-Chair"
         },
         {
-          "name": "Alejandro C. Frery",
-          "org": "Victoria Univ., NZ",
+          "name": "Dr. Alejandro C. Frery",
+          "org": "Victoria University of Wellington, New Zealand",
           "role": "Co-Chair"
         }
       ]
@@ -88,6 +88,11 @@
           "name": "Dr. A. Kavitha",
           "org": "JNTUH",
           "role": "Chair"
+        },
+        {
+          "name": "Dr. Keely Roth",
+          "org": "Planet Labs",
+          "role": "Co-Chair"
         }
       ]
     },
@@ -96,27 +101,22 @@
       "title": "TPC Members",
       "members": [
         {
-          "name": "Tianlin Wang",
+          "name": "Dr. Tianlin Wang",
           "org": "JPL, NASA",
           "role": ""
         },
         {
-          "name": "Dipak Misra",
+          "name": "Dr. Dipak Misra",
           "org": "IIST",
           "role": ""
         },
         {
-          "name": "Shyam Lal",
-          "org": "NITK",
-          "role": ""
-        },
-        {
-          "name": "Dharmendra Panday",
+          "name": "Dr. Dharmendra Panday",
           "org": "SAC, ISRO",
           "role": ""
         },
         {
-          "name": "Ramakrishna Adi Reddy",
+          "name": "Dr. Ramakrishna Adi Reddy",
           "org": "Apple Inc.",
           "role": ""
         }
@@ -183,9 +183,14 @@
       "title": "Finance Committee",
       "members": [
         {
-          "name": "N. Srinivas Naik",
-          "org": "IIITDM Kurnool",
+          "name": "Dr. N. Srinivas Naik",
+          "org": "IIITDM-Kurnool",
           "role": "Chair"
+        },
+        {
+          "name": "Dr. Shiv Mohan",
+          "org": "Ex-ISRO Scientist",
+          "role": "Co-Chair"
         }
       ]
     },
@@ -194,9 +199,14 @@
       "title": "Publication Committee",
       "members": [
         {
-          "name": "Hitendra Sharma",
-          "org": "Vasavi College of Engg.",
+          "name": "Dr. Hitendra Sharma",
+          "org": "VCE",
           "role": "Chair"
+        },
+        {
+          "name": "Dr. Shyam Lal",
+          "org": "NITK",
+          "role": "Co-Chair"
         }
       ]
     },
@@ -205,10 +215,15 @@
       "title": "Tutorials and Exhibits Committee",
       "members": [
         {
-          "name": "Dilip Kumar Dalei",
+          "name": "Dr. Dilip Kumar Dalei",
           "org": "DRDO",
           "role": "Chair"
-        }        
+        },
+        {
+          "name": "Ms. Rachana Mamidi",
+          "org": "Reflex Aerospace, Germany",
+          "role": "Co-Chair"
+        }
       ]
     },
     {
@@ -216,8 +231,8 @@
       "title": "Special Issue Committee",
       "members": [
         {
-          "name": "Avik Bhattacharya",
-          "org": "IIT Bombay, India",
+          "name": "Dr. Avik Bhattacharya",
+          "org": "IIT Bombay",
           "role": "Chair"
         }
       ]
@@ -225,7 +240,23 @@
     {
       "id": "industryRelations",
       "title": "Industry Relations Committee",
-      "members": []
+      "members": [
+        {
+          "name": "Dr. Chandra Prakash Singh",
+          "org": "IN-SPACe",
+          "role": "Chair"
+        },
+        {
+          "name": "Dr. Shirish Ravan",
+          "org": "UNOOSA, Earthsight",
+          "role": "Co-Chair"
+        },
+        {
+          "name": "Mr. Jayakumar",
+          "org": "Harpy Aerospace",
+          "role": "Co-Chair"
+        }
+      ]
     },
     {
       "id": "wieActivity",
@@ -238,7 +269,7 @@
       "members": [
         {
           "name": "Mr. Khalid Ahmad",
-          "org": "GRSS YP Regional Coordinator",
+          "org": "YP",
           "role": "Chair"
         },
         {
@@ -253,9 +284,14 @@
       "title": "Award Committee",
       "members": [
         {
-          "name": "Anup Das",
+          "name": "Dr. Anup Das",
           "org": "SAC, ISRO",
           "role": "Chair"
+        },
+        {
+          "name": "Dr. Vidhya",
+          "org": "Anna University",
+          "role": "Co-Chair"
         }
       ]
     },
