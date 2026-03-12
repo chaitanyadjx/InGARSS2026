@@ -35,6 +35,11 @@
           "name": "Dr. S. Venkataraman",
           "org": "Director, CR Rao Institute",
           "role": ""
+        },
+        {
+          "name": "Dr. Shiv Mohan",
+          "org": "Ex-ISRO Scientist",
+          "role": ""
         }
       ]
     },    
@@ -176,11 +181,6 @@
           "name": "Dr. N. Srinivas Naik",
           "org": "IIITDM-Kurnool",
           "role": "Chair"
-        },
-        {
-          "name": "Dr. Shiv Mohan",
-          "org": "Ex-ISRO Scientist",
-          "role": "Co-Chair"
         }
       ]
     },
