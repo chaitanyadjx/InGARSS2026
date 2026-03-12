@@ -32,11 +32,6 @@
           "role": ""
         },
         {
-          "name": "Dr. Fairouz Stambouli",
-          "org": "German Aerospace Center, Germany",
-          "role": ""
-        },
-        {
           "name": "Dr. S. Venkataraman",
           "org": "Director, CR Rao Institute",
           "role": ""
@@ -88,11 +83,6 @@
           "name": "Dr. A. Kavitha",
           "org": "JNTUH",
           "role": "Chair"
-        },
-        {
-          "name": "Dr. Keely Roth",
-          "org": "Planet Labs",
-          "role": "Co-Chair"
         }
       ]
     },
@@ -234,6 +224,11 @@
           "name": "Dr. Avik Bhattacharya",
           "org": "IIT Bombay",
           "role": "Chair"
+        },
+        {
+          "name": "Dr. Fabio Dell'Acqua",
+          "org": "University of Pavia, Italy",
+          "role": "Co-Chair"
         }
       ]
     },
