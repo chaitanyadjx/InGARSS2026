@@ -32,13 +32,13 @@
           "role": ""
         },
         {
-          "name": "Dr. Shiv Mohan",
-          "org": "Ex-ISRO Scientist",
+          "name": "Dr. S. Venkataraman",
+          "org": "Director, CR Rao Institute",
           "role": ""
         },
         {
-          "name": "Dr. S. Venkataraman",
-          "org": "Director, CR Rao Institute",
+          "name": "Dr. Shiv Mohan",
+          "org": "Ex-ISRO Scientist",
           "role": ""
         }
       ]
@@ -88,11 +88,6 @@
           "name": "Dr. A. Kavitha",
           "org": "JNTUH",
           "role": "Chair"
-        },
-        {
-          "name": "Dr. Keely Roth",
-          "org": "Planet Labs",
-          "role": "Co-Chair"
         }
       ]
     },
@@ -186,11 +181,6 @@
           "name": "Dr. N. Srinivas Naik",
           "org": "IIITDM-Kurnool",
           "role": "Chair"
-        },
-        {
-          "name": "Dr. Fairouz Stambouli",
-          "org": "German Aerospace Center, Germany",
-          "role": ""
         }
       ]
     },
@@ -255,6 +245,11 @@
           "name": "Dr. Sai Kumar Tara",
           "org": "BVRIT",
           "role": ""
+        },
+        {
+          "name": "Dr. Fabio Dell'Acqua",
+          "org": "University of Pavia, Italy",
+          "role": "Co-Chair"
         }
       ]
     },
