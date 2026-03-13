@@ -32,8 +32,8 @@
           "role": ""
         },
         {
-          "name": "Dr. Fairouz Stambouli",
-          "org": "German Aerospace Center, Germany",
+          "name": "Dr. Shiv Mohan",
+          "org": "Ex-ISRO Scientist",
           "role": ""
         },
         {
@@ -49,13 +49,13 @@
       "members": [
         {
           "name": "Dr. Vijender Busi Reddy",
-          "org": "ADRIN",
+          "org": "GRSS Hyderabad Chapter",
           "role": "Chair"
         },
         {
           "name": "Dr. Paul A. Rosen",
           "org": "JPL, NASA",
-          "role": "Co-Chair"
+          "role": ""
         }
       ]
     },
@@ -188,15 +188,15 @@
           "role": "Chair"
         },
         {
-          "name": "Dr. Shiv Mohan",
-          "org": "Ex-ISRO Scientist",
-          "role": "Co-Chair"
+          "name": "Dr. Fairouz Stambouli",
+          "org": "German Aerospace Center, Germany",
+          "role": ""
         }
       ]
     },
     {
       "id": "publicationChair",
-      "title": "Publication Committee",
+      "title": "Publication Chair",
       "members": [
         {
           "name": "Dr. Hitendra Sharma",
@@ -206,7 +206,7 @@
         {
           "name": "Dr. Shyam Lal",
           "org": "NITK",
-          "role": "Co-Chair"
+          "role": ""
         }
       ]
     },
@@ -233,7 +233,28 @@
         {
           "name": "Dr. Avik Bhattacharya",
           "org": "IIT Bombay",
-          "role": "Chair"
+          "role": ""
+        },
+        {
+          "name": "Dr. Fabio Dell'Acqua",
+          "org": "University of Pavia, Italy",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "id": "publicityChair",
+      "title": "Publicity Chair",
+      "members": [
+        {
+          "name": "Mr. Abhishek Rai",
+          "org": "IIT Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sai Kumar Tara",
+          "org": "BVRIT",
+          "role": ""
         }
       ]
     },
