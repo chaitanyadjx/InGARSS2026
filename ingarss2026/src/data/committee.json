@@ -42,7 +42,7 @@
           "role": ""
         }
       ]
-    },    
+    },
     {
       "id": "generalChairs",
       "title": "General Chairs",
@@ -80,7 +80,7 @@
         }
       ]
     },
-     {
+    {
       "id": "Program",
       "title": "Program Committee",
       "members": [
@@ -185,7 +185,7 @@
         {
           "name": "Dr. Fairouz Stambouli",
           "org": "German Aerospace Center",
-          "role": ""
+          "role": "Co-Chair"
         }
       ]
     },
@@ -325,7 +325,7 @@
           "org": "IWMI Colombo, Sri Lanka",
           "role": "Chair"
         },
-         {
+        {
           "name": "Anuva Chowdary",
           "org": "BIT Mesra",
           "role": "Co-Chair"
