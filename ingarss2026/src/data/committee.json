@@ -49,7 +49,7 @@
       "members": [
         {
           "name": "Dr. Vijender Busi Reddy",
-          "org": "GRSS Hyderabad Chapter",
+          "org": "ADRIN, ISRO",
           "role": "Chair"
         },
         {
@@ -181,6 +181,11 @@
           "name": "Dr. N. Srinivas Naik",
           "org": "IIITDM-Kurnool",
           "role": "Chair"
+        },
+        {
+          "name": "Dr. Fairouz Stambouli",
+          "org": "German Aerospace Center",
+          "role": ""
         }
       ]
     },
@@ -263,8 +268,8 @@
           "role": "Chair"
         },
         {
-          "name": "Dr. Shirish Ravan Unoosa",
-          "org": "Earthsight",
+          "name": "Dr. Shirish Ravan",
+          "org": "UNOOSA",
           "role": "Co-Chair"
         },
         {
@@ -290,7 +295,7 @@
         },
         {
           "name": "Ms. Rahisha T",
-          "org": "IIIT Bangalore",
+          "org": "IISc Bangalore",
           "role": "Co-Chair"
         }
       ]
@@ -305,7 +310,7 @@
           "role": "Chair"
         },
         {
-          "name": "Dr. Vidhya",
+          "name": "Dr. R. Vidhya",
           "org": "Anna University",
           "role": "Co-Chair"
         }
