@@ -4,6 +4,7 @@ import { useState } from 'react';
 import HeroSlider from '@/components/HeroSlider';
 import AnnouncementRibbon from '@/components/AnnouncementRibbon';
 import Link from 'next/link';
+import homeData from '@/data/home.json';
 
 export default function Home() {
     return (
@@ -32,15 +33,15 @@ export default function Home() {
             <section id="venue" className="grid md:grid-cols-[1.2fr_0.8fr] bg-white border-b-[3px] border-black">
                 <div 
                     className="relative bg-cover bg-center min-h-[300px] md:min-h-[600px] border-b md:border-b-0 md:border-r-[3px] border-black" 
-                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1441911645956-df6e9bbc5496?q=80&w=1170&auto=format&fit=crop')" }}
+                    style={{ backgroundImage: `url('${homeData.sections.venue.image}')` }}
                 >
-                    <span className="absolute bottom-6 md:bottom-10 right-0 bg-black text-white px-5 py-3 font-mono text-xs shadow-[10px_10px_0_#CEA964]">HISTORIC SITE: CHARMINAR</span>
+                    <span className="absolute bottom-6 md:bottom-10 right-0 bg-black text-white px-5 py-3 font-mono text-xs shadow-[10px_10px_0_#CEA964]">{homeData.sections.venue.imageCaption}</span>
                 </div>
-                <div className="bg-bone p-8 md:p-16 flex flex-col justify-center">
-                    <span className="font-mono font-bold text-terracotta text-sm"> HOST LOCATION</span>
-                    <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight my-4">Hyderabad, India</h2>
-                    <p className="text-base md:text-lg leading-relaxed mb-6 text-justify hyphens-auto break-words">Experience the symposium in India&apos;s &quot;Cyber City&quot;. Hyderabad perfectly blends 400 years of history with a booming aerospace and IT sector, providing an inspiring backdrop for InGARSS 2026.</p>
-                    <Link href="#" className="font-bold text-xs border-b-[3px] border-terracotta w-fit pb-1 hover:text-terracotta transition-colors">Explore Venue Details →</Link>
+                <div className="bg-bone p-8 md:p-12 lg:p-16 flex flex-col justify-center">
+                    <span className="font-mono font-bold text-terracotta text-sm"> {homeData.sections.venue.label}</span>
+                    <h2 className="text-4xl sm:text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight my-4">{homeData.sections.venue.location}</h2>
+                    <p className="text-base md:text-lg leading-relaxed mb-6 text-justify hyphens-auto break-words">{homeData.sections.venue.description}</p>
+                    <Link href={homeData.sections.venue.detailsLink} target="_blank" rel="noopener noreferrer" className="font-bold text-xs border-b-[3px] border-terracotta w-fit pb-1 hover:text-terracotta transition-colors">Explore Venue Details →</Link>
                 </div>
             </section>
 
