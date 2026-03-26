@@ -252,10 +252,11 @@
           "role": ""
         },
         {
-          "name": "Dr. Fabio Dell'Acqua",
-          "org": "University of Pavia, Italy",
-          "role": "Co-Chair"
-        }
+          "name": "Dr. Katupalli Sudhakar",
+          "org": "Lakireddy Balireddy Engg. College, AP",
+          "role": ""
+        },
+        
       ]
     },
     {
@@ -337,9 +338,14 @@
       "title": "Webmaster and Social Network Committee",
       "members": [
         {
-          "name": "Anisha",
+          "name": "Ms. Anisha",
           "org": "IIITDM, Kurnool",
-          "role": "Chair"
+          "role": "Co-Chair"
+        },
+        {
+          "name": "Ms. Sneha Kour",
+          "org": "BIT, Mesra",
+          "role": "Co-Chair"
         },
         {
           "name": "Chaitanya ",
