@@ -84,7 +84,7 @@ export default function CallForPapersPage() {
                         All accepted and presented papers at InGARSS 2026 will be considered to submit to IEEE Xplore for publication in IEEE Xplore.
                     </p>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
-                        Extended versions of accepted, presented, and published papers will be eligible for submission to a Special Issue of the IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (JSTARS).
+                        Extended versions of accepted, presented, and published papers will be eligible for submission to a Special Issue of the IEEE Geoscience and Remote Sensing Letters (GRSL).
                     </p>
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
                         Travel support will be provided to student authors from India and abroad to present their papers/posters at InGARSS 2026 and to attend the entire symposium. The support amount will be determined based on fund availability. The application link will be made available soon.

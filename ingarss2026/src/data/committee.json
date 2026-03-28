@@ -114,6 +114,16 @@
           "name": "Dr. Ramakrishna Adi Reddy",
           "org": "Apple Inc.",
           "role": ""
+        },
+        {
+          "name": "Dr. V. M. Chowdary",
+          "org": "NRSC",
+          "role": ""
+        },
+        {
+          "name": "Dr. G. Dhanalakshmi",
+          "org": "AVNIET",
+          "role": ""
         }
       ]
     },
@@ -201,7 +211,7 @@
         {
           "name": "Dr. Shyam Lal",
           "org": "NITK",
-          "role": ""
+          "role": "Co-Chair"
         }
       ]
     },
