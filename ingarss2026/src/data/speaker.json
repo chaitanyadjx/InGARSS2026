@@ -9,6 +9,11 @@
       "bgClass": "bg-white",
       "members": [
         {
+          "name": "Saibun Tjuatja",
+          "affiliation": "University of Texas, 2026 IEEE GRSS President",
+          "image": "https://www.grss-ieee.org/wp-content/uploads/2025/01/images-1.jpg"
+        },
+        {
           "name": "Paul A. Rosen",
           "affiliation": "JPL, NASA, USA",
           "image": "https://www.jpl.nasa.gov/site/research/media/images/rosen.max-400x400.jpg"

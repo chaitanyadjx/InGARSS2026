@@ -57,9 +57,8 @@
       "borderColor": "border-cyan-500",
       "textColor": "text-cyan-900",
       "features": [
-        "Five complimentary conference registrations",
+        "Four complimentary conference registrations",
         "One plenary talk on the opening day",
-        "One invited talk in conference sessions",
         "Everything offered in Platinum Sponsorship"
       ],
       "highlight": false
@@ -74,7 +73,7 @@
       "borderColor": "border-gray-500",
       "textColor": "text-gray-900",
       "features": [
-        "Two invited talks in conference sessions",
+        "One invited talk in conference sessions",
         "Highest-level sponsor recognition across conference platforms",
         "Everything offered in Gold Sponsorship"
       ],
@@ -99,7 +98,7 @@
     {
       "id": "silver",
       "name": "Silver",
-      "price": "₹3,00,000",
+      "price": "₹2,50,000",
       "priceNote": "+ Tax as applicable",
       "availability": "Unlimited",
       "color": "bg-gradient-to-br from-slate-100 to-slate-300",
@@ -107,9 +106,7 @@
       "textColor": "text-slate-900",
       "features": [
         "Two complimentary conference registrations",
-        "Sponsor banner displayed throughout the conference",
-        "Press release with media interaction opportunity",
-        "Demo/showcase products in exhibition area",
+        "Sponsor banner prominently displayed throughout the entire conference",
         "Everything offered in Bronze Sponsorship"
       ],
       "highlight": false
@@ -117,7 +114,7 @@
     {
       "id": "bronze",
       "name": "Bronze",
-      "price": "₹1,50,000 – ₹2,00,000",
+      "price": "₹1,50,000",
       "priceNote": "+ Tax as applicable",
       "availability": "Unlimited",
       "color": "bg-gradient-to-br from-orange-100 to-orange-300",
@@ -125,17 +122,17 @@
       "textColor": "text-orange-900",
       "features": [
         "One complimentary conference registration",
+        "Opportunity to demo/showcase products and company assets in the exhibition/demo area to attendees",
         "Logo on all conference programs",
-        "Logo on main conference website with hyperlink",
-        "Press release in the conference media kit",
-        "Invited talk in one conference session"
+        "Logo on the main conference website, with link to company’s site or materials",
+        "Everything offered in Event Sponsorship"
       ],
       "highlight": false
     },
     {
       "id": "event",
       "name": "Event Sponsorship",
-      "price": "₹1,00,000 – ₹1,50,000",
+      "price": "₹1,00,000",
       "priceNote": "+ Tax as applicable",
       "availability": "Multiple Events",
       "color": "bg-gradient-to-br from-indigo-100 to-indigo-200",
@@ -143,10 +140,8 @@
       "textColor": "text-indigo-900",
       "features": [
         "One complimentary conference registration",
-        "Logo on specific event promotional contents (WIE/DEIAB/YP events, etc.)",
-        "Logo on event web page with hyperlink",
-        "Press release in the event media kit",
-        "Invited talk in one event session"
+        "Logo on specific event promotional contents and programs (WIE / DEIAB / YP event, etc.)",
+        "Logo on event web page, with link to company’s site or materials"
       ],
       "highlight": false
     }
@@ -210,7 +205,7 @@
       },
       {
         "feature": "Complimentary registrations",
-        "diamond": "5",
+        "diamond": "4",
         "platinum": "3",
         "gold": "3",
         "silver": "2",

@@ -32,30 +32,30 @@
           "role": ""
         },
         {
-          "name": "Dr. Fairouz Stambouli",
-          "org": "German Aerospace Center, Germany",
-          "role": ""
-        },
-        {
           "name": "Dr. S. Venkataraman",
           "org": "Director, CR Rao Institute",
           "role": ""
+        },
+        {
+          "name": "Dr. Shiv Mohan",
+          "org": "Ex-ISRO Scientist",
+          "role": ""
         }
       ]
-    },    
+    },
     {
       "id": "generalChairs",
       "title": "General Chairs",
       "members": [
         {
           "name": "Dr. Vijender Busi Reddy",
-          "org": "ADRIN",
+          "org": "ADRIN, ISRO",
           "role": "Chair"
         },
         {
           "name": "Dr. Paul A. Rosen",
           "org": "JPL, NASA",
-          "role": "Co-Chair"
+          "role": ""
         }
       ]
     },
@@ -80,7 +80,7 @@
         }
       ]
     },
-     {
+    {
       "id": "Program",
       "title": "Program Committee",
       "members": [
@@ -90,8 +90,8 @@
           "role": "Chair"
         },
         {
-          "name": "Dr. Keely Roth",
-          "org": "Planet Labs",
+          "name": "Dr. Narayana Rao Bhogapurapu",
+          "org": "NIT, Warangal",
           "role": "Co-Chair"
         }
       ]
@@ -118,6 +118,16 @@
         {
           "name": "Dr. Ramakrishna Adi Reddy",
           "org": "Apple Inc.",
+          "role": ""
+        },
+        {
+          "name": "Dr. V. M. Chowdary",
+          "org": "NRSC",
+          "role": ""
+        },
+        {
+          "name": "Dr. G. Dhanalakshmi",
+          "org": "AVNIET",
           "role": ""
         }
       ]
@@ -188,15 +198,15 @@
           "role": "Chair"
         },
         {
-          "name": "Dr. Shiv Mohan",
-          "org": "Ex-ISRO Scientist",
+          "name": "Dr. Fairouz Stambouli",
+          "org": "German Aerospace Center",
           "role": "Co-Chair"
         }
       ]
     },
     {
       "id": "publicationChair",
-      "title": "Publication Committee",
+      "title": "Publication Chair",
       "members": [
         {
           "name": "Dr. Hitendra Sharma",
@@ -233,7 +243,33 @@
         {
           "name": "Dr. Avik Bhattacharya",
           "org": "IIT Bombay",
-          "role": "Chair"
+          "role": ""
+        },
+        {
+          "name": "Dr. Fabio Dell'Acqua",
+          "org": "University of Pavia, Italy",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "id": "publicityChair",
+      "title": "Publicity Chair",
+      "members": [
+        {
+          "name": "Mr. Abhishek Rai",
+          "org": "IIT Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sai Kumar Tara",
+          "org": "BVRIT",
+          "role": ""
+        },
+        {
+          "name": "Dr. Katupalli Sudhakar",
+          "org": "Lakireddy Balireddy Engg. College, AP",
+          "role": ""
         }
       ]
     },
@@ -248,7 +284,7 @@
         },
         {
           "name": "Dr. Shirish Ravan",
-          "org": "UNOOSA, Earthsight",
+          "org": "UNOOSA",
           "role": "Co-Chair"
         },
         {
@@ -274,7 +310,7 @@
         },
         {
           "name": "Ms. Rahisha T",
-          "org": "IIIT Bangalore",
+          "org": "IISc Bangalore",
           "role": "Co-Chair"
         }
       ]
@@ -289,7 +325,7 @@
           "role": "Chair"
         },
         {
-          "name": "Dr. Vidhya",
+          "name": "Dr. R. Vidhya",
           "org": "Anna University",
           "role": "Co-Chair"
         }
@@ -303,6 +339,11 @@
           "name": "Surajit Ghosh",
           "org": "IWMI Colombo, Sri Lanka",
           "role": "Chair"
+        },
+        {
+          "name": "Anuva Chowdary",
+          "org": "BIT Mesra",
+          "role": "Co-Chair"
         }
       ]
     },
@@ -311,9 +352,14 @@
       "title": "Webmaster and Social Network Committee",
       "members": [
         {
-          "name": "Anisha",
+          "name": "Ms. Anisha",
           "org": "IIITDM, Kurnool",
-          "role": "Chair"
+          "role": "Co-Chair"
+        },
+        {
+          "name": "Ms. Sneha Kour",
+          "org": "BIT, Mesra",
+          "role": "Co-Chair"
         },
         {
           "name": "Chaitanya ",
