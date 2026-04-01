@@ -1,18 +1,24 @@
 import PageHeader from '@/components/PageHeader';
-import Link from 'next/link';
 
 export const metadata = {
     title: 'Student Travel Grant | InGARSS 2026',
     description: 'IEEE GRSS Student Travel Scholarship Program for InGARSS 2026 – Hyderabad. Learn about eligibility, selection criteria, and how to apply.',
 };
 
-function InfoCard({ icon, title, children }) {
+function SectionLabel({ children }) {
     return (
-        <div className="bg-white border-[3px] border-black shadow-[8px_8px_0_black] p-6 sm:p-8 flex flex-col gap-3">
-            <div className="flex items-center gap-3 mb-2">
-                <span className="text-2xl">{icon}</span>
-                <h3 className="text-lg sm:text-xl font-extrabold text-[var(--indigo)] leading-tight">{title}</h3>
-            </div>
+        <p className="font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider mb-4">
+            {children}
+        </p>
+    );
+}
+
+function Card({ title, children }) {
+    return (
+        <div className="bg-white border-[3px] border-black shadow-[8px_8px_0_black] p-6 sm:p-8 flex flex-col">
+            <h3 className="text-lg sm:text-xl font-extrabold text-[var(--indigo)] leading-tight mb-5 pb-4 border-b-[2px] border-black">
+                {title}
+            </h3>
             {children}
         </div>
     );
@@ -20,8 +26,8 @@ function InfoCard({ icon, title, children }) {
 
 function CriterionItem({ label, description }) {
     return (
-        <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 py-4 border-b border-gray-200 last:border-b-0">
-            <div className="flex-shrink-0 w-full sm:w-40 font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider pt-0.5">
+        <div className="flex flex-col sm:flex-row gap-1 sm:gap-6 py-4 border-b border-gray-200 last:border-b-0">
+            <div className="flex-shrink-0 w-full sm:w-44 font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider pt-0.5">
                 {label}
             </div>
             <p className="text-sm sm:text-base leading-relaxed text-gray-700 flex-1">
@@ -35,10 +41,10 @@ function TimelineItem({ date, label, isLast }) {
     return (
         <div className="flex gap-4 sm:gap-6">
             <div className="flex flex-col items-center">
-                <div className="w-4 h-4 bg-[var(--terracotta)] border-[3px] border-black flex-shrink-0 mt-1" />
-                {!isLast && <div className="w-0.5 bg-black flex-grow mt-1" />}
+                <div className="w-3 h-3 bg-[var(--terracotta)] border-[2px] border-black flex-shrink-0 mt-1.5" />
+                {!isLast && <div className="w-px bg-gray-300 flex-grow mt-1" />}
             </div>
-            <div className={`pb-6 ${isLast ? '' : ''}`}>
+            <div className="pb-6">
                 <p className="font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider mb-1">{date}</p>
                 <p className="text-sm sm:text-base font-semibold text-gray-800">{label}</p>
             </div>
@@ -72,6 +78,12 @@ export default function TravelGrantPage() {
         },
     ];
 
+    const disbursementNotes = [
+        <>The scholarship will be disbursed as a <strong>single lump-sum payment after the conference</strong>, contingent upon the recipient&apos;s verified in-person attendance and presentation of their paper.</>,
+        <>Travel grants are intended to provide <strong>partial support</strong> and are not designed to cover the full cost of travel.</>,
+        <>Awardees are responsible for any applicable taxes related to the scholarship according to their local and national laws.</>,
+    ];
+
     const timeline = [
         { date: '10 July 2026', label: 'Application Portal Opens' },
         { date: '25 July 2026', label: 'Application Deadline' },
@@ -82,7 +94,7 @@ export default function TravelGrantPage() {
         <main className="min-h-screen bg-[var(--bone)]">
             <PageHeader title="Student Travel Grant" />
 
-            {/* Intro Banner */}
+            {/* Intro */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-white border-b-[3px] border-black">
                 <div className="max-w-5xl">
                     <div className="flex flex-wrap gap-4 sm:gap-6 mb-6 sm:mb-8">
@@ -96,7 +108,6 @@ export default function TravelGrantPage() {
                             Hyderabad, INDIA
                         </div>
                     </div>
-
                     <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-[var(--indigo)] mb-4 sm:mb-6 leading-tight">
                         IEEE GRSS Student Travel Scholarship Program
                     </h2>
@@ -104,82 +115,71 @@ export default function TravelGrantPage() {
                         The IEEE GRSS is pleased to announce the InGARSS 2026 Student Travel Scholarship Program. This initiative
                         provides <strong>fixed-amount cash awards</strong> to support student attendees participating in InGARSS 2026
                         in Hyderabad. Awards are competitive and evaluated on scientific merit, applicant potential, and the impact
-                        of attendance on the student's research or career.
+                        of attendance on the student&apos;s research or career.
                     </p>
                 </div>
             </section>
 
-            {/* Main Content */}
+            {/* Cards */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-[var(--bone)]">
-                <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+                <div className="max-w-5xl mx-auto flex flex-col gap-8 lg:gap-10">
 
-                    {/* Eligibility */}
-                    <InfoCard icon="✅" title="Eligibility Criteria">
-                        <p className="text-xs font-mono text-gray-500 uppercase tracking-wider mb-2">
-                            Applicants must satisfy <strong>ALL</strong> of the following:
-                        </p>
-                        <ul className="flex flex-col gap-3">
-                            {eligibilityCriteria.map((item, i) => (
-                                <li key={i} className="flex items-start gap-3">
-                                    <span className="mt-1 flex-shrink-0 w-5 h-5 bg-[var(--terracotta)] border-[2px] border-black flex items-center justify-center text-white font-bold text-xs">
-                                        {i + 1}
-                                    </span>
-                                    <span className="text-sm sm:text-base text-gray-700 leading-relaxed">{item}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </InfoCard>
+                    {/* Top row: Eligibility + Dates */}
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
 
-                    {/* Timeline */}
-                    <InfoCard icon="📅" title="Important Dates">
-                        <div className="mt-2">
-                            {timeline.map((item, i) => (
-                                <TimelineItem
-                                    key={i}
-                                    date={item.date}
-                                    label={item.label}
-                                    isLast={i === timeline.length - 1}
-                                />
-                            ))}
-                        </div>
-                    </InfoCard>
-                </div>
+                        {/* Eligibility */}
+                        <Card title="Eligibility Criteria">
+                            <SectionLabel>Applicants must satisfy ALL of the following</SectionLabel>
+                            <ul className="flex flex-col gap-4">
+                                {eligibilityCriteria.map((item, i) => (
+                                    <li key={i} className="flex items-start gap-3">
+                                        <span className="mt-0.5 flex-shrink-0 w-5 h-5 bg-[var(--indigo)] border-[2px] border-black flex items-center justify-center text-white font-bold text-xs font-mono">
+                                            {i + 1}
+                                        </span>
+                                        <span className="text-sm sm:text-base text-gray-700 leading-relaxed">{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </Card>
 
-                {/* Selection Criteria - full width */}
-                <div className="max-w-5xl mx-auto mt-8 lg:mt-10">
-                    <InfoCard icon="🏆" title="Selection Criteria">
-                        <p className="text-xs font-mono text-gray-500 uppercase tracking-wider -mt-1 mb-2">
-                            Awards are evaluated based on the following factors:
-                        </p>
+                        {/* Important Dates */}
+                        <Card title="Important Dates">
+                            <SectionLabel>Application Process Timeline</SectionLabel>
+                            <div>
+                                {timeline.map((item, i) => (
+                                    <TimelineItem
+                                        key={i}
+                                        date={item.date}
+                                        label={item.label}
+                                        isLast={i === timeline.length - 1}
+                                    />
+                                ))}
+                            </div>
+                        </Card>
+                    </div>
+
+                    {/* Selection Criteria */}
+                    <Card title="Selection Criteria">
+                        <SectionLabel>Awards are evaluated based on the following factors</SectionLabel>
                         <div>
                             {selectionCriteria.map((item, i) => (
                                 <CriterionItem key={i} label={item.label} description={item.description} />
                             ))}
                         </div>
-                    </InfoCard>
-                </div>
+                    </Card>
 
-                {/* Disbursement & Notes */}
-                <div className="max-w-5xl mx-auto mt-8 lg:mt-10">
-                    <InfoCard icon="💰" title="Award Disbursement">
+                    {/* Award Disbursement */}
+                    <Card title="Award Disbursement">
+                        <SectionLabel>Payment terms and conditions</SectionLabel>
                         <ul className="flex flex-col gap-4">
-                            <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                                <span className="mt-1 flex-shrink-0 text-[var(--terracotta)]">▶</span>
-                                The scholarship will be disbursed as a <strong>single lump-sum payment after the conference</strong>,
-                                contingent upon the recipient's verified in-person attendance and presentation of their paper.
-                            </li>
-                            <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                                <span className="mt-1 flex-shrink-0 text-[var(--terracotta)]">▶</span>
-                                Travel grants are intended to provide <strong>partial support</strong> and are not designed to cover
-                                the full cost of travel.
-                            </li>
-                            <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                                <span className="mt-1 flex-shrink-0 text-[var(--terracotta)]">▶</span>
-                                Awardees are responsible for any applicable taxes related to the scholarship according to their
-                                local and national laws.
-                            </li>
+                            {disbursementNotes.map((note, i) => (
+                                <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
+                                    <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 bg-[var(--terracotta)] border border-black rounded-none" />
+                                    <span>{note}</span>
+                                </li>
+                            ))}
                         </ul>
-                    </InfoCard>
+                    </Card>
                 </div>
             </section>
 
@@ -193,15 +193,13 @@ export default function TravelGrantPage() {
                         The application portal opens on <strong className="text-[var(--gold)]">10 July 2026</strong>.
                         Submit your application before the deadline of <strong className="text-[var(--gold)]">25 July 2026</strong>.
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <span
-                            className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] opacity-60 cursor-not-allowed select-none"
-                            title="Portal opens 10 July 2026"
-                        >
-                            APPLY NOW — Opens 10 July 2026
-                        </span>
-                    </div>
-                    <p className="text-white/60 text-xs font-mono mt-6">
+                    <span
+                        className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] opacity-60 cursor-not-allowed select-none"
+                        title="Portal opens 10 July 2026"
+                    >
+                        APPLY NOW — Opens 10 July 2026
+                    </span>
+                    <p className="text-white/60 text-xs font-mono mt-8">
                         For inquiries, contact:{' '}
                         <a
                             href="mailto:ingarss2026@gmail.com"
