@@ -201,7 +201,7 @@ export default function TravelGrantPage() {
                         Apply for the Travel Grant
                     </h2>
                     <p className="text-white/80 text-sm sm:text-base mb-8 max-w-2xl mx-auto leading-relaxed">
-                        The application portal for the Student Travel Grant will be opening soon. Please check back later for more updates on the application process and exact submission deadlines.
+               
                     </p>
                     <span
                         className="inline-block bg-[#CEA964] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] opacity-60 cursor-not-allowed select-none"
