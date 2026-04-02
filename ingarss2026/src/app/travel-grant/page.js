@@ -35,9 +35,9 @@ export default function TravelGrantPage() {
     ];
 
     const timeline = [
-        { date: 'Tentative', label: 'Application Portal Opens' },
-        { date: 'Tentative', label: 'Application Deadline' },
-        { date: 'Tentative', label: 'Notification of Awards' },
+        { date: '10 July 2026', label: 'Application Portal Opens' },
+        { date: '25 July 2026', label: 'Application Deadline' },
+        { date: '30 July 2026', label: 'Notification of Awards' },
     ];
 
     return (
@@ -69,9 +69,6 @@ export default function TravelGrantPage() {
                     </p>
 
                     <div className="mt-8 max-w-4xl">
-                        <p className="font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider mb-4">
-                            Primary Objectives
-                        </p>
                         <p className="text-sm sm:text-base text-gray-700 mb-4">
                             The primary objectives of the Travel Scholarship Program are to:
                         </p>
@@ -125,10 +122,10 @@ export default function TravelGrantPage() {
                             onClick={() => toggleCard('dates')}
                         >
                             <h3 className="text-lg sm:text-xl md:text-2xl font-extrabold text-[var(--indigo)] leading-tight mb-5 pb-4 border-b-[2px] border-black uppercase tracking-tight">
-                                Important Dates
+                                Important Dates (Tentative)
                             </h3>
                             <p className="font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider mb-5">
-                                Tentative — Application Process Timeline
+                                Application Process Timeline
                             </p>
                             <div className="pt-2">
                                 {timeline.map((item, i) => (
@@ -204,8 +201,7 @@ export default function TravelGrantPage() {
                         Apply for the Travel Grant
                     </h2>
                     <p className="text-white/80 text-sm sm:text-base mb-8 max-w-2xl mx-auto leading-relaxed">
-                        The application portal dates are currently <strong className="text-[var(--gold)]">Tentative</strong>.
-                        Please check back later for exact submission deadlines.
+                        The application portal for the Student Travel Grant will be opening soon. Please check back later for more updates on the application process and exact submission deadlines.
                     </p>
                     <span
                         className="inline-block bg-[#CEA964] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] opacity-60 cursor-not-allowed select-none"
