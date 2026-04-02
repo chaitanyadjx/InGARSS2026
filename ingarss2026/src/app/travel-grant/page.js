@@ -26,10 +26,18 @@ export default function TravelGrantPage() {
         <>Awardees are responsible for any applicable taxes related to the scholarship according to their local and national laws.</>,
     ];
 
+    const objectives = [
+        'Support meritorious student members of IEEE GRSS in presenting accepted research at InGARSS 2026.',
+        'Promote scientific excellence by prioritising high-quality, peer-reviewed contributions.',
+        'Enhance geographic, institutional, and gender diversity among conference participants.',
+        'Strengthen long-term engagement of students with IEEE GRSS through conference exposure.',
+        'Enable equitable access to global scientific discourse.',
+    ];
+
     const timeline = [
-        { date: '10 July 2026', label: 'Application Portal Opens' },
-        { date: '25 July 2026', label: 'Application Deadline' },
-        { date: '30 July 2026', label: 'Notification of Awards' },
+        { date: 'Tentative', label: 'Application Portal Opens' },
+        { date: 'Tentative', label: 'Application Deadline' },
+        { date: 'Tentative', label: 'Notification of Awards' },
     ];
 
     return (
@@ -51,10 +59,33 @@ export default function TravelGrantPage() {
                     
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700 max-w-4xl text-justify hyphens-auto break-words mt-4">
                         The IEEE GRSS is pleased to announce the InGARSS 2026 Student Travel Scholarship Program. This initiative
-                        provides <strong>fixed-amount cash awards</strong> to support student attendees participating in InGARSS 2026
-                        in Hyderabad. Awards are competitive and evaluated on scientific merit, applicant potential, and the impact
+                        provides <strong>partial travel grant</strong> to support student attendees participating in InGARSS 2026
+                        in Hyderabad.
+                    </p>
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed text-gray-700 max-w-4xl text-justify hyphens-auto break-words mt-4">
+                        The Student Travel Grant will be given to Indian national students and students from neighboring countries.
+                        Awards are competitive and evaluated on scientific merit, applicant potential, and the impact
                         of attendance on the student&apos;s research or career.
                     </p>
+
+                    <div className="mt-8 max-w-4xl">
+                        <p className="font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider mb-4">
+                            Primary Objectives
+                        </p>
+                        <p className="text-sm sm:text-base text-gray-700 mb-4">
+                            The primary objectives of the Travel Scholarship Program are to:
+                        </p>
+                        <ol className="flex flex-col gap-3 pl-2">
+                            {objectives.map((obj, i) => (
+                                <li key={i} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
+                                    <span className="mt-0.5 flex-shrink-0 w-6 h-6 bg-[var(--indigo)] border-[2px] border-black flex items-center justify-center text-white font-bold text-xs font-mono">
+                                        {String.fromCharCode(97 + i)}
+                                    </span>
+                                    {obj}
+                                </li>
+                            ))}
+                        </ol>
+                    </div>
                 </div>
             </section>
 
@@ -97,7 +128,7 @@ export default function TravelGrantPage() {
                                 Important Dates
                             </h3>
                             <p className="font-mono font-bold text-xs text-[var(--terracotta)] uppercase tracking-wider mb-5">
-                                Application Process Timeline
+                                Tentative — Application Process Timeline
                             </p>
                             <div className="pt-2">
                                 {timeline.map((item, i) => (
@@ -173,14 +204,14 @@ export default function TravelGrantPage() {
                         Apply for the Travel Grant
                     </h2>
                     <p className="text-white/80 text-sm sm:text-base mb-8 max-w-2xl mx-auto leading-relaxed">
-                        The application portal opens on <strong className="text-[var(--gold)]">10 July 2026</strong>.
-                        Submit your application before the deadline of <strong className="text-[var(--gold)]">25 July 2026</strong>.
+                        The application portal dates are currently <strong className="text-[var(--gold)]">Tentative</strong>.
+                        Please check back later for exact submission deadlines.
                     </p>
                     <span
                         className="inline-block bg-[#CEA964] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] opacity-60 cursor-not-allowed select-none"
-                        title="Portal opens 10 July 2026"
+                        title="Dates are currently tentative"
                     >
-                        APPLY NOW — Opens 10 July 2026
+                        APPLICATIONS OPENING SOON
                     </span>
                     <p className="text-white/60 text-xs font-mono mt-8">
                         For inquiries, contact:{' '}
