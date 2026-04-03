@@ -22,7 +22,7 @@ export default function TravelGrantPage() {
 
     const disbursementNotes = [
         <>The scholarship will be disbursed as a <strong>single lump-sum payment after the conference</strong>, contingent upon the recipient&apos;s verified in-person attendance and presentation of their paper.</>,
-        <>Travel grants are intended to provide <strong>partial support</strong> and are not designed to cover the full cost of travel.</>,
+        <>Travel grants are intended to provide <strong>partial support</strong> and are not designed to cover the full cost of travel. (Travel grant includes travel, registration fee, etc.)</>,
         <>Awardees are responsible for any applicable taxes related to the scholarship according to their local and national laws.</>,
     ];
 
@@ -197,12 +197,9 @@ export default function TravelGrantPage() {
             {/* Apply CTA */}
             <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-[var(--indigo)] border-t-[3px] border-black">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 sm:mb-6">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-8 sm:mb-10">
                         Apply for the Travel Grant
                     </h2>
-                    <p className="text-white/80 text-sm sm:text-base mb-8 max-w-2xl mx-auto leading-relaxed">
-               
-                    </p>
                     <span
                         className="inline-block bg-[#CEA964] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] opacity-60 cursor-not-allowed select-none"
                         title="Dates are currently tentative"
