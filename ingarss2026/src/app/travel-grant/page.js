@@ -8,7 +8,7 @@ export default function TravelGrantPage() {
     const toggleCard = (id) => setSelectedCard(selectedCard === id ? null : id);
 
     const eligibilityCriteria = [
-        'Be an IEEE and GRSS member',
+        'Be an IEEE GRSS Student member',
         'Be a first author or presenting author on at least 1 accepted abstract',
         'Have not received funding within the last 2 years',
     ];

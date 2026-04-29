@@ -40,7 +40,7 @@
     {
       "key": "pageLimit",
       "label": "Page Limit",
-      "desc": "The paper adheres to the page limit (up to 4 pages free)."
+      "desc": "The paper adheres to the page limit (5 pages: Main content 4 pages + 1 page references)."
     },
     {
       "key": "template",
@@ -78,7 +78,7 @@
     },
     {
       "label": "Page Limit",
-      "text": "Up to 4 pages (free). 5 pages: ₹1,000/$15, 6 pages max: ₹2,000/$30. See Registration for fees."
+      "text": "Up to 5 pages (Main content 4 pages + 1 page references). 6 pages max: ₹2,000/$30. See Registration for fees."
     },
     {
       "label": "Template",
