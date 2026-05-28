@@ -7,7 +7,7 @@ import datesData from '@/data/dates.json';
 
 const dates = datesData.dates;
 
-function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
+function DateCard({ label, value, previousValue, desc, variant, isSelected, onSelect }) {
     const isMajor = variant === "major";
     const baseClasses = `cursor-pointer border-[3px] border-black p-6 sm:p-8 lg:p-10 flex flex-col justify-between transition-all duration-200 sm:hover:-translate-x-1 sm:hover:-translate-y-1 sm:hover:shadow-[20px_20px_0_#BC4749] ${isMajor ? 'col-span-1 md:col-span-3' : 'col-span-1'}`;
     
@@ -35,7 +35,12 @@ function DateCard({ label, value, desc, variant, isSelected, onSelect }) {
             onClick={onSelect}
         >
             <p className="text-2xl sm:text-3xl lg:text-2xl font-extrabold leading-none mb-3 sm:mb-4 text-left">
-                {value}
+                {previousValue && (
+                    <span className="line-through text-lg sm:text-xl opacity-70 block mb-1">
+                        {previousValue}
+                    </span>
+                )}
+                <span className={previousValue ? "text-[var(--gold)]" : ""}>{value}</span>
             </p>
             {/* FIX: Replaced text-justify with text-left 
                Removed hyphens-auto and break-words for the description 

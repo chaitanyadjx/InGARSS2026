@@ -22,7 +22,8 @@
     },
     {
       "label": "CRITICAL DEADLINE",
-      "value": "30 May 2026",
+      "value": "30 June 2026",
+      "previousValue": "30 May 2026",
       "desc": "Paper Submission Deadline",
       "variant": "major"
     },

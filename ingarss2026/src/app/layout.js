@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import InitialLoader from "@/components/InitialLoader";
+import DeadlineExtensionPopup from "@/components/DeadlineExtensionPopup";
 
 const ibmPlexSans = IBM_Plex_Sans({
   variable: "--font-ibm-plex-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <DeadlineExtensionPopup />
       </body>
     </html>
   );

@@ -1,6 +1,23 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+<<<<<<< Updated upstream
+=======
+import datesData from '@/data/dates.json';
+
+// Parse "30 May 2026" → Date object (end of that day)
+function parseDateEntry(value) {
+    // Handle ranges like "01 — 04 DEC 2026" — take the first date
+    const cleaned = value.split('—')[0].trim();
+    const d = new Date(cleaned);
+    d.setHours(23, 59, 59, 999);
+    return isNaN(d.getTime()) ? null : d;
+}
+
+// Find the paper submission deadline from dates.json
+const paperEntry = datesData.dates.find(d => d.desc === 'Paper Submission Deadline');
+const paperDeadline = paperEntry ? parseDateEntry(paperEntry.value) : new Date('2026-06-30T23:59:59');
+>>>>>>> Stashed changes
 
 export default function AnnouncementRibbon() {
     const [timeLeft, setTimeLeft] = useState(null);
@@ -8,8 +25,13 @@ export default function AnnouncementRibbon() {
     const announcements = [
         {
             id: 'paper-deadline',
+<<<<<<< Updated upstream
             message: 'Paper Submission Deadline Approaching',
             date: new Date('2026-07-15'),
+=======
+            message: 'Paper submission date extended to 30th June 2026',
+            date: paperDeadline,
+>>>>>>> Stashed changes
             link: '/cfp',
             linkText: 'Submit Now',
         },
