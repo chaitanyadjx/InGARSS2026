@@ -40,7 +40,7 @@
     {
       "key": "pageLimit",
       "label": "Page Limit",
-      "desc": "The paper adheres to the page limit of 5 pages (Main content 4 pages + 1 page references)."
+      "desc": "The paper adheres to the page limit of maximum of 7 pages (6 content + 1 references) with overlength charges applying for the 6th and 7th pages."
     },
     {
       "key": "template",
@@ -78,7 +78,7 @@
     },
     {
       "label": "Page Limit",
-      "text": "Maximum 5 pages (Main content 4 pages + 1 page references)."
+      "text": "Maximum 5 pages (Main content 4 pages + 1 page references). Maximum of 7 pages (6 content + 1 references) with overlength charges applying for the 6th and 7th pages."
     },
     {
       "label": "Template",
