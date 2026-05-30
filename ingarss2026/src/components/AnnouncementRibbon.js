@@ -22,7 +22,7 @@ export default function AnnouncementRibbon() {
     const announcements = [
         {
             id: 'paper-deadline',
-            message: 'Paper submission date extended to 30th June 2026',
+            message: 'Paper submission deadline is extended to 30th June 2026',
             date: paperDeadline,
             link: '/cfp',
             linkText: 'Submit Now',
@@ -75,7 +75,7 @@ export default function AnnouncementRibbon() {
             <span className="font-mono font-bold text-sm tracking-wide whitespace-nowrap">
                 {activeAnnouncement.message}
             </span>
-            
+
             {timeLeft && (
                 <div className="flex items-center gap-2 font-mono text-sm whitespace-nowrap">
                     <span className="bg-white/20 px-2 py-0.5 rounded font-bold">{timeLeft.days}d</span>
@@ -91,7 +91,7 @@ export default function AnnouncementRibbon() {
         <>
             {/* 1. Spacer: Only show on desktop to push content below the fixed ribbon */}
             <div className="hidden md:block h-[40px] w-full" aria-hidden="true" />
-            
+
             {/* 2. Positioning: 'relative' on mobile (scrolls), 'md:fixed' on desktop */}
             <div className="relative md:fixed md:top-20 left-0 right-0 z-40 bg-indigo text-white border-b-[3px] border-black overflow-hidden">
                 <div className="flex animate-marquee">
