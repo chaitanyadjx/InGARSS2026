@@ -22,7 +22,7 @@ export default function AnnouncementRibbon() {
     const announcements = [
         {
             id: 'paper-deadline',
-            message: 'Paper submission deadline is extended to 30th June 2026',
+            message: 'Paper Submission Deadline has been extended to 30th June 2026',
             date: paperDeadline,
             link: '/cfp',
             linkText: 'Submit Now',
