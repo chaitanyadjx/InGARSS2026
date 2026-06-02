@@ -7,25 +7,25 @@ import PageHeader from '@/components/PageHeader';
 function CCSCard({ tag, title, children, isSelected, onSelect, action, href }) {
   // Logic: Red shadow on selection for mobile.
   // Reset on 'sm' so hover utilities take over for desktop users.
-  const shadowClass = isSelected 
-    ? "shadow-[16px_16px_0_#BC4749] -translate-x-2 -translate-y-2 sm:shadow-[12px_12px_0_black] sm:translate-x-0 sm:translate-y-0" 
+  const shadowClass = isSelected
+    ? "shadow-[16px_16px_0_#BC4749] -translate-x-2 -translate-y-2 sm:shadow-[12px_12px_0_black] sm:translate-x-0 sm:translate-y-0"
     : "shadow-[8px_8px_0_black] sm:shadow-[12px_12px_0_black]";
 
   return (
-    <div 
+    <div
       className={`bg-white border-[3px] border-black p-5 sm:p-8 lg:p-12 flex flex-col cursor-pointer transition-all duration-200 sm:hover:-translate-x-2 sm:hover:-translate-y-2 sm:hover:shadow-[20px_20px_0_#BC4749] ${shadowClass}`}
       onClick={onSelect}
     >
       <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-extrabold text-[var(--indigo)] leading-tight mb-3 sm:mb-6 uppercase tracking-tighter">
         {title}
       </h3>
-      
+
       <div className="text-sm sm:text-base opacity-90 mb-6 sm:mb-8 leading-relaxed text-justify hyphens-auto break-words space-y-2">
         {children}
       </div>
 
       {action && (
-        <a 
+        <a
           href={href || "#"}
           target="_blank"
           rel="noopener noreferrer"
@@ -69,8 +69,8 @@ export default function CCSPage() {
       </section>
       <section className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-[8%] max-w-[1200px] mx-auto">
         <div className="flex flex-col gap-8">
-          <CCSCard 
-            tag="Submission" 
+          <CCSCard
+            tag="Submission"
             title="Submission Guidelines"
             isSelected={selectedId === 'guidelines'}
             onSelect={() => handleSelect('guidelines')}
@@ -87,8 +87,8 @@ export default function CCSPage() {
             </ul>
           </CCSCard>
 
-          <CCSCard 
-            tag="Dates" 
+          <CCSCard
+            tag="Dates"
             title="Important Dates"
             isSelected={selectedId === 'dates'}
             onSelect={() => handleSelect('dates')}
@@ -96,14 +96,14 @@ export default function CCSPage() {
             <ul className="list-disc pl-6 space-y-1 mb-2">
               <li>CCS submission Deadline: 15 May 2026</li>
               <li>Workshop/Tutorial submission deadline: 01 May 2026</li>
-              <li>Paper submission deadline for CCS: 30 May 2026</li>
+              <li>Paper submission deadline for CCS: 30 June 2026</li>
               <li>Notification of Acceptance: 15 September 2026</li>
               <li>Final Program Confirmation: 15 October 2026</li>
             </ul>
           </CCSCard>
 
-          <CCSCard 
-            tag="Submission" 
+          <CCSCard
+            tag="Submission"
             title="How to Submit"
             isSelected={selectedId === 'how-to'}
             onSelect={() => handleSelect('how-to')}
