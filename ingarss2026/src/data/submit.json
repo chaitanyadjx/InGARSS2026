@@ -7,7 +7,7 @@
       "color": "indigo"
     },
     {
-      "text": "DEADLINE: 30 MAY, 2026",
+      "text": "DEADLINE: 30 JUNE, 2026",
       "color": "terracotta"
     },
     {
@@ -60,7 +60,7 @@
     {
       "key": "deadline",
       "label": "Deadline Aware",
-      "desc": "I understand the submission deadline is 30 May 2026."
+      "desc": "I understand the submission deadline is 30 June 2026."
     }
   ],
   "guidelineItems": [
