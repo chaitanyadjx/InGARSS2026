@@ -89,7 +89,13 @@ export default function CallForPapersPage() {
                     <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4 max-w-4xl text-justify hyphens-auto break-words">
                         Travel support will be provided to student authors from India and abroad to present their papers/posters at InGARSS 2026 and to attend the entire symposium. The support amount will be determined based on fund availability. The application link will be made available soon.
                     </p>
-                    <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl text-justify hyphens-auto break-words">
+                    <div className="bg-indigo/5 border-l-4 border-[var(--terracotta)] p-6 mb-6 mt-8 shadow-[4px_4px_0_black]">
+                        <h3 className="text-lg sm:text-xl font-bold text-[var(--indigo)] mb-2">Community Contributed Sessions (CCS)</h3>
+                        <p className="text-sm sm:text-base leading-relaxed text-gray-800 text-justify">
+                            This Community Contributed Session aims to provide a forum for discussing the added value of multi-resolution approaches in Earth Observation applications across different sensing modalities, including optical, hyperspectral, SAR, LiDAR, thermal, and passive microwave systems. The session will focus on innovative methodologies for multi-resolution exploitation.
+                        </p>
+                    </div>
+                    <p className="text-sm sm:text-base md:text-lg leading-relaxed max-w-4xl text-justify hyphens-auto break-words mt-6">
                         <strong>We warmly encourage you to contribute and be a part of InGARSS 2026, and to help make this symposium a vibrant and impactful scientific event.</strong>
                     </p>
                 </div>

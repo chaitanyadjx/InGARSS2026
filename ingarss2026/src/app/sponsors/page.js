@@ -124,6 +124,25 @@ export default function SponsorsPage() {
                 </div>
             </section>
 
+            {/* Our Sponsors Section */}
+            <section className="px-4 sm:px-6 md:px-[8%] py-16 md:py-20 bg-white border-b-[3px] border-black text-center">
+                <div className="max-w-6xl mx-auto">
+                    <span className="inline-block bg-gold text-black font-mono font-bold text-sm px-6 py-3 border-[3px] border-black shadow-[6px_6px_0_black] mb-6">
+                        OUR SPONSORS
+                    </span>
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-12">
+                        Gold Sponsor
+                    </h2>
+                    <div className="flex justify-center items-center">
+                        <div className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_var(--gold)] hover:-translate-y-2 hover:shadow-[15px_15px_0_var(--gold)] transition-all duration-300 max-w-md w-full">
+                            <img src="/assets/corteva.png" alt="Corteva Agriscience" className="w-full h-auto mb-6 object-contain max-h-48" />
+                            <h3 className="text-2xl font-bold text-indigo">Corteva Agriscience</h3>
+                            <p className="text-gray-600 font-mono text-md mt-2">Gold Tier Partner</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Why Sponsor Section */}
             <section className="px-4 sm:px-6 md:px-[8%] py-16 md:py-20 bg-white border-b-[3px] border-black">
                 <div className="max-w-6xl mx-auto">
