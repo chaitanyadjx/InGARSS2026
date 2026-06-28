@@ -98,7 +98,6 @@ export default function CCSPage() {
               <li>Workshop/Tutorial submission deadline: 15 June 2026</li>
               <li>Paper submission deadline for CCS: 15 August 2026</li>
               <li>Notification of Acceptance: 15 September 2026</li>
-              <li>Final Program Confirmation: 15 October 2026</li>
             </ul>
           </CCSCard>
 

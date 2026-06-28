@@ -44,5 +44,23 @@
       "indian": "₹ 2,000",
       "international": "$150"
     }
+  ],
+  "authorRules": [
+    "1 paper is covered under each professional registration.",
+    "In case an author has more papers than covered under their registration, additional charges will apply per extra paper.",
+    "Only one extra paper is allowed per author.",
+    "At least one author (presenting author or co-author) should be registered to have the paper to be included in the conference proceedings.",
+    "Government Organization delegates (payment mode NEFT only) should use the bank details below. After payment, update registration form along with payment details — tickets are issued after successful payment verification.",
+    "Students availing student registration must provide a valid student ID card/Bonafide certificate at the time of registration.",
+    "Papers registered under Student category needs to be presented by Students only.",
+    "It is mandatory for everyone to register to attend the conference.",
+    "Co-authors do not come under accompanying person category.",
+    "Accompanying persons are not entitled to attend technical sessions. Their access will be limited to exhibition area/food area/social events (if any)."
+  ],
+  "termsAndConditions": [
+    "The registration fee mentioned above is EXCLUSIVE of GST @ 18%, as applicable.",
+    "You can register online using your Debit/Credit Card or transferring the amount online (wire transfer/NEFT). Registration is mandatory & will be only considered as confirmed on receipt of the full amount.",
+    "While your safety is of utmost importance, the organisers will take no responsibility for loss of belongings/valuables or damage to your property.",
+    "The registration fee does not include any travel cost, insurance, accommodation, sightseeing tours or airport transfers."
   ]
 }
