@@ -94,11 +94,10 @@ export default function CCSPage() {
             onSelect={() => handleSelect('dates')}
           >
             <ul className="list-disc pl-6 space-y-1 mb-2">
-              <li>CCS submission Deadline: 15 May 2026</li>
-              <li>Workshop/Tutorial submission deadline: 01 May 2026</li>
-              <li>Paper submission deadline for CCS: 30 June 2026</li>
+              <li>CCS submission Deadline: 15 June 2026</li>
+              <li>Workshop/Tutorial submission deadline: 15 June 2026</li>
+              <li>Paper submission deadline for CCS: 15 August 2026</li>
               <li>Notification of Acceptance: 15 September 2026</li>
-              <li>Final Program Confirmation: 15 October 2026</li>
             </ul>
           </CCSCard>
 

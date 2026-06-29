@@ -7,18 +7,13 @@ export default function DeadlineExtensionPopup() {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        // Check if user has already dismissed the popup
-        const hasDismissed = localStorage.getItem('deadlineExtensionDismissed');
-        if (!hasDismissed) {
-            // Add a small delay for better UX
-            const timer = setTimeout(() => setIsVisible(true), 1500);
-            return () => clearTimeout(timer);
-        }
+        // Show popup after a small delay on every visit
+        const timer = setTimeout(() => setIsVisible(true), 1500);
+        return () => clearTimeout(timer);
     }, []);
 
     const handleDismiss = () => {
         setIsVisible(false);
-        localStorage.setItem('deadlineExtensionDismissed', 'true');
     };
 
     if (!isVisible) return null;
@@ -36,8 +31,8 @@ export default function DeadlineExtensionPopup() {
                 </svg>
             </button>
             <div className="flex gap-4 items-start pr-4">
-                <div className="flex-shrink-0 bg-[var(--gold)] w-10 h-10 flex items-center justify-center border-2 border-black rounded-full shadow-[2px_2px_0_black]">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="square">
+                <div className="flex-shrink-0 bg-[var(--terracotta)] w-10 h-10 flex items-center justify-center border-2 border-black rounded-full shadow-[2px_2px_0_black]">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="square">
                         <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                         <polyline points="14 2 14 8 20 8"></polyline>
                         <line x1="16" y1="13" x2="8" y2="13"></line>
@@ -46,24 +41,24 @@ export default function DeadlineExtensionPopup() {
                     </svg>
                 </div>
                 <div>
-                    <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Deadline Extended!</h3>
+                    <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">CCS Paper Submission Open!</h3>
                     <p className="text-sm opacity-80 mb-3 text-black">
-                        The paper submission deadline has been extended to <strong>30th June 2026</strong>.
+                        Submit your papers to the Community Contributed Session before <strong>15th August 2026</strong>.
                     </p>
                     <div className="flex gap-3">
                         <Link 
-                            href="/cfp" 
+                            href="/ccs" 
                             onClick={handleDismiss}
                             className="bg-[var(--indigo)] text-white text-xs font-bold px-3 py-1.5 border-2 border-black hover:-translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all"
                         >
-                            Submit Now
+                            View Details
                         </Link>
                         <Link 
-                            href="/dates" 
+                            href="/submit" 
                             onClick={handleDismiss}
                             className="bg-white text-black text-xs font-bold px-3 py-1.5 border-2 border-black hover:-translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all"
                         >
-                            All Dates
+                            Submit Paper
                         </Link>
                     </div>
                 </div>

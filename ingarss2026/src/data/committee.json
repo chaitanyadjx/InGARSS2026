@@ -3,59 +3,18 @@
   "title": "Committee",
   "sections": [
     {
-      "id": "advisory",
-      "title": "Advisory Committee",
-      "members": [
-        {
-          "name": "Dr. Saibun Tjuatja",
-          "org": "University of Texas",
-          "role": ""
-        },
-        {
-          "name": "Dr. Prakash Chauhan",
-          "org": "Director, NRSC",
-          "role": ""
-        },
-        {
-          "name": "Dr. Balakrishnan Nair",
-          "org": "Director, INCOIS",
-          "role": ""
-        },
-        {
-          "name": "Dr. CVN Rao",
-          "org": "SAC, ISRO",
-          "role": ""
-        },
-        {
-          "name": "Dr. B. S. Daya Sagar",
-          "org": "ISI Bangalore",
-          "role": ""
-        },
-        {
-          "name": "Dr. S. Venkataraman",
-          "org": "Director, CR Rao Institute",
-          "role": ""
-        },
-        {
-          "name": "Dr. Shiv Mohan",
-          "org": "Ex-ISRO Scientist",
-          "role": ""
-        }
-      ]
-    },
-    {
       "id": "generalChairs",
       "title": "General Chairs",
       "members": [
         {
           "name": "Dr. Vijender Busi Reddy",
           "org": "ADRIN, ISRO",
-          "role": ""
+          "role": "Chair"
         },
         {
           "name": "Dr. Paul A. Rosen",
           "org": "JPL, NASA",
-          "role": ""
+          "role": "Co-Chair"
         }
       ]
     },
@@ -97,98 +56,6 @@
       ]
     },
     {
-      "id": "tpcMembers",
-      "title": "TPC Members",
-      "members": [
-        {
-          "name": "Dr. Tianlin Wang",
-          "org": "JPL, NASA",
-          "role": ""
-        },
-        {
-          "name": "Dr. Dipak Misra",
-          "org": "IIST",
-          "role": ""
-        },
-        {
-          "name": "Dr. Dharmendra Panday",
-          "org": "SAC, ISRO",
-          "role": ""
-        },
-        {
-          "name": "Mr. Ramakrishna Adireddy",
-          "org": "Apple Inc.",
-          "role": ""
-        },
-        {
-          "name": "Dr. V. M. Chowdary",
-          "org": "NRSC",
-          "role": ""
-        },
-        {
-          "name": "Dr. G. Dhanalakshmi",
-          "org": "AVNIET",
-          "role": ""
-        }
-      ]
-    },
-    {
-      "id": "organizingCommittee",
-      "title": "Organizing Committee",
-      "members": [
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Hyderabad Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Gujarat Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Uttar Pradesh Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Kerala Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Bombay Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Delhi Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Madras Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Madhya Pradesh Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Bangalore Chapter",
-          "role": ""
-        },
-        {
-          "name": "Chair",
-          "org": "IEEE GRSS Kolkata Chapter",
-          "role": ""
-        }
-      ]
-    },
-    {
       "id": "financeChair",
       "title": "Finance Committee",
       "members": [
@@ -198,8 +65,8 @@
           "role": "Chair"
         },
         {
-          "name": "Dr. Fairouz Stambouli",
-          "org": "German Aerospace Center",
+          "name": "Dr. Rohith Kumar Bondugula",
+          "org": "Central University, Karnataka",
           "role": "Co-Chair"
         }
       ]
@@ -357,12 +224,7 @@
           "role": "Co-Chair"
         },
         {
-          "name": "Ms. Sneha Kour",
-          "org": "BIT, Mesra",
-          "role": "Co-Chair"
-        },
-        {
-          "name": "Chaitanya ",
+          "name": "Chaitanya Jambhulkar",
           "org": "IIITDM, Kurnool",
           "role": "Co-Chair"
         },
@@ -370,6 +232,323 @@
           "name": "Suraj Kodakandla",
           "org": "IIITDM, Kurnool",
           "role": "Co-Chair"
+        }
+      ]
+    },
+    {
+      "id": "advisory",
+      "title": "Advisory Committee",
+      "members": [
+        {
+          "name": "Dr. Saibun Tjuatja",
+          "org": "University of Texas",
+          "role": ""
+        },
+        {
+          "name": "Dr. Prakash Chauhan",
+          "org": "Director, NRSC",
+          "role": ""
+        },
+        {
+          "name": "Dr. Balakrishnan Nair",
+          "org": "Director, INCOIS",
+          "role": ""
+        },
+        {
+          "name": "Dr. CVN Rao",
+          "org": "SAC, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. B. S. Daya Sagar",
+          "org": "ISI Bangalore",
+          "role": ""
+        },
+        {
+          "name": "Dr. S. Venkataraman",
+          "org": "Director, CR Rao Institute",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shiv Mohan",
+          "org": "Ex-ISRO Scientist",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "id": "tpcMembers",
+      "title": "TPC Members",
+      "members": [
+        {
+          "name": "Dr. Rohit Kumar Bondugula",
+          "org": "Central University of Karnataka",
+          "role": ""
+        },
+        {
+          "name": "Mr. Amarender Busireddy",
+          "org": "TCS",
+          "role": ""
+        },
+        {
+          "name": "Mr. Amrith Coumaran",
+          "org": "Orbital Insight",
+          "role": ""
+        },
+        {
+          "name": "Dr. Subhranginee Das",
+          "org": "K L University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Fabio Dell'Acqua",
+          "org": "University of Pavia",
+          "role": ""
+        },
+        {
+          "name": "Dr. Monica Dutta",
+          "org": "Chitkara University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Giampaolo Ferraioli",
+          "org": "Università di Napoli Parthenope",
+          "role": ""
+        },
+        {
+          "name": "Dr. Alejandro C Frery",
+          "org": "Victoria University of Wellington",
+          "role": ""
+        },
+        {
+          "name": "Mr. Paolo Gamba",
+          "org": "Università degli Studi di Pavia",
+          "role": ""
+        },
+        {
+          "name": "Dr. Susmita Ghosh",
+          "org": "Jadavpur University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Bharath Kishore Gudepu",
+          "org": "",
+          "role": ""
+        },
+        {
+          "name": "Mr. Omprakash Gurrapu",
+          "org": "Volvo Trucks North America",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shwetha HR",
+          "org": "NITK Surathkal",
+          "role": ""
+        },
+        {
+          "name": "Mr. Shrinivas S Jagtap",
+          "org": "BlueYonder",
+          "role": ""
+        },
+        {
+          "name": "Dr. MalleswaraRao Jillela",
+          "org": "Indian Space Research Organization",
+          "role": ""
+        },
+        {
+          "name": "Dr. Athira K",
+          "org": "Digital University Kerala",
+          "role": ""
+        },
+        {
+          "name": "Mr. Vamsi K Kavuri",
+          "org": "",
+          "role": ""
+        },
+        {
+          "name": "Dr. Saranya Kotturu",
+          "org": "University of Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Ayushi Kurian",
+          "org": "Hochschule Anhalt",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sin Liang Lim",
+          "org": "Multimedia University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sunandana Reddy Machireddy",
+          "org": "Rajeev Gandhi Memorial College of Engineering and Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Pavan Manjunath",
+          "org": "Jain University",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Srivallidevi Muthusami",
+          "org": "Wabtec Organization",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rajashree Naik",
+          "org": "VIT-AP University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Subrata Nandy",
+          "org": "Indian Institute of Remote Sensing, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Prof. Atul Negi",
+          "org": "University of Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mr. Hammed Obasekore",
+          "org": "Kyungpook National University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Pavan Kumar Kumar Pagadala",
+          "org": "Koneru Lakshmaiah Education Foundation",
+          "role": ""
+        },
+        {
+          "name": "Ms. Laxmi Pamulaparthy",
+          "org": "Vignana Bharathi Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sampad Kumar Panda",
+          "org": "K L University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Dharmendra Kumar Pandey",
+          "org": "Space Applications Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Raghunadh Pasunuri",
+          "org": "Malla Reddy Engineering College (Autonomous) Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Swetha Pesaru",
+          "org": "Vignana Bharathi Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Dr. P Rajeshwari",
+          "org": "Anurag University",
+          "role": ""
+        },
+        {
+          "name": "Prof. Raaj Ramsankaran",
+          "org": "Indian Institute of Technology Bombay",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sudip Roy",
+          "org": "IIT Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Dr. Hitendra T Sarma",
+          "org": "Vasavi College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Mr. Dinesh Sathyamoorthy",
+          "org": "Science & Technology Research Institute for Defence (STRIDE)",
+          "role": ""
+        },
+        {
+          "name": "Ms. Shagufta Shakeel",
+          "org": "Madan Mohan Malaviya University of Technology",
+          "role": ""
+        },
+        {
+          "name": "Richa Sharma",
+          "org": "Birla Institute of Technology Mesra",
+          "role": ""
+        },
+        {
+          "name": "Dr. Michal Shimoni",
+          "org": "Kuva Space",
+          "role": ""
+        },
+        {
+          "name": "Dr. Randeep Singh",
+          "org": "Amity University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Chirag Rajendra Ternikar",
+          "org": "Indian Institute of Science, Bengaluru",
+          "role": ""
+        },
+        {
+          "name": "Dr. Kiran Chand Thumaty",
+          "org": "International Institute of Information Technology-Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Abhishek Tripathi",
+          "org": "MathWorks India Pvt. Ltd.",
+          "role": ""
+        },
+        {
+          "name": "Dr. Amiya Kumar Tripathy",
+          "org": "Don Bosco Institute of Technology, Mumbai",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Shivam Trivedi",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Mandhula Trupthi",
+          "org": "Anurag University",
+          "role": ""
+        },
+        {
+          "name": "Prof. Silvia Liberata Ullo",
+          "org": "Università Degli Studi del Sannio",
+          "role": ""
+        },
+        {
+          "name": "Dr. Mustafa Ustuner",
+          "org": "Samsun University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Divya Sekhar Vaka",
+          "org": "GEOFEM",
+          "role": ""
+        },
+        {
+          "name": "Prof. Amit Ved",
+          "org": "Marwadi University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rajani Kant Verma",
+          "org": "Indian Institute of Technology, Jodhpur",
+          "role": ""
+        },
+        {
+          "name": "Prof. Gobi Vetharatnam",
+          "org": "Universiti Tunku Abdul Rahman",
+          "role": ""
         }
       ]
     }

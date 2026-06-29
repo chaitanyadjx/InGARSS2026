@@ -16,8 +16,8 @@
     },
     {
       "label": "Phase 02 — Close",
-      "value": "15 May 2026",
-      "desc": "CCS (Community Contributed Session) Proposals Close",
+      "value": "15 June 2026",
+      "desc": "CCS/Workshop/Tutorial Proposals Close",
       "variant": "tint-indigo"
     },
     {
@@ -28,21 +28,21 @@
       "variant": "major"
     },
     {
-      "label": "Registration",
-      "value": "15 July 2026",
+      "label": "Notification",
+      "value": "15 August 2026",
       "desc": "Acceptance Notification",
       "variant": "default"
     },
     {
-      "label": "Notification",
-      "value": "30 July 2026",
+      "label": "Registration",
+      "value": "31 August 2026",
       "desc": "Registration Deadline",
       "variant": "default"
     },
     {
       "label": "Final Version",
-      "value": "30 July 2026",
-      "desc": "Camera-Ready Submission Deadline",
+      "value": "31 August 2026",
+      "desc": "Camera-Ready Submission",
       "variant": "tint-indigo"
     },
     {

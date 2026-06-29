@@ -49,6 +49,12 @@
       "description": "This track focuses on science, data products, and applications of the NISAR mission, leveraging L- and S-band SAR observations. It covers interferometry, time-series analysis, surface deformation, ecosystem monitoring, cryosphere dynamics, disaster assessment, and Earth system studies using NISAR data.",
       "image": "https://science.iirs.gov.in/wp-content/uploads/2025/07/NISAR_IIRS.png",
       "span": "lg:col-span-6"
+    },
+    {
+      "title": "Community Contributed Session (CCS): The Added Value of Multi Resolution Imaging in Earth Observation Applications",
+      "description": "This Community Contributed Session aims to provide a forum for discussing the added value of multi-resolution approaches in Earth Observation applications across different sensing modalities, including optical, hyperspectral, SAR, LiDAR, thermal, and passive microwave systems. The session will focus on innovative methodologies for multi-resolution exploitation.",
+      "image": "https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80&w=1400",
+      "span": "lg:col-span-12"
     }
   ]
 }
