@@ -34,7 +34,7 @@ function AccordionSection({ title, children, defaultOpen = false }) {
 }
 
 export default function RegistrationPage() {
-  const { tableTitle, note, categories, authorRules, termsAndConditions } = regData;
+  const { tableTitle, note, categories, authorRules, termsAndConditions, inclusions } = regData;
 
   return (
     <main className="min-h-screen bg-[var(--bone)]">
@@ -114,6 +114,18 @@ export default function RegistrationPage() {
                 <li key={i} className="flex items-start gap-3">
                   <span className="mt-1.5 w-2 h-2 rounded-full bg-[var(--indigo)] flex-shrink-0" />
                   <span className="text-sm sm:text-base leading-relaxed text-gray-800">{term}</span>
+                </li>
+              ))}
+            </ul>
+          </AccordionSection>
+
+          {/* Inclusions */}
+          <AccordionSection title="Inclusions:">
+            <ul className="space-y-4">
+              {inclusions.map((item, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <span className="mt-1.5 w-2 h-2 rounded-full bg-[var(--gold)] flex-shrink-0" />
+                  <span className="text-sm sm:text-base leading-relaxed text-gray-800">{item}</span>
                 </li>
               ))}
             </ul>
