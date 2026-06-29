@@ -7,18 +7,13 @@ export default function DeadlineExtensionPopup() {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        // Check if user has already dismissed the popup
-        const hasDismissed = localStorage.getItem('ccsSubmissionDismissed');
-        if (!hasDismissed) {
-            // Add a small delay for better UX
-            const timer = setTimeout(() => setIsVisible(true), 1500);
-            return () => clearTimeout(timer);
-        }
+        // Show popup after a small delay on every visit
+        const timer = setTimeout(() => setIsVisible(true), 1500);
+        return () => clearTimeout(timer);
     }, []);
 
     const handleDismiss = () => {
         setIsVisible(false);
-        localStorage.setItem('ccsSubmissionDismissed', 'true');
     };
 
     if (!isVisible) return null;
@@ -48,7 +43,7 @@ export default function DeadlineExtensionPopup() {
                 <div>
                     <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">CCS Paper Submission Open!</h3>
                     <p className="text-sm opacity-80 mb-3 text-black">
-                        Submit your papers to the Community Contributed Session before <strong>31st July 2026</strong>.
+                        Submit your papers to the Community Contributed Session before <strong>15th August 2026</strong>.
                     </p>
                     <div className="flex gap-3">
                         <Link 
