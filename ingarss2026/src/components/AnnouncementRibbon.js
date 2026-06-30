@@ -14,7 +14,7 @@ function parseDateEntry(value) {
 
 // Find the paper submission deadline from dates.json
 const paperEntry = datesData.dates.find(d => d.desc === 'Paper Submission Deadline');
-const paperDeadline = paperEntry ? parseDateEntry(paperEntry.value) : new Date('2026-06-30T23:59:59');
+const paperDeadline = paperEntry ? parseDateEntry(paperEntry.value) : new Date('2026-07-15T23:59:59');
 
 export default function AnnouncementRibbon() {
     const [timeLeft, setTimeLeft] = useState(null);
@@ -22,7 +22,7 @@ export default function AnnouncementRibbon() {
     const announcements = [
         {
             id: 'paper-deadline',
-            message: 'Paper Submission Deadline has been extended to 30th June 2026',
+            message: 'Paper Submission Deadline has been extended to 15th July 2026 (Hard Deadline)',
             date: paperDeadline,
             link: '/cfp',
             linkText: 'Submit Now',
