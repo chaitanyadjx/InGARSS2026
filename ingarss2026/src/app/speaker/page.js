@@ -32,19 +32,40 @@ function SpeakerCard({ name, affiliation, image }) {
     );
 }
 
-function SpeakerSection({ title, members, bgClass = "", pillClass = "bg-gold text-black shadow-[10px_10px_0_black]" }) {
+function SpeakerSection({ id, title, members, bgClass = "", pillClass = "bg-gold text-black shadow-[10px_10px_0_black]" }) {
+    const isKeynote = id === "keynoteSpeakers";
+
+    // 2-3-2 layout for keynote (7 speakers): use a 6-col grid
+    // Row 1: 2 cards × span-3; Row 2: 3 cards × span-2; Row 3: 2 cards × span-3
+    const getSpan = (index) => {
+        if (!isKeynote) return "";
+        if (index < 2) return "col-span-3";        // row 1: 2 cards
+        if (index < 5) return "col-span-2";        // row 2: 3 cards
+        return "col-span-3";                        // row 3: 2 cards
+    };
+
     return (
         <section className={`py-16 md:py-24 px-5 md:px-[5%] border-b-[3px] border-black ${bgClass}`}>
             <div className="text-center mb-12 md:mb-16">
-                <span className={`inline-block font-mono font-bold text-lg md:text-xl   px-6 md:px-8 py-3 ${pillClass}`}>
+                <span className={`inline-block font-mono font-bold text-lg md:text-xl px-6 md:px-8 py-3 ${pillClass}`}>
                     {title}
                 </span>
             </div>
-            <div className="flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-16 max-w-7xl mx-auto">
-                {members.map((member, index) => (
-                    <SpeakerCard key={index} {...member} />
-                ))}
-            </div>
+            {isKeynote ? (
+                <div className="grid grid-cols-6 gap-8 md:gap-12 max-w-6xl mx-auto justify-items-center">
+                    {members.map((member, index) => (
+                        <div key={index} className={`${getSpan(index)} flex justify-center w-full`}>
+                            <SpeakerCard {...member} />
+                        </div>
+                    ))}
+                </div>
+            ) : (
+                <div className="flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-16 max-w-7xl mx-auto">
+                    {members.map((member, index) => (
+                        <SpeakerCard key={index} {...member} />
+                    ))}
+                </div>
+            )}
         </section>
     );
 }
@@ -61,6 +82,7 @@ export default function SpeakersPage() {
             {sections.map((section) => (
                 <SpeakerSection 
                     key={section.id}
+                    id={section.id}
                     title={section.title} 
                     members={section.members}
                     bgClass={section.bgClass}
