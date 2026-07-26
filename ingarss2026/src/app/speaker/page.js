@@ -52,7 +52,7 @@ function SpeakerSection({ id, title, members, bgClass = "", pillClass = "bg-gold
                 </span>
             </div>
             {isKeynote ? (
-                <div className="grid grid-cols-6 gap-8 md:gap-12 max-w-6xl mx-auto justify-items-center">
+                <div className="grid grid-cols-6 gap-x-4 md:gap-x-6 gap-y-8 md:gap-y-12 max-w-6xl mx-auto justify-items-center">
                     {members.map((member, index) => (
                         <div key={index} className={`${getSpan(index)} flex justify-center w-full`}>
                             <SpeakerCard {...member} />

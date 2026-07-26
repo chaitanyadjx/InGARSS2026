@@ -33,7 +33,7 @@ export default function Footer() {
                     </div>
 
                     <div className="mt-8 space-y-3 text-sm">
-                        <p className="font-mono text-xs uppercase tracking-wider text-gold">Conference Manager</p>
+                        <p className="font-mono text-sm font-bold uppercase tracking-wider text-gold">Conference Manager</p>
                         <div className="block max-w-xs overflow-hidden rounded-sm bg-white ring-1 ring-white/20">
                             <Image
                                 src="/assets/alpcord-logo.jpeg"
