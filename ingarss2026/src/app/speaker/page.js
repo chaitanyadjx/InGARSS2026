@@ -39,9 +39,9 @@ function SpeakerSection({ id, title, members, bgClass = "", pillClass = "bg-gold
     // Row 1: 2 cards × span-3; Row 2: 3 cards × span-2; Row 3: 2 cards × span-3
     const getSpan = (index) => {
         if (!isKeynote) return "";
-        if (index < 2) return "col-span-3";        // row 1: 2 cards
-        if (index < 5) return "col-span-2";        // row 2: 3 cards
-        return "col-span-3";                        // row 3: 2 cards
+        if (index < 2) return "md:col-span-3";        // row 1: 2 cards
+        if (index < 5) return "md:col-span-2";        // row 2: 3 cards
+        return "md:col-span-3";                        // row 3: 2 cards
     };
 
     return (
@@ -52,7 +52,7 @@ function SpeakerSection({ id, title, members, bgClass = "", pillClass = "bg-gold
                 </span>
             </div>
             {isKeynote ? (
-                <div className="grid grid-cols-6 gap-x-4 md:gap-x-6 gap-y-8 md:gap-y-12 max-w-6xl mx-auto justify-items-center">
+                <div className="grid grid-cols-1 md:grid-cols-6 gap-x-4 md:gap-x-6 gap-y-8 md:gap-y-12 max-w-6xl mx-auto justify-items-center">
                     {members.map((member, index) => (
                         <div key={index} className={`${getSpan(index)} flex justify-center w-full`}>
                             <SpeakerCard {...member} />
