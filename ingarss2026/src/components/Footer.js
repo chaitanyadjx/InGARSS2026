@@ -45,9 +45,6 @@ export default function Footer() {
                         </div>
                         <div className="space-y-1">
                             <p className="font-semibold">Mr. Vikram Pola</p>
-                            <a href="tel:+919014666161" className="block w-fit text-white/65 transition-colors hover:text-gold">
-                                +91 90146 66161
-                            </a>
                             <a href="mailto:hyderabad@alpcord.net" className="block w-fit break-all text-white/65 transition-colors hover:text-gold">
                                 hyderabad@alpcord.net
                             </a>
