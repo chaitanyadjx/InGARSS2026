@@ -110,20 +110,7 @@ export default function CallForPapersPage() {
                 </div>
             </section>
 
-            {/* Submit CTA Section */}
-            <section className="px-4 sm:px-6 md:px-[8%] py-12 sm:py-16 md:py-20 bg-[var(--indigo)] border-t-[3px] border-black">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 sm:mb-6">
-                        Ready to Submit?
-                    </h2>
-                    <Link 
-                        href="/submit" 
-                        className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[8px_8px_0_black] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all duration-150"
-                    >
-                        SUBMIT PAPER →
-                    </Link>
-                </div>
-            </section>
+
         </main>
     );
 }

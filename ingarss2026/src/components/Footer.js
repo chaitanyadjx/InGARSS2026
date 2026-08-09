@@ -9,8 +9,8 @@ const navigationLinks = [
     ["Important Dates", "/dates"],
     ["Author Guidelines", "/authors"],
     ["Registration", "/registration"],
-    ["Submit Paper", "/submit"],
-    ["Sponsors", "/sponsors"],
+    ["Sponsorship Details", "/sponsorship-details"],
+    ["Our Sponsors", "/our-sponsors"],
     ["Past Conferences", "/past-conferences"],
 ];
 

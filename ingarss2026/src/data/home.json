@@ -29,11 +29,7 @@
           "href": "/cfp",
           "color": "white"
         },
-        {
-          "label": "SUBMIT PAPER",
-          "href": "/submit",
-          "color": "terracotta"
-        },
+
         {
           "label": "IMPORTANT DATES",
           "href": "/dates",

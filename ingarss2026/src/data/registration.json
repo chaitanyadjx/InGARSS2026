@@ -47,7 +47,7 @@
     {
       "label": "Tutorial / Registrations (Students/Professional) – One Day",
       "indian": "₹ 2,000",
-      "international": "$150"
+      "international": "$50"
     }
   ],
   "authorRules": [
@@ -55,7 +55,7 @@
     "In case an author has more papers than covered under their registration, additional charges will apply per extra paper (Rs. 3,000/- plus tax).",
     "At least one author (presenting author or co-author) should be registered to have the paper to be included in the conference proceedings.",
     "Students availing student registration must provide a valid student ID card/Bonafide certificate at the time of registration.",
-    "Papers registered under Student category needs to be presented by Students only.",
+    "Papers registered under Student category (the student must be the first author) needs to be presented by Students only.",
     "It is mandatory for everyone to register to attend the conference."
   ],
   "termsAndConditions": [

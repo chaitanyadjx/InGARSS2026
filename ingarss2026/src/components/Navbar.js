@@ -23,7 +23,7 @@ export default function Navbar() {
        <>
        <div className="hidden lg:block h-20 w-full" aria-hidden="true" />
                <nav className="relative lg:fixed top-0 w-full bg-black z-50 border-b-[3px] border-black">
-            <div className="grid grid-cols-[1fr_auto] lg:grid-cols-[200px_1fr_160px] h-20">
+            <div className="grid grid-cols-[1fr_auto] lg:grid-cols-[200px_1fr] h-20">
                 {/* Brand */}
                 <div className="bg-terracotta text-white flex items-center justify-left lg:justify-center font-bold text-xs sm:text-sm lg:text-base tracking-wider px-4 lg:px-5 border-r-[3px] border-black">
                     <Link href="/" className="flex items-center">
@@ -34,15 +34,27 @@ export default function Navbar() {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden lg:grid lg:grid-cols-5 bg-white h-full uppercase">
+                <ul className="hidden lg:grid lg:grid-cols-6 bg-white h-full uppercase">
                     <li className="border-r border-gray-400">
                         <Link href="/" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Home</Link>
                     </li>
-                    <li className="border-r border-gray-400">
-                        <Link href="/committee" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Committee</Link>
+                    <li className="relative group border-r border-gray-400">
+                        <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
+                            People ↓
+                        </div>
+                        <div className="hidden group-hover:block absolute top-full left-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
+                            <Link href="/committee" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Committee</Link>
+                            <Link href="/speaker" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Speakers</Link>
+                        </div>
                     </li>
-                    <li className="border-r border-gray-400">
-                        <Link href="/speaker" className="flex items-center justify-center h-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3">Speakers</Link>
+                    <li className="relative group border-r border-gray-400">
+                        <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
+                            Programs ↓
+                        </div>
+                        <div className="hidden group-hover:block absolute top-full left-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
+                            <Link href="/workshop" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Workshop</Link>
+                            <Link href="/program-details" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Program Details</Link>
+                        </div>
                     </li>
                     <li className="relative group border-r border-gray-400">
                         <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
@@ -55,29 +67,25 @@ export default function Navbar() {
                             <Link href="/cfp" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Call for Papers</Link>
                             <Link href="/ccs" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">CCS/Workshop</Link>
                             <Link href="/travel-grant" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Travel Grant</Link>
-                            <Link href="/registration" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Registration</Link>
-                        </div>
-                    </li>
-                    <li className="relative group">
-                        <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
-                            General ↓
-                        </div>
-                        <div className="hidden group-hover:block absolute top-full right-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
-                            <Link href="/sponsors" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Sponsors</Link>
-                            <Link href="/past-conferences" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Past Conferences</Link>
+                            <Link href="/registration" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Registration</Link>
                             <Link href="/#venue" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Venue</Link>
                         </div>
                     </li>
+                    <li className="relative group border-r border-gray-400">
+                        <div className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs cursor-pointer group-hover:bg-indigo group-hover:text-white transition-all duration-300 px-3">
+                            Sponsors ↓
+                        </div>
+                        <div className="hidden group-hover:block absolute top-full right-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
+                            <Link href="/sponsorship-details" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Sponsorship Details</Link>
+                            <Link href="/our-sponsors" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Our Sponsors</Link>
+                        </div>
+                    </li>
+                    <li className="relative group">
+                        <Link href="/past-conferences" className="flex items-center justify-center h-full w-full font-mono font-semibold text-xs hover:bg-indigo hover:text-white transition-all duration-300 px-3 text-center">Past<br/>Conferences</Link>
+                    </li>
                 </ul>
 
-                {/* Submit Button (Desktop) */}
-                <div className="hidden lg:block border-l-[3px] border-black bg-[#CEA964]">
-                    <Link href="/submit" className="flex items-center justify-center h-full w-full px-2 group">
-                        <span className="relative text-sm uppercase flex items-center gap-3 px-5 py-3 bg-[#CEA964] text-black font-mono font-bold rounded text-xs border-2 border-black shadow-[5px_5px_0px_#000] group-hover:shadow-none group-hover:translate-x-[5px] group-hover:translate-y-[5px] transition-all duration-150">
-                            Submit Paper
-                        </span>
-                    </Link>
-                </div>
+
 
                 {/* Mobile Menu Toggle */}
                 <button 
@@ -96,8 +104,18 @@ export default function Navbar() {
             {/* Mobile Menu - "Relative" position so it pushes content down */}
             <div className={`${mobileMenuOpen ? 'block' : 'hidden'} lg:hidden bg-white border-t-[3px] border-black w-full relative`}>
                 <Link href="/" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Home</Link>
-                <Link href="/committee" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Committee</Link>
-                <Link href="/speaker" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Speakers</Link>
+                
+                <div className="border-b border-gray-200">
+                    <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">People</div>
+                    <Link href="/committee" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Committee</Link>
+                    <Link href="/speaker" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Speakers</Link>
+                </div>
+                
+                <div className="border-b border-gray-200">
+                    <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">Programs</div>
+                    <Link href="/workshop" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Workshop</Link>
+                    <Link href="/program-details" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Program Details</Link>
+                </div>
                 
                 <div className="border-b border-gray-200">
                     <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">For Authors</div>
@@ -107,17 +125,17 @@ export default function Navbar() {
                     <Link href="/cfp" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Call for Papers</Link>
                     <Link href="/ccs" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">CCS/Workshop</Link>
                     <Link href="/travel-grant" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Travel Grant</Link>
-                    <Link href="/registration" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Registration</Link>
+                    <Link href="/registration" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Registration</Link>
+                    <Link href="/#venue" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Venue</Link>
                 </div>
                 
                 <div className="border-b border-gray-200">
-                    <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">General</div>
-                    <Link href="/sponsors" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Sponsors</Link>
-                    <Link href="/past-conferences" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Past Conferences</Link>
-                    <Link href="/#venue" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Venue</Link>
+                    <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">Sponsors</div>
+                    <Link href="/sponsorship-details" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Sponsorship Details</Link>
+                    <Link href="/our-sponsors" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Our Sponsors</Link>
                 </div>
 
-                <Link href="/submit" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Submit Paper</Link>
+                <Link href="/past-conferences" onClick={() => setMobileMenuOpen(false)} className="block px-5 py-4 font-mono font-semibold text-sm border-b border-gray-200 hover:bg-indigo hover:text-white uppercase">Past Conferences</Link>
             </div>
         </nav>
        </>

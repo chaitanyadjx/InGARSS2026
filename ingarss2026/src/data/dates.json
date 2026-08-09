@@ -29,19 +29,20 @@
     },
     {
       "label": "Notification",
-      "value": "15 August 2026",
+      "value": "31 August 2026",
+      "previousValue": "15 August 2026",
       "desc": "Acceptance Notification",
       "variant": "default"
     },
     {
       "label": "Registration",
-      "value": "31 August 2026",
+      "value": "15 September 2026",
       "desc": "Registration Deadline",
       "variant": "default"
     },
     {
       "label": "Final Version",
-      "value": "31 August 2026",
+      "value": "15 September 2026",
       "desc": "Camera-Ready Submission",
       "variant": "tint-indigo"
     },

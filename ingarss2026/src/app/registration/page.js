@@ -40,6 +40,19 @@ export default function RegistrationPage() {
     <main className="min-h-screen bg-[var(--bone)]">
       <PageHeader title="Registration" />
 
+      <section className="px-5 md:px-[8%] py-8 md:py-12 bg-white border-b-[3px] border-black text-center">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-indigo mb-4">Ready to Register?</h2>
+          <p className="text-gray-700 mb-6 text-sm sm:text-base">The registration link will be available soon.</p>
+          <button 
+            disabled
+            className="inline-block bg-gray-200 text-gray-500 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-gray-400 cursor-not-allowed shadow-[6px_6px_0_gray]"
+          >
+            REGISTER NOW
+          </button>
+        </div>
+      </section>
+
       {/* Registration Table */}
       <section className="px-5 md:px-[8%] py-12 md:py-20">
         <div className="max-w-5xl mx-auto">
