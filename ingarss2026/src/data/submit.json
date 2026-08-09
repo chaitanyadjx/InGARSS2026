@@ -7,7 +7,7 @@
       "color": "indigo"
     },
     {
-      "text": "DEADLINE: 30 MAY, 2026",
+      "text": "DEADLINE: 15 JULY, 2026 (HARD DEADLINE)",
       "color": "terracotta"
     },
     {
@@ -40,7 +40,7 @@
     {
       "key": "pageLimit",
       "label": "Page Limit",
-      "desc": "The paper adheres to the page limit (5 pages: Main content 4 pages + 1 page references)."
+      "desc": "The paper adheres to the page limit of maximum of 7 pages (6 content + 1 references) with overlength charges applying for the 6th and 7th pages."
     },
     {
       "key": "template",
@@ -60,7 +60,7 @@
     {
       "key": "deadline",
       "label": "Deadline Aware",
-      "desc": "I understand the submission deadline is 30 May 2026."
+      "desc": "I understand the submission deadline is 15 July 2026."
     }
   ],
   "guidelineItems": [
@@ -78,7 +78,7 @@
     },
     {
       "label": "Page Limit",
-      "text": "Up to 5 pages (Main content 4 pages + 1 page references). 6 pages max: ₹2,000/$30. See Registration for fees."
+      "text": "Maximum 5 pages (Main content 4 pages + 1 page references). Maximum of 7 pages (6 content + 1 references) with overlength charges applying for the 6th and 7th pages."
     },
     {
       "label": "Template",

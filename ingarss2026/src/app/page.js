@@ -56,11 +56,10 @@ export default function Home() {
                       <span className="font-bold text-black">Theme: Digital Earth - Modeling, Mapping, and Monitoring.</span>
                     </p>
                   </div>
-                  <div className="grid grid-cols-2 gap-3 sm:gap-4">
-                    <Link href="/cfp" className="font-mono font-bold text-xs sm:text-sm bg-white text-black px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all text-center">CALL FOR PAPERS</Link>
-                    <Link href="/submit" className="py-4 font-mono font-bold text-xs sm:text-sm bg-[var(--terracotta)] text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all text-center">SUBMIT PAPER</Link>
-                    <Link href="/dates" className="font-mono font-bold text-xs sm:text-sm bg-[var(--indigo)] text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all text-center">IMPORTANT DATES</Link>
-                    <a href="/assets/flyer.pdf" download className="font-mono font-bold text-xs sm:text-sm bg-black text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all text-center uppercase">Download Flyer</a>
+                  <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-start">
+                    <Link href="/cfp" className="flex-1 font-mono font-bold text-xs sm:text-sm bg-white text-black px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all text-center min-w-[140px]">CALL FOR PAPERS</Link>
+                    <Link href="/dates" className="flex-1 font-mono font-bold text-xs sm:text-sm bg-[var(--indigo)] text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all text-center min-w-[140px]">IMPORTANT DATES</Link>
+                    <a href="/assets/flyer.pdf" download className="flex-1 font-mono font-bold text-xs sm:text-sm bg-black text-white px-4 sm:px-6 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none transition-all text-center uppercase min-w-[140px]">Download Flyer</a>
                   </div>
                 </div>
               </div>

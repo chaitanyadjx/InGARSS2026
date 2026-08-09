@@ -1,0 +1,26 @@
+This Community Contributed 
+Session aims to provide a forum for discussing the added value of multi-resolution approaches in Earth 
+Observation applications across different sensing modalities, including optical, hyperspectral, SAR, LiDAR, 
+thermal, and passive microwave systems. The session will focus on innovative methodologies for multi-
+resolution exploitation.
+please add the the above CCS in the website - CFP - tracks page
+
+Important dates
+
+CCS (Community CS) proposals close: 15 June 2026
+Acceptance notification: 15 August 2026
+Registration deadline: 31 Aug 2026
+Camera ready submission: 31 Aug 2026
+
+CCS/Workshop/Tutorial Important dates
+
+CCS submission deadline: 15 June 2026
+Workshop/Tutorial: 15 June 2026
+paper submission deadline for CCS: 15 August 2026
+(REMAINING AS IT IS)
+
+In HOME
+
+SPONSORS:
+GOLD Sponsor:Pls add this in the website as gold sponsor
+/media/chaitanya/01DCD3DFF5A521C0/Users/chait/Work/Projects/InGARSS2026/updates/Corteva Agriscience - Logo (Vertical)_InGARSS-1.png

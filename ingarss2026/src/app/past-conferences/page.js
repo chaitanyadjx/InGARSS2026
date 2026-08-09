@@ -278,12 +278,7 @@ export default function PastConferencesPage() {
                         Join us in Hyderabad for the 6th edition of InGARSS. Submit your research, participate in discussions, and connect with the global geoscience community.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <a 
-                            href="/submit"
-                            className="inline-block bg-white text-black font-mono font-bold px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-none hover:translate-x-[6px] hover:translate-y-[6px] transition-all duration-150"
-                        >
-                            Submit Paper
-                        </a>
+
                         <a 
                             href="/registration"
                             className="inline-block bg-gold text-black font-mono font-bold px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-none hover:translate-x-[6px] hover:translate-y-[6px] transition-all duration-150"

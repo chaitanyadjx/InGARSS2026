@@ -35,9 +35,9 @@ export default function TravelGrantPage() {
     ];
 
     const timeline = [
-        { date: '10 July 2026', label: 'Application Portal Opens' },
-        { date: '25 July 2026', label: 'Application Deadline' },
-        { date: '30 July 2026', label: 'Notification of Awards' },
+        { date: '15 August 2026', label: 'Application Portal Opens' },
+        { date: '1 September 2026', label: 'Application Deadline' },
+        { date: '10 September 2026', label: 'Notification of Awards' },
     ];
 
     return (

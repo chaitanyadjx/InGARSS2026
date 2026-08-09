@@ -7,11 +7,11 @@
     "links": [
       {
         "label": "LATEX",
-        "href": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip"
+        "href": "https://www.ieee.org/conferences/publishing/templates"
       },
       {
         "label": "MS WORD",
-        "href": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx"
+        "href": "https://www.ieee.org/conferences/publishing/templates"
       }
     ]
   },
@@ -37,7 +37,7 @@
     {
       "pages": "Up to 5 pages",
       "fee": "No Extra Charge",
-      "note": "Main content 4 pages + 1 page references"
+      "note": "Main content including references"
     },
     {
       "pages": "6 pages",
@@ -47,7 +47,7 @@
     {
       "pages": "7 pages (max)",
       "fee": "₹2,000 / $30",
-      "note": "Total limit including everything"
+      "note": "Total limit (6 content + 1 reference)"
     }
   ],
   "review": [

@@ -1,8 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-<<<<<<< Updated upstream
-=======
 import datesData from '@/data/dates.json';
 
 // Parse "30 May 2026" → Date object (end of that day)
@@ -16,8 +14,7 @@ function parseDateEntry(value) {
 
 // Find the paper submission deadline from dates.json
 const paperEntry = datesData.dates.find(d => d.desc === 'Paper Submission Deadline');
-const paperDeadline = paperEntry ? parseDateEntry(paperEntry.value) : new Date('2026-06-30T23:59:59');
->>>>>>> Stashed changes
+const paperDeadline = paperEntry ? parseDateEntry(paperEntry.value) : new Date('2026-07-15T23:59:59');
 
 export default function AnnouncementRibbon() {
     const [timeLeft, setTimeLeft] = useState(null);
@@ -25,13 +22,8 @@ export default function AnnouncementRibbon() {
     const announcements = [
         {
             id: 'paper-deadline',
-<<<<<<< Updated upstream
-            message: 'Paper Submission Deadline Approaching',
-            date: new Date('2026-07-15'),
-=======
-            message: 'Paper submission date extended to 30th June 2026',
+            message: 'Paper Submission Deadline has been extended to 15th July 2026 (Hard Deadline)',
             date: paperDeadline,
->>>>>>> Stashed changes
             link: '/cfp',
             linkText: 'Submit Now',
         },
@@ -83,7 +75,7 @@ export default function AnnouncementRibbon() {
             <span className="font-mono font-bold text-sm tracking-wide whitespace-nowrap">
                 {activeAnnouncement.message}
             </span>
-            
+
             {timeLeft && (
                 <div className="flex items-center gap-2 font-mono text-sm whitespace-nowrap">
                     <span className="bg-white/20 px-2 py-0.5 rounded font-bold">{timeLeft.days}d</span>
@@ -99,7 +91,7 @@ export default function AnnouncementRibbon() {
         <>
             {/* 1. Spacer: Only show on desktop to push content below the fixed ribbon */}
             <div className="hidden md:block h-[40px] w-full" aria-hidden="true" />
-            
+
             {/* 2. Positioning: 'relative' on mobile (scrolls), 'md:fixed' on desktop */}
             <div className="relative md:fixed md:top-20 left-0 right-0 z-40 bg-indigo text-white border-b-[3px] border-black overflow-hidden">
                 <div className="flex animate-marquee">

@@ -12,11 +12,12 @@
       }
     },
     "venue": {
-      "location": "The Park",
+      "location": "Hyderabad city",
       "label": "HOST LOCATION",
-      "description": "Experience the symposium at The Park Hyderabad, a contemporary luxury hotel overlooking the picturesque Hussain Sagar Lake with a stunning façade inspired by the region's royal jewellery heritage. Set in India's \"Cyber City\", Hyderabad seamlessly intertwines 400 years of rich history with a booming aerospace and IT sector, providing an inspiring and sophisticated backdrop for InGARSS 2026.",
-      "image": "https://www.theparkhotels.com/images/site-specific/hyderabad/gallery/hero-shot-corner-facade-.jpg",
-      "imageCaption": "VENUE: PARK HYDERABAD",    "detailsLink":"https://www.theparkhotels.com/hyderabad/" 
+      "description": "Experience the symposium in Hyderabad, the vibrant \"Cyber City\" of India. Hyderabad seamlessly intertwines 400 years of rich history with a booming aerospace and IT sector, providing an inspiring and sophisticated backdrop for InGARSS 2026. Explore its iconic heritage and modern advancements.",
+      "image": "/assets/hyderabad.png",
+      "imageCaption": "VENUE: HYDERABAD CITY",
+      "detailsLink": "https://hyderabad.telangana.gov.in/" 
     },
     "quickLinks": {
       "title": "Share Your Research",
@@ -28,11 +29,7 @@
           "href": "/cfp",
           "color": "white"
         },
-        {
-          "label": "SUBMIT PAPER",
-          "href": "/submit",
-          "color": "terracotta"
-        },
+
         {
           "label": "IMPORTANT DATES",
           "href": "/dates",
