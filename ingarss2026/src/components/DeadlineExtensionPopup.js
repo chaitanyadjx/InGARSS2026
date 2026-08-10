@@ -60,9 +60,10 @@ export default function DeadlineExtensionPopup() {
                         </div>
                         <div>
                             <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Acceptance Notification Extended!</h3>
-                            <p className="text-sm opacity-80 mb-3 text-black">
-                                Acceptance notification date has been changed to <strong>31 August 2026</strong>.
-                            </p>
+                            <div className="text-sm opacity-80 mb-3 text-black space-y-2">
+                                <p>Due to the overwhelming number of submissions received, the review process is taking slightly longer than expected. We appreciate your patience and understanding.</p>
+                                <p>The acceptance notifications will be published on <strong>31 August 2026</strong>.</p>
+                            </div>
                             <div className="flex gap-3">
                                 <Link
                                     href="/dates"
