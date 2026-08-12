@@ -286,13 +286,303 @@
       "title": "TPC Members",
       "members": [
         {
+          "name": "Mr. AM Sasitha Supun Abeysinghe",
+          "org": "Browns Plantations Pvt Ltd",
+          "role": ""
+        },
+        {
+          "name": "Mr. Jeyabalan Abinaas",
+          "org": "Sabaragamuwa University of Sri Lanka",
+          "role": ""
+        },
+        {
+          "name": "Dr. Layla Hattim Abood",
+          "org": "University of Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Subrat Kumar Acharya",
+          "org": "National Remote Sensing Center",
+          "role": ""
+        },
+        {
+          "name": "Mr. Ramakrishna Adireddy",
+          "org": "Apple Inc",
+          "role": ""
+        },
+        {
+          "name": "Dr. Mugdha Agarwadkar",
+          "org": "AP Shah Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Dr. Hossein Aghababaei",
+          "org": "University of Twente",
+          "role": ""
+        },
+        {
+          "name": "Mr. A. Akilan",
+          "org": "Advanced Data Processing Research Institute",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rajani Akula",
+          "org": "JNTUH College of Engineering Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mrs. RN Anjani",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Dr. Adiveppa Asangi",
+          "org": "K J Somaiya Institute of Applied Agriculture Research KIAAR, Karnataka",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sanae Attioui",
+          "org": "Université Sidi Mohammed Ben Abdellah",
+          "role": ""
+        },
+        {
+          "name": "Dr. Kirti Avishek",
+          "org": "Birla Institute of Technology, Mesra, Ranchi, Jharkhand (India)",
+          "role": ""
+        },
+        {
+          "name": "Dr. Anand B",
+          "org": "Shri Vishnu Engineering College for Women",
+          "role": ""
+        },
+        {
+          "name": "Mr. Satish Kumar B",
+          "org": "National Remote Sensing Centre, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. K N Babu",
+          "org": "Space Applications Centre (ISRO)",
+          "role": ""
+        },
+        {
+          "name": "Mr. Mirza Rizwan Baig",
+          "org": "Malla Reddy College of Engineering and Technology, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Divya Priya Balasubramani",
+          "org": "Anna University, Chennai",
+          "role": ""
+        },
+        {
+          "name": "Prof. Nikita Banerjee",
+          "org": "Dayananda Sagar University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Kavita Bathe",
+          "org": "K J Somaiya Institute of Tefchnology",
+          "role": ""
+        },
+        {
+          "name": "Ms. Asiya Begum",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Ms. Beneyaz Ara Begum",
+          "org": "University of Central Florida",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Zareena Begum",
+          "org": "Vaagdevi College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Mr. Dhiroj Kumar Behera",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Mr. Pruthivi Raj Behera",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Suraj Kumar Bhagat",
+          "org": "SRM University AP",
+          "role": ""
+        },
+        {
+          "name": "Ms. Neha Bhati",
+          "org": "IIS (Deemed to be University)",
+          "role": ""
+        },
+        {
+          "name": "Dr. Avinash Bhatt",
+          "org": "National Institute of Technology Uttarakhand",
+          "role": ""
+        },
+        {
+          "name": "Dr. Jignesh S. Bhatt",
+          "org": "Indian Institute of Information Technology Vadodara",
+          "role": ""
+        },
+        {
+          "name": "Mr. Shubham Bhattacharjee",
+          "org": "Indian Institute of Technology, Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Dr. Ujwala Bhoga",
+          "org": "Anurag University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Narayanarao Bhogapurapu",
+          "org": "National Institute of Technology Warangal",
+          "role": ""
+        },
+        {
+          "name": "Dr. Deepayan Bhowmik",
+          "org": "Newcastle University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Shiva Kumar Bhuram",
+          "org": "",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rajeshkhanna Bhuthkuri",
+          "org": "Jawaharlal Nehru Technological University Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mr. Gananatha Bhuyan",
+          "org": "KIIT University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Chaknith Bin",
+          "org": "none",
+          "role": ""
+        },
+        {
+          "name": "Mr. Mandar Kisan Bivalkar",
+          "org": "K. J. Somaiya Institute of Engineering and Information Technology",
+          "role": ""
+        },
+        {
+          "name": "Ms. Kim Bohyun",
+          "org": "Pusan National University",
+          "role": ""
+        },
+        {
           "name": "Dr. Rohit Kumar Bondugula",
           "org": "Central University of Karnataka",
           "role": ""
         },
         {
+          "name": "Ms. Kavya Bonyal",
+          "org": "Indian Institute of Technology, Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Ms. Deepthi Br",
+          "org": "Indian Institute of Technology, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Lorenzo Bruzzone",
+          "org": "University of Trento",
+          "role": ""
+        },
+        {
+          "name": "Dr. Hanumanthu Bukya",
+          "org": "Kakatiya Institute of Technology and Science",
+          "role": ""
+        },
+        {
           "name": "Mr. Amarender Busireddy",
-          "org": "TCS",
+          "org": "VP",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sarat C",
+          "org": "National Remote Sensing Centre (ISRO)",
+          "role": ""
+        },
+        {
+          "name": "Dr. Chandan M C",
+          "org": "National Institute of Technology Karnataka Surathkal",
+          "role": ""
+        },
+        {
+          "name": "Dr. Debjit Chakraborty",
+          "org": "NRSC",
+          "role": ""
+        },
+        {
+          "name": "Dr. Swastika Chakraborty",
+          "org": "Narula Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Anisha Chakravorty",
+          "org": "IIITDM Kurnool",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Runjhun Chandra",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Chandan Singh Chanotiya",
+          "org": "CSIR-Central Institute of Medicinal and Aromatic Plants",
+          "role": ""
+        },
+        {
+          "name": "Mr. Soumajit Chatterjee",
+          "org": "UR Rao Satellite Centre, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shiv Nath Chaudhri",
+          "org": "IIIT Sri City",
+          "role": ""
+        },
+        {
+          "name": "Dr. Vishal Chettry",
+          "org": "IIT (BHU) Varanasi",
+          "role": ""
+        },
+        {
+          "name": "Dr. Venkata Rama Rao Chevula",
+          "org": "National Institute of Technology Warangal",
+          "role": ""
+        },
+        {
+          "name": "Ms. Lakshmi Amani Chimata",
+          "org": "National remote Sensing Center",
+          "role": ""
+        },
+        {
+          "name": "Dr. VM Chowdary",
+          "org": "NRSC, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sarbajit Chowdhury",
+          "org": "LEA Associates South Asia Pvt. Ltd.",
+          "role": ""
+        },
+        {
+          "name": "Mr. Antonio Bayne Clapp",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
           "role": ""
         },
         {
@@ -301,8 +591,103 @@
           "role": ""
         },
         {
+          "name": "Mr. Shanmukharao D",
+          "org": "National Remote Sensing Centre, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sudha D",
+          "org": "SRM University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Teja Santosh D",
+          "org": "CVR College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Deepak M D",
+          "org": "National Institute of Technology Warangal",
+          "role": ""
+        },
+        {
+          "name": "Mr. Simon Dagbanja",
+          "org": "University of Electronic Science and Technology of China",
+          "role": ""
+        },
+        {
+          "name": "Mr. Dilip Kumar Dalei",
+          "org": "DRDO",
+          "role": ""
+        },
+        {
+          "name": "Mr. Harshal Narayan Dandgavhal",
+          "org": "KKWIEER",
+          "role": ""
+        },
+        {
+          "name": "Ms. Lalitha Darisanam",
+          "org": "National Remote Sensing Center",
+          "role": ""
+        },
+        {
+          "name": "Dr. Anup Kumar Das",
+          "org": "Indian Space Research Organisation",
+          "role": ""
+        },
+        {
+          "name": "Dr. Jayshree Das",
+          "org": "B V Raju Institute of Technology Narsapur, Medak",
+          "role": ""
+        },
+        {
+          "name": "Dr. Pulakesh Das",
+          "org": "Madhya Pradesh State Electronics",
+          "role": ""
+        },
+        {
+          "name": "Mr. Samiran Das",
+          "org": "IISER Bhopal",
+          "role": ""
+        },
+        {
+          "name": "Mr. Saneev Kumar Das",
+          "org": "Centurion University of Technology and Management",
+          "role": ""
+        },
+        {
           "name": "Dr. Subhranginee Das",
           "org": "K L University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Swadhin Das",
+          "org": "UPES Dehradun",
+          "role": ""
+        },
+        {
+          "name": "Mr. Debashish Dash",
+          "org": "National Remote Sensing Centre (NRSC, ISRO) Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Prof. Mihai Datcu",
+          "org": "National University of Science and Technology Politehnica of Bucharest",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rucha Dave",
+          "org": "Anand Agricultural University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sanjib Deb",
+          "org": "Space Application Center",
+          "role": ""
+        },
+        {
+          "name": "Prof. Kvbl Deepthi",
+          "org": "Maturi Venkata Subba Rao (MVSR) Engineering College",
           "role": ""
         },
         {
@@ -311,8 +696,88 @@
           "role": ""
         },
         {
+          "name": "Prof. Begüm Demir",
+          "org": "Technische Universität Berlin (TUB)",
+          "role": ""
+        },
+        {
+          "name": "Dr. Devansh Desai",
+          "org": "Silver Oak University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Kirtan Desai",
+          "org": "PES University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Ashwini Mangesh Deshpande",
+          "org": "MKSSS's Cummins College of Engineering for Women, Pune",
+          "role": ""
+        },
+        {
+          "name": "Mr. Parth Dethaliya",
+          "org": "none",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sourav Dey",
+          "org": "Rashtriya Raksha University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Farhan Dhattiwala",
+          "org": "Birla Institute of Technology and Science",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Rasika Dilhani",
+          "org": "Victoria University of Wellington",
+          "role": ""
+        },
+        {
+          "name": "Prof. Srikrishnan Divakaran",
+          "org": "Ahmedabad University",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Nishi Miteshkumar Doshi",
+          "org": "University of Southern California",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sree Kiran Draksha",
+          "org": "ADRIN",
+          "role": ""
+        },
+        {
+          "name": "Mr. Nitant Dube",
+          "org": "ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. Bhaskar Dubey",
+          "org": "ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. Uma N. Dulhare",
+          "org": "MuffaKham Jah College of Engineering & Technology",
+          "role": ""
+        },
+        {
           "name": "Dr. Monica Dutta",
-          "org": "Chitkara University",
+          "org": "GLA University, Mathura",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Sravani Duvvuri",
+          "org": "Rajiv Gandhi University of Knowledge Technologies, Nuzvid",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shahin Fatima",
+          "org": "Dayananda Sagar University",
           "role": ""
         },
         {
@@ -321,8 +786,18 @@
           "role": ""
         },
         {
-          "name": "Dr. Alejandro C Frery",
-          "org": "Victoria University of Wellington",
+          "name": "Mrs. Panchali Fonseka",
+          "org": "Arthur C Clarke Institute of Modern Technologies",
+          "role": ""
+        },
+        {
+          "name": "Mr. Aathithrayan G",
+          "org": "Amrita Vishwa Vidyapeetham (Deemed University)",
+          "role": ""
+        },
+        {
+          "name": "Dr. Spoorthy G",
+          "org": "VNR Vignanajyothi Institute of Engineering & Technology",
           "role": ""
         },
         {
@@ -331,8 +806,68 @@
           "role": ""
         },
         {
+          "name": "Mr. Harshaditya Gaur",
+          "org": "Indian Institute of Remote Sensing",
+          "role": ""
+        },
+        {
+          "name": "Mr. Priyanshu Ghosh",
+          "org": "NRSC",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sanjay Kumar Ghosh",
+          "org": "Indian Institute of Technology Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Ms. Sujata Ghosh",
+          "org": "ADRIN",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sukanya Ghosh",
+          "org": "Indian Institute of Technology, Kanpur",
+          "role": ""
+        },
+        {
+          "name": "Dr. Surajit Ghosh",
+          "org": "International Water Management Institute",
+          "role": ""
+        },
+        {
           "name": "Dr. Susmita Ghosh",
           "org": "Jadavpur University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Beena Godbin",
+          "org": "SRM Institute of Science and Technology",
+          "role": ""
+        },
+        {
+          "name": "Prof. Salil Goel",
+          "org": "IIT Kanpur",
+          "role": ""
+        },
+        {
+          "name": "Mr. Daksh Gogna",
+          "org": "Indian Institute of Technology, Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rekha Bharali Gogoi",
+          "org": "North Eastern Space Applications Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Dhanalakshmi Gopal",
+          "org": "AVN Institute of Engineering and Technology",
+          "role": ""
+        },
+        {
+          "name": "Ms. Subhosree Goswami",
+          "org": "Birla Institute of Technology, Mesra",
           "role": ""
         },
         {
@@ -341,8 +876,63 @@
           "role": ""
         },
         {
+          "name": "Mr. Bhavneet Gulati",
+          "org": "CSIR Central Institute of medicinal and Aromatic Plants",
+          "role": ""
+        },
+        {
+          "name": "Dr. Vinit K Gunjan",
+          "org": "Engineering Institute",
+          "role": ""
+        },
+        {
+          "name": "Dr. Dileep Kumar Gupta",
+          "org": "Galgotias University",
+          "role": ""
+        },
+        {
           "name": "Mr. Omprakash Gurrapu",
           "org": "Volvo Trucks North America",
+          "role": ""
+        },
+        {
+          "name": "Dr. Punithraj Gururaj",
+          "org": "National Institute of Technology Calicut",
+          "role": ""
+        },
+        {
+          "name": "Mr. Pallab Haldar",
+          "org": "Cognizant",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Durgasrilakshmi Hari",
+          "org": "Vardhaman College of Engineering, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Peddi Harikrishna",
+          "org": "Botanist, Botanical Survey of India",
+          "role": ""
+        },
+        {
+          "name": "Mr. Ballu Harish",
+          "org": "INCOIS",
+          "role": ""
+        },
+        {
+          "name": "Dr. P Hemasree",
+          "org": "CVR College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Ms. H Srimani Rojitha Hettikankanama",
+          "org": "University of Moratuwa",
+          "role": ""
+        },
+        {
+          "name": "Umesh R Hodeghatta",
+          "org": "Northeastern University",
           "role": ""
         },
         {
@@ -351,13 +941,98 @@
           "role": ""
         },
         {
+          "name": "Mr. Shaik Mohammad Imran",
+          "org": "National Institute of Technology Andhra Pradesh",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Annie Maria Issac",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Bala Venkateswarlu Isunuri",
+          "org": "SRM University-AP",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Kamini J",
+          "org": "National Remote Sensing Centre, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Nalini J",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Mr. Vasanth rao Jadav",
+          "org": "EPAM Systems",
+          "role": ""
+        },
+        {
           "name": "Mr. Shrinivas S Jagtap",
           "org": "BlueYonder",
           "role": ""
         },
         {
+          "name": "Dr. Vaishali Jain",
+          "org": "Max Planck Institute for Chemistry",
+          "role": ""
+        },
+        {
+          "name": "Ms. Prerna Jakhar",
+          "org": "Guru Gobind Singh Indraprastha University",
+          "role": ""
+        },
+        {
+          "name": "Ms. Anisha Jalathota",
+          "org": "NRSC, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Latha James",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Ms. Janani Jayawickrama",
+          "org": "Sabaragamuwa University of Sri Lanka",
+          "role": ""
+        },
+        {
+          "name": "Mr. Ashutosh Kumar Jha",
+          "org": "Indian Institute of Remote Sensing",
+          "role": ""
+        },
+        {
           "name": "Dr. MalleswaraRao Jillela",
-          "org": "Indian Space Research Organization",
+          "org": "Indian Space Reseearch Organization",
+          "role": ""
+        },
+        {
+          "name": "Mr. Pavan Kumar Jonnakuti",
+          "org": "Indian National Centre for Ocean Information Services",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shijo Joseph",
+          "org": "Kerala University of Fisheries and Ocean Sciences",
+          "role": ""
+        },
+        {
+          "name": "Dr. Ricardo A Catanghal, Jr",
+          "org": "University of Antique",
+          "role": ""
+        },
+        {
+          "name": "Dr. Anitha Sheela K",
+          "org": "JNTUH College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Prof. Archana K",
+          "org": "BMS Institute of Technology and Management",
           "role": ""
         },
         {
@@ -366,8 +1041,128 @@
           "role": ""
         },
         {
+          "name": "Mr. Rajesh K",
+          "org": "Indian Space Research Organization, National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Mr. Satish Kabade",
+          "org": "Individual Researcher",
+          "role": ""
+        },
+        {
+          "name": "Mr. Anup Kagalkar",
+          "org": "Product Technical Expert",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Dhivya Kalaiinban",
+          "org": "National Institute of Technology Puducherry",
+          "role": ""
+        },
+        {
+          "name": "Ms. Yehaasary Kalimuthu",
+          "org": "Amrita vishwa Vidyapeetham",
+          "role": ""
+        },
+        {
+          "name": "Mr. Brajesh Kanaujiya",
+          "org": "IMD",
+          "role": ""
+        },
+        {
+          "name": "Dr. Naveen Babu Kanda",
+          "org": "UMR AMAP, IRD",
+          "role": ""
+        },
+        {
+          "name": "Dr. Srinivasa Ramanujam Kannan",
+          "org": "Indian Institute of Technology Bhubaneswar",
+          "role": ""
+        },
+        {
+          "name": "Dr. Hareef Baba Shaeb Kannemadugu",
+          "org": "Scientist, Engineer SF NRSC Indian Space Research Organisation (ISRO)",
+          "role": ""
+        },
+        {
+          "name": "Dr. Lakshmi Kantakumar",
+          "org": "National Institute for Geo-Informatics Science & Technology, Survey of India",
+          "role": ""
+        },
+        {
+          "name": "Dr. Aditya Kapoor",
+          "org": "Indian Institute of Technology, Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Mr. Yogesh Karikatti",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Ms. Rachana Karnavat",
+          "org": "Pune Institute of Computer Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sai Kiran Katapally",
+          "org": "Space App India",
+          "role": ""
+        },
+        {
+          "name": "Ms. Priya Kaul",
+          "org": "Somaiya Vidyavihar University",
+          "role": ""
+        },
+        {
           "name": "Mr. Vamsi K Kavuri",
           "org": "",
+          "role": ""
+        },
+        {
+          "name": "Dr. V Keerthi",
+          "org": "National Remote Sensing Centre, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Mr. Mohammed Khalid",
+          "org": "none",
+          "role": ""
+        },
+        {
+          "name": "Dr. Noor Aldeen A Khalid",
+          "org": "Bilad Alrafidain University College",
+          "role": ""
+        },
+        {
+          "name": "Prof. Siddhartha Khare",
+          "org": "Indian Institute of Technology Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Dr. Jnana Ranjan Khuntia",
+          "org": "Chaitanya Bharathi Institute of Technology Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Ms. Muskan Kingrani",
+          "org": "Rochester Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Prakash Kodali",
+          "org": "Petsmart",
+          "role": ""
+        },
+        {
+          "name": "Dr. Ramakrishna Kolikipogu",
+          "org": "Chaitanya Bharathi Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Srinivas Reddy Kosna",
+          "org": "Cisco Systems",
           "role": ""
         },
         {
@@ -376,8 +1171,113 @@
           "role": ""
         },
         {
+          "name": "Ms. Vijaita Krishna",
+          "org": "NRSC",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sooraj Krishnan",
+          "org": "KSCSTE-Institute for Climate Change Studies",
+          "role": ""
+        },
+        {
+          "name": "Dr. Vijayasurya Krishnan",
+          "org": "Jain University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Abhinav Kumar",
+          "org": "National Remote Sensing Centre ISRO Balanagar Hyderbad India",
+          "role": ""
+        },
+        {
+          "name": "Mr. Abhishek Kumar",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Dr. Arun Prasad Kumar",
+          "org": "Central University of Tamil Nadu",
+          "role": ""
+        },
+        {
+          "name": "Dr. Banti Kumar",
+          "org": "University Of Petroleum and Energy Studies",
+          "role": ""
+        },
+        {
+          "name": "Mr. Bhupendra Kumar",
+          "org": "Centre for Airborne Systems DRDO",
+          "role": ""
+        },
+        {
+          "name": "Mr. Kundan Kumar",
+          "org": "Indian Institute of Technology Bhubaneswar",
+          "role": ""
+        },
+        {
+          "name": "Dr. Nishant Kumar",
+          "org": "Koneru Lakshmaiah Education Foundation, Guntur",
+          "role": ""
+        },
+        {
+          "name": "Mr. Prashant Kumar",
+          "org": "National Institute of Technology Delhi",
+          "role": ""
+        },
+        {
+          "name": "Mr. Saurav Kumar",
+          "org": "NRSC, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Mr. Shashwat Kumar",
+          "org": "Birla Institute of Technology and Science",
+          "role": ""
+        },
+        {
+          "name": "Dr. Yakshansh Kumar",
+          "org": "Delhi Technological University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Mamta Kumari",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Ms. Priyanka Kumari",
+          "org": "Birla Institute of Technology Mesra",
+          "role": ""
+        },
+        {
+          "name": "Dr. Aiswarya Kunnath-Poovakka",
+          "org": "KSCSTE-Institute for Climate Change Studies",
+          "role": ""
+        },
+        {
           "name": "Dr. Ayushi Kurian",
           "org": "Hochschule Anhalt",
+          "role": ""
+        },
+        {
+          "name": "Dr. Kuldeep Kurte",
+          "org": "International Institute of Information Technology Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mr. Abhishek Kutikuppala",
+          "org": "SRM institute of Science and Technology",
+          "role": ""
+        },
+        {
+          "name": "Ms. Mohsinat Ahmed Laboni",
+          "org": "Bangladesh University of Engineering and Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Hemant Kumar Lalwani",
+          "org": "Indian Space Research Organization",
           "role": ""
         },
         {
@@ -386,8 +1286,73 @@
           "role": ""
         },
         {
+          "name": "Mr. Saptarshi Lohia",
+          "org": "Space Application Centre ISRO, Ahmedabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Anuradha M",
+          "org": "PES University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Balaji M",
+          "org": "Mitti Labs",
+          "role": ""
+        },
+        {
+          "name": "Dr. Jenila Vincent M",
+          "org": "Vellore Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Dr. Nirmala Devi M",
+          "org": "Thiagarajar College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Mr. Raghava M",
+          "org": "CVR College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Dr. Ramiya A M",
+          "org": "IIST",
+          "role": ""
+        },
+        {
+          "name": "Mr. Suresh Kumar M",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Swapna. M",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Thejaswini M",
+          "org": "IIIT Bhagalpur",
+          "role": ""
+        },
+        {
           "name": "Dr. Sunandana Reddy Machireddy",
           "org": "Rajeev Gandhi Memorial College of Engineering and Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Bishwadip Maitra",
+          "org": "IIIT Sri City",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sanjit Maitra",
+          "org": "Indian Statistical Institute, North-East Centre",
+          "role": ""
+        },
+        {
+          "name": "Mr. Saimana Manavalan",
+          "org": "Centre for Development of Advaced Computing",
           "role": ""
         },
         {
@@ -396,8 +1361,153 @@
           "role": ""
         },
         {
+          "name": "Prof. Shimna Manoharan",
+          "org": "BMS Institute of Technology and Management",
+          "role": ""
+        },
+        {
+          "name": "Dr. Armando Marino",
+          "org": "The University of Stirling",
+          "role": ""
+        },
+        {
+          "name": "Dr. Akhil Ulhas Masurkar",
+          "org": "Vidyalankar Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Dr. Ajay Kumar Maurya",
+          "org": "National Institute of Technology Patna",
+          "role": ""
+        },
+        {
+          "name": "Dr. Himanshu Maurya",
+          "org": "IIIT Allahabad",
+          "role": ""
+        },
+        {
+          "name": "Mr. Md Mehraj",
+          "org": "Indian Institute of Technology Jammu",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sindhu P Menon",
+          "org": "REVA University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Suresh Merugu",
+          "org": "University of Southampton Malaysia",
+          "role": ""
+        },
+        {
+          "name": "Mr. Preet Mhaski",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Dr. Deepak Mishra",
+          "org": "IIST",
+          "role": ""
+        },
+        {
+          "name": "Dr. Gaurav Kumar Mishra",
+          "org": "Guru Gobind Singh Indraprastha University",
+          "role": ""
+        },
+        {
+          "name": "Ms. Prachi Mishra",
+          "org": "Delhi Technological University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Priyanka Mishra",
+          "org": "Indian Institute of Information Technology, Vadodara",
+          "role": ""
+        },
+        {
+          "name": "Mr. Shubham Mishra",
+          "org": "Indian Institute of Technology, Kanpur",
+          "role": ""
+        },
+        {
+          "name": "Dr. Tarik Mitran",
+          "org": "National Remote Sensing Center",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Monica Mohan",
+          "org": "PricewaterhouseCoopers AC",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sachi Mohanty",
+          "org": "KIIT University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shreedevi Moharana",
+          "org": "National Institute of Technology Warangal",
+          "role": ""
+        },
+        {
+          "name": "Mr. Arnab Mondal",
+          "org": "Indian Institute of Technology, Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Mr. Nivas Raj Moorthi",
+          "org": "Tamil Nadu Agricultural University, Coimbatore",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sai Krishna Mothku",
+          "org": "National Institute of Technology Warangal",
+          "role": ""
+        },
+        {
+          "name": "Ms. Prashanthi Byrapaka, Ms",
+          "org": "Vaagdevi Engineering College",
+          "role": ""
+        },
+        {
+          "name": "Prof. Sekhar Muddu",
+          "org": "Indian Institute of Science",
+          "role": ""
+        },
+        {
+          "name": "Ms. Pragya Muni",
+          "org": "Banaras Hindu University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Vinaychand Muppala",
+          "org": "Amazon.com",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Thiruchelvi Murugesan",
+          "org": "Electronics and Radar Development Establishment",
+          "role": ""
+        },
+        {
           "name": "Mrs. Srivallidevi Muthusami",
           "org": "Wabtec Organization",
+          "role": ""
+        },
+        {
+          "name": "Mr. Raghavender N",
+          "org": "National Remote Sensing Centre, Indian Space Research Organisation",
+          "role": ""
+        },
+        {
+          "name": "Mr. Kannan Nagajothi",
+          "org": "RRSC - South",
+          "role": ""
+        },
+        {
+          "name": "Prof. Gopal M Naik",
+          "org": "Osmania University",
           "role": ""
         },
         {
@@ -406,8 +1516,33 @@
           "role": ""
         },
         {
+          "name": "Dr. Satyanarayana V Nandury",
+          "org": "CSIR-Indian Institute of Chemical Technology",
+          "role": ""
+        },
+        {
           "name": "Dr. Subrata Nandy",
           "org": "Indian Institute of Remote Sensing, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Mr. Narasimha Sharma Narayanam",
+          "org": "Aganitha Space Technologies Pvt Ltd",
+          "role": ""
+        },
+        {
+          "name": "Mr. Baipilli Naveen",
+          "org": "Indian Institute of Technology Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rabindrakumar Nayak",
+          "org": "NRSC",
+          "role": ""
+        },
+        {
+          "name": "Ms. Rohitha Neelam",
+          "org": "Centre of Excellence for H-W Conflict management, Ministry of Environment, Forests & Climate Change",
           "role": ""
         },
         {
@@ -416,13 +1551,58 @@
           "role": ""
         },
         {
+          "name": "Mrs. Rashmi Kumaria Nitwane",
+          "org": "MGM University",
+          "role": ""
+        },
+        {
           "name": "Mr. Hammed Obasekore",
           "org": "Kyungpook National University",
           "role": ""
         },
         {
+          "name": "Dr. Chandrakanta Ojha",
+          "org": "Indian Institute of Science Education and Research Mohali",
+          "role": ""
+        },
+        {
+          "name": "Mr. James A. Oyelayo",
+          "org": "Montana Technological University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Masilamani P",
+          "org": "Bharathidasan University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Matan P",
+          "org": "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sampath Kumar P",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Mr. Srikanth P",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Venkat Prasad Padhy",
+          "org": "VIT Bhopal University",
+          "role": ""
+        },
+        {
           "name": "Dr. Pavan Kumar Kumar Pagadala",
           "org": "Koneru Lakshmaiah Education Foundation",
+          "role": ""
+        },
+        {
+          "name": "Prof. Mahesh Pal",
+          "org": "NIT Kurukshetra",
           "role": ""
         },
         {
@@ -436,8 +1616,43 @@
           "role": ""
         },
         {
+          "name": "Dr. Santosh Kumar Panda",
+          "org": "University Of Petroleum and Energy Studies",
+          "role": ""
+        },
+        {
+          "name": "Dr. Akshay Pandey",
+          "org": "PDPM IIITDM Jabalpur",
+          "role": ""
+        },
+        {
           "name": "Dr. Dharmendra Kumar Pandey",
           "org": "Space Applications Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Kamal Pandey",
+          "org": "IIRS",
+          "role": ""
+        },
+        {
+          "name": "Mr. Manish Parmar",
+          "org": "Space Applications Centre, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. Vivek Parmar",
+          "org": "Indian Institute of Technology Delhi",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sumanta Pasari",
+          "org": "BITS Pilani",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shaik Vazeed Pasha",
+          "org": "National Institute of Advanced Studies Bengaluru",
           "role": ""
         },
         {
@@ -446,8 +1661,113 @@
           "role": ""
         },
         {
+          "name": "Ms. Anjali Patel",
+          "org": "Pandit Deendayal Energy University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Bharati Patel",
+          "org": "ICFRE-Institute of Forest Biodiversity",
+          "role": ""
+        },
+        {
+          "name": "Ms. Vishwa Patel",
+          "org": "Silver Oak University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Pankaj Patidar",
+          "org": "Indian Institute of Technology Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Mr. Abhishek Patil",
+          "org": "Azista Industries",
+          "role": ""
+        },
+        {
+          "name": "Dr. Subhashree Patra",
+          "org": "National Institute of Advanced Studies",
+          "role": ""
+        },
+        {
+          "name": "Mr. Harshavardhan Peddireddy",
+          "org": "Meijer INC",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Priyamadhuri Penchala",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shoba Periasamy",
+          "org": "College of Engineering Guindy",
+          "role": ""
+        },
+        {
           "name": "Dr. Swetha Pesaru",
           "org": "Vignana Bharathi Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sudhansh Pilla",
+          "org": "Birla Institute of Technology and Science",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rama Chandra Prasad Pillutla",
+          "org": "International Institute of Information Technology, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Charani Pinninti",
+          "org": "AndhraUniversity",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Jayasri V Poludasu",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Chandan Pradhan",
+          "org": "National Institute of Technology Karnataka, Surathkal",
+          "role": ""
+        },
+        {
+          "name": "Mr. Nagin Bhai Prajapati",
+          "org": "Space exhibition bopal",
+          "role": ""
+        },
+        {
+          "name": "Dr. Turimerla Pratap",
+          "org": "Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada",
+          "role": ""
+        },
+        {
+          "name": "Prof. Viswanath Pulabaigari",
+          "org": "IIIT Sri City",
+          "role": ""
+        },
+        {
+          "name": "Mr. Yatish Ram E R",
+          "org": "National Institute of Technology Karnataka, Surathkal",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rajmohan R",
+          "org": "SRM Institute of Science and Technology",
+          "role": ""
+        },
+        {
+          "name": "Dr. Eswar Rajasekaran",
+          "org": "Indian Institute of Technology Bombay",
+          "role": ""
+        },
+        {
+          "name": "Dr. Nagarajan Rajendiren",
+          "org": "MSSwaminathan Research Foundation",
           "role": ""
         },
         {
@@ -456,8 +1776,103 @@
           "role": ""
         },
         {
+          "name": "Dr. Sreenivasan Ramasamy Ramamurthy",
+          "org": "Bowie State University",
+          "role": ""
+        },
+        {
+          "name": "Prof. M Roja Raman",
+          "org": "Sathyabama Institute of Science and Technology",
+          "role": ""
+        },
+        {
           "name": "Prof. Raaj Ramsankaran",
           "org": "Indian Institute of Technology Bombay",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Shanta Rangaswamy",
+          "org": "RVCE",
+          "role": ""
+        },
+        {
+          "name": "Mr. Rajeev Ranjan",
+          "org": "Indian Institute of Technology (IIT) Delhi",
+          "role": ""
+        },
+        {
+          "name": "Mr. Deepak Rao",
+          "org": "Infosys Ltd",
+          "role": ""
+        },
+        {
+          "name": "Ms. Priyanka Rathore",
+          "org": "JECRC University",
+          "role": ""
+        },
+        {
+          "name": "Prof. Mehul Shirishchandra Raval",
+          "org": "School of Engineering and Applied Science, Ahmedabad University",
+          "role": ""
+        },
+        {
+          "name": "Dr. K Ravikumar",
+          "org": "VNR Vignana Jyothi Institute of Engineering And Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Sachin Rayamajhi",
+          "org": "Pashchimanchal Campus, Tribhuwan University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Datla Rajesh Reddy",
+          "org": "ADRIN",
+          "role": ""
+        },
+        {
+          "name": "Dr. D Maheswara Reddy",
+          "org": "Anurag University",
+          "role": ""
+        },
+        {
+          "name": "Dr. G Karthik Reddy",
+          "org": "MLR Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. N Madhusudhan Reddy",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sudheer Reddy",
+          "org": "none",
+          "role": ""
+        },
+        {
+          "name": "Prof. Andrea A. Rey",
+          "org": "Universidad Nacional de Hurlingham",
+          "role": ""
+        },
+        {
+          "name": "Dr. S riNidhi",
+          "org": "Forest College and Research Institute",
+          "role": ""
+        },
+        {
+          "name": "Mr. Rithesh",
+          "org": "NMAM Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Ms. R Aruna Flarence Rokkam",
+          "org": "University of Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Sreetama Roy",
+          "org": "Indian Institute of Technology Kanpur",
           "role": ""
         },
         {
@@ -466,8 +1881,123 @@
           "role": ""
         },
         {
+          "name": "Dr. Sukanta Roy",
+          "org": "Global Academy of Technology, Bengaluru",
+          "role": ""
+        },
+        {
+          "name": "Mr. Yaythish Kannaa G S",
+          "org": "Centre for Development of Advanced Computing",
+          "role": ""
+        },
+        {
+          "name": "Dr. Hema M S",
+          "org": "R V Institute of Technology and Management",
+          "role": ""
+        },
+        {
+          "name": "Dr. Prakash P S",
+          "org": "Irish Centre for High End Computing, University of Galway",
+          "role": ""
+        },
+        {
+          "name": "Mr. Arun S",
+          "org": "Digital University Kerala",
+          "role": ""
+        },
+        {
+          "name": "Ms. Dharani S",
+          "org": "Kerala Agricultural University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Harish Kumar S",
+          "org": "PES Institute of Technology and Management Shivamogga Karnataka India",
+          "role": ""
+        },
+        {
+          "name": "Dr. Jayalakshmi S",
+          "org": "College of Engineering, Guindy",
+          "role": ""
+        },
+        {
+          "name": "Dr. Nagini S",
+          "org": "VNRVJ Institute of Engineering and Technology",
+          "role": ""
+        },
+        {
+          "name": "Ms. Preethi S",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Dr. Vijayashekar S s",
+          "org": "Acharya Institute",
+          "role": ""
+        },
+        {
+          "name": "Dr. Geetali Saha",
+          "org": "Gujarat Technological University",
+          "role": ""
+        },
+        {
+          "name": "Ms. Bazar Sahithi",
+          "org": "Anurag University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Satya Sahithi",
+          "org": "V R Siddhartha Engineering College",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Chandani Sahu",
+          "org": "National Institute of Technology, Raipur",
+          "role": ""
+        },
+        {
+          "name": "Dr. Indrajeet Sahu",
+          "org": "Vardhaman College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Mrs. HariPriya Saketapuram",
+          "org": "Indian Space Research Organization",
+          "role": ""
+        },
+        {
+          "name": "Dr. Anoop Sampelli",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Mr. Harsh Sanger",
+          "org": "none",
+          "role": ""
+        },
+        {
+          "name": "Mr. Raghavendra Sara",
+          "org": "ADRIN",
+          "role": ""
+        },
+        {
+          "name": "Mr. Anjani Sarawagi",
+          "org": "Indian Institute of Technology, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Meenakshi Sarkar",
+          "org": "Indian Space Research Organization Ahmedabad",
+          "role": ""
+        },
+        {
           "name": "Dr. Hitendra T Sarma",
           "org": "Vasavi College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Mr. Vishwajit Sarnobat",
+          "org": "Sardar Patel Institute of Technology",
           "role": ""
         },
         {
@@ -476,18 +2006,148 @@
           "role": ""
         },
         {
+          "name": "Dr. KV Satish",
+          "org": "Chanakya University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Mahendra Sudhir Sawane",
+          "org": "Savitribai Phule Pune University Pune",
+          "role": ""
+        },
+        {
+          "name": "Dr. Jaya Saxena",
+          "org": "NRSC, ISRO, Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Mr. Vamsi Krishna Sbsss",
+          "org": "Central University of Andhra Pradesh",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rocco Sedona",
+          "org": "Forschungszentrum Jülich",
+          "role": ""
+        },
+        {
+          "name": "Mr. Aryaman Mihir Seth",
+          "org": "Climitra Carbon Private Limited",
+          "role": ""
+        },
+        {
+          "name": "Dr. Shaik Shafi",
+          "org": "B V Raju Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Dr. Maitrik Shah",
+          "org": "LD College of Engineering",
+          "role": ""
+        },
+        {
           "name": "Ms. Shagufta Shakeel",
           "org": "Madan Mohan Malaviya University of Technology",
           "role": ""
         },
         {
-          "name": "Richa Sharma",
+          "name": "Dr. Achala Shakya",
+          "org": "SRM University-AP Amaravathi, Andhra Pradesh",
+          "role": ""
+        },
+        {
+          "name": "Mr. Aman Sharma",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Mr. Amol Sharma",
+          "org": "Indian Institute of Information Technology Allahabad",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Nisha Sharma",
+          "org": "Chandigarh University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Richa Sharma",
           "org": "Birla Institute of Technology Mesra",
           "role": ""
         },
         {
-          "name": "Dr. Michal Shimoni",
-          "org": "Kuva Space",
+          "name": "Dr. Arpan Shastri",
+          "org": "IISER Mohali",
+          "role": ""
+        },
+        {
+          "name": "Dr. Chander Shekhar",
+          "org": "DGRE, DRDO",
+          "role": ""
+        },
+        {
+          "name": "Dr. B Shilpa",
+          "org": "AVN Institute of Engineering and Technology",
+          "role": ""
+        },
+        {
+          "name": "Mr. Alison Shilpakar",
+          "org": "Antarikchya Pratisthan Nepal",
+          "role": ""
+        },
+        {
+          "name": "Ms. Aarya Shinde",
+          "org": "Tata Consultancy Services",
+          "role": ""
+        },
+        {
+          "name": "Dr. Umesh Shinde",
+          "org": "K J Somaiya Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Ms. Sindhu Shree",
+          "org": "Acharya Institute of Technology",
+          "role": ""
+        },
+        {
+          "name": "Mrs. Reedhi Shukla",
+          "org": "National Remote Sensing Centre",
+          "role": ""
+        },
+        {
+          "name": "Mr. Adwait Singh",
+          "org": "Shiv Nadar University",
+          "role": ""
+        },
+        {
+          "name": "Dr. Dheerendra Pratap Singh",
+          "org": "Bennett University",
+          "role": ""
+        },
+        {
+          "name": "Mr. Gurpreet Singh",
+          "org": "URSC",
+          "role": ""
+        },
+        {
+          "name": "Ms. Jahnavi Singh",
+          "org": "Indian Institute of Technology, Roorkee",
+          "role": ""
+        },
+        {
+          "name": "Mr. Manas Singh",
+          "org": "IIIT Lucknow",
+          "role": ""
+        },
+        {
+          "name": "Dr. Pankaj Pratap Singh",
+          "org": "Central Institute of Technology Kokrajhar, Assam",
+          "role": ""
+        },
+        {
+          "name": "Mr. Pratik Singh",
+          "org": "KIIT, DU",
           "role": ""
         },
         {
@@ -496,13 +2156,53 @@
           "role": ""
         },
         {
+          "name": "Mrs. Sangeetha Singh",
+          "org": "Vardhaman College of Engineering",
+          "role": ""
+        },
+        {
+          "name": "Mr. Saravanan Subbarayana",
+          "org": "National Institute of Technology Tiruchirappalli",
+          "role": ""
+        },
+        {
+          "name": "Dr. Kandula V Subrahmanyam",
+          "org": "National Remote Sensing Centre, ISRO",
+          "role": ""
+        },
+        {
+          "name": "Dr. K. Sudhakar",
+          "org": "NATIONAL REMOTE SENSING CENTRE",
+          "role": ""
+        },
+        {
+          "name": "Dr. Debadatta Swain",
+          "org": "Indian Institute of Technology Bhubaneswar",
+          "role": ""
+        },
+        {
+          "name": "Mr. Saikumar Tara",
+          "org": "CMR Technical Campus",
+          "role": ""
+        },
+        {
           "name": "Dr. Chirag Rajendra Ternikar",
           "org": "Indian Institute of Science, Bengaluru",
           "role": ""
         },
         {
+          "name": "Dr. Mayamanikandan Thangavelu",
+          "org": "National Centre for Coastal Research",
+          "role": ""
+        },
+        {
           "name": "Dr. Kiran Chand Thumaty",
           "org": "International Institute of Information Technology-Hyderabad",
+          "role": ""
+        },
+        {
+          "name": "Dr. Rajesh Tiwari",
+          "org": "Engineering College",
           "role": ""
         },
         {
@@ -526,8 +2226,8 @@
           "role": ""
         },
         {
-          "name": "Prof. Silvia Liberata Ullo",
-          "org": "Università Degli Studi del Sannio",
+          "name": "Dr. Varsha Turkar",
+          "org": "IEEE Senior Member",
           "role": ""
         },
         {
@@ -538,6 +2238,11 @@
         {
           "name": "Dr. Divya Sekhar Vaka",
           "org": "GEOFEM",
+          "role": ""
+        },
+        {
+          "name": "Dr. Divyesh Varade",
+          "org": "Indian Institute of Technology Jammu",
           "role": ""
         },
         {
@@ -553,6 +2258,16 @@
         {
           "name": "Prof. Gobi Vetharatnam",
           "org": "Universiti Tunku Abdul Rahman",
+          "role": ""
+        },
+        {
+          "name": "Dr. Padmavathi Viswanadham",
+          "org": "Jntuh",
+          "role": ""
+        },
+        {
+          "name": "Dr. Tianlin Wang",
+          "org": "JPL, NASA",
           "role": ""
         }
       ]
