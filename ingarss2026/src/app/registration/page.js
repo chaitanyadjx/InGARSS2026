@@ -43,13 +43,15 @@ export default function RegistrationPage() {
       <section className="px-5 md:px-[8%] py-8 md:py-12 bg-white border-b-[3px] border-black text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-indigo mb-4">Ready to Register?</h2>
-          <p className="text-gray-700 mb-6 text-sm sm:text-base">The registration link will be available soon.</p>
-          <button 
-            disabled
-            className="inline-block bg-gray-200 text-gray-500 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-gray-400 cursor-not-allowed shadow-[6px_6px_0_gray]"
+          <p className="text-gray-700 mb-6 text-sm sm:text-base">Secure your spot for InGARSS 2026.</p>
+          <a
+            href={process.env.NEXT_PUBLIC_REGISTRATION_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
           >
             REGISTER NOW
-          </button>
+          </a>
         </div>
       </section>
 

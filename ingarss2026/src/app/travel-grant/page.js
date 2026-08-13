@@ -200,12 +200,14 @@ export default function TravelGrantPage() {
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-8 sm:mb-10">
                         Apply for the Travel Grant
                     </h2>
-                    <span
-                        className="inline-block bg-[#CEA964] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] opacity-60 cursor-not-allowed select-none"
-                        title="Dates are currently tentative"
+                    <a
+                        href={process.env.NEXT_PUBLIC_TRAVEL_GRANT_LINK}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
                     >
-                        APPLICATIONS OPENING SOON
-                    </span>
+                        APPLY NOW
+                    </a>
                     <p className="text-white/60 text-xs font-mono mt-8">
                         For inquiries, contact:{' '}
                         <a
