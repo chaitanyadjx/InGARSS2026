@@ -12,12 +12,12 @@
       }
     },
     "venue": {
-      "location": "Hyderabad city",
+      "location": "The Park, Hyderabad",
       "label": "HOST LOCATION",
-      "description": "Experience the symposium in Hyderabad, the vibrant \"Cyber City\" of India. Hyderabad seamlessly intertwines 400 years of rich history with a booming aerospace and IT sector, providing an inspiring and sophisticated backdrop for InGARSS 2026. Explore its iconic heritage and modern advancements.",
-      "image": "/assets/hyderabad.png",
-      "imageCaption": "VENUE: HYDERABAD CITY",
-      "detailsLink": "https://hyderabad.telangana.gov.in/" 
+      "description": "Experience the symposium at The Park in Hyderabad, the vibrant \"Cyber City\" of India. Hyderabad seamlessly intertwines 400 years of rich history with a booming aerospace and IT sector, providing an inspiring and sophisticated backdrop for InGARSS 2026. Explore its iconic heritage and modern advancements.",
+      "image": "/assets/the-park-hyderabad.jpg",
+      "imageCaption": "VENUE: THE PARK, HYDERABAD",
+      "detailsLink": "https://www.theparkhotels.com/hyderabad/" 
     },
     "quickLinks": {
       "title": "Share Your Research",
