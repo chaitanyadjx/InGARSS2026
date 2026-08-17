@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Operational NISAR Soil Moisture Products: A Hands-on Tutorial on Access, Analytics and Scientific Applications",
+    "topics": [
+      "Introduction to NISAR Mission and Operational Soil Moisture Products",
+      "From NISAR Observations to Operational Soil Moisture Products",
+      "Practical Exercise 1: Product Discovery, Access and Online Analytics (Bhoonidhi & VEDAS)",
+      "Practical Exercise 2: Advanced Visualization and Analysis using User-Centric Tools",
+      "Integrated Application Demonstration and NGE Showcase."
+    ],
+    "speakers": [
+      {
+        "name": "Dr. Dharmendra Kumar Pandey",
+        "role": "NISAR ISRO Science Team Member & Soil Moisture (Lead)",
+        "designation": "Scientist/Engineer-SF",
+        "affiliation": "Space Applications Centre (SAC), Indian Space Research Organization (ISRO)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "From Flight to Insight: Open-Source Drone Data Processing with WebODM",
+    "description": "This workshop is designed to provide a comprehensive introduction to open-source drone data processing using WebODM, a powerful and accessible platform for photogrammetric reconstruction and drone data product generation. The session will guide participants through the complete workflow—from flight planning principles and image acquisition best practices to processing raw drone imagery into orthomosaics, digital elevation models (DEMs), point clouds, and 3D surface models. Participants will also gain practical understanding of quality assessment, coordinate systems, ground control points (GCPs), data export formats, and downstream integration with GIS tools such as QGIS. Real-world case studies in precision agriculture, infrastructure monitoring, and environmental applications will be presented to demonstrate scientific and operational value.",
+    "speakers": [
+      {
+        "name": "Harshaditya Gaur",
+        "affiliation": "BharatRohan Airborne Innovations Limited",
+        "bio": "He is currently working as a Senior Remote Sensing Engineer at BharatRohan Airborne Innovations Limited, focusing on hyperspectral and multispectral UAV/satellite data analysis, geospatial workflow automation, and precision agriculture applications. His work involves remote sensing analytics, image processing, and developing scalable geospatial solutions using machine learning and open-source tech. He holds a Bachelor’s in Computer Science and a Master’s in Remote Sensing & GIS from Indian Institute of Remote Sensing with specialization in Satellite Image Analysis and Photogrammetry."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mapping, Measuring, and Monitoring Glacial Lakes and Their Outburst-Flood Hazards in High Mountain Regions using Multi-Source Remote-Sensing",
+    "description": "High Mountain Asia (HMA) contains the largest concentration of glaciers outside the polar regions and the highest concentration of high-altitude lakes in the world. The glacial lakes in HMA are expanding rapidly and pose a growing glacial-lake outburst flood (GLOF) hazard to downstream communities and infrastructure. Here we present an end-to-end, reproducible remote-sensing workflow for mapping and monitoring glacial lakes and their associated hazards across HMA, using open multi-source datasets and cloud computing. The workflow consists of three connected stages. First, we present an automated, multi-source lake-mapping framework that integrates optical imagery (e.g., Landsat-8/-9 and Sentinel-2), SAR (i.e., Sentinel-1), and Digital Elevation Model data on Google Earth Engine. This framework overcomes the climatic, weather, topographic, and computational challenges of high-mountain regions that hinder mapping at scales as large as HMA, enabling the generation of accurate, comprehensive glacial-lake inventories. Second, we address lake-volume estimation, reviewing the limitations of empirical scaling models and introducing an ICESat-2 altimetry-based approach for morphometry-informed volume estimation. Third, we show how multi-temporal lake mapping, combined with geomorphological evidence, reanalysis-based trigger analysis, and downstream-exposure assessment, can detect previously unreported GLOF events, verify and improve historical GLOF records, and correct regional GLOF frequency. Throughout, we emphasize scalability, reproducibility, uncertainty, and the transferability of these methods beyond HMA. Overall, we demonstrate how automated glacial-lake inventories are generated and used to monitor their dynamics, how satellite altimetry can be applied to glacial-lake volume estimation, and how evidence-based GLOF inventories are generated and verified.",
+    "speakers": [
+      {
+        "name": "Ravindra Kumar",
+        "affiliation": "Department of Civil Engineering (Geospatial Group), Indian Institute of Technology Roorkee, Roorkee, Uttarakhand 247667, India"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Spatial Analysis using R.",
+    "description": "R has emerged as one of the most powerful opensource programming languages for geospatial research and applications. Its strength lies in the ability to integrate spatial data with statistical modeling, machine learning, and advanced visual analytics. Unlike traditional GIS software, R provides a code-driven, reproducible environment where workflows can be documented, shared, and replicated with precision. R supports both vector (points, lines, polygons) and raster (grids, imagery) data models, enabling analysts to work seamlessly across diverse datasets. In the emerging era of Artificial Intelligence and data-driven governance, geospatial data is central to understanding both society and the natural environment. R enhances this by Moving beyond conventional cartography to digital, interactive, and dynamic mapping, supporting big spatial data workflow.",
+    "speakers": [
+      {
+        "name": "Dr. Dipak R. Samal",
+        "designation": "Assistant Professor",
+        "affiliation": "School of Public Policy and Governance, Tata Institute of Social Sciences, Hyderabad."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "GeoAI-SAR For Disaster Applications: Deep Learning with SAR for Monitoring, Mapping, and Prediction",
+    "sessions": [
+      "SESSION I: SAR Basics and SAR Data Preprocessing",
+      "SESSION II: GeoAI: Advanced Deep Learning Architectures and Model Development",
+      "Session III: Hands-on Practical Demonstration"
+    ],
+    "speakers": [
+      {
+        "name": "Dr. Gopal Singh Phartiyal",
+        "affiliation": "Asst. Prof., Computer Science and Information Systems, BITS Pilani, Pilani & Visiting Research Fellow, School of Earth and Environment, University of Leeds, Leeds, UK."
+      },
+      {
+        "name": "Dr. Shubham Awasthi",
+        "affiliation": "Post-Doctoral, Department of Earth Science and Engineering, Royal School of Mines, Imperial College London, United Kingdom."
+      },
+      {
+        "name": "Dr. Ajeet Kumar",
+        "affiliation": "Researcher Level IV, National RaSS (Radar and Surveillance System) Laboratory of National Inter-University Consortium for Telecommunications (CNIT, Pisa, Italy)."
+      }
+    ]
+  }
+]
