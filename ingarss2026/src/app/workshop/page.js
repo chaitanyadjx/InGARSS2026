@@ -47,25 +47,19 @@ export default function WorkshopPage() {
                 <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-2">
                   1-Day Tutorial Workshop (1st December)
                 </h3>
-                <p className="text-sm sm:text-base text-gray-700 font-medium mb-3">
+                <p className="text-sm sm:text-base text-gray-700 font-medium">
                   Registration Fee: <span className="font-bold text-black">₹ 2,500</span> (Indian) / <span className="font-bold text-black">$50</span> (International)
                 </p>
-                <div className="space-y-1.5 bg-[var(--bone)]/60 p-4 border border-black text-xs sm:text-sm text-gray-800">
-                  <p className="font-bold uppercase text-[var(--terracotta)] tracking-wider">Registration Procedure:</p>
-                  <p>1. Complete the <span className="font-extrabold">Online Google Form</span> for workshop registration.</p>
-                  <p>2. Complete the <span className="font-extrabold">Payment</span> through the online transfer / payment portal.</p>
-                </div>
               </div>
               
               <div className="shrink-0 w-full md:w-auto text-center md:text-right">
-                <a
-                  href={process.env.NEXT_PUBLIC_WORKSHOP_REGISTRATION_LINK || "https://in.eregnow.com/ticketing/register/ingarss2026?_rid=31732&_single=1"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block w-full md:w-auto bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
+                <button
+                  disabled
+                  className="inline-block w-full md:w-auto bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[4px_4px_0_black]"
+                  title="Workshop registration will open soon"
                 >
-                  REGISTER NOW →
-                </a>
+                  REGISTRATION OPENING SOON
+                </button>
               </div>
             </div>
           </div>
@@ -106,23 +100,33 @@ export default function WorkshopPage() {
                   key={workshop.id}
                   className="border-[3px] border-black shadow-[6px_6px_0_black] bg-white overflow-hidden transition-all"
                 >
-                  {/* Clickable Title Bar */}
+                  {/* Clickable Title Bar - Optimized for Mobile */}
                   <button
                     onClick={() => toggleItem(workshop.id)}
-                    className="w-full text-left p-5 sm:p-6 bg-white hover:bg-slate-50 transition-colors flex items-start justify-between gap-4 group cursor-pointer"
+                    className="w-full text-left p-4 sm:p-6 bg-white hover:bg-slate-50 transition-colors flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 group cursor-pointer"
                     aria-expanded={isOpen}
                   >
-                    <div className="flex items-start gap-4">
-                      <span className="inline-block bg-[var(--indigo)] text-white font-mono font-bold text-xs sm:text-sm px-3 py-1 border-2 border-black shrink-0">
-                        Workshop #{index + 1}
-                      </span>
-                      <h3 className="text-lg sm:text-xl font-extrabold text-black group-hover:text-[var(--terracotta)] transition-colors leading-snug">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 w-full">
+                      <div className="flex items-center justify-between w-full sm:w-auto gap-3">
+                        <span className="inline-block bg-[var(--indigo)] text-white font-mono font-bold text-xs sm:text-sm px-3 py-1 border-2 border-black shrink-0">
+                          Workshop #{index + 1}
+                        </span>
+                        <div
+                          className={`sm:hidden w-7 h-7 rounded-full border-2 border-black flex items-center justify-center bg-[var(--gold)] text-black text-xs transition-transform duration-300 shrink-0 ${
+                            isOpen ? 'rotate-180 bg-[var(--terracotta)] text-white' : 'rotate-0'
+                          }`}
+                        >
+                          ▼
+                        </div>
+                      </div>
+
+                      <h3 className="text-base sm:text-xl font-extrabold text-black group-hover:text-[var(--terracotta)] transition-colors leading-snug break-words hyphens-auto">
                         {workshop.title}
                       </h3>
                     </div>
 
-                    <div className="flex items-center gap-2 shrink-0 pt-1">
-                      <span className="text-xs font-bold font-mono hidden sm:inline-block text-black/60">
+                    <div className="hidden sm:flex items-center gap-2 shrink-0 pt-1">
+                      <span className="text-xs font-bold font-mono text-black/60">
                         {isOpen ? 'HIDE' : 'VIEW DETAILS'}
                       </span>
                       <div
@@ -135,27 +139,27 @@ export default function WorkshopPage() {
                     </div>
                   </button>
 
-                  {/* Expandable Details Area */}
+                  {/* Expandable Details Area - Optimized for Mobile */}
                   <div
                     className={`transition-all duration-300 ease-in-out overflow-hidden ${
                       isOpen ? 'max-h-[3000px] opacity-100' : 'max-h-0 opacity-0'
                     }`}
                   >
-                    <div className="p-5 sm:p-8 border-t-[3px] border-black bg-[var(--bone)]/40 space-y-6">
+                    <div className="p-4 sm:p-8 border-t-[3px] border-black bg-[var(--bone)]/40 space-y-6">
                       {/* Topics (if present) */}
                       {workshop.topics && workshop.topics.length > 0 && (
                         <div>
-                          <h4 className="text-base sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-3 flex items-center gap-2">
-                            <span className="w-3 h-3 bg-[var(--terracotta)] inline-block border border-black"></span>
+                          <h4 className="text-sm sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-3 flex items-center gap-2">
+                            <span className="w-3 h-3 bg-[var(--terracotta)] inline-block border border-black shrink-0"></span>
                             Topics Covered
                           </h4>
-                          <ol className="space-y-2.5 pl-2">
+                          <ol className="space-y-2.5">
                             {workshop.topics.map((topic, tIdx) => (
-                              <li key={tIdx} className="flex items-start gap-3">
-                                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--indigo)] text-white text-xs font-mono font-bold flex items-center justify-center mt-0.5 border border-black">
+                              <li key={tIdx} className="flex items-start gap-2.5 sm:gap-3">
+                                <span className="flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-[var(--indigo)] text-white text-[10px] sm:text-xs font-mono font-bold flex items-center justify-center mt-0.5 border border-black">
                                   {tIdx + 1}
                                 </span>
-                                <span className="text-sm sm:text-base text-gray-800 font-medium leading-relaxed">
+                                <span className="text-xs sm:text-base text-gray-800 font-medium leading-relaxed break-words">
                                   {topic}
                                 </span>
                               </li>
@@ -167,15 +171,15 @@ export default function WorkshopPage() {
                       {/* Sessions (if present) */}
                       {workshop.sessions && workshop.sessions.length > 0 && (
                         <div>
-                          <h4 className="text-base sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-3 flex items-center gap-2">
-                            <span className="w-3 h-3 bg-[var(--terracotta)] inline-block border border-black"></span>
+                          <h4 className="text-sm sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-3 flex items-center gap-2">
+                            <span className="w-3 h-3 bg-[var(--terracotta)] inline-block border border-black shrink-0"></span>
                             Session Schedule
                           </h4>
                           <div className="grid gap-3">
                             {workshop.sessions.map((session, sIdx) => (
                               <div
                                 key={sIdx}
-                                className="bg-white border-2 border-black p-3.5 sm:p-4 shadow-[3px_3px_0_black] font-bold text-sm sm:text-base text-gray-900"
+                                className="bg-white border-2 border-black p-3 sm:p-4 shadow-[3px_3px_0_black] font-bold text-xs sm:text-base text-gray-900 break-words leading-relaxed"
                               >
                                 {session}
                               </div>
@@ -187,11 +191,11 @@ export default function WorkshopPage() {
                       {/* Description (if present) */}
                       {workshop.description && (
                         <div>
-                          <h4 className="text-base sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-3 flex items-center gap-2">
-                            <span className="w-3 h-3 bg-[var(--gold)] inline-block border border-black"></span>
+                          <h4 className="text-sm sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-3 flex items-center gap-2">
+                            <span className="w-3 h-3 bg-[var(--gold)] inline-block border border-black shrink-0"></span>
                             Overview & Objectives
                           </h4>
-                          <p className="text-sm sm:text-base text-gray-800 leading-relaxed bg-white p-4 sm:p-6 border-2 border-black shadow-[3px_3px_0_black]">
+                          <p className="text-xs sm:text-base text-gray-800 leading-relaxed bg-white p-4 sm:p-6 border-2 border-black shadow-[3px_3px_0_black] break-words">
                             {workshop.description}
                           </p>
                         </div>
@@ -200,8 +204,8 @@ export default function WorkshopPage() {
                       {/* Speaker / Speakers */}
                       {workshop.speakers && workshop.speakers.length > 0 && (
                         <div>
-                          <h4 className="text-base sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-4 flex items-center gap-2">
-                            <span className="w-3 h-3 bg-[var(--indigo)] inline-block border border-black"></span>
+                          <h4 className="text-sm sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-4 flex items-center gap-2">
+                            <span className="w-3 h-3 bg-[var(--indigo)] inline-block border border-black shrink-0"></span>
                             {workshop.speakers.length > 1 ? 'Speakers' : 'Speaker'}
                           </h4>
 
@@ -209,34 +213,34 @@ export default function WorkshopPage() {
                             {workshop.speakers.map((speaker, spIdx) => (
                               <div
                                 key={spIdx}
-                                className="bg-white border-2 border-black p-5 shadow-[4px_4px_0_black] space-y-2"
+                                className="bg-white border-2 border-black p-4 sm:p-5 shadow-[4px_4px_0_black] space-y-2"
                               >
                                 <div className="flex flex-wrap items-baseline gap-2">
-                                  <span className="text-lg font-black text-black">
+                                  <span className="text-base sm:text-lg font-black text-black break-words">
                                     {speaker.name}
                                   </span>
                                   {speaker.role && (
-                                    <span className="text-xs font-mono font-bold bg-[var(--gold)]/30 text-black px-2 py-0.5 border border-black">
+                                    <span className="text-[10px] sm:text-xs font-mono font-bold bg-[var(--gold)]/30 text-black px-2 py-0.5 border border-black">
                                       {speaker.role}
                                     </span>
                                   )}
                                 </div>
 
                                 {speaker.designation && (
-                                  <p className="text-sm font-semibold text-[var(--terracotta)]">
+                                  <p className="text-xs sm:text-sm font-semibold text-[var(--terracotta)] break-words">
                                     {speaker.designation}
                                   </p>
                                 )}
 
                                 {speaker.affiliation && (
-                                  <p className="text-sm text-gray-700 font-medium">
+                                  <p className="text-xs sm:text-sm text-gray-700 font-medium break-words">
                                     {speaker.affiliation}
                                   </p>
                                 )}
 
                                 {speaker.bio && (
                                   <div className="mt-3 pt-3 border-t border-gray-200">
-                                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed break-words">
                                       <strong className="text-black font-bold">Bio: </strong>
                                       {speaker.bio}
                                     </p>
