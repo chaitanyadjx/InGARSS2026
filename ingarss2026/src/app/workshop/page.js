@@ -100,37 +100,27 @@ export default function WorkshopPage() {
                   key={workshop.id}
                   className="border-[3px] border-black shadow-[6px_6px_0_black] bg-white overflow-hidden transition-all"
                 >
-                  {/* Clickable Title Bar - Optimized for Mobile */}
+                  {/* Clickable Title Bar - Clean Desktop & Mobile Alignment */}
                   <button
                     onClick={() => toggleItem(workshop.id)}
-                    className="w-full text-left p-4 sm:p-6 bg-white hover:bg-slate-50 transition-colors flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4 group cursor-pointer"
+                    className="w-full text-left p-4 sm:p-6 bg-white hover:bg-slate-50 transition-colors flex items-center justify-between gap-3 sm:gap-4 group cursor-pointer"
                     aria-expanded={isOpen}
                   >
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 w-full">
-                      <div className="flex items-center justify-between w-full sm:w-auto gap-3">
-                        <span className="inline-block bg-[var(--indigo)] text-white font-mono font-bold text-xs sm:text-sm px-3 py-1 border-2 border-black shrink-0">
-                          Workshop #{index + 1}
-                        </span>
-                        <div
-                          className={`sm:hidden w-7 h-7 rounded-full border-2 border-black flex items-center justify-center bg-[var(--gold)] text-black text-xs transition-transform duration-300 shrink-0 ${
-                            isOpen ? 'rotate-180 bg-[var(--terracotta)] text-white' : 'rotate-0'
-                          }`}
-                        >
-                          ▼
-                        </div>
-                      </div>
-
-                      <h3 className="text-base sm:text-xl font-extrabold text-black group-hover:text-[var(--terracotta)] transition-colors leading-snug break-words hyphens-auto">
+                    <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
+                      <span className="inline-block bg-[var(--indigo)] text-white font-mono font-bold text-xs sm:text-sm px-3 py-1 border-2 border-black shrink-0 whitespace-nowrap">
+                        Workshop #{index + 1}
+                      </span>
+                      <h3 className="text-sm sm:text-xl font-extrabold text-black group-hover:text-[var(--terracotta)] transition-colors leading-snug flex-1 min-w-0 break-words">
                         {workshop.title}
                       </h3>
                     </div>
 
-                    <div className="hidden sm:flex items-center gap-2 shrink-0 pt-1">
-                      <span className="text-xs font-bold font-mono text-black/60">
+                    <div className="flex items-center gap-2 shrink-0">
+                      <span className="text-xs font-bold font-mono hidden sm:inline-block text-black/60">
                         {isOpen ? 'HIDE' : 'VIEW DETAILS'}
                       </span>
                       <div
-                        className={`w-8 h-8 rounded-full border-2 border-black flex items-center justify-center bg-[var(--gold)] text-black transition-transform duration-300 ${
+                        className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-black flex items-center justify-center bg-[var(--gold)] text-black text-xs sm:text-sm transition-transform duration-300 ${
                           isOpen ? 'rotate-180 bg-[var(--terracotta)] text-white' : 'rotate-0'
                         }`}
                       >
