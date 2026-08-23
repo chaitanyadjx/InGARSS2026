@@ -1,0 +1,73 @@
+{
+  "page": "hackathon",
+  "title": "YP Hackathon Challenge",
+  "subtitle": "INNOVATE. COLLABORATE. IMPACT.",
+  "status": "REGISTRATIONS WILL OPEN SOON!",
+  "dates": "01 – 04 Dec 2026",
+  "venue": "The Park Hyderabad, India (Somajiguda, Hyderabad)",
+  "teamFee": "₹ 3,000",
+  "maxTeamSize": "Max 3 For Team",
+  "eligibility": "Students and YPs (Young Professionals)",
+  "highlights": [
+    {
+      "icon": "🌐",
+      "title": "Geoscience Challenges",
+      "desc": "Solve real-world Geoscience & Remote Sensing challenges"
+    },
+    {
+      "icon": "🤖",
+      "title": "AI/ML & Geo-intelligence",
+      "desc": "Leverage AI/ML, Big Data & Geo-intelligence"
+    },
+    {
+      "icon": "👥",
+      "title": "Collaborate & Compete",
+      "desc": "Collaborate, Create and Compete with top talent"
+    },
+    {
+      "icon": "🏆",
+      "title": "Prizes & Recognition",
+      "desc": "Win exciting cash prizes and recognition!"
+    }
+  ],
+  "phases": [
+    {
+      "phase": "PHASE 1",
+      "mode": "ONLINE",
+      "tagline": "Solve. Submit. Stand Out.",
+      "desc": "Top teams move to the next round!"
+    },
+    {
+      "phase": "PHASE 2",
+      "mode": "OFFLINE",
+      "date": "01-12-2026 @ InGARSS 2026, Hyderabad",
+      "tagline": "Compete Live. Showcase Your Ideas. Make an Impact!",
+      "desc": "On-site finale at The Park Hyderabad."
+    }
+  ],
+  "prizes": [
+    {
+      "rank": "WINNER",
+      "amount": "₹ 25,000",
+      "note": "Per Team",
+      "badge": "🥇 1st Place"
+    },
+    {
+      "rank": "FIRST RUNNER UP",
+      "amount": "₹ 17,500",
+      "note": "Per Team",
+      "badge": "🥈 2nd Place"
+    },
+    {
+      "rank": "SECOND RUNNER UP",
+      "amount": "₹ 17,500",
+      "note": "Per Team",
+      "badge": "🥉 3rd Place"
+    }
+  ],
+  "contact": {
+    "website": "www.ingarss2026.co.in",
+    "email": "ingarss2026@gmail.com",
+    "hashtag": "#InGARSS2026"
+  }
+}

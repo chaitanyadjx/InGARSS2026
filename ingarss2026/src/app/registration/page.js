@@ -34,6 +34,7 @@ function AccordionSection({ title, children, defaultOpen = false }) {
 }
 
 export default function RegistrationPage() {
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
   const { tableTitle, note, categories, authorRules, termsAndConditions, inclusions } = regData;
 
   return (
@@ -44,14 +45,38 @@ export default function RegistrationPage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-indigo mb-4">Ready to Register?</h2>
           <p className="text-gray-700 mb-6 text-sm sm:text-base">Secure your spot for InGARSS 2026.</p>
-          <a
-            href={process.env.NEXT_PUBLIC_REGISTRATION_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
-          >
-            REGISTER NOW
-          </a>
+          
+          <div className="flex items-center justify-center gap-3 mb-6 max-w-xl mx-auto text-left bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black]">
+            <input
+              type="checkbox"
+              id="acceptTerms"
+              checked={acceptedTerms}
+              onChange={(e) => setAcceptedTerms(e.target.checked)}
+              className="w-5 h-5 accent-[var(--indigo)] cursor-pointer shrink-0"
+            />
+            <label htmlFor="acceptTerms" className="text-xs sm:text-sm font-extrabold text-black cursor-pointer select-none">
+              I am accepting the terms and conditions of the InGARSS 2026 conference.
+            </label>
+          </div>
+
+          {acceptedTerms ? (
+            <a
+              href={process.env.NEXT_PUBLIC_REGISTRATION_LINK || 'https://in.eregnow.com/ticketing/register/ingarss2026'}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
+            >
+              REGISTER NOW
+            </a>
+          ) : (
+            <button
+              disabled
+              className="inline-block bg-gray-300 text-gray-500 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-70 cursor-not-allowed shadow-[4px_4px_0_black]"
+              title="Please accept the terms and conditions to enable registration"
+            >
+              REGISTER NOW
+            </button>
+          )}
         </div>
       </section>
 

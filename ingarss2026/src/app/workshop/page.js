@@ -36,6 +36,40 @@ export default function WorkshopPage() {
 
       <section className="px-5 md:px-[8%] py-10 md:py-14">
         <div className="max-w-5xl mx-auto">
+
+          {/* Workshop Registration Section */}
+          <div className="bg-white border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_var(--terracotta)] mb-10">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+              <div>
+                <div className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-xs px-3 py-1 border border-black mb-3">
+                  WORKSHOP REGISTRATION
+                </div>
+                <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-2">
+                  1-Day Tutorial Workshop (1st December)
+                </h3>
+                <p className="text-sm sm:text-base text-gray-700 font-medium mb-3">
+                  Registration Fee: <span className="font-bold text-black">₹ 2,500</span> (Indian) / <span className="font-bold text-black">$50</span> (International)
+                </p>
+                <div className="space-y-1.5 bg-[var(--bone)]/60 p-4 border border-black text-xs sm:text-sm text-gray-800">
+                  <p className="font-bold uppercase text-[var(--terracotta)] tracking-wider">Registration Procedure:</p>
+                  <p>1. Complete the <span className="font-extrabold">Online Google Form</span> for workshop registration.</p>
+                  <p>2. Complete the <span className="font-extrabold">Payment</span> through the online transfer / payment portal.</p>
+                </div>
+              </div>
+              
+              <div className="shrink-0 w-full md:w-auto text-center md:text-right">
+                <a
+                  href={process.env.NEXT_PUBLIC_WORKSHOP_REGISTRATION_LINK || "https://in.eregnow.com/ticketing/register/ingarss2026?_rid=31732&_single=1"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full md:w-auto bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[5px_5px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
+                >
+                  REGISTER NOW →
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Top Controls */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
             <div>

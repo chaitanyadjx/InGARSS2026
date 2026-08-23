@@ -35,6 +35,11 @@
       "international": "$500"
     },
     {
+      "label": "Accompanying Person",
+      "indian": "₹ 8,000",
+      "international": "$200"
+    },
+    {
       "label": "Overlength – 6th Page",
       "indian": "₹ 1,000",
       "international": "$15"
@@ -62,6 +67,9 @@
     "The registration fee mentioned above is EXCLUSIVE of GST @ 18%, as applicable.",
     "You can register online using your Debit/Credit Card or transferring the amount online (wire transfer/NEFT). Page will be enabled soon.",
     "Registration is mandatory & will be only considered as confirmed on receipt of the full amount.",
+    "Accompanying person cannot attend technical sessions.",
+    "Co-authors are not considered as accompanying person.",
+    "There is no cancellation policy due to limited time. That means no refund.",
     "While your safety is of utmost importance, the organisers will take no responsibility for loss of belongings/valuables or damage to your property.",
     "The registration fee does not include any travel cost, insurance, accommodation, sightseeing tours or airport transfers."
   ],

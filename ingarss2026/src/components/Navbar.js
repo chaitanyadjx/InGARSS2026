@@ -53,6 +53,7 @@ export default function Navbar() {
                             </div>
                             <div className="hidden group-hover:block absolute top-full left-0 bg-white border-[3px] border-black min-w-[240px] shadow-[10px_10px_0px_black]">
                                 <Link href="/workshop" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Workshop</Link>
+                                <Link href="/hackathon" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Hackathon</Link>
                                 <Link href="/program-details" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Program Details</Link>
                             </div>
                         </li>
@@ -114,6 +115,7 @@ export default function Navbar() {
                     <div className="border-b border-gray-200">
                         <div className="px-5 py-3 font-mono font-bold text-xs text-gray-500 bg-gray-50 uppercase">Programs</div>
                         <Link href="/workshop" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Workshop</Link>
+                        <Link href="/hackathon" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Hackathon</Link>
                         <Link href="/program-details" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Program Details</Link>
                     </div>
 

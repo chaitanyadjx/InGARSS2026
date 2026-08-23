@@ -198,7 +198,10 @@ export default function AuthorsPage() {
               <h3 className="font-mono text-[var(--indigo)] text-lg font-extrabold mb-3">
                 AI-Generated Content Disclosure
               </h3>
-              <p className="text-sm sm:text-base leading-relaxed text-justify hyphens-auto   break-words">
+              <p className="text-sm sm:text-base leading-relaxed text-justify hyphens-auto break-words font-extrabold text-[var(--terracotta)] mb-2">
+                AI content must not exceed 25%.
+              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-justify hyphens-auto break-words">
                 The use of AI-generated content (text, figures, images, code) must be disclosed in the acknowledgments section. Identify the AI system used and specify which sections contain AI-generated content with a brief explanation. AI use for editing and grammar enhancement does not require disclosure but is recommended.
               </p>
             </div>
