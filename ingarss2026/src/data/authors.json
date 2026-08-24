@@ -31,6 +31,10 @@
     {
       "label": "Plagiarism Policy",
       "text": "Overall similarity rate must not exceed 30%, and similarity to a single source must not exceed 10% for IEEE Xplore submission."
+    },
+    {
+      "label": "AI Content Limit",
+      "text": "AI-generated content must not exceed 25%. Any use of AI tools must be disclosed in the acknowledgments section."
     }
   ],
   "pageLimit": [

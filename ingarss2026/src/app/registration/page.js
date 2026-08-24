@@ -34,27 +34,38 @@ function AccordionSection({ title, children, defaultOpen = false }) {
 }
 
 export default function RegistrationPage() {
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
+  const [acceptedRules, setAcceptedRules] = useState(false);
   const { tableTitle, note, categories, authorRules, termsAndConditions, inclusions } = regData;
+
+  const scrollToFinalRegistration = () => {
+    const el = document.getElementById('final-registration');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <main className="min-h-screen bg-[var(--bone)]">
       <PageHeader title="Registration" />
 
+      {/* Top Header Section */}
       <section className="px-5 md:px-[8%] py-8 md:py-12 bg-white border-b-[3px] border-black text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-indigo mb-4">Ready to Register?</h2>
-          <p className="text-gray-700 mb-6 text-sm sm:text-base">The registration link will be available soon.</p>
-          <button 
-            disabled
-            className="inline-block bg-gray-200 text-gray-500 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-gray-400 cursor-not-allowed shadow-[6px_6px_0_gray]"
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-indigo mb-3">Ready to Register?</h2>
+          <p className="text-gray-700 mb-6 text-sm sm:text-base">Secure your spot for InGARSS 2026.</p>
+          
+          <button
+            onClick={scrollToFinalRegistration}
+            className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all cursor-pointer"
           >
-            REGISTER NOW
+            PROCEED TO REGISTER ↓
           </button>
         </div>
       </section>
 
       {/* Registration Table */}
-      <section className="px-5 md:px-[8%] py-12 md:py-20">
+      <section id="registration-charges" className="px-5 md:px-[8%] py-12 md:py-20 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           {/* Table title */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-black text-center mb-2">
@@ -106,7 +117,7 @@ export default function RegistrationPage() {
       </section>
 
       {/* Rules & Terms Accordion Sections */}
-      <section className="px-5 md:px-[8%] pb-16 md:pb-24">
+      <section className="px-5 md:px-[8%] pb-12 md:pb-16">
         <div className="max-w-5xl mx-auto flex flex-col gap-6">
           {/* Rules for Author Registrations */}
           <AccordionSection title="Rules for Author Registrations:" defaultOpen={true}>
@@ -143,6 +154,58 @@ export default function RegistrationPage() {
               ))}
             </ul>
           </AccordionSection>
+        </div>
+      </section>
+
+      {/* Final Registration Section at the Very Bottom */}
+      <section id="final-registration" className="px-5 md:px-[8%] pb-16 md:pb-24 scroll-mt-24">
+        <div className="max-w-3xl mx-auto bg-white border-[3px] border-black p-6 sm:p-10 shadow-[10px_10px_0_black] text-center">
+          <h3 className="text-2xl sm:text-3xl font-extrabold text-[var(--indigo)] mb-3">
+            Complete Registration
+          </h3>
+          <p className="text-gray-700 mb-6 text-sm sm:text-base font-medium">
+            Please confirm your acceptance of the conference terms and author rules to proceed with your registration.
+          </p>
+
+          <div className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
+            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black] opacity-80 cursor-not-allowed">
+              <input
+                type="checkbox"
+                id="acceptTerms"
+                disabled
+                checked={acceptedTerms}
+                onChange={(e) => setAcceptedTerms(e.target.checked)}
+                className="w-5 h-5 accent-[var(--indigo)] cursor-not-allowed opacity-60 shrink-0 mt-0.5"
+              />
+              <label htmlFor="acceptTerms" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-not-allowed select-none">
+                I am accepting the terms and conditions of InGARSS 2026 conference given below
+              </label>
+            </div>
+
+            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black] opacity-80 cursor-not-allowed">
+              <input
+                type="checkbox"
+                id="acceptRules"
+                disabled
+                checked={acceptedRules}
+                onChange={(e) => setAcceptedRules(e.target.checked)}
+                className="w-5 h-5 accent-[var(--indigo)] cursor-not-allowed opacity-60 shrink-0 mt-0.5"
+              />
+              <label htmlFor="acceptRules" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-not-allowed select-none">
+                I am accepting Rules for Author Registrations of InGARSS 2026 conference given below
+              </label>
+            </div>
+          </div>
+
+          <div className="shrink-0">
+            <button
+              disabled
+              className="inline-block w-full sm:w-auto bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[6px_6px_0_black]"
+              title="Paper registration will open soon"
+            >
+              REGISTRATION OPENING SOON
+            </button>
+          </div>
         </div>
       </section>
     </main>

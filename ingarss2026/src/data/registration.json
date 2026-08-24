@@ -35,6 +35,11 @@
       "international": "$500"
     },
     {
+      "label": "Accompanying Person",
+      "indian": "₹ 8,000",
+      "international": "$200"
+    },
+    {
       "label": "Overlength – 6th Page",
       "indian": "₹ 1,000",
       "international": "$15"
@@ -55,13 +60,16 @@
     "In case an author has more papers than covered under their registration, additional charges will apply per extra paper (Rs. 3,000/- plus tax).",
     "At least one author (presenting author or co-author) should be registered to have the paper to be included in the conference proceedings.",
     "Students availing student registration must provide a valid student ID card/Bonafide certificate at the time of registration.",
-    "Papers registered under Student category (the student must be the first author) needs to be presented by Students only.",
+    "Papers registered under Student category (the student must be the full time student and first author) needs to be presented by Students only.",
     "It is mandatory for everyone to register to attend the conference."
   ],
   "termsAndConditions": [
     "The registration fee mentioned above is EXCLUSIVE of GST @ 18%, as applicable.",
     "You can register online using your Debit/Credit Card or transferring the amount online (wire transfer/NEFT). Page will be enabled soon.",
     "Registration is mandatory & will be only considered as confirmed on receipt of the full amount.",
+    "Accompanying person cannot attend technical sessions.",
+    "Co-authors are not considered as accompanying person.",
+    "There is no cancellation policy due to limited time. That means no refund.",
     "While your safety is of utmost importance, the organisers will take no responsibility for loss of belongings/valuables or damage to your property.",
     "The registration fee does not include any travel cost, insurance, accommodation, sightseeing tours or airport transfers."
   ],
