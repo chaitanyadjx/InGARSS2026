@@ -61,7 +61,7 @@ export default function VisaPage() {
             </p>
             <div className="border-[2px] border-black bg-gray-100 p-2 overflow-hidden shadow-[4px_4px_0_black]">
               <img
-                src="/assets/Picture1.jpg"
+                src="/assets/visa-screenshot.jpg"
                 alt="e-Business Visa (e-B5V) Selection Screenshot"
                 className="w-full h-auto object-contain max-h-[450px] mx-auto border border-gray-300"
               />
@@ -124,9 +124,12 @@ export default function VisaPage() {
                 </ul>
               </div>
 
-              <div className="bg-[var(--bone)] p-4 border border-black text-xs text-gray-800">
+              <div className="bg-[var(--bone)] p-4 border border-black text-xs text-gray-800 space-y-2">
                 <p className="font-medium">
-                  To get the above documents, please send your request to the secretariat email ID:{" "}
+                  To get the above documents, please fill the Google form provided in the acceptance mail.
+                </p>
+                <p className="font-medium">
+                  For any other queries, please send e-mail to{" "}
                   <a href="mailto:ingarss2026@gmail.com" className="font-bold text-[var(--terracotta)] underline">
                     ingarss2026@gmail.com
                   </a>
