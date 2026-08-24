@@ -21,7 +21,7 @@ export default function VisaPage() {
 
   const contactReference = [
     { label: "Name of the Event", value: "InGARSS 2026 (IEEE India Geoscience and Remote Sensing Symposium)" },
-    { label: "Organizer's Address", value: "IEEE GRSS Hyderabad Chapter, The Park Hyderabad, Somajiguda, Hyderabad, India" },
+    { label: "Organizer's Address", value: "IEEE GRSS, IEEE Hyderabad section, Room No. 644-645, 6th Floor, Al-Karim Trade Center, Ranigunj, Secunderabad, Telangana, 500003, India" },
     { label: "Dates", value: "01st – 04th December 2026" },
     { label: "Venue", value: "The Park Hyderabad, Raj Bhavan Road, Somajiguda, Hyderabad, Telangana 500082" },
     { label: "Email ID", value: "ingarss2026@gmail.com" },
@@ -94,10 +94,10 @@ export default function VisaPage() {
 
               <div className="bg-[var(--bone)] p-4 border border-black text-xs text-gray-800 space-y-2">
                 <p className="font-medium">
-                  The conference organizer will apply for ministry approvals after collecting the above information. The time limit to provide the above information is <strong>3 months prior</strong> to the conference dates.
+                  The conference organizer will apply for ministry approvals after collecting the above information provided in the acceptance mail through Google form.
                 </p>
                 <p className="font-bold text-[var(--terracotta)]">
-                  We will apply for ministry approval after collecting the above information from you.
+                  We will apply for ministry approvals after collecting the above information from you.
                 </p>
               </div>
             </div>
