@@ -18,15 +18,9 @@ export default function AccommodationPage() {
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-[var(--terracotta)] mb-6 uppercase tracking-tight">
             Will be updated soon...
           </h2>
-          <p className="text-sm sm:text-base md:text-lg text-gray-800 font-medium leading-relaxed max-w-xl mx-auto mb-8">
+          <p className="text-sm sm:text-base md:text-lg text-gray-800 font-medium leading-relaxed max-w-xl mx-auto">
             Accommodation details and hotel options for InGARSS 2026 delegates will be communicated soon. Please check back later.
           </p>
-          <div className="inline-block bg-[var(--bone)] p-4 border border-black text-xs sm:text-sm text-gray-800 font-medium">
-            For accommodation inquiries, please contact{" "}
-            <a href="mailto:ingarss2026@gmail.com" className="font-bold text-[var(--terracotta)] underline">
-              ingarss2026@gmail.com
-            </a>
-          </div>
         </div>
       </section>
     </main>
