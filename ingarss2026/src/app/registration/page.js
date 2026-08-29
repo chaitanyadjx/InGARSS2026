@@ -64,6 +64,33 @@ export default function RegistrationPage() {
         </div>
       </section>
 
+      {/* YP Hackathon Registration Banner */}
+      <section className="px-5 md:px-[8%] pt-10 md:pt-14">
+        <div className="max-w-5xl mx-auto bg-white border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_var(--terracotta)]">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+            <div className="space-y-2">
+              <div className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-xs px-3 py-1 border border-black">
+                IEEE GRSS YP HACKATHON
+              </div>
+              <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)]">
+                YP Hackathon Challenge
+              </h3>
+              <p className="text-sm sm:text-base font-bold text-[var(--terracotta)]">
+                Theme: Digital Earth - Modeling, Mapping, and Monitoring.
+              </p>
+            </div>
+            <a
+              href="https://in.eregnow.com/ticketing/register/login/yphackathon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-6 py-3.5 border-[3px] border-black shadow-[4px_4px_0_black] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all shrink-0"
+            >
+              REGISTER FOR YP HACKATHON →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Registration Table */}
       <section id="registration-charges" className="px-5 md:px-[8%] py-12 md:py-20 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
@@ -77,19 +104,37 @@ export default function RegistrationPage() {
 
           {/* Table wrapper */}
           <div className="border-[3px] border-black shadow-[8px_8px_0_black] overflow-x-auto bg-white">
-            <table className="w-full text-left border-collapse">
+            <table className="w-full text-left border-collapse min-w-[760px]">
               <thead>
-                <tr className="bg-[var(--indigo)] text-white">
-                  <th className="px-4 sm:px-6 py-4 text-sm sm:text-base font-extrabold border-r-[2px] border-white/20">
+                <tr className="bg-[var(--indigo)] text-white border-b border-white/20">
+                  <th rowSpan={2} className="px-4 sm:px-6 py-4 text-xs sm:text-sm font-extrabold border-r border-white/20 text-left align-middle min-w-[220px]">
                     Registrations at Various Levels
                   </th>
-                  <th className="px-4 sm:px-6 py-4 text-sm sm:text-base font-extrabold text-center border-r-[2px] border-white/20">
-                    Registration - INDIAN
-                    <span className="block text-xs font-semibold opacity-70 mt-1">({note})</span>
+                  <th colSpan={2} className="px-4 py-3 text-xs sm:text-sm font-extrabold text-center border-r border-white/20">
+                    Registration
+                    <span className="block text-[11px] font-semibold opacity-90">Up to 15th Sept 2026</span>
                   </th>
-                  <th className="px-4 sm:px-6 py-4 text-sm sm:text-base font-extrabold text-center">
+                  <th colSpan={2} className="px-4 py-3 text-xs sm:text-sm font-extrabold text-center">
+                    Late Registration
+                    <span className="block text-[11px] font-semibold opacity-90">After 15th Sept 2026</span>
+                  </th>
+                </tr>
+                <tr className="bg-[var(--indigo)]/90 text-white text-[11px] sm:text-xs font-bold border-b border-white/20">
+                  <th className="px-3 py-2.5 text-center border-r border-white/20">
+                    Registration - INDIAN
+                    <span className="block text-[10px] font-normal opacity-80">(18% GST excluded)</span>
+                  </th>
+                  <th className="px-3 py-2.5 text-center border-r border-white/20">
                     Registration - INTERNATIONAL
-                    <span className="block text-xs font-semibold opacity-70 mt-1">({note})</span>
+                    <span className="block text-[10px] font-normal opacity-80">(18% GST excluded)</span>
+                  </th>
+                  <th className="px-3 py-2.5 text-center border-r border-white/20">
+                    Registration - INDIAN
+                    <span className="block text-[10px] font-normal opacity-80">(18% GST excluded)</span>
+                  </th>
+                  <th className="px-3 py-2.5 text-center">
+                    Registration INTERNATIONAL
+                    <span className="block text-[10px] font-normal opacity-80">(18% GST excluded)</span>
                   </th>
                 </tr>
               </thead>
@@ -97,16 +142,22 @@ export default function RegistrationPage() {
                 {categories.map((row, i) => (
                   <tr
                     key={i}
-                    className={`border-t-[2px] border-black/10 transition-colors duration-150 hover:bg-[var(--gold)]/10 ${i % 2 === 0 ? 'bg-white' : 'bg-[var(--bone)]'}`}
+                    className={`border-t border-black/10 transition-colors duration-150 hover:bg-[var(--gold)]/10 ${i % 2 === 0 ? 'bg-white' : 'bg-[var(--bone)]'}`}
                   >
-                    <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-semibold text-black border-r-[2px] border-black/10">
+                    <td className="px-4 sm:px-6 py-3.5 text-xs sm:text-sm font-semibold text-black border-r border-black/10">
                       {row.label}
                     </td>
-                    <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-center text-black border-r-[2px] border-black/10">
+                    <td className="px-3 py-3.5 text-xs sm:text-sm font-bold text-center text-black border-r border-black/10 font-mono">
                       {row.indian}
                     </td>
-                    <td className="px-4 sm:px-6 py-4 text-sm sm:text-base font-bold text-center text-black">
+                    <td className="px-3 py-3.5 text-xs sm:text-sm font-bold text-center text-black border-r border-black/10 font-mono">
                       {row.international}
+                    </td>
+                    <td className="px-3 py-3.5 text-xs sm:text-sm font-bold text-center text-black border-r border-black/10 font-mono">
+                      {row.lateIndian || row.indian}
+                    </td>
+                    <td className="px-3 py-3.5 text-xs sm:text-sm font-bold text-center text-black font-mono">
+                      {row.lateInternational || row.international}
                     </td>
                   </tr>
                 ))}

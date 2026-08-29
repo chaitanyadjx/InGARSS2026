@@ -4,7 +4,7 @@ import PageHeader from "@/components/PageHeader";
 import hackathonData from "@/data/hackathon.json";
 
 export default function HackathonPage() {
-  const { title, subtitle, status, dates, venue, teamFee, maxTeamSize, eligibility, highlights, phases, prizes, contact } = hackathonData;
+  const { title, subtitle, theme, status, registrationLink, dates, venue, teamFee, maxTeamSize, eligibility, highlights, phases, prizes, contact } = hackathonData;
 
   return (
     <main className="min-h-screen bg-[var(--bone)] pb-16 md:pb-24">
@@ -41,6 +41,11 @@ export default function HackathonPage() {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[var(--indigo)] tracking-tight uppercase">
                 {title}
               </h2>
+              {theme && (
+                <div className="inline-block bg-[var(--gold)]/30 text-black font-extrabold text-sm sm:text-base md:text-lg px-4 py-2 border-2 border-black shadow-[3px_3px_0_black]">
+                  {theme}
+                </div>
+              )}
               <p className="text-lg sm:text-xl font-mono font-extrabold text-[var(--terracotta)]">
                 {subtitle}
               </p>
@@ -184,15 +189,17 @@ export default function HackathonPage() {
               Ready to Innovate?
             </h3>
             <p className="text-sm text-gray-700 mb-6 font-medium max-w-lg mx-auto">
-              Gather your team of up to 3 members and stay tuned for the registration link!
+              Gather your team of up to 3 members and register for the YP Hackathon Challenge now!
             </p>
 
-            <button
-              disabled
-              className="inline-block bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[4px_4px_0_black] mb-6"
+            <a
+              href={registrationLink || "https://in.eregnow.com/ticketing/register/login/yphackathon"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all mb-6"
             >
-              REGISTRATIONS OPENING SOON
-            </button>
+              REGISTER FOR YP HACKATHON →
+            </a>
 
             <div className="flex flex-wrap justify-center items-center gap-6 pt-6 border-t-2 border-black/10 text-xs sm:text-sm font-mono text-gray-800">
               <div>

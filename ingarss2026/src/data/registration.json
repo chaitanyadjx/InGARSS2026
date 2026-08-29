@@ -7,52 +7,72 @@
     {
       "label": "IEEE GRSS Students Members",
       "indian": "₹ 4,000",
-      "international": "$250"
+      "international": "$250",
+      "lateIndian": "₹ 6,000",
+      "lateInternational": "$270"
     },
     {
       "label": "IEEE Student Member",
       "indian": "₹ 5,000",
-      "international": "$300"
+      "international": "$300",
+      "lateIndian": "₹ 7,000",
+      "lateInternational": "$320"
     },
     {
       "label": "Student Non-IEEE Member",
       "indian": "₹ 6,000",
-      "international": "$400"
+      "international": "$400",
+      "lateIndian": "₹ 8,000",
+      "lateInternational": "$420"
     },
     {
       "label": "IEEE Professional – GRSS Member",
       "indian": "₹ 8,000",
-      "international": "$400"
+      "international": "$400",
+      "lateIndian": "₹ 10,000",
+      "lateInternational": "$420"
     },
     {
       "label": "IEEE Professional Member",
       "indian": "₹ 10,000",
-      "international": "$450"
+      "international": "$450",
+      "lateIndian": "₹ 12,000",
+      "lateInternational": "$470"
     },
     {
       "label": "Professional Non-IEEE Member",
       "indian": "₹ 12,000",
-      "international": "$500"
+      "international": "$500",
+      "lateIndian": "₹ 14,000",
+      "lateInternational": "$550"
     },
     {
       "label": "Accompanying Person",
       "indian": "₹ 8,000",
-      "international": "$200"
+      "international": "$200",
+      "lateIndian": "₹ 8,000",
+      "lateInternational": "$200"
     },
     {
       "label": "Overlength – 6th Page",
       "indian": "₹ 1,000",
-      "international": "$15"
+      "international": "$15",
+      "lateIndian": "₹ 1,000",
+      "lateInternational": "$15"
     },
     {
       "label": "Overlength – 7th Page (max)",
       "indian": "₹ 2,000",
-      "international": "$30"
+      "international": "$30",
+      "lateIndian": "₹ 2,000",
+      "lateInternational": "$30"
     },
     {
       "label": "Tutorial / Registrations (Students/Professional) – One Day",
       "indian": "₹ 2,500",
-      "international": "$50"
+      "international": "$50",
+      "lateIndian": "₹ 2,500",
+      "lateInternational": "$50"
     }
   ],
   "authorRules": [
@@ -69,7 +89,7 @@
     "Registration is mandatory & will be only considered as confirmed on receipt of the full amount.",
     "Accompanying person cannot attend technical sessions.",
     "Co-authors are not considered as accompanying person.",
-    "There is no cancellation policy due to limited time. That means no refund.",
+    "Conference registration fees are non-refundable and non-cancellable under any circumstances.",
     "While your safety is of utmost importance, the organisers will take no responsibility for loss of belongings/valuables or damage to your property.",
     "The registration fee does not include any travel cost, insurance, accommodation, sightseeing tours or airport transfers."
   ],
