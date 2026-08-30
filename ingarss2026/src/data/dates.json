@@ -41,8 +41,14 @@
       "variant": "default"
     },
     {
+      "label": "Late Registration",
+      "value": "30 September 2026",
+      "desc": "Late Registration Deadline",
+      "variant": "default"
+    },
+    {
       "label": "Final Version",
-      "value": "15 September 2026",
+      "value": "30 September 2026",
       "desc": "Camera-Ready Submission",
       "variant": "tint-indigo"
     },

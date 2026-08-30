@@ -50,6 +50,9 @@ export default function WorkshopPage() {
                 <p className="text-sm sm:text-base text-gray-700 font-medium">
                   Registration Fee: <span className="font-bold text-black">₹ 2,500</span> (Indian) / <span className="font-bold text-black">$50</span> (International)
                 </p>
+                <p className="mt-2 text-sm sm:text-base text-gray-800 font-bold">
+                  Workshop registration deadline: 30 September 2026
+                </p>
               </div>
               
               <div className="shrink-0 w-full md:w-auto text-center md:text-right">

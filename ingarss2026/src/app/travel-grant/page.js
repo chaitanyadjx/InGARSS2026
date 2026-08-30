@@ -35,9 +35,9 @@ export default function TravelGrantPage() {
     ];
 
     const timeline = [
-        { date: '15 August 2026', label: 'Application Portal Opens' },
-        { date: '1 September 2026', label: 'Application Deadline' },
-        { date: '10 September 2026', label: 'Notification of Awards' },
+        { date: '01 September 2026', label: 'Application Starts Online' },
+        { date: '15 September 2026', label: 'Application Deadline' },
+        { date: '20 September 2026', label: 'Notification of Awards' },
     ];
 
     return (
@@ -200,12 +200,14 @@ export default function TravelGrantPage() {
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-8 sm:mb-10">
                         Apply for the Travel Grant
                     </h2>
-                    <button
-                        disabled
-                        className="inline-block bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[6px_6px_0_black]"
+                    <a
+                        href="https://docs.google.com/forms/d/1wJX3o6dm-u6Ueg3jM31Ekyh932lF_8p2sSLhuwLO4aQ/edit?chromeless=1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
                     >
-                        APPLICATIONS OPENING SOON
-                    </button>
+                        APPLY ONLINE →
+                    </a>
                     <p className="text-white/60 text-xs font-mono mt-8">
                         For inquiries, contact:{' '}
                         <a
