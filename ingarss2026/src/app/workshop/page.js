@@ -45,7 +45,7 @@ export default function WorkshopPage() {
                   WORKSHOP REGISTRATION
                 </div>
                 <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-2">
-                  1-Day Tutorial Workshop (1st December)
+                  1-Day Tutorial Workshop (1st December 2026)
                 </h3>
                 <p className="text-sm sm:text-base text-gray-700 font-medium">
                   Registration Fee: <span className="font-bold text-black">₹ 2,500</span> (Indian) / <span className="font-bold text-black">$50</span> (International)
@@ -53,13 +53,14 @@ export default function WorkshopPage() {
               </div>
               
               <div className="shrink-0 w-full md:w-auto text-center md:text-right">
-                <button
-                  disabled
-                  className="inline-block w-full md:w-auto bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[4px_4px_0_black]"
-                  title="Workshop registration will open soon"
+                <a
+                  href="https://in.eregnow.com/ticketing/register/ingarss2026?_rid=31732&_single=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full md:w-auto bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all text-center"
                 >
-                  REGISTRATION OPENING SOON
-                </button>
+                  REGISTER FOR WORKSHOP →
+                </a>
               </div>
             </div>
           </div>

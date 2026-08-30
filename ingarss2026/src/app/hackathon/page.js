@@ -6,6 +6,13 @@ import hackathonData from "@/data/hackathon.json";
 export default function HackathonPage() {
   const { title, subtitle, theme, status, registrationLink, dates, venue, teamFee, maxTeamSize, eligibility, highlights, phases, prizes, contact } = hackathonData;
 
+  const scrollToRegistration = () => {
+    const el = document.getElementById('hackathon-register');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <main className="min-h-screen bg-[var(--bone)] pb-16 md:pb-24">
       <PageHeader
@@ -30,10 +37,14 @@ export default function HackathonPage() {
                 </span>
               </div>
               
-              {/* Status Badge */}
-              <div className="bg-[var(--terracotta)] text-white font-mono font-black text-xs sm:text-sm px-4 py-2 border-2 border-black shadow-[3px_3px_0_black] animate-pulse">
-                📢 {status}
-              </div>
+              {/* Status Badge - Clickable to scroll down */}
+              <button
+                onClick={scrollToRegistration}
+                className="bg-[var(--terracotta)] text-white font-mono font-black text-xs sm:text-sm px-4 py-2 border-2 border-black shadow-[3px_3px_0_black] animate-pulse cursor-pointer hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[1px_1px_0_black] transition-all"
+                title="Click to go to registration"
+              >
+                📢 {status} ↓
+              </button>
             </div>
 
             {/* Banner Text */}
@@ -52,6 +63,14 @@ export default function HackathonPage() {
               <p className="text-sm sm:text-base text-gray-700 font-semibold">
                 🗓️ <span className="font-bold text-black">{dates}</span> | 📍 <span className="font-bold text-black">{venue}</span>
               </p>
+              <div className="pt-2">
+                <button
+                  onClick={scrollToRegistration}
+                  className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-3.5 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all cursor-pointer"
+                >
+                  PROCEED TO REGISTER ↓
+                </button>
+              </div>
             </div>
 
             {/* Quick Specs Grid */}
@@ -184,7 +203,7 @@ export default function HackathonPage() {
           </div>
 
           {/* Contact / Registration CTA Section */}
-          <div className="bg-white border-[3px] border-black p-8 text-center shadow-[8px_8px_0_var(--terracotta)]">
+          <div id="hackathon-register" className="bg-white border-[3px] border-black p-8 text-center shadow-[8px_8px_0_var(--terracotta)] scroll-mt-24">
             <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-3">
               Ready to Innovate?
             </h3>

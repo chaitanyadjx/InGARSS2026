@@ -64,32 +64,6 @@ export default function RegistrationPage() {
         </div>
       </section>
 
-      {/* YP Hackathon Registration Banner */}
-      <section className="px-5 md:px-[8%] pt-10 md:pt-14">
-        <div className="max-w-5xl mx-auto bg-white border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_var(--terracotta)]">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
-            <div className="space-y-2">
-              <div className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-xs px-3 py-1 border border-black">
-                IEEE GRSS YP HACKATHON
-              </div>
-              <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)]">
-                YP Hackathon Challenge
-              </h3>
-              <p className="text-sm sm:text-base font-bold text-[var(--terracotta)]">
-                Theme: Digital Earth - Modeling, Mapping, and Monitoring.
-              </p>
-            </div>
-            <a
-              href="https://in.eregnow.com/ticketing/register/login/yphackathon"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-6 py-3.5 border-[3px] border-black shadow-[4px_4px_0_black] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all shrink-0"
-            >
-              REGISTER FOR YP HACKATHON →
-            </a>
-          </div>
-        </div>
-      </section>
 
       {/* Registration Table */}
       <section id="registration-charges" className="px-5 md:px-[8%] py-12 md:py-20 scroll-mt-24">
