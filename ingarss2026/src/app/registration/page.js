@@ -223,7 +223,7 @@ export default function RegistrationPage() {
           <div className="shrink-0">
             {acceptedTerms && acceptedRules ? (
               <a
-                href="https://in.eregnow.com/ticketing/register/ingarss2026?_rid=31732&_single=1"
+                href={process.env.NEXT_PUBLIC_REGISTRATION_LINK || "https://in.eregnow.com/ticketing/register/ingarss2026"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full sm:w-auto bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
