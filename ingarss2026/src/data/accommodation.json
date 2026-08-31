@@ -1,0 +1,69 @@
+{
+  "page": "accommodation",
+  "title": "Accommodation",
+  "subtitle": "Recommended Hotels Near THE PARK Hyderabad",
+  "intro": "Comfortable accommodation options within convenient reach of the conference venue.",
+  "hotels": [
+    {
+      "id": 1,
+      "name": "THE PARK Hyderabad",
+      "tag": "Venue Hotel",
+      "badge": "Luxury 5-Star Boutique Hotel",
+      "address": "22, Raj Bhavan Road, Somajiguda, Hyderabad – 500082",
+      "description": "The conference venue itself, THE PARK Hyderabad is a luxury five-star boutique hotel overlooking Hussain Sagar Lake. It offers contemporary rooms and suites, multiple dining options, a swimming pool, spa and business facilities, making it the most convenient accommodation option for delegates attending the conference.",
+      "bookUrl": "https://www.theparkhotels.com/hyderabad/",
+      "image": "/assets/hotels/image1.jpeg",
+      "isVenue": true
+    },
+    {
+      "id": 2,
+      "name": "Katriya Hotel & Towers",
+      "badge": "Full-Service Hotel",
+      "address": "8, Raj Bhavan Road, Somajiguda, Hyderabad – 500082",
+      "description": "A convenient accommodation option on Raj Bhavan Road, Somajiguda. The hotel offers full-service facilities including restaurants, banquet spaces, parking and comfortable rooms, making it suitable for conference delegates.",
+      "bookUrl": "https://katriyahotel.com/",
+      "image": "/assets/hotels/image2.jpeg",
+      "isVenue": false
+    },
+    {
+      "id": 3,
+      "name": "Mercure Hyderabad KCP",
+      "badge": "4-Star Hotel",
+      "address": "6-3-551, Banjara Hills Main Road, Somajiguda, Hyderabad – 500082",
+      "description": "A centrally located 4-star hotel with spacious rooms, dining options, fitness facilities, Wi-Fi and business amenities. Its Somajiguda/Banjara Hills location makes it a practical choice for conference and business travellers.",
+      "bookUrl": "https://all.accor.com/hotel/9220/index.en.shtml",
+      "image": "/assets/hotels/image3.jpeg",
+      "isVenue": false
+    },
+    {
+      "id": 4,
+      "name": "Hotel Inner Circle",
+      "badge": "Comfort & Business Hotel",
+      "address": "6-3-905, Raj Bhavan Road, Somajiguda, Hyderabad – 500082",
+      "description": "Located in the heart of Somajiguda, this hotel offers comfortable rooms, Wi-Fi, parking, dining and business facilities. Its Raj Bhavan Road location is convenient for delegates staying close to the conference venue.",
+      "bookUrl": "https://www.hotelinnercircle.com/",
+      "image": "/assets/hotels/image4.jpeg",
+      "isVenue": false
+    },
+    {
+      "id": 5,
+      "name": "Holiday Inn Express Hyderabad Banjara Hills",
+      "badge": "Modern Business Hotel",
+      "address": "6-3-563/2nd Floor/A, Erramanzil Colony, Somajiguda, Banjara Hills, Hyderabad – 500082",
+      "description": "A modern and practical option for business and conference travellers, with comfortable rooms, complimentary breakfast, Wi-Fi, a fitness centre, self-service laundry and convenient access to Somajiguda and Banjara Hills.",
+      "bookUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/hyderabad/hydbh/hoteldetail",
+      "image": "/assets/hotels/image5.jpeg",
+      "isVenue": false
+    },
+    {
+      "id": 6,
+      "name": "Hyderabad Marriott Hotel & Convention Centre",
+      "badge": "Premium 5-Star Hotel",
+      "address": "Tank Bund Road, Hyderabad – 500080",
+      "description": "A premium five-star option overlooking Hussain Sagar Lake, offering upscale accommodation, restaurants, fitness facilities, pool and business amenities. A good choice for delegates seeking a premium stay in central Hyderabad.",
+      "bookUrl": "https://www.marriott.com/en-us/hotels/hydmc-hyderabad-marriott-hotel-and-convention-centre/overview/",
+      "image": "/assets/hotels/image6.jpeg",
+      "isVenue": false
+    }
+  ]
+}
