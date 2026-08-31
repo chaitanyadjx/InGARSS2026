@@ -193,43 +193,52 @@ export default function RegistrationPage() {
           </p>
 
           <div className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
-            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black] opacity-80 cursor-not-allowed">
+            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black]">
               <input
                 type="checkbox"
                 id="acceptTerms"
-                disabled
                 checked={acceptedTerms}
                 onChange={(e) => setAcceptedTerms(e.target.checked)}
-                className="w-5 h-5 accent-[var(--indigo)] cursor-not-allowed opacity-60 shrink-0 mt-0.5"
+                className="w-5 h-5 accent-[var(--indigo)] cursor-pointer shrink-0 mt-0.5"
               />
-              <label htmlFor="acceptTerms" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-not-allowed select-none">
+              <label htmlFor="acceptTerms" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-pointer select-none">
                 I am accepting the terms and conditions of InGARSS 2026 conference given below
               </label>
             </div>
 
-            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black] opacity-80 cursor-not-allowed">
+            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black]">
               <input
                 type="checkbox"
                 id="acceptRules"
-                disabled
                 checked={acceptedRules}
                 onChange={(e) => setAcceptedRules(e.target.checked)}
-                className="w-5 h-5 accent-[var(--indigo)] cursor-not-allowed opacity-60 shrink-0 mt-0.5"
+                className="w-5 h-5 accent-[var(--indigo)] cursor-pointer shrink-0 mt-0.5"
               />
-              <label htmlFor="acceptRules" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-not-allowed select-none">
+              <label htmlFor="acceptRules" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-pointer select-none">
                 I am accepting Rules for Author Registrations of InGARSS 2026 conference given below
               </label>
             </div>
           </div>
 
           <div className="shrink-0">
-            <button
-              disabled
-              className="inline-block w-full sm:w-auto bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[6px_6px_0_black]"
-              title="Paper registration will open soon"
-            >
-              REGISTRATION OPENING SOON
-            </button>
+            {acceptedTerms && acceptedRules ? (
+              <a
+                href="https://in.eregnow.com/ticketing/register/ingarss2026?_rid=31732&_single=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full sm:w-auto bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
+              >
+                PAPER REGISTRATION →
+              </a>
+            ) : (
+              <button
+                disabled
+                title="Please accept both terms and conditions and author rules to proceed"
+                className="inline-block w-full sm:w-auto bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[6px_6px_0_black]"
+              >
+                PAPER REGISTRATION →
+              </button>
+            )}
           </div>
         </div>
       </section>
