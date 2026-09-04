@@ -82,7 +82,8 @@ export default function RegistrationPage() {
               <thead>
                 <tr className="bg-[var(--indigo)] text-white border-b border-white/20">
                   <th rowSpan={2} className="px-4 sm:px-6 py-4 text-xs sm:text-sm font-extrabold border-r border-white/20 text-left align-middle min-w-[220px]">
-                    Registrations at Various Levels
+                    Registration at Various Levels
+                    <span className="block text-[11px] font-semibold opacity-90 mt-0.5">(Authors/Attendees)</span>
                   </th>
                   <th colSpan={2} className="px-4 py-3 text-xs sm:text-sm font-extrabold text-center border-r border-white/20">
                     Registration
