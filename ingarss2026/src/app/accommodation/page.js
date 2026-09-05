@@ -90,9 +90,26 @@ export default function AccommodationPage() {
                   </div>
 
                   {/* Description */}
-                  <p className="text-xs sm:text-sm text-gray-800 font-medium leading-relaxed mb-6">
+                  <p className="text-xs sm:text-sm text-gray-800 font-medium leading-relaxed mb-4">
                     {hotel.description}
                   </p>
+
+                  {/* Special Rate for Conference Delegates if available */}
+                  {hotel.specialRate && (
+                    <div className="mb-5 p-4 bg-[var(--gold)]/20 border-2 border-black shadow-[3px_3px_0_black]">
+                      <p className="font-mono font-bold text-xs sm:text-sm text-black">
+                        🏷️ {hotel.specialRate}
+                      </p>
+                      {hotel.rateAccessCode && (
+                        <p className="font-mono text-xs sm:text-sm text-black mt-2 font-bold">
+                          Rate Access Code:{" "}
+                          <span className="bg-black text-white px-2 py-0.5 ml-1 border border-black shadow-[2px_2px_0_var(--terracotta)] inline-block">
+                            {hotel.rateAccessCode}
+                          </span>
+                        </p>
+                      )}
+                    </div>
+                  )}
                 </div>
 
                 {/* Booking Button */}
@@ -115,13 +132,24 @@ export default function AccommodationPage() {
           </div>
 
           {/* Booking Notice */}
-          <div className="bg-[var(--indigo)] text-white border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_black]">
-            <h3 className="text-lg sm:text-xl font-extrabold text-white mb-2">
+          <div className="bg-[var(--indigo)] text-white border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_black] space-y-4">
+            <h3 className="text-lg sm:text-xl font-extrabold text-white">
               Important Booking Information for Conference Delegates
             </h3>
             <p className="text-xs sm:text-sm text-gray-200 font-medium leading-relaxed">
               Delegates are advised to book their accommodation early to secure preferred rates and availability during the conference period. Direct links above take you directly to the official hotel reservation portals.
             </p>
+            <div className="p-4 bg-white/10 border border-white/20 text-xs sm:text-sm font-mono text-white space-y-1.5">
+              <p className="font-bold text-[var(--gold)]">
+                ★ Special Discount for THE PARK Hyderabad (Venue Hotel):
+              </p>
+              <p className="text-white/95">
+                Special Rate for Conference Delegates: Apply <span className="font-bold text-[var(--gold)]">ALP202</span> at checkout to avail exclusive discounted hotel rate.
+              </p>
+              <p className="text-white/90">
+                Rate Access Code: <span className="font-bold text-white bg-black/60 px-2 py-0.5 border border-white/30">ALP202 (Code to avail discount code)</span>
+              </p>
+            </div>
           </div>
 
         </div>

@@ -11,7 +11,9 @@
       "badge": "Luxury 5-Star Boutique Hotel",
       "address": "22, Raj Bhavan Road, Somajiguda, Hyderabad – 500082",
       "description": "The conference venue itself, THE PARK Hyderabad is a luxury five-star boutique hotel overlooking Hussain Sagar Lake. It offers contemporary rooms and suites, multiple dining options, a swimming pool, spa and business facilities, making it the most convenient accommodation option for delegates attending the conference.",
-      "bookUrl": "https://www.theparkhotels.com/hyderabad/",
+      "bookUrl": "https://reservations.travelclick.com/113665?RatePlanId=11590417",
+      "specialRate": "Special Rate for Conference Delegates: Apply ALP202 at checkout to avail exclusive discounted hotel rate.",
+      "rateAccessCode": "ALP202 (Code to avail discount code)",
       "image": "/assets/hotels/image1.jpeg",
       "isVenue": true
     },
