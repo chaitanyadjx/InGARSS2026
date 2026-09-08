@@ -8,6 +8,7 @@ const HERO_BG = 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=
 const SLIDES = [
   {
     id: 'conference',
+    title: 'InGARSS 2026 Conference',
   },
   {
     id: 'hackathon',
@@ -58,6 +59,40 @@ const SLIDES = [
       {
         label: 'REGISTER FOR WORKSHOP →',
         href: 'https://in.eregnow.com/ticketing/register/ingarss2026?_rid=31732&_single=1',
+        className: 'bg-[var(--gold)] text-black',
+        external: true,
+      },
+    ],
+  },
+  {
+    id: 'travel-grant',
+    tag: 'STUDENT TRAVEL GRANT • APPLICATIONS OPEN',
+    tagBg: 'bg-[var(--gold)] text-black',
+    title: 'Student Travel Grant',
+    subtitle: 'IEEE GRSS TRAVEL SCHOLARSHIP PROGRAM',
+    description: 'Providing partial financial support to meritorious student members of IEEE GRSS to present their accepted research in Hyderabad.',
+    highlight: '🎓 Partial Grant for Travel & Registration | Deadline: 15 Sept 2026',
+    rightLabel: 'GRANT DETAILS • CLICK TO APPLY',
+    rightLinkHref: '/travel-grant',
+    grantInfo: {
+      points: [
+        'IEEE GRSS Student Membership required',
+        'First or presenting author on accepted paper',
+        'Partial support for travel & registration',
+        'Eligible for Indian & neighboring country students',
+      ],
+      deadline: '15 September 2026',
+      target: 'Merit-based awards across institutions',
+    },
+    buttons: [
+      {
+        label: 'EXPLORE TRAVEL GRANT →',
+        href: '/travel-grant',
+        className: 'bg-[var(--terracotta)] text-white',
+      },
+      {
+        label: 'APPLY ONLINE →',
+        href: 'https://docs.google.com/forms/d/1wJX3o6dm-u6Ueg3jM31Ekyh932lF_8p2sSLhuwLO4aQ/edit?chromeless=1',
         className: 'bg-[var(--gold)] text-black',
         external: true,
       },
@@ -263,6 +298,46 @@ export default function HeroSlider() {
                           </p>
                           <p className="text-[9px] sm:text-[10px] font-mono font-extrabold text-[var(--indigo)] group-hover:underline mt-1">
                             View All Workshops →
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                  ) : slide.grantInfo ? (
+                    /* Travel Grant Info Panel */
+                    <Link
+                      href={slide.rightLinkHref}
+                      className="group relative flex flex-col w-full max-w-[220px] md:max-w-[260px] lg:max-w-full bg-white border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[10px_10px_0_var(--terracotta)] hover:-translate-y-1 transition-all overflow-hidden"
+                    >
+                      <div className="bg-[var(--indigo)] text-white font-mono font-bold text-[9px] sm:text-[10px] md:text-xs py-1 px-2 text-center border-b-2 border-black shrink-0">
+                        {slide.rightLabel}
+                      </div>
+                      <div className="flex-1 bg-[var(--bone)] p-3 sm:p-4 flex flex-col justify-between">
+                        <div>
+                          <div className="font-mono font-black text-[10px] sm:text-xs text-[var(--indigo)] uppercase tracking-wider mb-2 sm:mb-3">
+                            Key Eligibility Criteria
+                          </div>
+                          <ul className="space-y-1.5 sm:space-y-2">
+                            {slide.grantInfo.points.map((p, i) => (
+                              <li key={i} className="flex items-start gap-1.5">
+                                <span className="shrink-0 mt-0.5 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded-full bg-[var(--terracotta)] text-white text-[8px] sm:text-[9px] font-black flex items-center justify-center border border-black">
+                                  ✓
+                                </span>
+                                <span className="text-[10px] sm:text-[11px] md:text-xs font-semibold text-gray-800 leading-tight">
+                                  {p}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div className="mt-3 pt-2 border-t-2 border-black/20 space-y-0.5">
+                          <p className="text-[9px] sm:text-[10px] font-mono font-bold text-[var(--terracotta)]">
+                            📅 Deadline: {slide.grantInfo.deadline}
+                          </p>
+                          <p className="text-[9px] sm:text-[10px] font-mono font-semibold text-gray-600">
+                            🎯 {slide.grantInfo.target}
+                          </p>
+                          <p className="text-[9px] sm:text-[10px] font-mono font-extrabold text-[var(--indigo)] group-hover:underline mt-1">
+                            Explore Travel Grant →
                           </p>
                         </div>
                       </div>
