@@ -46,7 +46,13 @@ const SLIDES = [
     rightLabel: 'WORKSHOPS INFO • CLICK TO VIEW',
     rightLinkHref: '/workshop',
     workshopInfo: {
-      sessions: ['NISAR Soil Moisture Products', 'WebODM Drone Processing', 'Glacial Lakes & Remote Sensing', 'Spatial Analysis using R', 'GeoAI-SAR for Disaster Apps'],
+      sessions: [
+        'W1: NISAR Soil Moisture (Morning)',
+        'W2: WebODM Drone Processing (Morning)',
+        'W3: Glacial Lakes Remote Sensing (Evening)',
+        'W4: Spatial Analysis using R (Evening)',
+        'W5: GeoAI-SAR Disaster Apps (Evening)'
+      ],
       date: '01 December 2026',
       venue: 'The Park, Hyderabad',
     },
@@ -93,6 +99,31 @@ const SLIDES = [
       {
         label: 'APPLY ONLINE →',
         href: 'https://docs.google.com/forms/d/1wJX3o6dm-u6Ueg3jM31Ekyh932lF_8p2sSLhuwLO4aQ/edit?chromeless=1',
+        className: 'bg-[var(--gold)] text-black',
+        external: true,
+      },
+    ],
+  },
+  {
+    id: 'family-cares',
+    tag: 'IEEE GRSS IDEA • FAMILY CARES GRANT',
+    tagBg: 'bg-[var(--gold)] text-black',
+    title: 'Family Cares Grant Program',
+    subtitle: 'DON’T LET CAREGIVING HOLD YOU BACK!',
+    description: 'Providing grant support to IEEE GRSS members with family care responsibilities attending InGARSS 2026 in Hyderabad.',
+    highlight: '🤝 Dependent & Childcare Support | Deadline: October 15, 2026',
+    posterImage: '/assets/family-cares-grant.png',
+    rightLabel: 'OFFICIAL FLYER • CLICK TO APPLY',
+    rightLinkHref: '/family-cares-grant',
+    buttons: [
+      {
+        label: 'EXPLORE GRANT →',
+        href: '/family-cares-grant',
+        className: 'bg-[var(--terracotta)] text-white',
+      },
+      {
+        label: 'APPLY NOW →',
+        href: 'https://docs.google.com/forms/d/e/1FAIpQLScqRqYCFH-sNnbL_pMg7o_fXft_se_tQvJ4FcH1Ho85cWkY-w/viewform?pli=1',
         className: 'bg-[var(--gold)] text-black',
         external: true,
       },

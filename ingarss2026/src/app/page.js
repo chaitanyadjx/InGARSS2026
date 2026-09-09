@@ -65,6 +65,64 @@ export default function Home() {
               </div>
             </section>
 
+            {/* FEATURED: IEEE GRSS IDEA FAMILY CARES GRANT */}
+            <section className="bg-white border-b-[3px] border-black py-12 md:py-16 px-5 md:px-[8%]">
+                <div className="max-w-6xl mx-auto border-[3px] border-black bg-[var(--bone)] shadow-[10px_10px_0_black] p-6 sm:p-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                        <div className="lg:col-span-8 space-y-4">
+                            <div className="flex flex-wrap items-center gap-2">
+                                <span className="bg-[var(--indigo)] text-white font-mono font-bold text-xs px-3 py-1 border-2 border-black shadow-[2px_2px_0_black]">
+                                    IEEE GRSS IDEA
+                                </span>
+                                <span className="bg-[var(--gold)] text-black font-mono font-bold text-xs px-3 py-1 border-2 border-black shadow-[2px_2px_0_black]">
+                                    DEADLINE: OCTOBER 15, 2026
+                                </span>
+                            </div>
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-black leading-tight">
+                                IEEE GRSS IDEA Family Cares Grant Program
+                            </h2>
+                            <p className="font-mono font-bold text-sm sm:text-base text-[var(--terracotta)]">
+                                Don’t let caregiving responsibilities hold you back!
+                            </p>
+                            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                                Are you an IEEE GRSS member with family care responsibilities attending InGARSS 2026? Apply for grant assistance to support your in-person participation in Hyderabad.
+                            </p>
+                            <div className="flex flex-col sm:flex-row flex-wrap gap-3 pt-2">
+                                <a 
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLScqRqYCFH-sNnbL_pMg7o_fXft_se_tQvJ4FcH1Ho85cWkY-w/viewform?pli=1"
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="font-mono font-bold text-xs sm:text-sm bg-[var(--terracotta)] text-white px-6 py-3.5 border-[3px] border-black shadow-[4px_4px_0_black] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[1px_1px_0_black] transition-all text-center"
+                                >
+                                    APPLY ONLINE NOW →
+                                </a>
+                                <Link 
+                                    href="/family-cares-grant"
+                                    className="font-mono font-bold text-xs sm:text-sm bg-white text-black px-6 py-3.5 border-[3px] border-black shadow-[4px_4px_0_black] hover:bg-gray-100 hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[1px_1px_0_black] transition-all text-center"
+                                >
+                                    VIEW PROGRAM DETAILS →
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="lg:col-span-4 flex justify-center">
+                            <Link 
+                                href="/family-cares-grant"
+                                className="block max-w-[260px] bg-white border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[10px_10px_0_var(--terracotta)] hover:-translate-y-1 transition-all overflow-hidden group"
+                            >
+                                <div className="bg-[var(--indigo)] text-white font-mono font-bold text-[10px] py-1 px-2 text-center border-b-2 border-black">
+                                    OFFICIAL FLYER • CLICK TO VIEW
+                                </div>
+                                <img 
+                                    src="/assets/family-cares-grant.png" 
+                                    alt="IEEE GRSS IDEA Family Cares Grant Flyer" 
+                                    className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                                />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* COMBINED ORGANIZATION & INVITATION SECTION */}
             <section className="grid md:grid-cols-[0.9fr_1.1fr] bg-white border-b-[3px] border-black">
                 
@@ -83,11 +141,11 @@ export default function Home() {
                             <p>Dear Participant,</p>
                             <p>
                                 We are delighted to invite you to the <strong>2026 IEEE India Geoscience and Remote Sensing Symposium (InGARSS)</strong>, 
-                                hosted in the vibrant "Cyber City" of <strong>Hyderabad, India</strong>.
+                                hosted in the vibrant &quot;Cyber City&quot; of <strong>Hyderabad, India</strong>.
                             </p>
                             <p className="hidden sm:block">
                                 As a distinguished expert in the field, your insights and contributions are invaluable to the success of our symposium. 
-                                The 2026 theme, <span className="italic font-bold text-indigo">"Digital Earth: Modeling, Mapping, and Monitoring"</span>, 
+                                The 2026 theme, <span className="italic font-bold text-indigo">&quot;Digital Earth: Modeling, Mapping, and Monitoring&quot;</span>, 
                                 reflects our commitment to leveraging geospatial technologies.
                             </p>
                             <p>
