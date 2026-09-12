@@ -35,13 +35,12 @@ function SpeakerCard({ name, affiliation, image }) {
 function SpeakerSection({ id, title, members, bgClass = "", pillClass = "bg-gold text-black shadow-[10px_10px_0_black]" }) {
     const isKeynote = id === "keynoteSpeakers";
 
-    // 2-3-2 layout for keynote (7 speakers): use a 6-col grid
-    // Row 1: 2 cards × span-3; Row 2: 3 cards × span-2; Row 3: 2 cards × span-3
+    // 2-3-3 layout for keynote (8 speakers): use a 6-col grid
+    // Row 1: 2 cards × span-3; Row 2: 3 cards × span-2; Row 3: 3 cards × span-2
     const getSpan = (index) => {
         if (!isKeynote) return "";
         if (index < 2) return "md:col-span-3";        // row 1: 2 cards
-        if (index < 5) return "md:col-span-2";        // row 2: 3 cards
-        return "md:col-span-3";                        // row 3: 2 cards
+        return "md:col-span-2";                       // row 2 & 3: 3 cards each
     };
 
     return (
