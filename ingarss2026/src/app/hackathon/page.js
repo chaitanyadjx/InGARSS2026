@@ -4,7 +4,7 @@ import PageHeader from "@/components/PageHeader";
 import hackathonData from "@/data/hackathon.json";
 
 export default function HackathonPage() {
-  const { title, subtitle, theme, status, registrationLink, dates, venue, teamFee, maxTeamSize, eligibility, highlights, phases, prizes, contact } = hackathonData;
+  const { title, subtitle, theme, status, registrationLink, dates, deadline, venue, teamFee, maxTeamSize, eligibility, highlights, phases, prizes, contact } = hackathonData;
 
   const scrollToRegistration = () => {
     const el = document.getElementById('hackathon-register');
@@ -63,6 +63,11 @@ export default function HackathonPage() {
               <p className="text-sm sm:text-base text-gray-700 font-semibold">
                 🗓️ <span className="font-bold text-black">{dates}</span> | 📍 <span className="font-bold text-black">{venue}</span>
               </p>
+              {deadline && (
+                <div className="inline-flex items-center gap-2 bg-[var(--terracotta)] text-white font-mono font-bold text-xs sm:text-sm px-4 py-1.5 border-2 border-black shadow-[3px_3px_0_black]">
+                  ⏰ Registration Deadline: {deadline}
+                </div>
+              )}
               <div className="pt-2">
                 <button
                   onClick={scrollToRegistration}
@@ -74,7 +79,7 @@ export default function HackathonPage() {
             </div>
 
             {/* Quick Specs Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 border-t-2 border-black/10 pt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 border-t-2 border-black/10 pt-8">
               <div className="bg-[var(--bone)]/60 border-2 border-black p-4 text-center shadow-[4px_4px_0_black]">
                 <div className="text-xs font-mono font-bold text-gray-500 uppercase">Team Size</div>
                 <div className="text-base sm:text-lg font-black text-black mt-1">👥 {maxTeamSize}</div>
@@ -88,6 +93,11 @@ export default function HackathonPage() {
               <div className="bg-[var(--bone)]/60 border-2 border-black p-4 text-center shadow-[4px_4px_0_black]">
                 <div className="text-xs font-mono font-bold text-gray-500 uppercase">Who Can Participate?</div>
                 <div className="text-base sm:text-lg font-black text-black mt-1">🎓 {eligibility}</div>
+              </div>
+
+              <div className="bg-[var(--gold)]/30 border-2 border-black p-4 text-center shadow-[4px_4px_0_black]">
+                <div className="text-xs font-mono font-bold text-gray-700 uppercase">Registration Deadline</div>
+                <div className="text-base sm:text-lg font-black text-[var(--terracotta)] mt-1">⏰ {deadline}</div>
               </div>
             </div>
 
@@ -204,9 +214,14 @@ export default function HackathonPage() {
 
           {/* Contact / Registration CTA Section */}
           <div id="hackathon-register" className="bg-white border-[3px] border-black p-8 text-center shadow-[8px_8px_0_var(--terracotta)] scroll-mt-24">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-3">
+            <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-2">
               Ready to Innovate?
             </h3>
+            {deadline && (
+              <p className="text-sm sm:text-base font-mono font-extrabold text-[var(--terracotta)] mb-2">
+                Registration Deadline: {deadline}
+              </p>
+            )}
             <p className="text-sm text-gray-700 mb-6 font-medium max-w-lg mx-auto">
               Gather your team of up to 3 members and register for the YP Hackathon Challenge now!
             </p>

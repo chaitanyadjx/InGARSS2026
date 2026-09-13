@@ -53,6 +53,12 @@
       "variant": "tint-indigo"
     },
     {
+      "label": "YP Hackathon",
+      "value": "30 September 2026",
+      "desc": "YP Hackathon Registration Deadline",
+      "variant": "tint-gold"
+    },
+    {
       "label": "EVENT DATES",
       "value": "01 — 04 DEC 2026",
       "desc": "InGARSS 2026 Symposium Dates",
