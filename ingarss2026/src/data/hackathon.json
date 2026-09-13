@@ -37,15 +37,18 @@
     {
       "phase": "PHASE 1",
       "mode": "ONLINE",
-      "date": "Deadline: 30 September 2026",
       "tagline": "Solve. Submit. Stand Out.",
-      "desc": "Top teams move to the next round! Online registration and submission close on 30 September 2026."
+      "dates": [
+        "Problem Disclose: 05 October 2026",
+        "Submission Closes: 20 October 2026"
+      ],
+      "desc": "Top teams move to the next round!"
     },
     {
       "phase": "PHASE 2",
       "mode": "OFFLINE",
-      "date": "01-12-2026 @ InGARSS 2026, Hyderabad",
       "tagline": "Compete Live. Showcase Your Ideas. Make an Impact!",
+      "date": "@ InGARSS 2026",
       "desc": "On-site finale at The Park Hyderabad."
     }
   ],

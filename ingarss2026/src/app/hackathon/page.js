@@ -152,11 +152,19 @@ export default function HackathonPage() {
                       {phase.tagline}
                     </h4>
 
-                    {phase.date && (
-                      <p className="text-xs font-mono font-bold text-[var(--terracotta)] mb-3">
-                        📅 {phase.date}
+                    {phase.dates && phase.dates.length > 0 ? (
+                      <div className="space-y-1.5 mb-3">
+                        {phase.dates.map((d, dIdx) => (
+                          <p key={dIdx} className="text-xs sm:text-sm font-mono font-bold text-[var(--terracotta)]">
+                            📅 {d}
+                          </p>
+                        ))}
+                      </div>
+                    ) : phase.date ? (
+                      <p className="text-xs sm:text-sm font-mono font-bold text-[var(--terracotta)] mb-3">
+                        {phase.date.startsWith('@') ? '📍 ' : '📅 '} {phase.date}
                       </p>
-                    )}
+                    ) : null}
 
                     <p className="text-sm text-gray-700 leading-relaxed font-medium">
                       {phase.desc}
