@@ -77,7 +77,7 @@ const SLIDES = [
     title: 'Student Travel Grant',
     subtitle: 'IEEE GRSS TRAVEL SCHOLARSHIP PROGRAM',
     description: 'Providing partial financial support to meritorious student members of IEEE GRSS to present their accepted research in Hyderabad.',
-    highlight: '🎓 Partial Grant for Travel & Registration | Deadline: 15 Sept 2026',
+    highlight: '🎓 Partial Grant for Travel & Registration | Deadline: 30 Sept 2026',
     rightLabel: 'GRANT DETAILS • CLICK TO APPLY',
     rightLinkHref: '/travel-grant',
     grantInfo: {
@@ -87,7 +87,7 @@ const SLIDES = [
         'Partial support for travel & registration',
         'Eligible for Indian & neighboring country students',
       ],
-      deadline: '15 September 2026',
+      deadline: '30 September 2026',
       target: 'Merit-based awards across institutions',
     },
     buttons: [
