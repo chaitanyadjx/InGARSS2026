@@ -9,12 +9,14 @@
         {
           "name": "Dr. Vijender Busi Reddy",
           "org": "ADRIN, ISRO",
-          "role": ""
+          "role": "",
+          "image": "/assets/Vijender-Reddy.png"
         },
         {
           "name": "Dr. Paul A. Rosen",
           "org": "JPL, NASA",
-          "role": "Co-Chair"
+          "role": "Co-Chair",
+          "image": "https://www.jpl.nasa.gov/site/research/media/images/rosen.max-400x400.jpg"
         }
       ]
     },

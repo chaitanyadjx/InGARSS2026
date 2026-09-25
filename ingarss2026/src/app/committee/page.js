@@ -4,7 +4,7 @@ import { useState } from 'react';
 import PageHeader from '@/components/PageHeader';
 import committeeData from '@/data/committee.json';
 
-function PersonCard({ name, org, role, isSelected, onSelect }) {
+function PersonCard({ name, org, role, image, isSelected, onSelect }) {
     // Combine name and role for the display
     const displayName = role ? `${name} (${role})` : name;
 
@@ -17,10 +17,20 @@ function PersonCard({ name, org, role, isSelected, onSelect }) {
                     : 'shadow-[4px_4px_0_black]'
             }`}
         >
-            <span className="block font-bold text-[0.7rem] md:text-xs leading-tight mb-1">
+            {image && (
+                <div className="w-full aspect-square border-2 border-black overflow-hidden mb-5 relative bg-gray-100">
+                    <img 
+                        src={image} 
+                        alt={name}
+                        className="w-full h-full object-cover"
+                        onError={(e) => { e.target.style.display = 'none'; }}
+                    />
+                </div>
+            )}
+            <span className="block font-bold text-[0.7rem] md:text-xs leading-tight mb-2 text-center">
                 {displayName}
             </span>
-            <span className="block text-[0.6rem] md:text-[0.65rem] text-gray-600 leading-tight break-words">
+            <span className="block text-[0.6rem] md:text-[0.65rem] text-terracotta font-bold leading-tight break-words text-center">
                 {org}
             </span>
         </div>
@@ -56,7 +66,10 @@ export default function CommitteePage() {
                     {section.members.map((person, index) => (
                         <PersonCard 
                             key={`${prefix}-${index}`} 
-                            {...person} 
+                            name={person.name}
+                            org={person.org}
+                            role={person.role}
+                            image={person.image}
                             isSelected={selectedIndex === `${prefix}-${index}`}
                             onSelect={() => handleSelect(`${prefix}-${index}`)}
                         />

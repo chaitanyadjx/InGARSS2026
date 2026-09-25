@@ -50,6 +50,9 @@ export default function WorkshopPage() {
                 <p className="text-sm sm:text-base text-gray-700 font-medium">
                   Registration Fee: <span className="font-bold text-black">₹ 2,500</span> (Indian) / <span className="font-bold text-black">$50</span> (International)
                 </p>
+                <p className="mt-1 text-xs sm:text-sm text-gray-600 font-medium italic">
+                  Registration Fee includes: Registration kit, Refreshments, Lunch and a participation certificate
+                </p>
                 <p className="mt-2 text-sm sm:text-base text-gray-800 font-bold">
                   Workshop registration deadline: 30 September 2026
                 </p>
@@ -119,7 +122,12 @@ export default function WorkshopPage() {
                       </h3>
                     </div>
 
-                    <div className="flex items-center gap-2 shrink-0">
+                    <div className="flex flex-col items-end gap-1 shrink-0">
+                      {workshop.date && (
+                        <span className="text-[10px] sm:text-xs font-mono font-bold text-[var(--indigo)] bg-[var(--gold)]/20 px-2 py-0.5 border border-black whitespace-nowrap">
+                          {workshop.date} | {workshop.time}
+                        </span>
+                      )}
                       <span className="text-xs font-bold font-mono hidden sm:inline-block text-black/60">
                         {isOpen ? 'HIDE' : 'VIEW DETAILS'}
                       </span>
