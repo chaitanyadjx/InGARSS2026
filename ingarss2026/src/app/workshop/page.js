@@ -34,26 +34,26 @@ export default function WorkshopPage() {
         subtitle="Explore specialized hands-on sessions and technical workshops at InGARSS 2026"
       />
 
-      <section className="px-5 md:px-[8%] py-10 md:py-14">
-        <div className="max-w-5xl mx-auto">
+      <section className="px-3 sm:px-5 md:px-[8%] py-8 sm:py-10 md:py-14">
+        <div className="w-full max-w-5xl mx-auto">
 
           {/* Workshop Registration Section */}
-          <div className="bg-white border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_var(--terracotta)] mb-10">
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-              <div>
+          <div className="bg-white border-[3px] border-black p-4 sm:p-6 md:p-8 shadow-[6px_6px_0_var(--terracotta)] sm:shadow-[8px_8px_0_var(--terracotta)] mb-8 sm:mb-10">
+            <div className="flex min-w-0 flex-col md:flex-row justify-between items-start md:items-center gap-5 sm:gap-6">
+              <div className="min-w-0 w-full">
                 <div className="inline-block bg-[var(--gold)] text-black font-mono font-bold text-xs px-3 py-1 border border-black mb-3">
                   WORKSHOP REGISTRATION
                 </div>
-                <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-2">
+                <h3 className="text-lg sm:text-2xl font-extrabold text-[var(--indigo)] mb-2 break-words">
                   1-Day Tutorial Workshop (1st December 2026)
                 </h3>
-                <p className="text-sm sm:text-base text-gray-700 font-medium">
+                <p className="text-sm sm:text-base text-gray-700 font-medium break-words">
                   Registration Fee: <span className="font-bold text-black">₹ 2,500</span> (Indian) / <span className="font-bold text-black">$50</span> (International)
                 </p>
-                <p className="mt-1 text-xs sm:text-sm text-gray-600 font-medium italic">
+                <p className="mt-1 text-xs sm:text-sm text-gray-600 font-medium italic break-words">
                   Registration Fee includes: Registration kit, Refreshments, Lunch and a participation certificate
                 </p>
-                <p className="mt-2 text-sm sm:text-base text-gray-800 font-bold">
+                <p className="mt-2 text-sm sm:text-base text-gray-800 font-bold break-words">
                   Workshop registration deadline: 30 September 2026
                 </p>
               </div>
@@ -72,8 +72,8 @@ export default function WorkshopPage() {
           </div>
 
           {/* Top Controls */}
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
-            <div>
+          <div className="flex min-w-0 flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 sm:mb-8">
+            <div className="min-w-0">
               <h2 className="text-2xl sm:text-3xl font-extrabold text-black uppercase tracking-tight">
                 Pre-Conference Workshops
               </h2>
@@ -81,16 +81,16 @@ export default function WorkshopPage() {
                 Click on any workshop title to view details, topics, and speakers.
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex w-full sm:w-auto gap-2 sm:gap-3">
               <button
                 onClick={expandAll}
-                className="px-4 py-2 text-xs sm:text-sm font-bold bg-white text-black border-2 border-black shadow-[3px_3px_0_black] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0_black] transition-all"
+                className="flex-1 sm:flex-none px-3 sm:px-4 py-2 text-xs sm:text-sm font-bold bg-white text-black border-2 border-black shadow-[3px_3px_0_black] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0_black] transition-all"
               >
                 Expand All
               </button>
               <button
                 onClick={collapseAll}
-                className="px-4 py-2 text-xs sm:text-sm font-bold bg-white text-black border-2 border-black shadow-[3px_3px_0_black] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0_black] transition-all"
+                className="flex-1 sm:flex-none px-3 sm:px-4 py-2 text-xs sm:text-sm font-bold bg-white text-black border-2 border-black shadow-[3px_3px_0_black] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0_black] transition-all"
               >
                 Collapse All
               </button>
@@ -110,21 +110,21 @@ export default function WorkshopPage() {
                   {/* Clickable Title Bar - Clean Desktop & Mobile Alignment */}
                   <button
                     onClick={() => toggleItem(workshop.id)}
-                    className="w-full text-left p-4 sm:p-6 bg-white hover:bg-slate-50 transition-colors flex items-center justify-between gap-3 sm:gap-4 group cursor-pointer"
+                    className="w-full min-w-0 text-left p-3 sm:p-6 bg-white hover:bg-slate-50 transition-colors flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 group cursor-pointer"
                     aria-expanded={isOpen}
                   >
-                    <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
-                      <span className="inline-block bg-[var(--indigo)] text-white font-mono font-bold text-xs sm:text-sm px-3 py-1 border-2 border-black shrink-0 whitespace-nowrap">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 flex-1 min-w-0">
+                      <span className="inline-block bg-[var(--indigo)] text-white font-mono font-bold text-[10px] sm:text-sm px-2 sm:px-3 py-1 border-2 border-black shrink-0 whitespace-nowrap">
                         Workshop #{index + 1}
                       </span>
-                      <h3 className="text-sm sm:text-xl font-extrabold text-black group-hover:text-[var(--terracotta)] transition-colors leading-snug flex-1 min-w-0 break-words">
+                      <h3 className="w-full text-sm sm:text-xl font-extrabold text-black group-hover:text-[var(--terracotta)] transition-colors leading-snug min-w-0 break-words">
                         {workshop.title}
                       </h3>
                     </div>
 
-                    <div className="flex flex-col items-end gap-1 shrink-0">
+                    <div className="flex w-full sm:w-auto flex-row sm:flex-col items-center sm:items-end justify-between gap-2 sm:gap-1 shrink-0">
                       {workshop.date && (
-                        <span className="text-[10px] sm:text-xs font-mono font-bold text-[var(--indigo)] bg-[var(--gold)]/20 px-2 py-0.5 border border-black whitespace-nowrap">
+                        <span className="max-w-[calc(100%-2.5rem)] text-[10px] sm:text-xs font-mono font-bold text-[var(--indigo)] bg-[var(--gold)]/20 px-2 py-0.5 border border-black whitespace-normal sm:whitespace-nowrap leading-tight">
                           {workshop.date} | {workshop.time}
                         </span>
                       )}
@@ -147,7 +147,7 @@ export default function WorkshopPage() {
                       isOpen ? 'max-h-[3000px] opacity-100' : 'max-h-0 opacity-0'
                     }`}
                   >
-                    <div className="p-4 sm:p-8 border-t-[3px] border-black bg-[var(--bone)]/40 space-y-6">
+                    <div className="p-3 sm:p-6 md:p-8 border-t-[3px] border-black bg-[var(--bone)]/40 space-y-5 sm:space-y-6">
                       {/* Topics (if present) */}
                       {workshop.topics && workshop.topics.length > 0 && (
                         <div>
@@ -242,7 +242,7 @@ export default function WorkshopPage() {
 
                                 {speaker.bio && (
                                   <div className="mt-3 pt-3 border-t border-gray-200">
-                                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed break-words">
+                                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed break-words [overflow-wrap:anywhere]">
                                       <strong className="text-black font-bold">Bio: </strong>
                                       {speaker.bio}
                                     </p>
