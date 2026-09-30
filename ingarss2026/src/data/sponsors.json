@@ -17,6 +17,16 @@
     "expectedAbstracts": "400+",
     "expectedParticipants": "300+"
   },
+  "bronzeSponsors": [
+    {
+      "name": "Satle",
+      "logo": "/satle.png"
+    },
+    {
+      "name": "TCS Research",
+      "logo": "/TCS Research logo Black.png"
+    }
+  ],
   "whySponsor": {
     "title": "Why Sponsor or Exhibit at InGARSS 2026?",
     "benefits": [

@@ -75,7 +75,7 @@ function ComparisonTable({ headers, rows }) {
 }
 
 export default function SponsorsPage() {
-    const { hero, aboutProgram, eventInfo, whySponsor, packages, comparisonTable, contact } = sponsorsData;
+    const { hero, aboutProgram, eventInfo, whySponsor, packages, comparisonTable, contact, bronzeSponsors } = sponsorsData;
 
     return (
         <main className="min-h-screen bg-[var(--bone)]">
@@ -133,12 +133,25 @@ export default function SponsorsPage() {
                     <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-12">
                         Gold Sponsor
                     </h2>
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center mb-16">
                         <div className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_var(--gold)] hover:-translate-y-2 hover:shadow-[15px_15px_0_var(--gold)] transition-all duration-300 max-w-md w-full">
                             <img src="/assets/corteva.png" alt="Corteva Agriscience" className="w-full h-auto mb-6 object-contain max-h-48" />
                             <h3 className="text-2xl font-bold text-indigo">Corteva Agriscience</h3>
                             <p className="text-gray-600 font-mono text-md mt-2">Gold Tier Partner</p>
                         </div>
+                    </div>
+
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-12">
+                        Bronze Sponsors
+                    </h2>
+                    <div className="flex flex-col sm:flex-row justify-center items-stretch gap-8 flex-wrap">
+                        {bronzeSponsors.map((sponsor) => (
+                            <div key={sponsor.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#b45309] hover:-translate-y-2 hover:shadow-[15px_15px_0_#b45309] transition-all duration-300 max-w-sm w-full flex flex-col items-center">
+                                <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-full object-contain mb-6" />
+                                <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
+                                <p className="text-gray-600 font-mono text-md mt-2">Bronze Tier Partner</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
