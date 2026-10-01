@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(python3 -c  from PIL import Image import numpy as np im = Image.open('satle.png').convert('RGB') a = np.asarray(im).astype(int) r,g,b = a[...,0],a[...,1],a[...,2] mx, mn = a.max(-1), a.min(-1) sat = mx - mn colored = sat > 45 out = np.zeros(a.shape[:2]+(4,), dtype=np.uint8) # grayscale (text/arc/bg): black ink, alpha from brightness out[...,0:3] = np.where(colored[...,None], a, 0).clip(0,255).astype(np.uint8) alpha = np.where(colored, 255, mx).clip(0,255).astype(np.uint8) out[...,3] = alpha Image.fromarray(out,'RGBA').save('assets/satle.png') print('wrote assets/satle.png', out.shape) )",
+      "Shell(cp:*)",
+      "Shell(python3 -c  from PIL import Image, ImageChops im = Image.open('satle.png').convert('RGB') r,g,b = im.split() mx = ImageChops.lighter(ImageChops.lighter(r,g),b) mn = ImageChops.darker(ImageChops.darker(r,g),b) sat = ImageChops.subtract(mx,mn) colored = sat.point(lambda v: 255 if v > 45 else 0) black = Image.new('RGB', im.size, (0,0,0)) rgb = Image.composite(im, black, colored) alpha = Image.composite(mx.point(lambda v:255), mx, colored) rgb.putalpha(alpha).save('assets/satle.png') print('wrote assets/satle.png') )",
+      "Shell(python3 -c  from PIL import Image, ImageChops im = Image.open('satle.png').convert('RGB') r,g,b = im.split() mx = ImageChops.lighter(ImageChops.lighter(r,g),b) mn = ImageChops.darker(ImageChops.darker(r,g),b) sat = ImageChops.subtract(mx,mn) colored = sat.point(lambda v: 255 if v > 45 else 0) black = Image.new('RGB', im.size, (0,0,0)) rgb = Image.composite(im, black, colored) alpha = Image.composite(mx.point(lambda v:255), mx, colored) rgb.putalpha(alpha) rgb.save('assets/satle.png') print('wrote assets/satle.png', rgb.mode, rgb.size) )"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

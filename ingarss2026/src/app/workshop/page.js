@@ -54,7 +54,7 @@ export default function WorkshopPage() {
                   Registration Fee includes: Registration kit, Refreshments, Lunch and a participation certificate
                 </p>
                 <p className="mt-2 text-sm sm:text-base text-gray-800 font-bold break-words">
-                  Workshop registration deadline: 30 September 2026
+                  Workshop registration deadline: 15 October 2026
                 </p>
               </div>
               

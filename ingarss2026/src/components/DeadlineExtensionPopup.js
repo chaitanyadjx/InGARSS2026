@@ -4,93 +4,26 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function DeadlineExtensionPopup() {
-    const [isPaperVisible, setIsPaperVisible] = useState(false);
-    const [isCCSVisible, setIsCCSVisible] = useState(false);
     const [isHackathonVisible, setIsHackathonVisible] = useState(false);
 
     useEffect(() => {
-        // Check if user has already dismissed the July 15 popup
-        const paperDismissed = localStorage.getItem('paperDeadlineJuly15Dismissed');
-        if (!paperDismissed) {
-            setTimeout(() => setIsPaperVisible(true), 1500);
-        }
-
-        // Check if user has already dismissed the CCS popup
-        const ccsDismissed = localStorage.getItem('ccsSubmissionDismissed');
-        if (!ccsDismissed) {
-            setTimeout(() => setIsCCSVisible(true), 2000);
-        }
-
-        // Check if user has already dismissed the hackathon deadline popup
-        const hackathonDismissed = localStorage.getItem('hackathonDeadlineDismissed');
-        if (!hackathonDismissed) {
-            setTimeout(() => setIsHackathonVisible(true), 2500);
+        const dismissed = localStorage.getItem('registrationDeadlineOctober15Dismissed');
+        if (!dismissed) {
+            const timer = setTimeout(() => setIsHackathonVisible(true), 2500);
+            return () => clearTimeout(timer);
         }
     }, []);
 
-    const handlePaperDismiss = () => {
-        setIsPaperVisible(false);
-        localStorage.setItem('paperDeadlineJuly15Dismissed', 'true');
-    };
-
-    const handleCCSDismiss = () => {
-        setIsCCSVisible(false);
-        localStorage.setItem('ccsSubmissionDismissed', 'true');
-    };
-
     const handleHackathonDismiss = () => {
         setIsHackathonVisible(false);
-        localStorage.setItem('hackathonDeadlineDismissed', 'true');
+        localStorage.setItem('registrationDeadlineOctober15Dismissed', 'true');
     };
 
-    if (!isPaperVisible && !isCCSVisible && !isHackathonVisible) return null;
+    if (!isHackathonVisible) return null;
 
     return (
         <div className="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-50 max-w-sm w-[calc(100%-2rem)] flex flex-col gap-4">
-            {/* ACCEPTANCE DEADLINE POPUP */}
-            {isPaperVisible && (
-                <div className="bg-white border-[3px] border-black shadow-[8px_8px_0_black] p-5 relative transition-transform duration-300">
-                    <button
-                        onClick={handlePaperDismiss}
-                        className="absolute top-2 right-2 p-1 hover:bg-black/5 rounded-full transition-colors"
-                        aria-label="Close"
-                    >
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square">
-                            <line x1="18" y1="6" x2="6" y2="18"></line>
-                            <line x1="6" y1="6" x2="18" y2="18"></line>
-                        </svg>
-                    </button>
-                    <div className="flex gap-4 items-start pr-4">
-                        <div className="flex-shrink-0 bg-[var(--gold)] w-10 h-10 flex items-center justify-center border-2 border-black rounded-full shadow-[2px_2px_0_black]">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="square">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                <polyline points="14 2 14 8 20 8"></polyline>
-                                <line x1="16" y1="13" x2="8" y2="13"></line>
-                                <line x1="16" y1="17" x2="8" y2="17"></line>
-                                <polyline points="10 9 9 9 8 9"></polyline>
-                            </svg>
-                        </div>
-                        <div>
-                            <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Acceptance Notification Extended!</h3>
-                            <div className="text-sm opacity-80 mb-3 text-black space-y-2">
-                                <p>Due to the overwhelming number of submissions received, the review process is taking slightly longer than expected. We appreciate your patience and understanding.</p>
-                                <p>The acceptance notifications will be published on <strong>31 August 2026</strong>.</p>
-                            </div>
-                            <div className="flex gap-3">
-                                <Link
-                                    href="/dates"
-                                    onClick={handlePaperDismiss}
-                                    className="bg-white text-black text-xs font-bold px-3 py-1.5 border-2 border-black hover:-translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all"
-                                >
-                                    All Dates
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            {/* HACKATHON DEADLINE POPUP */}
+            {/* REGISTRATION DEADLINE EXTENSION POPUP */}
             {isHackathonVisible && (
                 <div className="bg-white border-[3px] border-black shadow-[8px_8px_0_black] p-5 relative transition-transform duration-300">
                     <button
@@ -114,18 +47,25 @@ export default function DeadlineExtensionPopup() {
                             </svg>
                         </div>
                         <div>
-                            <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">YP Hackathon Registration!</h3>
+                            <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Registration Deadline Extended!</h3>
                             <div className="text-sm opacity-80 mb-3 text-black space-y-2">
-                                <p>Don't miss the chance to showcase your innovation! Register now for the InGARSS 2026 YP Hackathon.</p>
-                                <p><strong>Hackathon Registration Deadline: 30 September 2026</strong></p>
+                                <p>Workshop and YP Hackathon registration deadlines have been extended.</p>
+                                <p><strong>New deadline: 15 October 2026</strong></p>
                             </div>
-                            <div className="flex gap-3">
+                            <div className="flex flex-wrap gap-3">
                                 <Link
                                     href="/hackathon"
                                     onClick={handleHackathonDismiss}
                                     className="bg-white text-black text-xs font-bold px-3 py-1.5 border-2 border-black hover:-translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all"
                                 >
-                                    View Details
+                                    YP Hackathon
+                                </Link>
+                                <Link
+                                    href="/workshop"
+                                    onClick={handleHackathonDismiss}
+                                    className="bg-white text-black text-xs font-bold px-3 py-1.5 border-2 border-black hover:-translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all"
+                                >
+                                    Workshops
                                 </Link>
                             </div>
                         </div>
