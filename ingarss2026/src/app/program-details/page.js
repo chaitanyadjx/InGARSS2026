@@ -16,7 +16,7 @@ export default function ProgramDetailsPage() {
                         Coming Soon
                     </h2>
                     <p className="text-lg text-gray-700">
-                        The full program schedule and details will be available soon. Stay tuned!
+                        The full program schedule will be released on or before <strong>10 October 2026</strong>. Stay tuned!
                     </p>
                 </div>
             </section>

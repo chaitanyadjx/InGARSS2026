@@ -71,31 +71,7 @@ export default function WorkshopPage() {
             </div>
           </div>
 
-          {/* Top Controls */}
-          <div className="flex min-w-0 flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 sm:mb-8">
-            <div className="min-w-0">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-black uppercase tracking-tight">
-                Pre-Conference Workshops
-              </h2>
-              <p className="text-sm sm:text-base text-gray-600 font-medium mt-1">
-                Click on any workshop title to view details, topics, and speakers.
-              </p>
-            </div>
-            <div className="flex w-full sm:w-auto gap-2 sm:gap-3">
-              <button
-                onClick={expandAll}
-                className="flex-1 sm:flex-none px-3 sm:px-4 py-2 text-xs sm:text-sm font-bold bg-white text-black border-2 border-black shadow-[3px_3px_0_black] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0_black] transition-all"
-              >
-                Expand All
-              </button>
-              <button
-                onClick={collapseAll}
-                className="flex-1 sm:flex-none px-3 sm:px-4 py-2 text-xs sm:text-sm font-bold bg-white text-black border-2 border-black shadow-[3px_3px_0_black] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[1px_1px_0_black] transition-all"
-              >
-                Collapse All
-              </button>
-            </div>
-          </div>
+
 
           {/* Workshop Accordion List */}
           <div className="space-y-6">

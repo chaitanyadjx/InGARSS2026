@@ -59,7 +59,7 @@ export default function RegistrationPage() {
             onClick={scrollToFinalRegistration}
             className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all cursor-pointer"
           >
-            PROCEED TO REGISTER ↓
+            ATTENDEE REGISTRATION ↓
           </button>
         </div>
       </section>
@@ -187,7 +187,7 @@ export default function RegistrationPage() {
       <section id="final-registration" className="px-5 md:px-[8%] pb-16 md:pb-24 scroll-mt-24">
         <div className="max-w-3xl mx-auto bg-white border-[3px] border-black p-6 sm:p-10 shadow-[10px_10px_0_black] text-center">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[var(--indigo)] mb-3">
-            Complete Registration
+            Attendee Registration
           </h3>
           <p className="text-gray-700 mb-6 text-sm sm:text-base font-medium">
             Please confirm your acceptance of the conference terms and author rules to proceed with your registration.
@@ -203,7 +203,7 @@ export default function RegistrationPage() {
                 className="w-5 h-5 accent-[var(--indigo)] cursor-pointer shrink-0 mt-0.5"
               />
               <label htmlFor="acceptTerms" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-pointer select-none">
-                I am accepting the terms and conditions of InGARSS 2026 conference given below
+                I am accepting the terms and conditions of InGARSS 2026 conference given above
               </label>
             </div>
 
@@ -216,7 +216,7 @@ export default function RegistrationPage() {
                 className="w-5 h-5 accent-[var(--indigo)] cursor-pointer shrink-0 mt-0.5"
               />
               <label htmlFor="acceptRules" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-pointer select-none">
-                I am accepting Rules for Author Registrations of InGARSS 2026 conference given below
+                I am accepting Rules for Author Registrations of InGARSS 2026 conference given above
               </label>
             </div>
           </div>

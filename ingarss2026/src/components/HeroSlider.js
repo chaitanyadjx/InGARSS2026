@@ -36,41 +36,6 @@ const SLIDES = [
     ],
   },
   {
-    id: 'workshop',
-    tag: 'TUTORIAL WORKSHOPS • 01 DEC 2026',
-    tagBg: 'bg-[var(--gold)] text-black',
-    title: 'Workshops & Tutorials',
-    subtitle: 'Specialized Hands-On Sessions by Domain Experts',
-    description: 'Covering NISAR Soil Moisture, WebODM Drone Processing, GeoAI-SAR & Spatial Analysis.',
-    highlight: 'Fee: ₹ 2,500 (Indian) / $50 (International)',
-    rightLabel: 'WORKSHOPS INFO • CLICK TO VIEW',
-    rightLinkHref: '/workshop',
-    workshopInfo: {
-      sessions: [
-        'W1: NISAR Soil Moisture (Morning)',
-        'W2: WebODM Drone Processing (Morning)',
-        'W3: Glacial Lakes Remote Sensing (Evening)',
-        'W4: Spatial Analysis using R (Evening)',
-        'W5: GeoAI-SAR Disaster Apps (Evening)'
-      ],
-      date: '01 December 2026',
-      venue: 'The Park, Hyderabad',
-    },
-    buttons: [
-      {
-        label: 'EXPLORE WORKSHOPS →',
-        href: '/workshop',
-        className: 'bg-[var(--terracotta)] text-white',
-      },
-      {
-        label: 'REGISTER FOR WORKSHOP →',
-        href: 'https://in.eregnow.com/ticketing/register/ingarss2026?_rid=31732&_single=1',
-        className: 'bg-[var(--gold)] text-black',
-        external: true,
-      },
-    ],
-  },
-  {
     id: 'travel-grant',
     tag: 'STUDENT TRAVEL GRANT • APPLICATIONS OPEN',
     tagBg: 'bg-[var(--gold)] text-black',

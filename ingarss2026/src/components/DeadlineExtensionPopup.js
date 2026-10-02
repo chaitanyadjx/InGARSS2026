@@ -47,7 +47,7 @@ export default function DeadlineExtensionPopup() {
                             </svg>
                         </div>
                         <div>
-                            <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Registration Deadline Extended!</h3>
+                            <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Workshop & Hackathon Deadlines Extended!</h3>
                             <div className="text-sm opacity-80 mb-3 text-black space-y-2">
                                 <p>Workshop and YP Hackathon registration deadlines have been extended.</p>
                                 <p><strong>New deadline: 15 October 2026</strong></p>
