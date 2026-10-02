@@ -91,7 +91,7 @@ export default function RegistrationPage() {
                   </th>
                   <th colSpan={2} className="px-4 py-3 text-xs sm:text-sm font-extrabold text-center">
                     Late Registration
-                    <span className="block text-[11px] font-semibold opacity-90">After 15th Sept 2026</span>
+                    <span className="block text-[11px] font-semibold opacity-90">After 30th Sep 2026</span>
                   </th>
                 </tr>
                 <tr className="bg-[var(--indigo)]/90 text-white text-[11px] sm:text-xs font-bold border-b border-white/20">
@@ -229,7 +229,7 @@ export default function RegistrationPage() {
                 rel="noopener noreferrer"
                 className="inline-block w-full sm:w-auto bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
               >
-                PAPER REGISTRATION →
+                ATTENDEE REGISTRATION →
               </a>
             ) : (
               <button
@@ -237,7 +237,7 @@ export default function RegistrationPage() {
                 title="Please accept both terms and conditions and author rules to proceed"
                 className="inline-block w-full sm:w-auto bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[6px_6px_0_black]"
               >
-                PAPER REGISTRATION →
+                ATTENDEE REGISTRATION →
               </button>
             )}
           </div>

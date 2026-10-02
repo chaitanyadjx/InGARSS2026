@@ -28,6 +28,13 @@ export default function AnnouncementRibbon() {
             linkText: 'Submit Now',
         },
         {
+            id: 'program-schedule',
+            message: 'Program schedule will be released on or before 10 October 2026',
+            date: new Date('2026-10-10T23:59:59'),
+            link: '/program-details',
+            linkText: 'View Details',
+        },
+        {
             id: 'conference',
             message: 'Join us in Hyderabad for InGARSS 2026',
             date: new Date('2026-12-01'),

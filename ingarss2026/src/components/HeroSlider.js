@@ -70,6 +70,27 @@ const SLIDES = [
     ],
   },
   {
+    id: 'program-schedule',
+    tag: 'PROGRAM SCHEDULE • UPDATE',
+    tagBg: 'bg-[var(--gold)] text-black',
+    title: 'Program Schedule',
+    subtitle: 'TECHNICAL SESSIONS & TIMELINE',
+    description: 'Program schedule will be released on or before 10 October 2026.',
+    highlight: '📢 Schedule Release: On or before 10 October 2026',
+    rightLabel: 'PROGRAM SCHEDULE • COMING SOON',
+    rightLinkHref: '/program-details',
+    scheduleInfo: {
+      releaseDate: 'On or before 10 October 2026',
+    },
+    buttons: [
+      {
+        label: 'VIEW PROGRAM DETAILS →',
+        href: '/program-details',
+        className: 'bg-[var(--terracotta)] text-white',
+      },
+    ],
+  },
+  {
     id: 'family-cares',
     tag: 'IEEE GRSS IDEA • FAMILY CARES GRANT',
     tagBg: 'bg-[var(--gold)] text-black',
@@ -144,7 +165,7 @@ export default function HeroSlider() {
             aria-label={`Slide ${idx + 1}`}
             title={`Slide ${idx + 1}: ${s.title}`}
           >
-            0{idx + 1}
+            {String(idx + 1).padStart(2, '0')}
           </button>
         ))}
       </div>
@@ -334,6 +355,37 @@ export default function HeroSlider() {
                           </p>
                           <p className="text-[9px] sm:text-[10px] font-mono font-extrabold text-[var(--indigo)] group-hover:underline mt-1">
                             Explore Travel Grant →
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                  ) : slide.scheduleInfo ? (
+                    /* Program Schedule Info Panel */
+                    <Link
+                      href={slide.rightLinkHref}
+                      className="group relative flex flex-col w-full max-w-[220px] md:max-w-[260px] lg:max-w-full bg-white border-[3px] border-black shadow-[6px_6px_0_black] hover:shadow-[10px_10px_0_var(--terracotta)] hover:-translate-y-1 transition-all overflow-hidden"
+                    >
+                      <div className="bg-[var(--indigo)] text-white font-mono font-bold text-[9px] sm:text-[10px] md:text-xs py-1 px-2 text-center border-b-2 border-black shrink-0">
+                        {slide.rightLabel}
+                      </div>
+                      <div className="flex-1 bg-[var(--bone)] p-4 sm:p-5 flex flex-col justify-between text-center items-center">
+                        <div className="w-full flex flex-col items-center justify-center my-auto py-2">
+                          <span className="inline-block bg-[var(--gold)] text-black font-mono font-black text-[10px] sm:text-xs px-3 py-1 border-2 border-black shadow-[2px_2px_0_black] uppercase tracking-wider mb-3">
+                            Coming Soon
+                          </span>
+                          <h4 className="font-extrabold text-base sm:text-lg md:text-xl text-[var(--indigo)] mb-2 uppercase">
+                            Program Schedule
+                          </h4>
+                          <p className="text-[11px] sm:text-xs md:text-sm font-medium text-gray-700 leading-relaxed px-1">
+                            Schedule will be released on or before 10 October 2026.
+                          </p>
+                        </div>
+                        <div className="w-full pt-3 border-t-2 border-black/20 space-y-1">
+                          <p className="text-[10px] sm:text-xs font-mono font-bold text-[var(--terracotta)]">
+                            📅 On or before 10 Oct 2026
+                          </p>
+                          <p className="text-[10px] sm:text-xs font-mono font-extrabold text-[var(--indigo)] group-hover:underline">
+                            Explore Program Details →
                           </p>
                         </div>
                       </div>
