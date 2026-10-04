@@ -91,7 +91,7 @@ export default function RegistrationPage() {
                   </th>
                   <th colSpan={2} className="px-4 py-3 text-xs sm:text-sm font-extrabold text-center">
                     Late Registration
-                    <span className="block text-[11px] font-semibold opacity-90">After 30th Sep 2026</span>
+                    <span className="block text-[11px] font-semibold opacity-90">Upto 30th Sep 2026 (Closed as of now) </span>
                   </th>
                 </tr>
                 <tr className="bg-[var(--indigo)]/90 text-white text-[11px] sm:text-xs font-bold border-b border-white/20">
