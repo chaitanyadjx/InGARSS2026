@@ -41,7 +41,7 @@ export default function ProgramDetailsPage() {
         <main className="min-h-screen bg-[var(--bone)]">
             <PageHeader title="Program Schedule" subtitle="InGARSS 2026 Tentative Schedule" />
             <section className="max-w-6xl mx-auto px-4 py-10">
-                <p className="mb-5 text-gray-700">Browse the tentative schedule below. Search for your paper ID, a date, or a session. The schedule is subject to change.</p>
+                <p className="mb-5 text-gray-700">Browse the tentative schedule below. Search for your paper ID, a date, or a session. Detailed Schedule will be posted on or before 10th October 2026.</p>
                 <div className="border-[3px] border-black bg-white shadow-[6px_6px_0_var(--terracotta)]">
                     <div className="flex flex-wrap items-end gap-3 p-4 border-b-2 border-black">
                         <div className="flex-1 min-w-48">
