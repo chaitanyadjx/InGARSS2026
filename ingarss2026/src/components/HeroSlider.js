@@ -75,9 +75,9 @@ const SLIDES = [
     tagBg: 'bg-[var(--gold)] text-black',
     title: 'Program Schedule',
     subtitle: 'TECHNICAL SESSIONS & TIMELINE',
-    description: 'Program schedule will be released on or before 10 October 2026.',
-    highlight: '📢 Schedule Release: On or before 10 October 2026',
-    rightLabel: 'PROGRAM SCHEDULE • COMING SOON',
+    description: 'The tentative program schedule is now available. Browse sessions and search for your paper ID.',
+    highlight: '📢 Tentative Schedule Available',
+    rightLabel: 'PROGRAM SCHEDULE • READ & SEARCH',
     rightLinkHref: '/program-details',
     scheduleInfo: {
       releaseDate: 'On or before 10 October 2026',
@@ -371,18 +371,18 @@ export default function HeroSlider() {
                       <div className="flex-1 bg-[var(--bone)] p-4 sm:p-5 flex flex-col justify-between text-center items-center">
                         <div className="w-full flex flex-col items-center justify-center my-auto py-2">
                           <span className="inline-block bg-[var(--gold)] text-black font-mono font-black text-[10px] sm:text-xs px-3 py-1 border-2 border-black shadow-[2px_2px_0_black] uppercase tracking-wider mb-3">
-                            Coming Soon
+                            Available Now
                           </span>
                           <h4 className="font-extrabold text-base sm:text-lg md:text-xl text-[var(--indigo)] mb-2 uppercase">
                             Program Schedule
                           </h4>
                           <p className="text-[11px] sm:text-xs md:text-sm font-medium text-gray-700 leading-relaxed px-1">
-                            Schedule will be released on or before 10 October 2026.
+                            Read the tentative schedule and search for your paper ID.
                           </p>
                         </div>
                         <div className="w-full pt-3 border-t-2 border-black/20 space-y-1">
                           <p className="text-[10px] sm:text-xs font-mono font-bold text-[var(--terracotta)]">
-                            📅 On or before 10 Oct 2026
+                            📅 1–4 December 2026
                           </p>
                           <p className="text-[10px] sm:text-xs font-mono font-extrabold text-[var(--indigo)] group-hover:underline">
                             Explore Program Details →

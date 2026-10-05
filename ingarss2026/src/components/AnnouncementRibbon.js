@@ -29,7 +29,7 @@ export default function AnnouncementRibbon() {
         },
         {
             id: 'program-schedule',
-            message: 'Program schedule will be released on or before 10 October 2026',
+            message: 'Tentative program schedule is now available — view and search under Program Schedule',
             date: new Date('2026-10-10T23:59:59'),
             link: '/program-details',
             linkText: 'View Details',
