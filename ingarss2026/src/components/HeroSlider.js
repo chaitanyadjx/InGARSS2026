@@ -80,7 +80,7 @@ const SLIDES = [
     rightLabel: 'PROGRAM SCHEDULE • READ & SEARCH',
     rightLinkHref: '/program-details',
     scheduleInfo: {
-      releaseDate: 'On or before 10 October 2026',
+      releaseDate: 'On or before 15 October 2026',
     },
     buttons: [
       {

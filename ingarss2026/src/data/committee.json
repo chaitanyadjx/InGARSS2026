@@ -173,19 +173,24 @@
       "title": "YP Activity Committee",
       "members": [
         {
-          "name": "Mr. Khalid Ahmad",
+          "name": "Mr. Mohammed Khalid",
           "org": "YP",
           "role": "Chair"
         },
         {
-          "name": "Ms. Rahisha T",
-          "org": "IISc Bangalore",
+          "name": "Dr. Rahisha Thottolil",
+          "org": "Urban Intelligence Lab (UIL)",
+          "role": "Co-Chair"
+        },
+        {
+          "name": "Dr. Vasala Saicharan",
+          "org": "SME RS & GIS, Vassar Labs, Hyderabad",
           "role": "Co-Chair"
         },
         {
           "name": "Dr. Dharmendra Kumar Pandey",
           "org": "SAC, ISRO",
-          "role": ""
+          "role": "Co-Chair"
         }
       ]
     },
