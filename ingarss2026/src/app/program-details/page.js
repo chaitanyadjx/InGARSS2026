@@ -5,6 +5,12 @@ import Image from 'next/image';
 import PageHeader from '@/components/PageHeader';
 import pages from '@/data/program-schedule.json';
 
+const TEMPLATES = [
+    { label: 'Poster Template 1', href: '/templates/Poster-Template-Ingarss.ppt' },
+    { label: 'Poster Template 2', href: '/templates/InGARSS2026_Poster_Template_2.pptx' },
+    { label: 'Slides Template 1', href: '/templates/InGARSS2026_PPT_Template.pptx' },
+];
+
 export default function ProgramDetailsPage() {
     const [query, setQuery] = useState('');
     const [active, setActive] = useState(0);
@@ -40,6 +46,25 @@ export default function ProgramDetailsPage() {
     return (
         <main className="min-h-screen bg-[var(--bone)]">
             <PageHeader title="Program Schedule" subtitle="InGARSS 2026 Tentative Schedule" />
+
+            <section className="max-w-6xl mx-auto px-4 pt-10">
+                <div className="bg-white border-[3px] border-black p-6 sm:p-8 shadow-[8px_8px_0_var(--terracotta)]">
+                    <h2 className="font-mono text-[var(--indigo)] text-xl sm:text-2xl font-extrabold mb-2">Download Templates</h2>
+                    <p className="text-sm sm:text-base text-gray-700 mb-5">Official InGARSS 2026 presentation and poster templates for authors.</p>
+                    <div className="flex flex-wrap gap-3">
+                        {TEMPLATES.map((template) => (
+                            <a
+                                key={template.href}
+                                href={template.href}
+                                download
+                                className="font-mono font-bold text-xs sm:text-sm bg-gold text-black px-5 py-3 border-2 border-black shadow-[4px_4px_0_black] hover:-translate-y-0.5 hover:shadow-[6px_6px_0_black] transition-all"
+                            >
+                                {template.label} ↓
+                            </a>
+                        ))}
+                    </div>
+                </div>
+            </section>
             <section className="max-w-6xl mx-auto px-4 py-10">
                 <p className="mb-5 text-gray-700">Browse the tentative schedule below. Search for your paper ID, a date, or a session. Detailed Schedule will be posted on or before 10th October 2026.</p>
                 <div className="border-[3px] border-black bg-white shadow-[6px_6px_0_var(--terracotta)]">

@@ -1,0 +1,2293 @@
+{
+  "title": "Oral and Poster Sessions",
+  "subtitle": "Oral & Poster Presentation Schedule",
+  "note": "Browse sessions by day. Use the search box to find your paper ID or a keyword.",
+  "sessions": [
+    {
+      "section": "poster",
+      "id": "POS-0201P",
+      "track": "Poster Session",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "09:00 – 10:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571323621",
+          "authors": "Dr. Shruti Upadhyaya",
+          "title": "Dominant Hydro-Meteorological Drivers of Flash Droughts Across Contrasting Climate Zones in India"
+        },
+        {
+          "id": "1571324521",
+          "authors": "Mr. Killivalavan J",
+          "title": "Geospatial Assessment and Monitoring of Multi-Aspect Drought Severity in a Semi-Arid Watershed of Southern India"
+        },
+        {
+          "id": "1571324153",
+          "authors": "N Vikas, Lingala Venkatesh",
+          "title": "Environmental Change Assessment Using Multi-Temporal Landsat-Derived Indices and Land Surface Temperature"
+        },
+        {
+          "id": "1571263238",
+          "authors": "Prof. Arup Kumar Goswami",
+          "title": "SUMO-Based Traffic Simulation and Fleet-Aware Spatio-Temporal Graph Neural Network for Congestion Prediction"
+        },
+        {
+          "id": "1571299252",
+          "authors": "Dr. R ROHITH ARSHA",
+          "title": "Explainable Land Use and Land Cover Classification Using ResNet-18 with Grad-CAM on the EuroSAT Dataset"
+        },
+        {
+          "id": "1571300619",
+          "authors": "Ms. Babaji Pati",
+          "title": "Evaluation of Dual-Pol Radar Surface Scattering Index from Sentinel-1 SAR for Flooded Agricultural Field Monitoring"
+        },
+        {
+          "id": "1571313238",
+          "authors": "Mr. Pankaj Patidar",
+          "title": "Forest Fire Altered Soil Properties and Burn Severity Assessment Using Remote Sensing with Laboratory Analysis"
+        },
+        {
+          "id": "1571316573",
+          "authors": "Mr. PRAKASH KUMAR JHA",
+          "title": "A Modified Water Cloud Model Using an Eigenvalue-Based Vegetation Weighting Factor for Soil Moisture Estimation in Wheat Cropland"
+        },
+        {
+          "id": "1571316772",
+          "authors": "Mr. Mamta Kumari",
+          "title": "Rice Canopy Chlorophyll Estimation Using Multi-Temporal PRISMA Hyperspectral Data"
+        },
+        {
+          "id": "1571319916",
+          "authors": "Dr. ABHINAV KUMAR",
+          "title": "Multi-Decadal Cropland Water-Use Efficiency over Indian Subcontinent: A Climate-Coupled Evaluation Using MODIS NDVI-LUE and ERA5 Climate Data"
+        },
+        {
+          "id": "1571324202",
+          "authors": "Mr. Yash Raj",
+          "title": "Early Detection of Soybean Diseases Using UAV Based Hyperspectral Imaging and in-Situ Measurements"
+        },
+        {
+          "id": "1571324290",
+          "authors": "Mr. Bhumika Bokde",
+          "title": "Cloud-Native Architecture of a Web-Based RESTful Geospatial Dashboard for Stubble Burning Monitoring"
+        },
+        {
+          "id": "1571324674",
+          "authors": "Ms. Chumbitha Leena",
+          "title": "Forest Vertical Structure Reconstruction Using Multi-Baseline Combinations of Aerial SAR Data"
+        },
+        {
+          "id": "1571324770",
+          "authors": "Ms. Sukriti Tiwari",
+          "title": "Multi-Modal Ensemble Learning for Terrace Agriculture Mapping in the Western Himalayas"
+        },
+        {
+          "id": "1571316489",
+          "authors": "Mr. Shruti Upadhyaya",
+          "title": "Predicting Droughts: A Deep Learning Journey in NDVI Anomaly Forecasting"
+        },
+        {
+          "id": "1571324161",
+          "authors": "Mr. ANJALI PATEL",
+          "title": "Disturbance Mapping in Dry Deciduous Forests: A Quantitative Decadal Perspective"
+        },
+        {
+          "id": "1571324377",
+          "authors": "Ms. Shreedevi Moharana",
+          "title": "A Remote Sensing-Based Energy Balance Approach for Evapotranspiration Partitioning in Semi-Arid Regions of India"
+        },
+        {
+          "id": "1571324725",
+          "authors": "Mr. Gaurish Singhal",
+          "title": "Delineation of High Altitude Lakes Through ML and Knowledge Based Classifiers in Cloud Platform"
+        },
+        {
+          "id": "1571323334",
+          "authors": "Mr. Shweta Nadar",
+          "title": "Deep Learning-Based Sugarcane Vegetation Density Classification Using Vegetation Indices and Convolutional Neural Networks"
+        },
+        {
+          "id": "1571316187",
+          "authors": "Ms. Rahul Kumar Yadav",
+          "title": "Monitoring Climate-Smart Agricultural Transitions in Semi-Arid Telangana Using Multi-Temporal Sentinel-2 and PlanetScope Imagery"
+        },
+        {
+          "id": "1571324507",
+          "authors": "Dr. Roshan Kumar Mishra",
+          "title": "Climatic Indices Based Analysis of Changing Behaviour in Temperature and Rainfall Pattern in Kosi Basin, India"
+        },
+        {
+          "id": "1571324657",
+          "authors": "Mr. Vinduja Vijayanand",
+          "title": "Evaluation of Water Stress in Erode District Using Soil Moisture and Groundwater Dataset"
+        },
+        {
+          "id": "1571318894",
+          "authors": "Dr. Sreelakshmi P",
+          "title": "Spatio-Temporal Dynamics and Driving Mechanisms of Vegetation in Karnataka Based on MODIS-Derived kNDVI (2001-2020)"
+        },
+        {
+          "id": "1571307948",
+          "authors": "Mr. Katta Ram Sai Nuthan",
+          "title": "A Lightweight Geospatial Framework for Building-Integrated Photovoltaic Potential Assessment Using Low-Volume Data"
+        },
+        {
+          "id": "1571315352",
+          "authors": "Dr. Pooja P",
+          "title": "GEE-Based Multi-Sensor Assessment of Consumptive Water Use Dynamics over the Narmada-Tapi Basins (2018-2025)"
+        },
+        {
+          "id": "1571316217",
+          "authors": "Ms. ABHISHEK KUMAR",
+          "title": "GEE-Based Socio-Economic Vulnerability Assessment Due to Forest Loss: A Study of Uttarakhand Districts"
+        },
+        {
+          "id": "1571316281",
+          "authors": "Mr. Sakshi Jain",
+          "title": "Crop Phenology Monitoring Using Sentinel-1 and EOS-04 Derived Parameters"
+        },
+        {
+          "id": "1571297667",
+          "authors": "Ms. Sukanya Mukherjee",
+          "title": "Time-Series Forecasting of Sea-Surface Chlorophyll, Salinity, and Temperature Using Landsat OLI"
+        },
+        {
+          "id": "1571317144",
+          "authors": "Ms. Srishti Sarkar",
+          "title": "Rethinking the Concept of Wildland-Urban Interface (WUI) in the Indian Complex Landscape"
+        },
+        {
+          "id": "1571312697",
+          "authors": "Mr. Krishna Koushik Velagalety",
+          "title": "Assessment of Air Quality Parameters of GHMC, Telangana, India, Using Sentinel-5P Data in GEE"
+        },
+        {
+          "id": "1571300578",
+          "authors": "Mewan Banshan War",
+          "title": "Assessing Fire-Erosion Dynamics in Forested Sub-Basins of Peninsular India"
+        },
+        {
+          "id": "1571317141",
+          "authors": "Ms. Lakshya Verma",
+          "title": "Village Level Rice Yield Estimation Using Sentinel-1/2 Data and Ensemble Machine Learning"
+        },
+        {
+          "id": "1571318751",
+          "authors": "Dr. Adabala Jahnavi",
+          "title": "A Novel Paddy Growth Index (PGI) for Integrated Paddy Crop Health Monitoring Using Sentinel-2 Derived NDVI and LSWI"
+        },
+        {
+          "id": "1571297548",
+          "authors": "Mrs. Sampath Malleboina",
+          "title": "An Intelligent Deforestation Monitoring and Early Warning System Using Remote Sensing and Machine Learning"
+        },
+        {
+          "id": "1571316846",
+          "authors": "Dr. Abira Sengupta",
+          "title": "Assessing the Causal Effects of Climatic and Anthropogenic Drivers on Pre-Monsoon Forest Fires in India"
+        },
+        {
+          "id": "1571324879",
+          "authors": "Prof. ROHIT KUMAR BONDUGULA",
+          "title": "Dust Plume Analysis and AOD Prediction over Rajasthan, India Using Multi-Source Satellite Data and MLGC-Based Machine Learning Models"
+        },
+        {
+          "id": "1571307077",
+          "authors": "Ms. Priyanka Mishra",
+          "title": "Analysis of Nighttime Urban Heat Using Machine Learning and Spatial Modeling"
+        },
+        {
+          "id": "1571316538",
+          "authors": "Dr. Apoorva Yadav",
+          "title": "Pixel-Level Classification of Crop, Soil, and Shadow from UAV Multispectral Imagery Using Random Forest Algorithm Under Varying Irrigation and Nitrogen Treatments"
+        },
+        {
+          "id": "1571300411",
+          "authors": "Prof. TRISHAA VERNEKAR",
+          "title": "Change Detection Analysis on Bhindawas Wildlife Sanctuary, Haryana Using SAR Data"
+        },
+        {
+          "id": "1571305774",
+          "authors": "Vijaya sai Nandipati, Surya Satya Narayana Raju G, Gautham Naresh",
+          "title": "AgriAI FertiTwin™: A Globally Deployable Multilingual Satellite-Driven AI Platform for Precision Soil Nutrient Prediction and Fertilizer Recommendation"
+        },
+        {
+          "id": "1571315466",
+          "authors": "Ms. Arpan Dawn",
+          "title": "SAR Backscatter Change Point Detection and Sensitivity Analysis for Low Biomass Urban Tree-Loss"
+        },
+        {
+          "id": "1571276696",
+          "authors": "Mr. Mukesh Kumar Verma",
+          "title": "A Hybrid Multi-Modal Framework of Crop Disease Recognition and Crop Health Assessment with RGB Images and LiDAR Point Cloud Data"
+        },
+        {
+          "id": "1571319613",
+          "authors": "Ms. moneshwar sinha",
+          "title": "Identification and Quantification of Fugitive Methane (CH₄) Emission over the Raigarh Coalfield, Chhattisgarh, India, Using EMIT Hyperspectral Imaging Spectrometer"
+        },
+        {
+          "id": "1571300771",
+          "authors": "Mr. NIDHI MISRA",
+          "title": "Impact of Climate Change on Crop Duration"
+        },
+        {
+          "id": "1571323514",
+          "authors": "Mr. Balakrishna Yalamanchi",
+          "title": "NDVI Based Agricultural Health Monitoring Framework Using Google Earth Engine"
+        },
+        {
+          "id": "1571313442",
+          "authors": "Dr. MEGHANA D G",
+          "title": "Deep Learning-Based Coconut Plantation Mapping and Tree Counting in Selected Lakshadweep Islands Using High-Resolution Satellite Imagery"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0201A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571295357",
+          "authors": "Mr. Lohith V V S",
+          "title": "Automated Oil Palm Detection and Counting from High Resolution Satellite Images Using Computer Vision and Deep Learning Techniques"
+        },
+        {
+          "id": "1571315443",
+          "authors": "Ms. Sneha Dey",
+          "title": "Comparative Multi-Orbit Analytics for Macro-Regional Urban Sprawl Mapping Using DpRBI: A Case Study over the Milan Metropolitan"
+        },
+        {
+          "id": "1571299830",
+          "authors": "Mr. Eswar Rajasekaran",
+          "title": "Effect of NDVI Correction from the EOS-06 Ocean Colour Monitor-3 Sensor on Evapotranspiration Modelling"
+        },
+        {
+          "id": "1571299867",
+          "authors": "G Yadeedhya Prithveen Asheel, Yamini Madhumitha",
+          "title": "Temporal Analysis of Surface Water Dynamics and Environmental Indicators in Pulicat Lake Using Sentinel Satellite and CHIRPS Daily Rainfall Data"
+        },
+        {
+          "id": "1571323849",
+          "authors": "Ms. Shreya Ojha",
+          "title": "Crop and Fallow Land Mapping Using Information Theory Descriptors Derived from Multi-Temporal Sentinel-1 SAR Data"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "CCS0201C",
+      "track": "CCS: The added value of Multi Resolution Imaging in Earth Observation Applications",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571324329",
+          "authors": "Mr. Bharvi Vaishnav",
+          "title": "Radiometric Performance Assessment of the OCM-3 Sensor over the MOBY Site: System Vicarious Calibration with 6SV, SBAF and NIR-Based Atmospheric Correction"
+        },
+        {
+          "id": "1571315654",
+          "authors": "Mr. Andreas Froehlich",
+          "title": "Hierarchical Realization Constraints in Localized Sentinel-1 Repeat-Pass Coherence Studies"
+        },
+        {
+          "id": "1571316995",
+          "authors": "Ms. Shubham Pal",
+          "title": "Validation of SMAP Root Zone Soil Moisture Products Using SAC-ISRO Soil Moisture Network Across Various Land Cover Types in India"
+        },
+        {
+          "id": "1571324318",
+          "authors": "Ms. Antonio Clapp",
+          "title": "Early Detection of Cloudburst-like Event over Himalayas by Integrating Satellite Cloud Observations and ERA5 Moisture Diagnostics: Analysis of the 2025 Dharali Event"
+        },
+        {
+          "id": "1571315630",
+          "authors": "Mr. Andrea Bergamaschi",
+          "title": "Ground-Level Modelling of Air Temperature in an Agricultural Context from LST: A Machine Learning Based Approach"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "GS0201D",
+      "track": "Geospatial Data Acquisition & Sensing Technologies",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316727",
+          "authors": "Dr. Jahnavi Singh",
+          "title": "Geospatial Framework-Based Identification of the Pumped Hydro Storage (PHS) Sites in Northeast India"
+        },
+        {
+          "id": "1571323481",
+          "authors": "Andrew Roberts, Deepayan Bhowmik",
+          "title": "Towards Agricultural Cyberphysical AI: A New Multimodal Hyperspectral Remote Sensing Platform"
+        },
+        {
+          "id": "1571321983",
+          "authors": "Mr. Turimerla Pratap",
+          "title": "Period-Adaptive Window Selection for Scalloping Correction in EOS-04 ScanSAR Image"
+        },
+        {
+          "id": "1571300603",
+          "authors": "Mr. Manavalan R",
+          "title": "Multi-Temporal InSAR Monitoring of Ground Deformation at Dholavira UNESCO World Heritage Site"
+        },
+        {
+          "id": "1571314833",
+          "authors": "Mrs. Asiya Begum",
+          "title": "Constraining SWOT Satellite-Derived Stage-Discharge Curves for the Godavari River"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0201B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571315803",
+          "authors": "Prof. Anamika Patel",
+          "title": "Data- and Parameter-Efficient Multi-Sensory Learning with Heterogeneous Fusion of SAR and Multi-Spectral Foundation Models for Cloud-Resilient Earth Observation"
+        },
+        {
+          "id": "1571315166",
+          "authors": "Ms. Surekha Tetali",
+          "title": "Ward-Level Urban Heat Vulnerability Assessment in Semi-Arid Hyderabad Using Explainable AI"
+        },
+        {
+          "id": "1571298556",
+          "authors": "Mr. Vishnu Meher Vemulapalli",
+          "title": "GeDiffAug: A Prompt-Driven Diffusion and Translation Framework for Extreme Class Imbalance in Aerial Imagery"
+        },
+        {
+          "id": "1571317184",
+          "authors": "Kummari Sai Kumar, Durga Sri lakshmi Hari",
+          "title": "Quantifying Spatial Autocorrelation Bias in Hyperspectral Image Classification Benchmarks"
+        },
+        {
+          "id": "1571298479",
+          "authors": "Ms. Harshvardhan Parikh",
+          "title": "Hierarchical Deep Learning for Sea Ice Classification from GNSS-R TDS-1 Observations"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0202A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571324918",
+          "authors": "Mrs. Megha Negi",
+          "title": "When Reproducible is Not Reliable: An Operating-Envelope Audit of MODIS NIRv Across Indian Forests"
+        },
+        {
+          "id": "1571312275",
+          "authors": "Ms. Mewan Banshan War",
+          "title": "Detection of Fire-Driven Anomalies in Long-Term Spectral Time Series Using a Multi-Metric Approach"
+        },
+        {
+          "id": "1571317319",
+          "authors": "Mrs. Sumedha Basu",
+          "title": "SprawlInsighter: Towards Interpretable Assessment of Urban Sprawl"
+        },
+        {
+          "id": "1571314869",
+          "authors": "Mr. Fabio Dell'Acqua",
+          "title": "Initial Development of an Empirical X-Band Backscatter Model for Vineyards in Hilly Terrain"
+        },
+        {
+          "id": "1571316525",
+          "authors": "Ms. ADWAIT ADWAIT",
+          "title": "Monitoring Irrigation-Induced Changes in Wheat Productivity Using UAV-Based Multispectral Remote Sensing"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "DM0202C",
+      "track": "Digital Mapping & Cartographic Systems",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316316",
+          "authors": "Dr. Anshuman Mehta",
+          "title": "An Integrated Coverage Planning and Acquisition Optimisation Framework for Agile Multi-Mode EO/SAR Constellations"
+        },
+        {
+          "id": "1571300715",
+          "authors": "Mr. Deepthi Kumari Rayapureddy",
+          "title": "Mapping and Quantifying Urban Blue-Green Systems: A Web-Based Platform for Ecological Baselines"
+        },
+        {
+          "id": "1571320944",
+          "authors": "Mr. Gauri Dhanakshirur",
+          "title": "Occlusion-Aware Semantic Segmentation System for Urban Road Extraction"
+        },
+        {
+          "id": "1571318548",
+          "authors": "Dr. Jaysheel Golani",
+          "title": "Conceptual Framework Towards FAIRification of Indian Earth Observation Archives Using STAC and VirtualiZarr"
+        },
+        {
+          "id": "1571316317",
+          "authors": "Ms. Yatish Ram E R",
+          "title": "Junction Based Quantification of Braided River Complexity in a Regulated Macro Channel"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0202B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316514",
+          "authors": "Mr. Dr. Ujwala Bharambe",
+          "title": "A Physics Informed Spectral Transformer Autoencoder for Multi-Resolution Hyperspectral Unmixing"
+        },
+        {
+          "id": "1571316709",
+          "authors": "Jacob Hobson, Deepayan Bhowmik",
+          "title": "Towards Compression-Aware Geospatial Architecture Using JPEG AI Latents for Road Segmentation"
+        },
+        {
+          "id": "1571297658",
+          "authors": "Mr. Saloni Goel",
+          "title": "SwinDiffNet: Conditional Diffusion-Guided SAR-Optical Fusion for Flood Inundation Mapping"
+        },
+        {
+          "id": "1571300440",
+          "authors": "Ms. ADITYA KAPOOR",
+          "title": "Evaluating AlphaEarth Foundations Embeddings for Annual Inundation Mapping: A Case Study of Nebraska"
+        },
+        {
+          "id": "1571314391",
+          "authors": "Dr. Abdul Faheem",
+          "title": "Multimodal Geospatial Document Intelligence with Hybrid Retrieval and Vision-Language Grounding"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "PS0202D",
+      "track": "Planetary and Space sciences",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571298948",
+          "authors": "Venkat Prasad Padhy, Venkata Chandrasekhar Sarma T",
+          "title": "Full-Wave L-Band Bistatic Scattering from Randomly Rough Soil Using PMCHWT Surface Integral Equation with Application to GNSS-R"
+        },
+        {
+          "id": "1571316373",
+          "authors": "Dr. Beneyaz Begum",
+          "title": "Multi-Task Neural Surrogate Models for Prediction of Exoplanet Atmospheric Profiles and Top-of-Atmosphere Radiative Quantities"
+        },
+        {
+          "id": "1571293498",
+          "authors": "Prof. Dev Kaushal",
+          "title": "Detection of Exoplanet Transits Using Multi-Modal Representations of Light Curves"
+        },
+        {
+          "id": "1571316142",
+          "authors": "Ms. Keerthi V",
+          "title": "Aditya-L1 ASPEX Observations on Solar Energetic Particle Variability During the Peak Phase of Solar Cycle 25: Validation and Space Weather Implications"
+        },
+        {
+          "id": "1571324884",
+          "authors": "Dr. AMOL SHARMA",
+          "title": "An Eigenvalue-Based Weighted Depolarization Index for SAR-Based Algal Bloom Monitoring Using Dual-Polarimetric Sentinel-1 Data"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0203A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316685",
+          "authors": "Ms. Debashish Dash",
+          "title": "Earth Observation Based Glacier Dynamics Assessment in Response to Early 21st Century Warming"
+        },
+        {
+          "id": "1571262101",
+          "authors": "Mr. Narayan vyas",
+          "title": "Cross-Regional Validation of a Fusion-Based Framework for Agricultural Land Classification Using Optical and Microwave Satellite Data"
+        },
+        {
+          "id": "1571313449",
+          "authors": "Mr. Vishesh Singhal",
+          "title": "Multi-Metric Assessment of Diurnal Characteristics of near-Real-Time Satellite Precipitation Products"
+        },
+        {
+          "id": "1571315158",
+          "authors": "Mr. Vaibhav Jain",
+          "title": "Long-Term Vegetation Dynamics and Land Cover Change in Bengaluru Using Remote Sensing and Deep Learning"
+        },
+        {
+          "id": "1571315190",
+          "authors": "Mr. Dipankar Mandal",
+          "title": "Development of a SAR-Derived Crop Risk Credit Metric for Flooded Rice Assessment"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "DE0203C",
+      "track": "Disaster Management & Early Warning Systems",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571310007",
+          "authors": "Mr. YAYTHISH KANNAA G S",
+          "title": "GeoEmbed: A Domain-Adaptive Embedding Model for Geoscience Information Retrieval"
+        },
+        {
+          "id": "1571300722",
+          "authors": "Dr. Abhishek Prasad Dash",
+          "title": "Hybrid Spatial Sequence Learning for Tropical Cyclone Classification Using Satellite Imagery"
+        },
+        {
+          "id": "1571323205",
+          "authors": "Prof. Barun Kumar",
+          "title": "Can Spatial Context from Satellite Observations Improve Local Rain Gauge Precipitation Nowcasting?"
+        },
+        {
+          "id": "1571323410",
+          "authors": "Pratyush Ray, Sandeep Pattnaik",
+          "title": "Diagnosing Hydrometeor Drivers of Monsoon Heavy Rainfall with Explainable Machine Learning"
+        },
+        {
+          "id": "1571316265",
+          "authors": "Dr. Shradha Kivade",
+          "title": "Multi-Temporal PSInSAR Mapping of Landslide-Prone Zones in Shimla: Validation Against the 2023 Shiv Bawdi Event"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0203B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571315906",
+          "authors": "Ms. Shreya Goyal",
+          "title": "Robust Multi-Label Land Cover Classification Under Missing Sensor Modalities via Modality Dropout Training on BigEarthNet"
+        },
+        {
+          "id": "1571319623",
+          "authors": "Mr. Vikas Kumar Jain",
+          "title": "HTL: Hybrid Transfer-Learning Convolutional Neural Network Framework for Hyperspectral Image Classification"
+        },
+        {
+          "id": "1571324775",
+          "authors": "Ms. Shubham Bhavsar",
+          "title": "Complexity-Driven Architecture Selection for SAR Distortion Segmentation: Comparative Analysis from U-Net to ViT-Large+MAE"
+        },
+        {
+          "id": "1571297186",
+          "authors": "Dr. VYOM NIKHRA",
+          "title": "HyOpNet: Prior-Conditioned KAN Modulation for Hyperspectral Image Super-Resolution"
+        },
+        {
+          "id": "1571301400",
+          "authors": "Dr. Rajeev Sharma",
+          "title": "ResNet-Based Difference-Enhanced Attention Network for Robust Satellite Image Dehazing"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "NI0203D",
+      "track": "Special Scientific Theme: NISAR",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571323796",
+          "authors": "Dr. Anup Kumar Das",
+          "title": "First Ecosystems Science Products from NISAR: Algorithm Performance and Validation Status"
+        },
+        {
+          "id": "1571314292",
+          "authors": "Mr. Soumajit Chatterjee",
+          "title": "Repeating Ground Track Characterization from Frame Reception Times: A NISAR Case Study"
+        },
+        {
+          "id": "1571324830",
+          "authors": "Mr. Dharani S",
+          "title": "Evaluation of NISAR Soil Moisture Estimates Across Diverse Land Use Systems of Central Kerala"
+        },
+        {
+          "id": "1571303506",
+          "authors": "Alejandro Frery",
+          "title": "A Bayesian Neural Network for Parameter Estimation in SAR Imagery"
+        },
+        {
+          "id": "1571320893",
+          "authors": "Ms. Indranil Misra",
+          "title": "Matching NISAR L-Band and S-Band SAR with Optical Imagery: A Comparative Evaluation of Classical and Foundation Models"
+        }
+      ]
+    },
+    {
+      "section": "poster",
+      "id": "POS-0202P",
+      "track": "Poster Session",
+      "date": "02 December 2026",
+      "day": "02",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571325438",
+          "authors": "Gaddala Jessicarani, Govind Harhitha",
+          "title": "Machine Learning-Based Spatiotemporal Weather Anomaly Detection and Risk Assessment Using Automated Weather Station Data"
+        },
+        {
+          "id": "1571317276",
+          "authors": "Ms. Rohit Sharma",
+          "title": "Sand Scars from Space: Detecting Active Riverbed Mining Using Sentinel-2 Spectral Change Analysis"
+        },
+        {
+          "id": "1571325444",
+          "authors": "Palle Jashwin Reddy, J Sharanya",
+          "title": "Google Earth Engine-Based Multi-Temporal Surface Water Dynamics Using MNDWI and Landsat Imagery: A Case Study of Shamirpet Mandal, Hyderabad, India"
+        },
+        {
+          "id": "1571315272",
+          "authors": "Mr. Nidhi Dubey",
+          "title": "3D Terrain Reconstruction from Deep Learning-Based Digital Elevation Models Using Triangulated Irregular Network Surface Modeling on Mountains"
+        },
+        {
+          "id": "1571325535",
+          "authors": "Ms. Erkishetty Prameela",
+          "title": "Urban Hotspot Detection Using DBSCAN and Google Open Buildings Data"
+        },
+        {
+          "id": "1571327968",
+          "authors": "Ms. Balaji Sriram",
+          "title": "High-Resolution Ocean Surface Wind Analysis During Cyclonic Conditions Using EOS-04 SAR and Scatterometer Observations"
+        },
+        {
+          "id": "1571324786",
+          "authors": "Mr. Vishnu Vardhan Anapala",
+          "title": "Enhancing Urban Built-Up Area Mapping Through AHP-Integrated Multi-Spectral Index Modeling"
+        },
+        {
+          "id": "1571313503",
+          "authors": "Dr. Puyam Singh",
+          "title": "Vision-Based Neural 3D Reconstruction & Rendering from UAV Imagery for Complex Outdoor Environments"
+        },
+        {
+          "id": "1571324053",
+          "authors": "Ms. KAVYA BONYAL",
+          "title": "A Field-Calibrated Land Cover Change Detection Using Multi-Temporal Data & Vectorized Transition Mapping"
+        },
+        {
+          "id": "1571324058",
+          "authors": "Mr. Titli Lohar",
+          "title": "Long-Term National Trends of Urban Expansion in the United Arab Emirates (1975-2050) Using Earth Observations and Projections"
+        },
+        {
+          "id": "1571319673",
+          "authors": "Ms. AKILAN A",
+          "title": "A Solution to Variant Focal Length Effect of TDI-CCDs on Very High-Resolution IRS Images Using Rational Function Model"
+        },
+        {
+          "id": "1571312927",
+          "authors": "Ms. Jayashree BADLAMMAGOL",
+          "title": "Systematic Evaluation of Dual-Frequency GPR Performance Across Multiple Urban Road Surface Types"
+        },
+        {
+          "id": "1571324735",
+          "authors": "Mr. RUPA KIRAN KUMAR",
+          "title": "A UAV Photogrammetric Approach for Landfill Volume Estimation Using Digital Terrain Models"
+        },
+        {
+          "id": "1571316400",
+          "authors": "Mr. Sukanya Ghosh",
+          "title": "GeoAI-Enabled Web Portal for Spatial Mapping of Mental Health Disorders and Nearest Counselling Navigation Centres"
+        },
+        {
+          "id": "1571324899",
+          "authors": "Mr. TRUPTI KAMBLE",
+          "title": "Comparative Assessment of DEM Sources for Sediment Connectivity Analysis in the Netravathi River Basin of the Western Ghats"
+        },
+        {
+          "id": "1571296306",
+          "authors": "Mr. Sangita Chaudhari",
+          "title": "Lambert Conformal Conic-Based Privacy-Preserving Framework for Spatial Query on Outsourced EO-Derived Vector Datasets"
+        },
+        {
+          "id": "1571317232",
+          "authors": "Mr. Nyshadham Sai Karthikeya",
+          "title": "Assessment of DEM Accuracy Using the Survey of India Benchmark"
+        },
+        {
+          "id": "1571316350",
+          "authors": "Ms. Harshita Tiwari",
+          "title": "Assessment of Vegetation, Water, and Bare-Soil Dynamics After the Dharali Flash Flood Using Spectral Indices Derived from High-Resolution PlanetScope Imagery"
+        },
+        {
+          "id": "1571316559",
+          "authors": "Mr. Rucha Sanjay Deshpande",
+          "title": "SWOT Wide-Swath Observations of Flood Wave Dynamics in the Ganga-Tributary System"
+        },
+        {
+          "id": "1571323194",
+          "authors": "Ms. Bhojaraja B E",
+          "title": "Multi-Criteria Analysis for Flood Risk Prediction in Shambhavi River Basin Using Google Earth Engine"
+        },
+        {
+          "id": "1571300550",
+          "authors": "Mr. M R Mohamed Aksath Rahil",
+          "title": "Sensitivity of Drizzle Bias to Radiation Update Frequency in Convective-Permitting WRF Simulations of the 2024 Wayanad Extreme Rainfall Event"
+        },
+        {
+          "id": "1571300766",
+          "authors": "Ms. Suresh Mondal",
+          "title": "Geospatial Assessment for Agricultural Drought Management in the Semi-Arid Regions of Southern India Using Remote Sensing Time-Series Data"
+        },
+        {
+          "id": "1571314178",
+          "authors": "Mr. Subhojit Mandal",
+          "title": "Calibrated Probabilistic Early Warning of Drought-Flood Abrupt Alternation over Bangladesh from Satellite Earth Observation"
+        },
+        {
+          "id": "1571316176",
+          "authors": "Dr. Prachi Garg",
+          "title": "GeoRestoreNet: Graph-Based Post-Disaster Road Network Restoration"
+        },
+        {
+          "id": "1571298277",
+          "authors": "Mohammad Khalid Umar, Rakesh Kumar",
+          "title": "Applying Persistent Scatterer Interferometry (PSI) for Monitoring and Mapping of Slope Instability in the South Kaliapani Open Pit Chromite Mine (Sukinda Valley) with High Resolution TerraSAR-X Data"
+        },
+        {
+          "id": "1571315818",
+          "authors": "Mr. Arshpreet Singh",
+          "title": "TA-STGCN: An Early Warning System for Rain-Induced Disasters in the Himalayan Region"
+        },
+        {
+          "id": "1571316144",
+          "authors": "Ms. Punithraj Gururaj",
+          "title": "Performance Assessment of Gridded Rainfall Products Across Physiographic Zones of Kerala"
+        },
+        {
+          "id": "1571324600",
+          "authors": "Mr. Sneha Kour",
+          "title": "Flood Impact Assessment of Sequential Cyclone- and Monsoon-Driven Rainfall: A Geospatial Approach"
+        },
+        {
+          "id": "1571316710",
+          "authors": "Mrs. Tamanna Singh",
+          "title": "Investigation of Pre- and Post-Seismic Ionospheric Anomalies Associated with the 2024 Noto Peninsula Earthquake Using GNSS Observations"
+        },
+        {
+          "id": "1571317127",
+          "authors": "Mr. Soumya Verma",
+          "title": "Hyperspectral Mapping of Trace Oil Spills Using AVIRIS-NG: A Case Study of Reliance Port, Gujarat, India"
+        },
+        {
+          "id": "1571321730",
+          "authors": "Dr. Yateen Vaviya",
+          "title": "INDRA-ThunderCast: Lightning Nowcasting over India Using a Hybrid CNN-LSTM and LightGBM Architecture Fusing Satellite and Reanalysis Data"
+        },
+        {
+          "id": "1571323502",
+          "authors": "Dr. BHUPENDRA KUMAR",
+          "title": "A Material Aware Framework for Structural Health Monitoring Using Optical Imagery and Ground Based Synthetic Aperture Radar"
+        },
+        {
+          "id": "1571324901",
+          "authors": "Dipti Rani Swain, Tejashree",
+          "title": "Context-Aware Mixture-of-Experts for Explainable Landslide Susceptibility Mapping: A GEE-Based Decision-Support System"
+        },
+        {
+          "id": "1571316039",
+          "authors": "Mr. Meenakshi Paul",
+          "title": "Flood Extent Mapping Using Multi-Temporal Sentinel-1 Polarimetric SAR Data and Wishart Distance Change Detection: A Case Study of the 2018 Kerala Flood"
+        },
+        {
+          "id": "1571314601",
+          "authors": "Ms. Praloy Pal",
+          "title": "Spatio-Temporal Rainfall Pattern Analysis and Rainfall Forecasting Using Spaceborne Imagery and Deep Learning"
+        },
+        {
+          "id": "1571316642",
+          "authors": "Ms. Robin Sheoran",
+          "title": "Spatial Assessment of Future Coastal Inundation Impacts on Coastal Assets Along the Gujarat Coast, India"
+        },
+        {
+          "id": "1571323990",
+          "authors": "Dr. Devashish Singh",
+          "title": "Analysis of Precipitation Mechanisms of Tropical Cyclone Dana (2024) Through GPM-DPR and IMERG Satellite Observations"
+        },
+        {
+          "id": "1571324274",
+          "authors": "Mr. LAXMIPRIYA MOHANTY",
+          "title": "Flood Hydrodynamics at a River Confluence: A Case Study of Wardha and Wainganga Confluence"
+        },
+        {
+          "id": "1571316227",
+          "authors": "Ms. SHARMILA DEVI",
+          "title": "Estimating Extreme Earthquake Magnitude Quantiles in the Nepal Himalayan Region Using Extreme Value Theory Approach"
+        },
+        {
+          "id": "1571321229",
+          "authors": "Ms. Archana K",
+          "title": "Mid-Monsoon Early Warning of Landslides Using Rainfall Extremes and Machine Learning: A Kerala Case Study"
+        },
+        {
+          "id": "1571324601",
+          "authors": "Mr. Anuva Chowdhury",
+          "title": "A Retrieval-Augmented Local Large Language Model for Drought Mitigation Support in Odisha"
+        },
+        {
+          "id": "1571324678",
+          "authors": "Ms. Chandan Pradhan",
+          "title": "Identification of Channel Knickpoints in a Western Ghats Catchment Using FABDEM-Derived Topography Data"
+        },
+        {
+          "id": "1571291541",
+          "authors": "Mr. Nihal Singh Chauhan",
+          "title": "SAR-Based Monitoring of Glacial Lake Dynamics at Chorabari Tal and Vasuki Tal, Uttarakhand Himalaya: Temporal Analysis and Anomaly Detection (2019-2024)"
+        },
+        {
+          "id": "1571316433",
+          "authors": "Ms. Sreetama Roy",
+          "title": "Enhancing Infrastructural Resilience in Seismically Vulnerable Cities of Eastern India: Lessons from Large Southeast Asian Earthquakes in the past Decade"
+        },
+        {
+          "id": "1571324929",
+          "authors": "Ms. Jaya Saxena",
+          "title": "VYOM: A Coverage-First Agentic GIS for Natural-Language Geospatial Analysis over Indian Satellite Imagery"
+        },
+        {
+          "id": "1571324339",
+          "authors": "Mr. Jaya Sudha Tigiripalli",
+          "title": "Web-Based Scalable Analytics Dashboard for Monitoring Earth Observation Data Dissemination and Usage Insights"
+        },
+        {
+          "id": "1571320910",
+          "authors": "Dr. M Srikanth Yadav",
+          "title": "GPU-Accelerated Hyperspectral Data Cube Generation from UAV-Borne VNIR and SWIR Sensors"
+        },
+        {
+          "id": "1571322312",
+          "authors": "Mr. Kunal Kuldeep",
+          "title": "Ground Penetrating Radar-Based Subsurface Characterization for Spring Rejuvenation: A Sustainable Approach"
+        },
+        {
+          "id": "1571316284",
+          "authors": "Ms. Saloni Awaghade",
+          "title": "Estimating Cloud Motion from Temporally Encoded RGB Satellite Imagery"
+        },
+        {
+          "id": "1571313110",
+          "authors": "Ms. Lakshmi Sutha G",
+          "title": "Hybrid U-Net and Machine Learning Models for Soil Salinity Delineation from Stacked Geospatial Data"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0301A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "08:30 – 09:45",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571317220",
+          "authors": "Ms. Jivansh Chawla",
+          "title": "Zone-Stratified Estimation of Soil Nitrogen Using Geospatial Regression: A Case Study of Kolhapur District"
+        },
+        {
+          "id": "1571318684",
+          "authors": "Mr. Anoop Dongre",
+          "title": "Multi-Temporal SAR-Optical Fusion with GLCM Texture Features for Paddy and Sugarcane Discrimination in the Krishna-Guntur Delta, India"
+        },
+        {
+          "id": "1571327982",
+          "authors": "Mr. Venkataramana Sridhar",
+          "title": "Evaluating AlphaEarth Embeddings for Drought and Fire Analysis in Indian Peninsular Forests and Croplands"
+        },
+        {
+          "id": "1571313566",
+          "authors": "Dr. Abhigyan Chakraborty",
+          "title": "Observational Evidence of Microphysical and Structural Variability in Monsoon Precipitation Under Contrasting Aerosol Conditions"
+        },
+        {
+          "id": "1571323148",
+          "authors": "Dr. Preethi Konkathi",
+          "title": "A Comprehensive Evaluation of Semantic Segmentation Models Under Class Imbalance for Mapping Rice Using Sentinel-2 Data"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0303A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "08:30 – 09:45",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316828",
+          "authors": "Ms. Madhumitha Sathyamurthy",
+          "title": "Spatiotemporal Analysis of Persistent Coal Fire Signals and Workforce Exposure in Indian Coalfields"
+        },
+        {
+          "id": "1571297665",
+          "authors": "Mr. Neha Bhati",
+          "title": "Comparative Evaluation of Machine Learning Classifiers for Multispectral Satellite-Based Land Use Land Cover Mapping in a Semi-Arid Region"
+        },
+        {
+          "id": "1571299029",
+          "authors": "Dr. Apoorva Mehta",
+          "title": "Representation-Centric Weakly-Supervised Multimodal Learning for Crop Yield Prediction via CDL-Guided Spatial Decomposition and Temporally Coherent Representations"
+        },
+        {
+          "id": "1571300352",
+          "authors": "Dr. Nitish Singh",
+          "title": "Decadal Assessment of Crop Growth Dynamics: Geometry-Informed Hybrid Inversion"
+        },
+        {
+          "id": "1571301405",
+          "authors": "Mr. Gaurav Singh",
+          "title": "Reference-Based Earth Observation Benchmarking for State of Nature Assessment in Himalayan Foothill Landscapes"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0302D",
+      "track": "Agriculture, Forest and Environment",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316711",
+          "authors": "Mr. Aniruddha",
+          "title": "Seasonal Vegetation Classification Under Varying Cloud Cover Conditions Using Sentinel-2 Imagery and Machine Learning in Google Earth Engine"
+        },
+        {
+          "id": "1571316973",
+          "authors": "Ms. Jalathota Anisha",
+          "title": "An Automated Geospatial Framework for Satellite-Derived Burnt Area Mapping Using Multispectral Indices"
+        },
+        {
+          "id": "1571318524",
+          "authors": "Ms. Pavan Kumar Bellam",
+          "title": "Improving Soil Organic Carbon Mapping Using Spatial Wavelet Preprocessing"
+        },
+        {
+          "id": "1571320382",
+          "authors": "Ashmitha Nihar, Fabio Dell'Acqua",
+          "title": "Ambiguities in Crop Scattering Interpretation Across SAR Polarimetric Modes"
+        },
+        {
+          "id": "1571321187",
+          "authors": "Mr. Jai Prakash Verma",
+          "title": "A Remote-Sensing Workflow for Floating Marine Debris Detection Using Sentinel-2 Imagery"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "DF0302C",
+      "track": "Disaster Management & Early Warning Systems",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571300726",
+          "authors": "Mr. DHARAVATH SUNIL",
+          "title": "Urban Flood Risk and Building Exposure Assessment Using HEC-RAS and Geoinformatics"
+        },
+        {
+          "id": "1571315374",
+          "authors": "Mr. Aditya Narayan",
+          "title": "FloodGuard: Real-Time Flood Detection and Context-Aware Relief Optimization for Disaster Response"
+        },
+        {
+          "id": "1571320519",
+          "authors": "Ms. Rohit P",
+          "title": "Hydro-Geodetic Assessment of Urban-Driven Groundwater Depletion and Vertical Ground Movement in Bengaluru"
+        },
+        {
+          "id": "1571301384",
+          "authors": "Mr. Shubhayan Roy Chowdhury",
+          "title": "A Nonlinear Parametric Transformation-Based Agricultural Flood Index Using Sentinel-1"
+        },
+        {
+          "id": "1571298270",
+          "authors": "Ms. Sreeja Gundu",
+          "title": "Explainable U-Net++ and LSTM for Submarine Landslide Susceptibility and Risk Forecasting in the Krishna-Godavari Basin"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0301B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571311202",
+          "authors": "Jayson Jariwala, ARKADIPTA DAS",
+          "title": "Evaluation of VPint2 for Training-Free Cloud Removal on Sentinel-2 Imagery: A Case Study of Tapi District, Gujarat, India"
+        },
+        {
+          "id": "1571312261",
+          "authors": "Mr. Yashraj Upase",
+          "title": "On the Role of Terrain in Satellite Rainfall Estimation: A Deep Learning Study over Orographic and Monsoon Regions"
+        },
+        {
+          "id": "1571324081",
+          "authors": "Mr. Shyam Lal",
+          "title": "Cloud Adaptive Scale Fusion Network for SAR-Optical Satellite Images"
+        },
+        {
+          "id": "1571324751",
+          "authors": "Mr. Sudhansh Pilla",
+          "title": "Cross-Region Generalization for Paddy Classification Using Lightweight Spatiotemporal Networks"
+        },
+        {
+          "id": "1571298766",
+          "authors": "Prof. Arka Bairagi",
+          "title": "FAR-Net: Frequency Based Attention Refinement Framework for Underwater Image Enhancement"
+        }
+      ]
+    },
+    {
+      "section": "poster",
+      "id": "POS-0301P",
+      "track": "Poster Session",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316792",
+          "authors": "Athira S, Swaroop Sahoo",
+          "title": "Effects of Canting Angle and Roughness of Hail as Well as Mixture of Hail and Graupel on Dual-Pol Simulated Radar Observations at X-Band"
+        },
+        {
+          "id": "1571324095",
+          "authors": "Ms. Jalaj Pandey",
+          "title": "Assessing the Optimum Temporal Resolution of Scatterometer Winds for Wave Simulations: An OSSE Study"
+        },
+        {
+          "id": "1571300808",
+          "authors": "Mr. Biju V S",
+          "title": "A Flight-Proven Low-Cost NavIC-Based GNSS Receiver for Real-Time Orbit Determination of LEO Satellites"
+        },
+        {
+          "id": "1571320985",
+          "authors": "Mr. RAVADA RAMBABU",
+          "title": "Accuracy Assessment of Static and NRTK GNSS Surveys for UAV Ground Control Points"
+        },
+        {
+          "id": "1571297902",
+          "authors": "Ms. Shivangi Mishra",
+          "title": "Rarest Cloudburst Event in Chennai Observed Through the Eyes of Polarimetric Doppler Weather Radars"
+        },
+        {
+          "id": "1571316635",
+          "authors": "Mr. Priya Yadav",
+          "title": "Non-Destructive Chlorophyll Monitoring Using UAV-Based Hyperspectral Imaging in Mentha Arvensis"
+        },
+        {
+          "id": "1571317047",
+          "authors": "Ms. SHARMILA DEVI",
+          "title": "Crustal Deformation Analysis in New Zealand Revealed from InSAR LOS Velocity Fields"
+        },
+        {
+          "id": "1571272741",
+          "authors": "Mr. Saneev Kumar Das",
+          "title": "From Lab to Flight: A Systematic Review and Integrated Frameworks for UAV-Based Predictive Soil Spectroscopy and Remote Phenotyping with Vegetation Analytics"
+        },
+        {
+          "id": "1571314317",
+          "authors": "Mr. HEMA B",
+          "title": "Development and Performance Evaluation of Static NavIC-Only SPP Framework"
+        },
+        {
+          "id": "1571316352",
+          "authors": "Ms. Munizzah Salim",
+          "title": "Assessing Glacier Disintegration and Tributary Dynamics of Samudra Tapu Glacier, Western Himalayas (2018-2023) Using Sentinel-1 Data"
+        },
+        {
+          "id": "1571301739",
+          "authors": "Mr. Vishal Dutt",
+          "title": "Multi-Temporal Snow Cover Mapping in the North Western Himalaya Using SCATSAT-1, DEM-Derived Features, and Attention U-Net"
+        },
+        {
+          "id": "1571316627",
+          "authors": "Ms. Vineet Kumar",
+          "title": "UAV-LiDAR Based LAI Estimation in Mentha Arvensis Using Support Vector Regression"
+        },
+        {
+          "id": "1571303080",
+          "authors": "Ms. Vishnuthej Paravasthu",
+          "title": "Intelligent Multi-Sensor Counter UAV Detection System in Urban Clutter Using Explainable AI"
+        },
+        {
+          "id": "1571296933",
+          "authors": "Mr. S Iswariya",
+          "title": "Global Evaluation of Bottomside Ionospheric Parameters in IRI-2020 Model Using COSMIC-2 Radio Occultation Profiles from 2020 to 2022"
+        },
+        {
+          "id": "1571324922",
+          "authors": "Ms. Bhubaneswari Panda",
+          "title": "Unraveling the Physical and Biogeochemical Controls of Surface pCO₂ Variability in the Northern Arabian Sea: Insights from Multispectral Multi-Satellite Observations"
+        },
+        {
+          "id": "1571289963",
+          "authors": "Mr. Avinash Singh",
+          "title": "Spatiotemporal Prediction of Mining-Induced Subsidence Using MTInSAR Time-Series and an Improved Conv-LSTM Deep Learning Model"
+        },
+        {
+          "id": "1571301331",
+          "authors": "Mrs. SHIVANI KOSHTHA",
+          "title": "Terrestrial Laser Scanning of Complex Urban Trees for DBH Estimation: A Comparative Study"
+        },
+        {
+          "id": "1571316483",
+          "authors": "Dr. R Aruna Flarence",
+          "title": "Parallel Deep Learning Framework for Multi-Temporal Vegetation Change Detection Using Sentinel-2 Imagery"
+        },
+        {
+          "id": "1571318340",
+          "authors": "Mr. Sanae ATTIOUI",
+          "title": "Reliable Pseudo-Label Selection via Uncertainty-Aware Supervision for SAR Change Detection"
+        },
+        {
+          "id": "1571323799",
+          "authors": "Ms. Parth Dethaliya",
+          "title": "A Geometry Aware Residual Correction Network for 3D Reconstruction from Satellite Stereo Imagery"
+        },
+        {
+          "id": "1571324670",
+          "authors": "Dr. Daiv Raval",
+          "title": "U-Net with LIA-Derived Ground Truth for Automated SAR Shadow Detection in Mountainous Terrain"
+        },
+        {
+          "id": "1571324717",
+          "authors": "Dr. SAHIL MANGE",
+          "title": "Urban Waterlogging Detection and Safe Route Mapping from Multispectral Satellite Imagery Using Artificial Intelligence"
+        },
+        {
+          "id": "1571290757",
+          "authors": "Mr. NITISH KUMAR",
+          "title": "A Feature-Level Multi-Sensor Fusion Framework for Enhanced LULC Classification in Heterogeneous Mining Environment Using Random Forest"
+        },
+        {
+          "id": "1571298562",
+          "authors": "Mr. Alba Martín Lorenzo",
+          "title": "Statistical Characterization of Hyperspectral Band Selection Search Spaces"
+        },
+        {
+          "id": "1571290841",
+          "authors": "Mr. Ramakrishna Kolikipogu",
+          "title": "Calibration-Aware Temporal Reasoning for Continuous Urban Change Detection via Bidirectional ConvGRU"
+        },
+        {
+          "id": "1571312979",
+          "authors": "Mr. Saravana Kumar B",
+          "title": "Ship Detection from Range-Compressed EOS-04 SAR Data for Onboard Edge Computing"
+        },
+        {
+          "id": "1571300914",
+          "authors": "Mr. Aishwarya Hegde A",
+          "title": "ConvLSTM-TP Model for Spatiotemporal Mapping of Rice Field Using SAR Data"
+        },
+        {
+          "id": "1571311663",
+          "authors": "Mr. PRIYA DARSHNA MUNUSWAMY PONMALAR",
+          "title": "Remote-Sensing Based Assessment of the Impact of Air Pollution on Urban Vegetation Health: A Case Study of Chennai, India"
+        },
+        {
+          "id": "1571318432",
+          "authors": "Mr. Kalpana Gangwar",
+          "title": "Self-Supervised Learning for Land Cover Classification of Multispectral Sentinel-2 Images: A Comparison of SimCLR and BYOL"
+        },
+        {
+          "id": "1571318585",
+          "authors": "Ms. Ashwini Deshpande",
+          "title": "Enhanced Algal Bloom Detection with RT-DETR and Semi-Supervised Fine-Tuning Approach"
+        },
+        {
+          "id": "1571324292",
+          "authors": "Garima Mathur, Shagun Singh",
+          "title": "Graph Neural Networks for Enhanced Land Cover Classification in Multispectral Sentinel-2 Data"
+        },
+        {
+          "id": "1571324767",
+          "authors": "Mr. Sanjiban Roy",
+          "title": "Multi-Resolution Segmentation and Spectral Band Selection for Robust Impervious Surface Classification: OBIA Versus Pixel-Based Deep Learning"
+        },
+        {
+          "id": "1571299305",
+          "authors": "Ms. Aishwarya Dwivedi",
+          "title": "Impact of Urban Morphology on Land Surface Temperature: A Remote Sensing and Interpretable Machine Learning Workflow"
+        },
+        {
+          "id": "1571301011",
+          "authors": "Dr. Dhyey Shekhaliya",
+          "title": "A Hierarchical Two Stage Framework for Continuous Sediment Grain Size Estimation Using Sentinel-2 Imagery"
+        },
+        {
+          "id": "1571315360",
+          "authors": "Ms. REEDHI Shukla",
+          "title": "Counting Pilgrims from Space: Deep Learning-Driven Crowd Detection in VHR Satellite Imagery of the Kumbh Mela"
+        },
+        {
+          "id": "1571316210",
+          "authors": "Ms. Parita Shah",
+          "title": "Mangrove-GeoVLM: A Multi-Task Bilingual Vision-Language Framework for Coastal Mangrove Monitoring and Disaster Interpretation"
+        },
+        {
+          "id": "1571319958",
+          "authors": "Mr. Anumalashetty Harika",
+          "title": "Machine Learning-Based Water Body Classification with Index-Driven Turbidity Analysis Using Sentinel-2 Satellite Data"
+        },
+        {
+          "id": "1571323723",
+          "authors": "Mr. DEEPTHI B.R",
+          "title": "A Spatiotemporal Machine Learning Framework for Streamflow Reconstruction in Indian Catchments"
+        },
+        {
+          "id": "1571324363",
+          "authors": "Mrs. Thejaswini M",
+          "title": "NDVI Based Rabi Maize Crop Vegetation Analysis Framework Using Sentinel-2A Imagery and K-Means Clustering"
+        },
+        {
+          "id": "1571316236",
+          "authors": "Mr. Anshuman Mehta",
+          "title": "OpenStreetMap Temporal Differencing as a Change Prior for SAR-Based Change Detection"
+        },
+        {
+          "id": "1571316740",
+          "authors": "Ms. SPARSHI JAIN",
+          "title": "An AI Assisted Meteor Detection Method in All-Sky Camera Images"
+        },
+        {
+          "id": "1571322988",
+          "authors": "Mr. Unmesh Khati",
+          "title": "Statistical SAR Descriptors for ML-Based Deforestation Mapping"
+        },
+        {
+          "id": "1571324791",
+          "authors": "Ms. Vidhan Thakur",
+          "title": "A Hybrid Swin Transformer and ConvLSTM Framework for Radar Echo Nowcasting"
+        },
+        {
+          "id": "1571298984",
+          "authors": "Dr. Mahantesh J",
+          "title": "Hybrid CNN-Vision Transformer Architecture for Oil Spill Detection and Vessel Tasking System"
+        },
+        {
+          "id": "1571300667",
+          "authors": "Dr. Giampaolo Ferraioli",
+          "title": "CATBOOST Algorithm for Forest Height Estimation: First Results on Sentinel-1 Data"
+        },
+        {
+          "id": "1571324709",
+          "authors": "Dr. Tanmay Somani",
+          "title": "Spatio-Temporal Forecasting of TIR-1 Imagery from INSAT-3DS Satellite Imagery Using a ConvLSTM Encoder-Decoder Network"
+        },
+        {
+          "id": "1571299431",
+          "authors": "Mr. Nivas Raj M",
+          "title": "Gap Filling of PRISMA Hyperspectral Datasets at Regional Scale Using LANDSAT 8/9 and Deep Learning Architectures"
+        },
+        {
+          "id": "1571299761",
+          "authors": "Mrs. Lakshmi Sutha G",
+          "title": "Coastal Shoreline Extraction Using U²-Net Model from Satellite Images"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0302A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316654",
+          "authors": "Dr. Narayanarao Bhogapurapu",
+          "title": "Soil Permittivity Estimation over Croplands: A Comparative Assessment of the X-Bragg and Polarimetric Two-Scale Models"
+        },
+        {
+          "id": "1571324173",
+          "authors": "Mr. Preeti Vats",
+          "title": "Monitoring Hydroperiod-Driven Vegetation Dynamics in Nalsarovar Ramsar Wetland Through Multi-Temporal Data in Cloud-Computing Environment"
+        },
+        {
+          "id": "1571301430",
+          "authors": "Md Asfa Ibrahim, Bontala Dhriti Lakshmi",
+          "title": "GIS-Based Solar Rooftop Assessment"
+        },
+        {
+          "id": "1571301738",
+          "authors": "Dr. Ravi Kumar",
+          "title": "Do Large Solar Parks Impact Land Surface Temperature? A Case Study of Bhadla Solar Park from Landsat 8 Imagery"
+        },
+        {
+          "id": "1571314519",
+          "authors": "Ms. Pashupati Nath Singh",
+          "title": "AI-Based Multi-Crop Yield Forecasting Using Satellite-Derived Agro-Climatic Indicators in Semi-Arid Central India"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "FI0303D",
+      "track": "Future Innovation",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571324078",
+          "authors": "Nisha Sharma",
+          "title": "Agricultural LU LC Classification from Satellite Data Using Machine Learning and Deep Learning Approaches"
+        },
+        {
+          "id": "1571315580",
+          "authors": "Mr. Priya Kaul",
+          "title": "Edge-Aware Adaptive-K Local Statistical Speckle Reduction for Multi-Frequency PolSAR and NISAR GCOV Imagery"
+        },
+        {
+          "id": "1571323269",
+          "authors": "Dr. Rahul Mukherjee",
+          "title": "Satellite Data-Driven Soil Moisture Estimation Using Artificial Intelligence Techniques for Precision Agriculture"
+        },
+        {
+          "id": "1571298915",
+          "authors": "Ms. Sowmini Devi Veeramachaneni",
+          "title": "Dictionary Learning for on-Board Hyper Spectral Anomaly Detection"
+        },
+        {
+          "id": "1571298898",
+          "authors": "Mr. Sowmini Devi Veeramachaneni",
+          "title": "Geospatially Regularized Recommendation for Earth Observation Resources"
+        },
+        {
+          "id": "1571316151",
+          "authors": "Ms. Seerat Kaur Bajwa",
+          "title": "Semantic Segmentation for Landslide Mapping Using Multi-Modal Remote Sensing Data"
+        },
+        {
+          "id": "1571315200",
+          "authors": "Abilakshan Vadivel",
+          "title": "A GeoAI Framework for Bushfire Impact Mapping Using Crowdsourced Social Media Data andSentinel-2 Deep Learning Segmentation"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "GS0303C",
+      "track": "Geospatial Data Acquisition & Sensing Technologies",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571322479",
+          "authors": "Ms. Saritha P K",
+          "title": "In-Orbit Radiometric Validation of Thermal EOIR Sensors Onboard EOS-8"
+        },
+        {
+          "id": "1571316651",
+          "authors": "Mr. Anjali Patel",
+          "title": "Cross-Modal Registration of Lunar DEM and Optical Imagery: A Benchmark Study of Classical and Learning-Based Methods"
+        },
+        {
+          "id": "1571289981",
+          "authors": "Saksham Jain, Mohammad Soyeb Alam, Mr.Avinash Singh",
+          "title": "High-Precision Volume Estimation in Open-Pit Mines Using UAV Photogrammetry Validated with Terrestrial Laser Scanning"
+        },
+        {
+          "id": "1571298969",
+          "authors": "Dr. Dhruva V",
+          "title": "A Fair and Interpretable Comparison of Fixed OSP, Discrete Exact OSP Selection, and OSP-Seeded Learnable MSFA for Snapshot Multispectral Demosaicking"
+        },
+        {
+          "id": "1571322159",
+          "authors": "Mr. Md Mehraj",
+          "title": "An Integrated Elevation-Conditioned Approach to Detect Snow Under Cloud Cover Using MODIS Data"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0302B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "15:00 – 16:15",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571303309",
+          "authors": "Ms. Nitish K S",
+          "title": "Physics-Informed Multi-Band Nowcasting on FY-2H Direct-Broadcast Imagery for the Indian Subcontinent"
+        },
+        {
+          "id": "1571304507",
+          "authors": "Mr. Suma Chundi",
+          "title": "An AI/ML Framework for the Prediction of Atlantic Zonal Mode Exploiting Ocean Memory"
+        },
+        {
+          "id": "1571316551",
+          "authors": "Mr. Adduru U G Sankararao",
+          "title": "Self-Supervised Learning for Hyperspectral Image Classification Using Joint-Embedding Predictive Architecture"
+        },
+        {
+          "id": "1571321309",
+          "authors": "Mr. Pratyush Sahu",
+          "title": "Frequency-Aware Feature Refinement and Auxiliary Mask Supervision for Tiny Human Detection in Aerial Thermal Images"
+        },
+        {
+          "id": "1571318545",
+          "authors": "Ms. Achala Shakya",
+          "title": "Anisotropic KL and NSCT Fusion of Sentinel-1/2 Imagery for Attention-Based CNN"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0303B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571315248",
+          "authors": "Dr. Arati Paul",
+          "title": "Spectral Reconstruction of Remote Sensing Image Using SpectraDiff"
+        },
+        {
+          "id": "1571312628",
+          "authors": "Ms. Ushasi Dam",
+          "title": "Decision-Level Fusion of VNIR Spectroscopy and PXRF Spectrometry for Improved Estimation of Soil Available Phosphorus"
+        },
+        {
+          "id": "1571316160",
+          "authors": "Ms. Jaya Chauhan",
+          "title": "Towards Deployment Aware Evaluation of Remote Sensing Foundation Models"
+        },
+        {
+          "id": "1571319323",
+          "authors": "Dr. Sushma Iliger",
+          "title": "SAR-SIS-Net: Speckle-Guided Denoising Attention and Asymmetric Radar Feature Pyramid for Lightweight SAR Ship Instance Segmentation"
+        },
+        {
+          "id": "1571319501",
+          "authors": "Ms. Sukanta Roy",
+          "title": "Fully Automated Band-Parametric Framework for Robust Light Rare Earth Element Prospecting in Drone-Borne Hyperspectral Imagery"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "NI0304C",
+      "track": "Special Scientific Theme: NISAR",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316704",
+          "authors": "Mrs. Debashish Dash",
+          "title": "Utilizing Geocoded Offsets from NISAR L-Band to Retrieve the Surface Velocity of Glaciers"
+        },
+        {
+          "id": "1571324836",
+          "authors": "Mr. Dharmendra Kumar Pandey",
+          "title": "Operational NISAR 100 m High Resolution Soil Moisture Product: Algorithm and Early Assessment over Indian Agricultural Landscapes"
+        },
+        {
+          "id": "1571309777",
+          "authors": "Alejandro Frery",
+          "title": "Land Cover Classification in SAR Time Series Using Ordinal Pattern Features"
+        },
+        {
+          "id": "1571316539",
+          "authors": "Dr. Priyom Roy",
+          "title": "Early Demonstration of NISAR L- and S-Band InSAR for Monitoring Surface Deformation"
+        },
+        {
+          "id": "1571309791",
+          "authors": "Andrea A. Rey",
+          "title": "A New Distribution for the Analysis of the Generalized Radar Vegetation Index from SAR Data"
+        }
+      ]
+    },
+    {
+      "section": "poster",
+      "id": "POS-0302P",
+      "track": "Poster Session",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "16:15 – 17:30",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571304575",
+          "authors": "Ms. Ramen Ghosh",
+          "title": "Vision-Guided Hyperspectral Change Captioning Using Vision Language Models"
+        },
+        {
+          "id": "1571310894",
+          "authors": "Mrs. Tejas Tamkar",
+          "title": "Hyperspectral Image Splicing Forgery Localization via Spectral-Frequency Dual-Stream Fusion"
+        },
+        {
+          "id": "1571314410",
+          "authors": "Mr. R Aruna Flarence",
+          "title": "Class Imbalance-Aware Urban Expansion Detection Using Multi-Temporal Sentinel-2 Imagery"
+        },
+        {
+          "id": "1571316569",
+          "authors": "Ms. Lakshmi Srujana",
+          "title": "Performance Evaluation and Sequential Ensemble Kalman Filter Correction of Global AI Temperature Forecasts over India"
+        },
+        {
+          "id": "1571316597",
+          "authors": "Ms. SBSSS Vamsi Krishna",
+          "title": "Satellite Data Diffusion Using Hybrid XGBoost Coupled to Radiative Transfer Model for Biophysical Parameter Retrieval and LAI Prediction"
+        },
+        {
+          "id": "1571322625",
+          "authors": "Dr. Lakshmi Kantakumar Neelamsetti",
+          "title": "Extraction of Building Footprints from UAS Ortho Image Using Hybrid Fusion of U-Net and SAM3"
+        },
+        {
+          "id": "1571312797",
+          "authors": "Mr. Laxmi Chandrahaas Donthula",
+          "title": "Convolutional Neural Network-Based Cotton Growth-Stage Recognition for Adaptive Precision Spraying with Low-Cost Monocular Vision"
+        },
+        {
+          "id": "1571315162",
+          "authors": "Ms. Utkarsh Kumar",
+          "title": "Daily Rainfall Prediction Across India Using Satellite-Reanalysis Data: A Two-Stage Ensemble Approach"
+        },
+        {
+          "id": "1571315841",
+          "authors": "Mr. Yassh Ramchandani",
+          "title": "A Physics-Inspired Deep Learning Approach for Blind Hyperspectral Unmixing"
+        },
+        {
+          "id": "1571316919",
+          "authors": "Mr. charani pinninti",
+          "title": "Efficient Cloud Detection from Resourcesat-2A AWiFS Imagery"
+        },
+        {
+          "id": "1571323891",
+          "authors": "Mr. Rohan Lalwani",
+          "title": "AttentiveASPP: Attention-Based Multi-Scale Aggregation in DeepLabV3+ for High-Resolution Aerial Image Building Segmentation"
+        },
+        {
+          "id": "1571324111",
+          "authors": "Kousthub J V, Saurabh Lingam",
+          "title": "DTP-Mamba: Dynamic Token Pruning Mamba for Efficient Hyperspectral Image Classification"
+        },
+        {
+          "id": "1571299326",
+          "authors": "Mr. Zareena Begum",
+          "title": "Powering Digital Earth with Artificial Intelligence and Machine Learning"
+        },
+        {
+          "id": "1571324860",
+          "authors": "Mr. Sachin Sharma",
+          "title": "Particle Filter Based Correction of Model Simulated Sea Level Anomaly Using SWOT/KaRIn Data"
+        },
+        {
+          "id": "1571304960",
+          "authors": "Mr. Piyali Dutta",
+          "title": "Explainable NDVI Guided Deep Learning Framework for Remote Sensing Intelligence"
+        },
+        {
+          "id": "1571315024",
+          "authors": "Ms. Arunima Manna",
+          "title": "Multi-Temporal Coastal Erosion Detection Using Siamese U-Net"
+        },
+        {
+          "id": "1571316688",
+          "authors": "Dr. Lalitha Darisanam",
+          "title": "Performance Evaluation of Network Infrastructure for AI-Enabled Satellite Data Processing: A Case Study"
+        },
+        {
+          "id": "1571320405",
+          "authors": "Dr. Thejaswini M",
+          "title": "River Morphology Analysis Framework Using Multi-Temporal Resourcesat Satellite Images and K-Means Clustering Method"
+        },
+        {
+          "id": "1571321948",
+          "authors": "Mr. Supriya Kukka",
+          "title": "Hybrid Data Mining Framework for Explainable Fraud Detection in Water Consumption Using Ensemble Learning and Risk-Based Analytics"
+        },
+        {
+          "id": "1571323863",
+          "authors": "Dr. NALLURI NAGARAJU",
+          "title": "Spatio-Temporal Analysis of Urban Land Use Land Cover Dynamics in Vijayawada Urban Area Using Machine Learning Classification of Multi-Temporal Landsat Imagery"
+        },
+        {
+          "id": "1571324745",
+          "authors": "Mr. Suhaani Kedar",
+          "title": "QRNN3D-Based Hyperspectral Image Denoising on Remote Sensing Data via Transfer Learning"
+        },
+        {
+          "id": "1571281166",
+          "authors": "Mr. Narayan Vyas",
+          "title": "Comparative Evaluation of Machine Learning Classifiers for LULC Mapping Using Sentinel-2 on Google Earth Engine in a Semi-Arid Environment"
+        },
+        {
+          "id": "1571299632",
+          "authors": "Sai Nishant Pratapani, Uppucharla Venkata Rohith",
+          "title": "Spatio-Temporal Reconstruction of MODIS Land Surface Temperature over Hyderabad Using Convolutional LSTM"
+        },
+        {
+          "id": "1571315356",
+          "authors": "Ms. REEDHI Shukla",
+          "title": "Calibrated Monocular Depth Estimation for Digital Surface Model Generation Using Vision Transformer-Based Foundation Models"
+        },
+        {
+          "id": "1571316449",
+          "authors": "Dr. Aarthi selvaraj",
+          "title": "A Multimodal Nanosatellite Architecture for Autonomous in-Orbit Geospatial Discovery"
+        },
+        {
+          "id": "1571324217",
+          "authors": "Ms. shanmukharao Divvala",
+          "title": "A Spatial CNN-Transformer Framework with Rotary Positional Encoding for Rice Crop Mapping Using Multi-Temporal EOS-04 SAR Data"
+        },
+        {
+          "id": "1571320891",
+          "authors": "Prof. Pranshul Agrawal",
+          "title": "Analyzing Future Trends of Region-Level Air Pollutants and Its Effect on Temperature Using Machine Learning Techniques, FB Prophet Model"
+        },
+        {
+          "id": "1571322998",
+          "authors": "Mrs. Shilpa Pimpalkar",
+          "title": "Comparative Evaluation of Semantic Segmentation Approaches for Buildings Change Detection Using Levir-CD and S2Looking Datasets"
+        },
+        {
+          "id": "1571316062",
+          "authors": "Mr. Ancymol Thomas",
+          "title": "SAR Feature Optimization for Multimodal LCZ Classification Using Hybrid Fusion"
+        },
+        {
+          "id": "1571321837",
+          "authors": "Prof. Bhavani Sankar Komati",
+          "title": "Multi-Sensor Machine Learning Modeling of Urban Summer Land Surface Temperature Using Landsat and Sentinel-1 SAR Data"
+        },
+        {
+          "id": "1571324741",
+          "authors": "Mr. Greeshma R",
+          "title": "Validating Normalized Integrated Band Depth as a Lunar Maturity Proxy for Chandrayaan-2 IIRS"
+        },
+        {
+          "id": "1571308066",
+          "authors": "Mr. Mulkala Saritha",
+          "title": "Polarimetric Scattering Analysis of Chandrayaan-3 Landing Site Using DFSAR Data"
+        },
+        {
+          "id": "1571315312",
+          "authors": "Ms. Rathinam Ramasamy J",
+          "title": "Encke C Crater, Moon: Insights from Multiple Mass-Wasting Deposits"
+        },
+        {
+          "id": "1571316669",
+          "authors": "Ms. Chandani Sahu",
+          "title": "Prediction of Nanophase Metallic Iron (npFe⁰) Abundance in the Crozier Lunar Swirl"
+        },
+        {
+          "id": "1571264367",
+          "authors": "Mr. Vrund Dobariya",
+          "title": "Physics-Informed Transformer to Forecast Lunar Plasma During CME Events for Lunar PNT Applications"
+        },
+        {
+          "id": "1571324702",
+          "authors": "Ms. Harsha Vardhan Gosangi",
+          "title": "Radar Scattering Behavior of Lunar Permanently Shadowed Craters from Chandrayaan-2 DFSAR Full Polarimetry"
+        },
+        {
+          "id": "1571324911",
+          "authors": "Mr. Aurobindo Sahu",
+          "title": "Polarimetric SAR-Based Lunar Crater Detection Using Multi-Scale Circular Hough Transform"
+        },
+        {
+          "id": "1571281036",
+          "authors": "Dr. KANDULA V SUBRAHMANYAM",
+          "title": "Assessment of Long-Term Changes in Stratospheric Water Vapour Using Space-Based TIMED/SABER Observations"
+        },
+        {
+          "id": "1571324350",
+          "authors": "Dr. Aurobindo Sahu",
+          "title": "NDI-Based Surface Characterization of Niobe Planitia, Venus Using Magellan SAR Data"
+        },
+        {
+          "id": "1571314489",
+          "authors": "Ms. Sahana Beelagi",
+          "title": "CNN-Attention Versus Transformer Architectures for Exoplanet Transit Vetting with Stellar Parameter Fusion: A Systematic Comparison on Kepler Data"
+        },
+        {
+          "id": "1571320992",
+          "authors": "Dr. DEVRAJ SAKARIYA",
+          "title": "An End-to-End Deep Learning Approach for Mixed Crop Classification in NISAR Mission"
+        },
+        {
+          "id": "1571294945",
+          "authors": "Mr. VEERA MANI KUMAR DEVARAKONDA",
+          "title": "Multi-Satellite Phase-Based Direction Finding for Spaceborne ELINT Applications"
+        },
+        {
+          "id": "1571324288",
+          "authors": "Ms. Ansh Tripathi",
+          "title": "Learning to Sequence Safe Despeckling Operators for NISAR Single-Look Imagery Without Ground Truth"
+        },
+        {
+          "id": "1571324324",
+          "authors": "Ms. Sobina Jana",
+          "title": "Building Resilient Workflows and Monitoring System for NISAR Data Processing at NRSC Ground Station"
+        },
+        {
+          "id": "1571324321",
+          "authors": "Ms. Swati Singh",
+          "title": "NISAR Based Characterization of Dyke Swarms and Fault-Fracture Networks Associated with Complex Igneous Intrusives"
+        },
+        {
+          "id": "1571309066",
+          "authors": "Dr. Sooraj Krishnan",
+          "title": "Terrain Interaction Analysis Using NISAR and Sentinel-1 SAR Data over Devikulam Taluk, Kerala"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0304A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "17:30 – 18:45",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571303701",
+          "authors": "Mr. Akanksha .",
+          "title": "Investigating Rice Canopy Scattering Using Frequent RADARSAT Constellation Mission (RCM) Quad-Pol Observations"
+        },
+        {
+          "id": "1571309936",
+          "authors": "Mr. bhavana K",
+          "title": "Cross-Modal Fusion for Spatial Refinement of the Dual-Polarimetric Urban Vegetation Index"
+        },
+        {
+          "id": "1571312417",
+          "authors": "Mr. Naveen Baipilli",
+          "title": "Characterization of Precipitation Types over India Using GPM-DPR: Spatial Distribution, Vertical Structure, and Environmental Controls"
+        },
+        {
+          "id": "1571313095",
+          "authors": "Mr. Harsha Vardhan Gosangi",
+          "title": "Comparative Analysis of UAVSAR and ISRO LS-ASAR Polarimetric Data for Crop-Type Mapping"
+        },
+        {
+          "id": "1571316680",
+          "authors": "Mr. Dharmendra Singh",
+          "title": "Wheat Yield Estimation Using Semi-Physical Model in Haryana"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0304B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "03 December 2026",
+      "day": "03",
+      "time": "17:30 – 18:45",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571323651",
+          "authors": "Mr. Margarret Ashmitha Antony Ravi",
+          "title": "Interpreting the Input Space of Remote Sensing Foundation Model, Presto for Crop Type Classification"
+        },
+        {
+          "id": "1571324172",
+          "authors": "Mr. Raghavendra Sara",
+          "title": "Leveraging Monocular Depth Estimating Models for DSM Generation: Challenges and Potential"
+        },
+        {
+          "id": "1571324862",
+          "authors": "Ms. dhwani balchandani",
+          "title": "Suitability of GAN and Transformer Architectures for Super-Resolution of Geostationary Satellite Bands"
+        },
+        {
+          "id": "1571315813",
+          "authors": "Ms. Triloki Pant",
+          "title": "Hybrid ConvLSTM-U-Net with CBAM and Temporal Attention for Pixel-Wise Urban Built-Up Growth Prediction in Prayagraj, India"
+        },
+        {
+          "id": "1571300929",
+          "authors": "Mrs. Sravani Duvvuri",
+          "title": "Object-Based Multi-Temporal Crop Classification Using Cartosat-2E Imagery in a Fragmented Tropical Agricultural Landscapes"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "AF0401A",
+      "track": "Agriculture, Forest and Environment",
+      "date": "04 December 2026",
+      "day": "04",
+      "time": "08:30 – 09:45",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571316806",
+          "authors": "Ms. Adduru U G Sankararao",
+          "title": "A Survey of Band Selection Techniques for Hyperspectral Crop Stress Detection"
+        },
+        {
+          "id": "1571316816",
+          "authors": "Dr. Snehil Dubey",
+          "title": "Characterizing Terrestrial and Groundwater Storage Changes of the Ganga River Basin Using GRACE- Based Hydrological Signatures"
+        },
+        {
+          "id": "1571318897",
+          "authors": "Mr. Jesna Benny",
+          "title": "Estimation of Wind Energy Potential and Site Selection for Wind Turbines in North Karnataka Districts Using GIS"
+        },
+        {
+          "id": "1571324835",
+          "authors": "Mr. Avik Bhattacharya",
+          "title": "Optimization of UGS for Urban Heat Mitigation Using Remote Sensing and Inverse Modeling"
+        },
+        {
+          "id": "1571315472",
+          "authors": "Ms. Surbhi Sharma",
+          "title": "Diagnosing the Ground-Satellite Gap in Land Cover Using Vision Foundation Models and Field Photos"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0401B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "04 December 2026",
+      "day": "04",
+      "time": "08:30 – 09:45",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571315145",
+          "authors": "Prof. Prekshita Singh Tanwar",
+          "title": "Hierarchical Land Use Land Cover Classification Using Sentinel-2A Satellite Imagery"
+        },
+        {
+          "id": "1571315561",
+          "authors": "Mr. Shourya Sakalley",
+          "title": "CMANet: Cross-Modal Attention Fusion of Sentinel-1 and Sentinel-2 for Flood Segmentation with Frozen Pretrained Encoders"
+        },
+        {
+          "id": "1571316524",
+          "authors": "Dr. Preet Mhaski",
+          "title": "Zero-Shot Building Footprint Extraction from CartoSat-3 Imagery: A Systematic Multi-Head Ablation of SAM3"
+        },
+        {
+          "id": "1571317118",
+          "authors": "Bala Praharsha Mannepalli, Mohan Murugan",
+          "title": "Performance Evaluation of OctFormer and Point Transformer V2 on Aerial LiDAR Benchmark Datasets"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "DF0401C",
+      "track": "Disaster Management & Early Warning Systems",
+      "date": "04 December 2026",
+      "day": "04",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571315228",
+          "authors": "Mr. Sakshi Suresh Manmode",
+          "title": "Assessment of Seismic Cycle Progression in Kumaun and Nepal Himalaya"
+        },
+        {
+          "id": "1571317320",
+          "authors": "Mr. Veena Vadakkathmana Ramadas",
+          "title": "GeoMetAgent: An Agentic Framework for Transforming Satellite Precipitation Data into Actionable Weather Intelligence"
+        },
+        {
+          "id": "1571316592",
+          "authors": "Dr. Malavika A R",
+          "title": "Temporal Validation and Explainable Machine Learning for Flood Susceptibility Mapping in a Monsoon-Dominated River Basin, Southern India"
+        },
+        {
+          "id": "1571314531",
+          "authors": "Mr. Sakshi Suresh Manmode",
+          "title": "Quantifying the Ongoing State of Seismic Hazard in the Gujarat Region"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "GS0402C",
+      "track": "Geospatial Data Acquisition & Sensing Technologies",
+      "date": "04 December 2026",
+      "day": "04",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571314047",
+          "authors": "Ms. KAVIN TS",
+          "title": "Spatiotemporal Variability of Groundwater Storage Anomalies in the East-Flowing River Basins of Peninsular India (2003-2024): Integrating GRACE/GRACE-FO, GLDAS and in-Situ Well Observations"
+        },
+        {
+          "id": "1571316811",
+          "authors": "Dr. Rajdip Paul",
+          "title": "Generation of near Real-Time Mosaic from UAV Multispectral Imagery: A Fast 2D Bundle Adjustment Approach"
+        },
+        {
+          "id": "1571323325",
+          "authors": "Dr. Anjita Neelatt Anilkumar",
+          "title": "Polarimetric Signatures of Meteorological and Non-Meteorological Scatterers in Operational C-Band Radar over New Delhi"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "ML0402B",
+      "track": "Machine Learning & AI for Digital Earth",
+      "date": "04 December 2026",
+      "day": "04",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571315403",
+          "authors": "Lakshmi Amani Chimata",
+          "title": "Deep Learning Based Flood Delineation Using EOS-04 SAR Data: A Cross-Regional TransferabilityAssessment Across Bihar and Assam"
+        },
+        {
+          "id": "1571309791",
+          "authors": "Andrea A. Rey",
+          "title": "A New Distribution for the Analysis of the Generalized Radar Vegetation Index from SAR Data"
+        },
+        {
+          "id": "1571303506",
+          "authors": "Alejandro Frery",
+          "title": "A Bayesian Neural Network for Parameter Estimation in SAR Imagery"
+        },
+        {
+          "id": "1571298489",
+          "authors": "Mr. Mahesh Pal",
+          "title": "Conformal Prediction Based Uncertainty Estimation for Remote Sensing Classifications"
+        }
+      ]
+    },
+    {
+      "section": "oral",
+      "id": "NI0402D",
+      "track": "Special Scientific Theme: NISAR",
+      "date": "04 December 2026",
+      "day": "04",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1571315147",
+          "authors": "Mr. Akshita tomar",
+          "title": "Automatic Extraction of Built-Up Using NISAR: An Object-Based Approach"
+        },
+        {
+          "id": "1571315261",
+          "authors": "Mr. Pragya Muni",
+          "title": "Radar Vegetation Index-Based Empirical Retrieval of Wheat Vegetation Water Content Using NISAR L-Band: A Preliminary Study"
+        },
+        {
+          "id": "1571323832",
+          "authors": "Dr. Ajay Maurya",
+          "title": "Multi-Frequency SAR for Mixed Land Cover Classification: A Comparative Study of NISAR L-Band and Sentinel-1 C-Band Using a 2D CNN"
+        },
+        {
+          "id": "1571323262",
+          "authors": "Dr. Parthiban P",
+          "title": "Track and Frame Referencing Algorithms for NISAR Scene Framing: Implementation and Validation"
+        },
+        {
+          "id": "1571324501",
+          "authors": "Mr. Ashish Prasad",
+          "title": "Towards an Automated Framework for Mangrove Cover Mapping in India Using NISAR SAR Data"
+        }
+      ]
+    },
+    {
+      "section": "poster",
+      "id": "POS-0401P",
+      "track": "Poster Session",
+      "date": "04 December 2026",
+      "day": "04",
+      "time": "13:45 – 15:00",
+      "chairs": "",
+      "papers": [
+        {
+          "id": "1",
+          "authors": "1571324682",
+          "title": "Mrs. Swapna M"
+        },
+        {
+          "id": "2",
+          "authors": "1571324197",
+          "title": "Ashutosh Kumar Jha"
+        },
+        {
+          "id": "3",
+          "authors": "1571312703",
+          "title": "Mr. Avinash Yadav"
+        },
+        {
+          "id": "4",
+          "authors": "1571315216",
+          "title": "Prof. Brijesh B"
+        },
+        {
+          "id": "5",
+          "authors": "1571316732",
+          "title": "Ashot Baghdasaryan"
+        },
+        {
+          "id": "6",
+          "authors": "1571324088",
+          "title": "Ms. PRAKASH KUMAR JHA"
+        },
+        {
+          "id": "7",
+          "authors": "1571324299",
+          "title": "Mr. Manikandan Veeramani"
+        },
+        {
+          "id": "8",
+          "authors": "1571325483",
+          "title": "Ms. Anjaly Unnikrishnan"
+        },
+        {
+          "id": "1571324456",
+          "authors": "Mrs. Amal S Ajay",
+          "title": "Spatio-Temporal Dynamics of Historical Landslides in the Transportation Corridor from Mettupalayam to Coonoor, Nilgiri Hills: Evaluating the Role of Topography and Vegetation Cover"
+        },
+        {
+          "id": "1571319189",
+          "authors": "Ms. Omkar Pandey",
+          "title": "IMERG-Based Precipitation Nowcasting: Comparative Evaluation of Optical Flow and Convolutional LSTM"
+        },
+        {
+          "id": "1571324784",
+          "authors": "Mr. Vishwajit Sarnobat",
+          "title": "INDRA-Sat-Diff: High-Fidelity Generative Precipitation Nowcasting for the Indian Monsoon Using a Satellite-Adapted Latent Diffusion Model"
+        },
+        {
+          "id": "1571297878",
+          "authors": "Ms. Shweta Shukla",
+          "title": "Short-Term Radar Reflectivity Nowcasting Using a Two-Layer Convolutional Gated Recurrent Unit"
+        },
+        {
+          "id": "1571313102",
+          "authors": "Mr. T Lakshanya",
+          "title": "Quantitative Analysis of Imputation Methods on XGBoost Forecast Performance by Gap Position and Length"
+        },
+        {
+          "id": "1571316447",
+          "authors": "Parvataneni Semanth, Nageswar D",
+          "title": "A Deep Learning-Based Technique to Merge Radar and Gauge Rainfall"
+        },
+        {
+          "id": "1571316715",
+          "authors": "Mr. Surya Naidu",
+          "title": "An Optical and SAR Satellite Data-Based Framework for Water Body Extraction Using an Ensemble Model"
+        },
+        {
+          "id": "1571318859",
+          "authors": "Mr. Sushant Sawant",
+          "title": "Explainable Machine Learning for Long-Term Soil-Moisture Drought Trends and Drivers in Maharashtra, India (1993-2023)"
+        },
+        {
+          "id": "1571324092",
+          "authors": "Ms. Chinmayee Patchigolla",
+          "title": "Deep Learning Framework for Contextual Classification of Active Fire Hotspots Using Multi-Resolution and Multi-Source EO Data"
+        },
+        {
+          "id": "1571315582",
+          "authors": "Mrs. Alankita Nag",
+          "title": "Low Chlorophyll Events and Their Association with Marine Heat Waves in the North Indian Ocean"
+        },
+        {
+          "id": "1571314349",
+          "authors": "Mr. Shatakshi Verma",
+          "title": "Synergistic Integration of Dual Frequency Polarimetric SAR Data for Enhanced BIOMASS Estimation in Tropical Moist Deciduous Forest"
+        },
+        {
+          "id": "1571323722",
+          "authors": "Mr. ANAND S S",
+          "title": "Physics-Guided Machine Learning Framework for Operational Above-Ground Biomass Mapping from NISAR L and S Band SAR"
+        },
+        {
+          "id": "1571322908",
+          "authors": "Mr. Amrita Chitranshi",
+          "title": "Accelerating SAR Data Processing Algorithms: Strategy for Code Optimization in MIDAS"
+        },
+        {
+          "id": "1571324509",
+          "authors": "Dr. Srikanth Poloju",
+          "title": "Exploring the Utility of Multi-Temporal NISAR S-Band SAR Data for Multi-Crop Classification"
+        },
+        {
+          "id": "1571300882",
+          "authors": "Dr. Sri Parvathi S",
+          "title": "UAV-Derived High-Resolution Vegetation Carbon Stock Estimation of Avicennia Marina Mangroves at Tuticorin, Tamil Nadu: A Three-Tier Validation Framework"
+        },
+        {
+          "id": "1571300943",
+          "authors": "Mr. Ravi Kumar",
+          "title": "Satellite-Data Based Utility-Scale Solar Site Suitability Mapping in Rajasthan Using PCA-AHP"
+        },
+        {
+          "id": "1571300966",
+          "authors": "Ms. ABHINAV KUMAR",
+          "title": "Analysis of Long-Term Drought Duration, Severity and Intensity in a Semiarid River Basin for Detecting Wet and Dry Climatic Signals"
+        },
+        {
+          "id": "1571315570",
+          "authors": "Ms. SOUMITRA BANERJEE",
+          "title": "Discriminating Basmati and Non-Basmati Rice Using Multi-Temporal Sentinel-1Data"
+        },
+        {
+          "id": "1571315932",
+          "authors": "Dr. Nikita Vijay",
+          "title": "Multi-Decadal LULC Dynamics and Transition Intensity in the Banni Grassland, Western India"
+        },
+        {
+          "id": "1571323512",
+          "authors": "Mr. Manit Das",
+          "title": "Generative Domain Adaptation for Multispectral Imagery: Unlocking DINOv3 for Surface Water Detection"
+        },
+        {
+          "id": "1571324695",
+          "authors": "Mr. Gaurav .",
+          "title": "Hybrid Transformer U-Net with GMM Based Semantic Clustering for Land Cover Classification of EOS-04 Full Polarimetric SAR Imagery"
+        },
+        {
+          "id": "1571307570",
+          "authors": "Mr. Renuvenkataswamy Sunkara",
+          "title": "Spectral Partitioning-Based Principal Component Analysis for Enhanced Feature Extraction of Hyperspectral Images"
+        },
+        {
+          "id": "1571313243",
+          "authors": "Mr. Subhojit Mandal",
+          "title": "Probabilistic Forecasting of the Combined NOx-O3 Hazard over Bangladesh with a Quantile Physics-Informed Neural Network"
+        },
+        {
+          "id": "1571314932",
+          "authors": "Ms. Tushar Surti",
+          "title": "Solarscope: Detecting Rooftops Ready for Solar Panel Installation"
+        },
+        {
+          "id": "1571323398",
+          "authors": "Dr. Chandan Pradhan",
+          "title": "Spatio-Temporal Dynamics of Unit Stream Power in a Western Ghats River Catchment: Integrating FABDEM-Derived Topography and Hydrodynamic Modelling"
+        },
+        {
+          "id": "1571324269",
+          "authors": "Anoop S",
+          "title": "NLP-Driven Soil Moisture Analysis Engine with Retrieval-Augmented Generation and Vision-Enabled Scientific Interpretation"
+        },
+        {
+          "id": "1571313378",
+          "authors": "Ms. Veeramallu Satya Sahithi",
+          "title": "Evaluating the Impact of Water Conservation Activities on Crop Phenology in a Semi Arid Region: A Study on Prakasam District, Andhra Pradesh"
+        },
+        {
+          "id": "1571324713",
+          "authors": "Bhavya Jaiman",
+          "title": "Evaluation of the NISAR above Ground Bio Mass Retrieval Algorithm using L2GCOV Beta Products over Tropical Forests in Central India"
+        }
+      ]
+    }
+  ]
+}
