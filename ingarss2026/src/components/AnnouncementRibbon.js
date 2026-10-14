@@ -30,8 +30,8 @@ export default function AnnouncementRibbon() {
         {
             id: 'program-schedule',
             message: 'Tentative program schedule is now available — view and search under Program Schedule',
-            date: new Date('2026-10-10T23:59:59'),
-            link: '/program-details',
+            date: new Date('2026-10-15T23:59:59'),
+            link: '/program',
             linkText: 'View Details',
         },
         {

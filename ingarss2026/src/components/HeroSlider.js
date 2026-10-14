@@ -78,14 +78,14 @@ const SLIDES = [
     description: 'The tentative program schedule is now available. Browse sessions and search for your paper ID.',
     highlight: '📢 Tentative Schedule Available',
     rightLabel: 'PROGRAM SCHEDULE • READ & SEARCH',
-    rightLinkHref: '/program-details',
+    rightLinkHref: '/program',
     scheduleInfo: {
-      releaseDate: 'On or before 10 October 2026',
+      releaseDate: 'On or before 15 October 2026',
     },
     buttons: [
       {
-        label: 'VIEW PROGRAM DETAILS →',
-        href: '/program-details',
+        label: 'VIEW PROGRAM SCHEDULE →',
+        href: '/program',
         className: 'bg-[var(--terracotta)] text-white',
       },
     ],

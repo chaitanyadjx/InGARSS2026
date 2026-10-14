@@ -1,11 +1,17 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import PageHeader from '@/components/PageHeader';
 import programData from '@/data/program.json';
+import speakerData from '@/data/speaker.json';
 
 const { days } = programData;
+const keynoteMembers = [
+    ...speakerData.sections.find((section) => section.id === 'keynoteSpeakers').members,
+    ...speakerData.sections.find((section) => section.id === 'distinguishedLecture').members,
+].filter((member) => ['Anabella Ferral', 'Alejandro Frery', 'Saibun Tjuatja', 'A.S.Kiran Kumar', 'Dr. C.V.N. Rao', 'Gerardo Di Martino', 'Ryo Natsuaki', 'Dr. Francescopaolo Sica'].includes(member.name));
+const keynoteOrder = ['Anabella Ferral', 'Alejandro Frery', 'Saibun Tjuatja', 'A.S.Kiran Kumar', 'Dr. C.V.N. Rao', 'Dr. Francescopaolo Sica', 'Ryo Natsuaki', 'Gerardo Di Martino'];
+keynoteMembers.sort((a, b) => keynoteOrder.indexOf(a.name) - keynoteOrder.indexOf(b.name));
 
 function DayTable({ rows }) {
     return (
@@ -49,12 +55,6 @@ export default function ProgramPage() {
                     </p>
                     <p className="mt-3 font-mono text-xs text-gray-500">{programData.note}</p>
 
-                    <div className="mt-8 flex flex-wrap gap-3">
-                        <Link href="/oral-session" className="inline-block bg-gold text-black font-mono font-bold text-xs px-5 py-3 border-[3px] border-black shadow-[5px_5px_0_black] hover:-translate-y-0.5 hover:shadow-[7px_7px_0_black] transition-all">
-                            VIEW ORAL AND POSTER SESSIONS →
-                        </Link>
-                    </div>
-
                     {/* Day selector */}
                     <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-4">
                         {days.map((day, index) => {
@@ -80,10 +80,21 @@ export default function ProgramPage() {
                                 <h2 className="text-2xl md:text-3xl font-extrabold text-indigo">{day.date}</h2>
                                 <span className="font-mono text-xs font-bold bg-gold border-2 border-black px-3 py-1 uppercase">{day.label} · {day.theme}</span>
                             </div>
-                            {day.note && <p className="mb-4 font-mono text-xs text-gray-600">{day.note}</p>}
                             <DayTable rows={day.rows} />
                         </div>
                     ))}
+
+                    <section className="mt-14 border-t-[3px] border-black pt-10">
+                        <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-6">Keynote Speakers</h2>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                            {keynoteMembers.map((speaker) => (
+                                <article key={speaker.name} className="bg-white border-[3px] border-black p-5 shadow-[6px_6px_0_var(--gold)]">
+                                    <h3 className="font-bold text-lg text-indigo">{speaker.name}</h3>
+                                    <p className="mt-2 font-mono text-sm text-gray-700">{speaker.affiliation}</p>
+                                </article>
+                            ))}
+                        </div>
+                    </section>
                 </div>
             </section>
         </main>
