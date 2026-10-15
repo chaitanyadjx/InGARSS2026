@@ -1,0 +1,1833 @@
+﻿ORAL PRESENTATIONS
+
+
+Track Name: Agriculture, Forest and Environment
+Session ID: AF0201A 
+Date & time: 02-12-2026 & 13:45-15:00                               
+Session Chairs:
+
+
+Paper ID
+	Authors
+	Title
+	1571295357
+	Mr. Lohith V V S
+	Automated Oil Palm Detection and Counting from High Resolution Satellite Images Using Computer Vision and Deep Learning Techniques
+	1571315443
+	Ms. Sneha Dey
+	Comparative Multi-Orbit Analytics for Macro-Regional Urban Sprawl Mapping Using DpRBI: A Case Study over the Milan Metropolitan
+	1571299830
+	Mr. Eswar Rajasekaran
+	Effect of NDVI Correction from the EOS-06 Ocean Colour Monitor-3 Sensor on Evapotranspiration Modelling
+	1571299867
+	G Yadeedhya Prithveen Asheel, Yamini Madhumitha
+	Temporal Analysis of Surface Water Dynamics and Environmental Indicators in Pulicat Lake Using Sentinel Satellite and CHIRPS Daily Rainfall Data
+	1571323849
+	Ms. Shreya Ojha
+	Crop and Fallow Land Mapping Using Information Theory Descriptors Derived from Multi-Temporal Sentinel-1 SAR Data
+	
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0202A 
+Date & time: 02-12-2026 & 15:00-16:15  
+Session Chairs: 
+
+
+Paper ID
+	Authors
+	Title
+	1571324918
+	Mrs. Megha Negi
+	When Reproducible is Not Reliable: An Operating-Envelope Audit of MODIS NIRv Across Indian Forests
+	1571312275
+	Ms. Mewan Banshan War
+	Detection of Fire-Driven Anomalies in Long-Term Spectral Time Series Using a Multi-Metric Approach
+	1571317319
+	Mrs. Sumedha Basu
+	SprawlInsighter: Towards Interpretable Assessment of Urban Sprawl
+	1571314869
+	Mr. Fabio Dell'Acqua
+	Initial Development of an Empirical X-Band Backscatter Model for Vineyards in Hilly Terrain
+	1571316525
+	Ms. ADWAIT ADWAIT
+	Monitoring Irrigation-Induced Changes in Wheat Productivity Using UAV-Based Multispectral Remote Sensing
+	
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0203A  
+Date & time: 02-12-2026 & 16:15-17:30
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571316685
+	Ms. Debashish Dash
+	Earth Observation Based Glacier Dynamics Assessment in Response to Early 21st Century Warming
+	1571262101
+	Mr. Narayan vyas
+	Cross-Regional Validation of a Fusion-Based Framework for Agricultural Land Classification Using Optical and Microwave Satellite Data
+	1571313449
+	Mr. Vishesh Singhal
+	Multi-Metric Assessment of Diurnal Characteristics of near-Real-Time Satellite Precipitation Products
+	1571315158
+	Mr. Vaibhav Jain
+	Long-Term Vegetation Dynamics and Land Cover Change in Bengaluru Using Remote Sensing and Deep Learning
+	1571315190
+	Mr. Dipankar Mandal
+	Development of a SAR-Derived Crop Risk Credit Metric for Flooded Rice Assessment
+	
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0301A  
+Date & time: 03-12-2026 & 08:30-09:45
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571317220
+	Ms. Jivansh Chawla
+	Zone-Stratified Estimation of Soil Nitrogen Using Geospatial Regression: A Case Study of Kolhapur District
+	1571318684
+	Mr. Anoop Dongre
+	Multi-Temporal SAR-Optical Fusion with GLCM Texture Features for Paddy and Sugarcane Discrimination in the Krishna-Guntur Delta, India
+	1571327982
+	Mr. Venkataramana Sridhar
+	Evaluating AlphaEarth Embeddings for Drought and Fire Analysis in Indian Peninsular Forests and Croplands
+	1571313566
+	Dr. Abhigyan Chakraborty
+	Observational Evidence of Microphysical and Structural Variability in Monsoon Precipitation Under Contrasting Aerosol Conditions
+	1571323148
+	Dr. Preethi Konkathi
+	A Comprehensive Evaluation of Semantic Segmentation Models Under Class Imbalance for Mapping Rice Using Sentinel-2 Data
+	
+
+
+
+
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0302A  
+Date & time: 03-12-2026 & 15:00-16:15
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571316654 
+	Dr. Narayanarao Bhogapurapu 
+	Soil Permittivity Estimation over Croplands: A Comparative Assessment of the X-Bragg and Polarimetric Two-Scale Models 
+	1571324173
+	Mr. Preeti Vats
+	Monitoring Hydroperiod-Driven Vegetation Dynamics in Nalsarovar Ramsar Wetland Through Multi-Temporal Data in Cloud-Computing Environment
+	1571301430
+	Md Asfa Ibrahim, Bontala Dhriti Lakshmi
+	GIS-Based Solar Rooftop Assessment
+	1571301738
+	Dr. Ravi Kumar
+	Do Large Solar Parks Impact Land Surface Temperature? A Case Study of Bhadla Solar Park from Landsat 8 Imagery
+	1571314519
+	Ms. Pashupati Nath Singh
+	AI-Based Multi-Crop Yield Forecasting Using Satellite-Derived Agro-Climatic Indicators in Semi-Arid Central India
+	
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0303A  
+Date & time: 03-12-2026 & 08:30 to 09:45
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571316828
+	Ms. Madhumitha Sathyamurthy
+	Spatiotemporal Analysis of Persistent Coal Fire Signals and Workforce Exposure in Indian Coalfields
+	1571297665
+	Mr. Neha Bhati
+	Comparative Evaluation of Machine Learning Classifiers for Multispectral Satellite-Based Land Use Land Cover Mapping in a Semi-Arid Region
+	1571299029
+	Dr. Apoorva Mehta
+	Representation-Centric Weakly-Supervised Multimodal Learning for Crop Yield Prediction via CDL-Guided Spatial Decomposition and Temporally Coherent Representations
+	1571300352
+	Dr. Nitish Singh
+	Decadal Assessment of Crop Growth Dynamics: Geometry-Informed Hybrid Inversion
+	1571301405
+	Mr. Gaurav Singh
+	Reference-Based Earth Observation Benchmarking for State of Nature Assessment in Himalayan Foothill Landscapes
+	
+
+
+
+
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0304A  
+Date & time: 03-12-2026 & 17:30-18:45
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571303701
+	Mr. Akanksha .
+	Investigating Rice Canopy Scattering Using Frequent RADARSAT Constellation Mission (RCM) Quad-Pol Observations
+	1571309936
+	Mr. bhavana K
+	Cross-Modal Fusion for Spatial Refinement of the Dual-Polarimetric Urban Vegetation Index
+	1571312417
+	Mr. Naveen Baipilli
+	Characterization of Precipitation Types over India Using GPM-DPR: Spatial Distribution, Vertical Structure, and Environmental Controls
+	1571313095
+	Mr. Harsha Vardhan Gosangi
+	Comparative Analysis of UAVSAR and ISRO LS-ASAR Polarimetric Data for Crop-Type Mapping
+	1571316680
+	Mr. Dharmendra Singh
+	Wheat Yield Estimation Using Semi-Physical Model in Haryana
+	
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0302D  
+Date & time: 03-12-2026 & 13:45-15:00
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571316711
+	Mr. Aniruddha 
+	Seasonal Vegetation Classification Under Varying Cloud Cover Conditions Using Sentinel-2 Imagery and Machine Learning in Google Earth Engine
+	1571316973
+	Ms. Jalathota Anisha
+	An Automated Geospatial Framework for Satellite-Derived Burnt Area Mapping Using Multispectral Indices
+	1571318524
+	Ms. Pavan Kumar Bellam
+	Improving Soil Organic Carbon Mapping Using Spatial Wavelet Preprocessing
+	1571320382
+	Ashmitha Nihar, Fabio Dell'Acqua
+	Ambiguities in Crop Scattering Interpretation Across SAR Polarimetric Modes
+	1571321187
+	Mr. Jai Prakash Verma
+	A Remote-Sensing Workflow for Floating Marine Debris Detection Using Sentinel-2 Imagery
+	
+
+
+
+
+
+
+
+
+
+
+
+Track Name: Agriculture, Forest and Environment 
+Session ID: AF0401A  
+Date & time: 04-12-2026 & 8:30 - 09:45
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571316806
+	Ms. Adduru U G Sankararao
+	A Survey of Band Selection Techniques for Hyperspectral Crop Stress Detection
+	1571316816
+	Dr. Snehil Dubey
+	Characterizing Terrestrial and Groundwater Storage Changes of the Ganga River Basin Using GRACE- Based Hydrological Signatures
+	1571318897
+	Mr. Jesna Benny
+	Estimation of Wind Energy Potential and Site Selection for Wind Turbines in North Karnataka Districts Using GIS
+	
+
+	
+
+	
+
+	1571324835
+	Mr. Avik Bhattacharya
+	Optimization of UGS for Urban Heat Mitigation Using Remote Sensing and Inverse Modeling
+	1571315472
+	Ms. Surbhi Sharma
+	Diagnosing the Ground-Satellite Gap in Land Cover Using Vision Foundation Models and Field Photos
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Track Name: Future Innovation 
+Session ID: FI0303D  
+Date & time: 03-12-2026 & 15:00-16:15
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571324078
+	Nisha Sharma
+	Agricultural LU LC Classification from Satellite Data Using Machine Learning and Deep Learning Approaches
+	1571315580
+	Mr. Priya Kaul
+	Edge-Aware Adaptive-K Local Statistical Speckle Reduction for Multi-Frequency PolSAR and NISAR GCOV Imagery
+	1571323269
+	Dr. Rahul Mukherjee
+	Satellite Data-Driven Soil Moisture Estimation Using Artificial Intelligence Techniques for Precision Agriculture
+	1571298915
+	Ms. Sowmini Devi Veeramachaneni
+	Dictionary Learning for on-Board Hyper Spectral Anomaly Detection
+	1571298898
+	Mr. Sowmini Devi Veeramachaneni
+	Geospatially Regularized Recommendation for Earth Observation Resources
+	1571316151
+	Ms. Seerat Kaur Bajwa
+	Semantic Segmentation for Landslide Mapping Using Multi-Modal Remote Sensing Data
+	1571315200
+	Abilakshan Vadivel
+	A GeoAI Framework for Bushfire Impact Mapping Using Crowdsourced Social Media Data and
+Sentinel-2 Deep Learning Segmentation
+	
+
+
+
+Track name:   CCS: The added value of Multi Resolution Imaging in Earth Observation Applications
+Session ID: CCS0201C
+Date & time: 02-12-2026 & 13:45 - 15:00
+Session Chairs:
+
+
+Paper ID
+	Authors
+	Title
+	1571324329
+	Mr. Bharvi Vaishnav
+	Radiometric Performance Assessment of the OCM-3 Sensor over the MOBY Site: System Vicarious Calibration with 6SV, SBAF and NIR-Based Atmospheric Correction
+	1571315654
+	Mr. Andreas Froehlich
+	Hierarchical Realization Constraints in Localized Sentinel-1 Repeat-Pass Coherence Studies
+	1571316995
+	Ms. Shubham Pal
+	Validation of SMAP Root Zone Soil Moisture Products Using SAC-ISRO Soil Moisture Network Across Various Land Cover Types in India
+	1571324318
+	Ms. Antonio Clapp
+	Early Detection of Cloudburst-like Event over Himalayas by Integrating Satellite Cloud Observations and ERA5 Moisture Diagnostics: Analysis of the 2025 Dharali Event
+	1571315630 
+	Mr. Andrea Bergamaschi 
+	Ground-Level Modelling of Air Temperature in an Agricultural Context from LST: A Machine Learning Based Approach 
+	
+
+
+
+Track Name : Digital Mapping & Cartographic Systems
+Session ID: DM0202C
+Date & time: 02-12-2026 & 15:00-16:15
+Session Chairs:
+
+
+
+
+Paper ID
+	Authors
+	Title
+	1571316316
+	Dr. Anshuman Mehta
+	An Integrated Coverage Planning and Acquisition Optimisation Framework for Agile Multi-Mode EO/SAR Constellations
+	1571300715
+	Mr. Deepthi Kumari Rayapureddy
+	Mapping and Quantifying Urban Blue-Green Systems: A Web-Based Platform for Ecological Baselines
+	1571320944
+	Mr. Gauri Dhanakshirur
+	Occlusion-Aware Semantic Segmentation System for Urban Road Extraction
+	1571318548
+	Dr. Jaysheel Golani
+	Conceptual Framework Towards FAIRification of Indian Earth Observation Archives Using STAC and VirtualiZarr
+	1571316317
+	Ms. Yatish Ram E R
+	Junction Based Quantification of Braided River Complexity in a Regulated Macro Channel
+	
+
+
+
+
+
+
+
+
+
+Track name: Disaster Management & Early Warning Systems
+Session ID:  DE0203C
+Date & time: 02-12-2026 & 16:15-17:30
+Session Chairs:   
+
+
+Paper ID
+	Authors
+	Title
+	1571310007
+	Mr. YAYTHISH KANNAA G S
+	GeoEmbed: A Domain-Adaptive Embedding Model for Geoscience Information Retrieval
+	1571300722
+	Dr. Abhishek Prasad Dash
+	Hybrid Spatial Sequence Learning for Tropical Cyclone Classification Using Satellite Imagery
+	1571323205
+	Prof. Barun Kumar
+	Can Spatial Context from Satellite Observations Improve Local Rain Gauge Precipitation Nowcasting?
+	1571323410
+	Pratyush Ray, Sandeep Pattnaik
+	Diagnosing Hydrometeor Drivers of Monsoon Heavy Rainfall with Explainable Machine Learning
+	1571316265
+	Dr. Shradha Kivade
+	Multi-Temporal PSInSAR Mapping of Landslide-Prone Zones in Shimla: Validation Against the 2023 Shiv Bawdi Event
+	
+
+
+
+Track name: Disaster Management & Early Warning Systems
+Session ID: DF0302C  
+Date & time: 03-12-2026 & 13:45 - 15:00
+Session Chairs:   
+
+
+Paper ID
+	Authors
+	Title
+	1571300726
+	Mr. DHARAVATH SUNIL
+	Urban Flood Risk and Building Exposure Assessment Using HEC-RAS and Geoinformatics
+	1571315374
+	Mr. Aditya Narayan
+	FloodGuard: Real-Time Flood Detection and Context-Aware Relief Optimization for Disaster Response
+	1571320519
+	Ms. Rohit P
+	Hydro-Geodetic Assessment of Urban-Driven Groundwater Depletion and Vertical Ground Movement in Bengaluru
+	1571301384
+	Mr. Shubhayan Roy Chowdhury
+	A Nonlinear Parametric Transformation-Based Agricultural Flood Index Using Sentinel-1
+	1571298270
+	Ms. Sreeja Gundu
+	Explainable U-Net++ and LSTM for Submarine Landslide Susceptibility and Risk Forecasting in the Krishna-Godavari Basin
+	
+
+
+
+
+
+
+
+Track name: Disaster Management & Early Warning Systems
+Session ID:  DF0401C 
+Date & time: 04-12-2026 & 13:45-15:00
+Session Chairs:   
+
+
+Paper ID
+	Authors
+	Title
+	1571315228
+	Mr. Sakshi Suresh Manmode
+	Assessment of Seismic Cycle Progression in Kumaun and Nepal Himalaya
+	1571317320
+	Mr. Veena Vadakkathmana Ramadas
+	GeoMetAgent: An Agentic Framework for Transforming Satellite Precipitation Data into Actionable Weather Intelligence
+	1571316592
+	Dr. Malavika A R
+	Temporal Validation and Explainable Machine Learning for Flood Susceptibility Mapping in a Monsoon-Dominated River Basin, Southern India
+	
+
+	
+
+	
+
+	1571314531
+	Mr. Sakshi Suresh Manmode
+	Quantifying the Ongoing State of Seismic Hazard in the Gujarat Region
+	
+
+Track Name: Geospatial Data Acquisition & Sensing Technologies 
+Session ID: GS0201D  
+Date & time: 02-12-2026 & 13:45-15:00
+Session Chairs:                        
+
+
+
+
+Paper ID
+	Authors
+	Title
+	1571316727
+	Dr. Jahnavi Singh
+	Geospatial Framework-Based Identification of the Pumped Hydro Storage (PHS) Sites in Northeast India
+	1571323481
+	Andrew Roberts, Deepayan Bhowmik
+	Towards Agricultural Cyberphysical AI: A New Multimodal Hyperspectral Remote Sensing Platform
+	1571321983
+	Mr. Turimerla Pratap
+	Period-Adaptive Window Selection for Scalloping Correction in EOS-04 ScanSAR Image
+	1571300603
+	Mr. Manavalan R
+	Multi-Temporal InSAR Monitoring of Ground Deformation at Dholavira UNESCO World Heritage Site
+	1571314833
+	Mrs. Asiya Begum
+	Constraining SWOT Satellite-Derived Stage-Discharge Curves for the Godavari River
+	
+
+
+
+Track Name: Geospatial Data Acquisition & Sensing Technologies 
+Session ID: GS0303C  
+Date & time: 03-12-2026 & 15:00-16:15
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571322479
+	Ms. Saritha P K
+	In-Orbit Radiometric Validation of Thermal EOIR Sensors Onboard EOS-8
+	1571316651
+	Mr. Anjali Patel
+	Cross-Modal Registration of Lunar DEM and Optical Imagery: A Benchmark Study of Classical and Learning-Based Methods
+	1571289981
+	Saksham Jain, Mohammad Soyeb Alam, Mr.Avinash Singh
+	High-Precision Volume Estimation in Open-Pit Mines Using UAV Photogrammetry Validated with Terrestrial Laser Scanning
+	1571298969
+	Dr. Dhruva V
+	A Fair and Interpretable Comparison of Fixed OSP, Discrete Exact OSP Selection, and OSP-Seeded Learnable MSFA for Snapshot Multispectral Demosaicking
+	1571322159
+	Mr. Md Mehraj
+	An Integrated Elevation-Conditioned Approach to Detect Snow Under Cloud Cover Using MODIS Data
+	
+
+Track Name: Geospatial Data Acquisition & Sensing Technologies 
+Session ID: GS0402C  
+Date & time: 04-12-2026 & 13:45-15:00
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	
+
+	
+
+	
+
+	1571314047
+	Ms. KAVIN TS
+	Spatiotemporal Variability of Groundwater Storage Anomalies in the East-Flowing River Basins of Peninsular India (2003-2024): Integrating GRACE/GRACE-FO, GLDAS and in-Situ Well Observations
+	1571316811
+	Dr. Rajdip Paul
+	Generation of near Real-Time Mosaic from UAV Multispectral Imagery: A Fast 2D Bundle Adjustment Approach
+	1571323325
+	Dr. Anjita Neelatt Anilkumar
+	Polarimetric Signatures of Meteorological and Non-Meteorological Scatterers in Operational C-Band Radar over New Delhi
+	
+
+
+
+
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0201B   
+Date & time: 02-12-2026 & 13:45-15:00
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571315803
+	Prof. Anamika Patel
+	Data- and Parameter-Efficient Multi-Sensory Learning with Heterogeneous Fusion of SAR and Multi-Spectral Foundation Models for Cloud-Resilient Earth Observation
+	1571315166
+	Ms. Surekha Tetali
+	Ward-Level Urban Heat Vulnerability Assessment in Semi-Arid Hyderabad Using Explainable AI
+	1571298556
+	Mr. Vishnu Meher Vemulapalli
+	GeDiffAug: A Prompt-Driven Diffusion and Translation Framework for Extreme Class Imbalance in Aerial Imagery
+	1571317184
+	Kummari Sai Kumar, Durga Sri lakshmi Hari
+	Quantifying Spatial Autocorrelation Bias in Hyperspectral Image Classification Benchmarks
+	1571298479
+	Ms. Harshvardhan Parikh
+	Hierarchical Deep Learning for Sea Ice Classification from GNSS-R TDS-1 Observations
+	
+
+
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0202B  
+Date & time: 02-12-2026 & 15:00-16:15
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571316514
+	Mr. Dr. Ujwala Bharambe
+	A Physics Informed Spectral Transformer Autoencoder for Multi-Resolution Hyperspectral Unmixing
+	1571316709
+	Jacob Hobson, Deepayan Bhowmik
+	Towards Compression-Aware Geospatial Architecture Using JPEG AI Latents for Road Segmentation
+	1571297658
+	Mr. Saloni Goel
+	SwinDiffNet: Conditional Diffusion-Guided SAR-Optical Fusion for Flood Inundation Mapping
+	1571300440
+	Ms. ADITYA KAPOOR
+	Evaluating AlphaEarth Foundations Embeddings for Annual Inundation Mapping: A Case Study of Nebraska
+	1571314391
+	Dr. Abdul Faheem
+	Multimodal Geospatial Document Intelligence with Hybrid Retrieval and Vision-Language Grounding
+	
+
+
+
+
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0203B   
+Date & time: 02-12-2026 & 16:15-17:30
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571315906
+	Ms. Shreya Goyal
+	Robust Multi-Label Land Cover Classification Under Missing Sensor Modalities via Modality Dropout Training on BigEarthNet
+	1571319623
+	Mr. Vikas Kumar Jain
+	HTL: Hybrid Transfer-Learning Convolutional Neural Network Framework for Hyperspectral Image Classification
+	1571324775
+	Ms. Shubham Bhavsar
+	Complexity-Driven Architecture Selection for SAR Distortion Segmentation: Comparative Analysis from U-Net to ViT-Large+MAE
+	1571297186
+	Dr. VYOM NIKHRA
+	HyOpNet: Prior-Conditioned KAN Modulation for Hyperspectral Image Super-Resolution
+	1571301400
+	Dr. Rajeev Sharma
+	ResNet-Based Difference-Enhanced Attention Network for Robust Satellite Image Dehazing
+	
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0301B   
+Date & time: 03-12-2026 & 13:45-15:00
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571311202
+	Jayson Jariwala, ARKADIPTA DAS
+	Evaluation of VPint2 for Training-Free Cloud Removal on Sentinel-2 Imagery: A Case Study of Tapi District, Gujarat, India
+	1571312261
+	Mr. Yashraj Upase
+	On the Role of Terrain in Satellite Rainfall Estimation: A Deep Learning Study over Orographic and Monsoon Regions
+	1571324081
+	Mr. Shyam Lal
+	Cloud Adaptive Scale Fusion Network for SAR-Optical Satellite Images
+	1571324751
+	Mr. Sudhansh Pilla
+	Cross-Region Generalization for Paddy Classification Using Lightweight Spatiotemporal Networks
+	1571298766
+	Prof. Arka Bairagi
+	FAR-Net: Frequency Based Attention Refinement Framework for Underwater Image Enhancement
+	
+
+
+
+
+
+
+
+
+
+
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0302B  
+Date & time: 03-12-2026 & 15:00-16:15 
+Session Chairs:                        
+
+
+
+
+Paper ID
+	Authors
+	Title
+	1571303309
+	Ms. Nitish K S
+	Physics-Informed Multi-Band Nowcasting on FY-2H Direct-Broadcast Imagery for the Indian Subcontinent
+	1571304507
+	Mr. Suma Chundi
+	An AI/ML Framework for the Prediction of Atlantic Zonal Mode Exploiting Ocean Memory
+	1571316551
+	Mr. Adduru U G Sankararao
+	Self-Supervised Learning for Hyperspectral Image Classification Using Joint-Embedding Predictive Architecture
+	1571321309
+	Mr. Pratyush Sahu
+	Frequency-Aware Feature Refinement and Auxiliary Mask Supervision for Tiny Human Detection in Aerial Thermal Images
+	1571318545
+	Ms. Achala Shakya
+	Anisotropic KL and NSCT Fusion of Sentinel-1/2 Imagery for Attention-Based CNN
+	
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0303B  
+Date & time: 03-12-2026 & 16:15-17:30 
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571315248
+	Dr. Arati Paul
+	Spectral Reconstruction of Remote Sensing Image Using SpectraDiff
+	1571312628
+	Ms. Ushasi Dam
+	Decision-Level Fusion of VNIR Spectroscopy and PXRF Spectrometry for Improved Estimation of Soil Available Phosphorus
+	1571316160
+	Ms. Jaya Chauhan
+	Towards Deployment Aware Evaluation of Remote Sensing Foundation Models
+	1571319323
+	Dr. Sushma Iliger
+	SAR-SIS-Net: Speckle-Guided Denoising Attention and Asymmetric Radar Feature Pyramid for Lightweight SAR Ship Instance Segmentation
+	1571319501
+	Ms. Sukanta Roy
+	Fully Automated Band-Parametric Framework for Robust Light Rare Earth Element Prospecting in Drone-Borne Hyperspectral Imagery
+	
+
+
+
+
+
+
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0304B   
+Date & time: 03-12-2026 & 17:30-18:45
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571323651
+	Mr. Margarret Ashmitha Antony Ravi
+	Interpreting the Input Space of Remote Sensing Foundation Model, Presto for Crop Type Classification
+	1571324172
+	Mr. Raghavendra Sara
+	Leveraging Monocular Depth Estimating Models for DSM Generation: Challenges and Potential
+	1571324862
+	Ms. dhwani balchandani
+	Suitability of GAN and Transformer Architectures for Super-Resolution of Geostationary Satellite Bands
+	1571315813
+	Ms. Triloki Pant
+	Hybrid ConvLSTM-U-Net with CBAM and Temporal Attention for Pixel-Wise Urban Built-Up Growth Prediction in Prayagraj, India
+	1571300929
+	Mrs. Sravani Duvvuri
+	Object-Based Multi-Temporal Crop Classification Using Cartosat-2E Imagery in a Fragmented Tropical Agricultural Landscapes
+	
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0401B   
+Date & time: 04-12-2026 & 8:30-9:45
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	
+
+	
+
+	
+
+	1571315145
+	Prof. Prekshita Singh Tanwar
+	Hierarchical Land Use Land Cover Classification Using Sentinel-2A Satellite Imagery
+	1571315561
+	Mr. Shourya Sakalley
+	CMANet: Cross-Modal Attention Fusion of Sentinel-1 and Sentinel-2 for Flood Segmentation with Frozen Pretrained Encoders
+	1571316524
+	Dr. Preet Mhaski
+	Zero-Shot Building Footprint Extraction from CartoSat-3 Imagery: A Systematic Multi-Head Ablation of SAM3
+	1571317118
+	Bala Praharsha Mannepalli, Mohan Murugan
+	Performance Evaluation of OctFormer and Point Transformer V2 on Aerial LiDAR Benchmark Datasets
+	
+
+
+
+Track Name: Machine Learning & AI for Digital Earth 
+Session ID: ML0402B   
+Date & time: 04-12-2026 & 13:45-15:00
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571315403
+	Lakshmi Amani Chimata
+	Deep Learning Based Flood Delineation Using EOS-04 SAR Data: A Cross-Regional Transferability
+Assessment Across Bihar and Assam
+	1571309791
+	Andrea A. Rey
+	A New Distribution for the Analysis of the Generalized Radar Vegetation Index from SAR Data
+	
+
+	
+
+	
+
+	1571303506
+	Alejandro Frery
+	A Bayesian Neural Network for Parameter Estimation in SAR Imagery
+	1571298489
+	Mr. Mahesh Pal
+	Conformal Prediction Based Uncertainty Estimation for Remote Sensing Classifications
+	
+
+
+
+
+
+Track Name: Planetary and Space sciences 
+Session ID: PS0202D  
+Date & time: 02-12-2026 & 15:00-16:15
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571298948
+	Venkat Prasad Padhy, Venkata Chandrasekhar Sarma T
+	Full-Wave L-Band Bistatic Scattering from Randomly Rough Soil Using PMCHWT Surface Integral Equation with Application to GNSS-R
+	1571316373
+	Dr. Beneyaz Begum
+	Multi-Task Neural Surrogate Models for Prediction of Exoplanet Atmospheric Profiles and Top-of-Atmosphere Radiative Quantities
+	1571293498
+	Prof. Dev Kaushal
+	Detection of Exoplanet Transits Using Multi-Modal Representations of Light Curves
+	1571316142
+	Ms. Keerthi V
+	Aditya-L1 ASPEX Observations on Solar Energetic Particle Variability During the Peak Phase of Solar Cycle 25: Validation and Space Weather Implications
+	1571324884
+	Dr. AMOL SHARMA
+	An Eigenvalue-Based Weighted Depolarization Index for SAR-Based Algal Bloom Monitoring Using Dual-Polarimetric Sentinel-1 Data
+	
+
+
+
+
+
+
+
+Track Name: Special Scientific Theme: NISAR  
+Session ID: NI0203D  
+Date & time: 02-12-2026 & 16:15-17:30
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571323796
+	Dr. Anup Kumar Das
+	First Ecosystems Science Products from NISAR: Algorithm Performance and Validation Status
+	1571314292
+	Mr. Soumajit Chatterjee
+	Repeating Ground Track Characterization from Frame Reception Times: A NISAR Case Study
+	1571324830
+	Mr. Dharani S
+	Evaluation of NISAR Soil Moisture Estimates Across Diverse Land Use Systems of Central Kerala
+	1571303506
+	Alejandro Frery
+	A Bayesian Neural Network for Parameter Estimation in SAR Imagery
+	1571320893
+	Ms. Indranil Misra
+	Matching NISAR L-Band and S-Band SAR with Optical Imagery: A Comparative Evaluation of Classical and Foundation Models
+	
+
+Track Name: Special Scientific Theme: NISAR  
+Session ID: NI0304C  
+Date & time: 03-12-2026 & 16:15-17:30
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571316704
+	Mrs. Debashish Dash
+	Utilizing Geocoded Offsets from NISAR L-Band to Retrieve the Surface Velocity of Glaciers
+	1571324836
+	Mr. Dharmendra Kumar Pandey
+	Operational NISAR 100 m High Resolution Soil Moisture Product: Algorithm and Early Assessment over Indian Agricultural Landscapes
+	1571309777
+	Alejandro Frery
+	Land Cover Classification in SAR Time Series Using Ordinal Pattern Features
+	1571316539
+	Dr. Priyom Roy
+	Early Demonstration of NISAR L- and S-Band InSAR for Monitoring Surface Deformation
+	1571309791
+	Andrea A. Rey
+	A New Distribution for the Analysis of the Generalized Radar Vegetation Index from SAR Data
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Track Name: Special Scientific Theme: NISAR  
+Session ID: NI0402D 
+Date & time: 04-12-2026 & 13:45-15:00
+Session Chairs:                        
+
+
+Paper ID
+	Authors
+	Title
+	1571315147
+	Mr. Akshita tomar
+	Automatic Extraction of Built-Up Using NISAR: An Object-Based Approach
+	1571315261
+	Mr. Pragya Muni
+	Radar Vegetation Index-Based Empirical Retrieval of Wheat Vegetation Water Content Using NISAR L-Band: A Preliminary Study
+	1571323832
+	Dr. Ajay Maurya
+	Multi-Frequency SAR for Mixed Land Cover Classification: A Comparative Study of NISAR L-Band and Sentinel-1 C-Band Using a 2D CNN
+	1571323262
+	Dr. Parthiban P
+	Track and Frame Referencing Algorithms for NISAR Scene Framing: Implementation and Validation
+	1571324501
+	Mr. Ashish Prasad
+	Towards an Automated Framework for Mangrove Cover Mapping in India Using NISAR SAR Data
+	
+
+
+
+
+
+
+
+
+
+
+
+POSTER SESSIONS
+ID   :  POS - 0201P
+Date & time: 02-12-2026 & 09:00 - 10:00
+
+
+ID
+	Authors
+	Title
+	1571323621
+	Dr. Shruti Upadhyaya
+	Dominant Hydro-Meteorological Drivers of Flash Droughts Across Contrasting Climate Zones in India
+	1571324521
+	Mr. Killivalavan J
+	Geospatial Assessment and Monitoring of Multi-Aspect Drought Severity in a Semi-Arid Watershed of Southern India
+	1571324153
+	N Vikas, Lingala Venkatesh
+	Environmental Change Assessment Using Multi-Temporal Landsat-Derived Indices and Land Surface Temperature
+	1571263238
+	Prof. Arup Kumar Goswami
+	SUMO-Based Traffic Simulation and Fleet-Aware Spatio-Temporal Graph Neural Network for Congestion Prediction
+	1571299252
+	Dr. R ROHITH ARSHA
+	Explainable Land Use and Land Cover Classification Using ResNet-18 with Grad-CAM on the EuroSAT Dataset
+	1571300619
+	Ms. Babaji Pati
+	Evaluation of Dual-Pol Radar Surface Scattering Index from Sentinel-1 SAR for Flooded Agricultural Field Monitoring
+	1571313238
+	Mr. Pankaj Patidar
+	Forest Fire Altered Soil Properties and Burn Severity Assessment Using Remote Sensing with Laboratory Analysis
+	1571316573
+	Mr. PRAKASH KUMAR JHA
+	A Modified Water Cloud Model Using an Eigenvalue-Based Vegetation Weighting Factor for Soil Moisture Estimation in Wheat Cropland
+	1571316772
+	Mr. Mamta Kumari
+	Rice Canopy Chlorophyll Estimation Using Multi-Temporal PRISMA Hyperspectral Data
+	1571319916
+	Dr. ABHINAV KUMAR
+	Multi-Decadal Cropland Water-Use Efficiency over Indian Subcontinent: A Climate-Coupled Evaluation Using MODIS NDVI-LUE and ERA5 Climate Data
+	1571324202
+	Mr. Yash Raj
+	Early Detection of Soybean Diseases Using UAV Based Hyperspectral Imaging and in-Situ Measurements
+	1571324290
+	Mr. Bhumika Bokde
+	Cloud-Native Architecture of a Web-Based RESTful Geospatial Dashboard for Stubble Burning Monitoring
+	1571324674
+	Ms. Chumbitha Leena
+	Forest Vertical Structure Reconstruction Using Multi-Baseline Combinations of Aerial SAR Data
+	1571324770
+	Ms. Sukriti Tiwari
+	Multi-Modal Ensemble Learning for Terrace Agriculture Mapping in the Western Himalayas
+	1571316489
+	Mr. Shruti Upadhyaya
+	Predicting Droughts: A Deep Learning Journey in NDVI Anomaly Forecasting
+	1571324161
+	Mr. ANJALI PATEL
+	Disturbance Mapping in Dry Deciduous Forests: A Quantitative Decadal Perspective
+	1571324377
+	Ms. Shreedevi Moharana
+	A Remote Sensing-Based Energy Balance Approach for Evapotranspiration Partitioning in Semi-Arid Regions of India
+	1571324725
+	Mr. Gaurish Singhal
+	Delineation of High Altitude Lakes Through ML and Knowledge Based Classifiers in Cloud Platform
+	1571323334
+	Mr. Shweta Nadar
+	Deep Learning-Based Sugarcane Vegetation Density Classification Using Vegetation Indices and Convolutional Neural Networks
+	1571316187
+	Ms. Rahul Kumar Yadav
+	Monitoring Climate-Smart Agricultural Transitions in Semi-Arid Telangana Using Multi-Temporal Sentinel-2 and PlanetScope Imagery
+	1571324507
+	Dr. Roshan Kumar Mishra
+	Climatic Indices Based Analysis of Changing Behaviour in Temperature and Rainfall Pattern in Kosi Basin, India
+	1571324657
+	Mr. Vinduja Vijayanand
+	Evaluation of Water Stress in Erode District Using Soil Moisture and Groundwater Dataset
+	1571318894
+	Dr. Sreelakshmi P
+	Spatio-Temporal Dynamics and Driving Mechanisms of Vegetation in Karnataka Based on MODIS-Derived kNDVI (2001-2020)
+	1571307948
+	Mr. Katta Ram Sai Nuthan
+	A Lightweight Geospatial Framework for Building-Integrated Photovoltaic Potential Assessment Using Low-Volume Data
+	1571315352
+	Dr. Pooja P
+	GEE-Based Multi-Sensor Assessment of Consumptive Water Use Dynamics over the Narmada-Tapi Basins (2018-2025)
+	1571316217
+	Ms. ABHISHEK KUMAR
+	GEE-Based Socio-Economic Vulnerability Assessment Due to Forest Loss: A Study of Uttarakhand Districts
+	1571316281
+	Mr. Sakshi Jain
+	Crop Phenology Monitoring Using Sentinel-1 and EOS-04 Derived Parameters
+	1571297667
+	Ms. Sukanya Mukherjee
+	Time-Series Forecasting of Sea-Surface Chlorophyll, Salinity, and Temperature Using Landsat OLI
+	
+
+	
+
+	
+
+	1571317144
+	Ms. Srishti Sarkar
+	Rethinking the Concept of Wildland-Urban Interface (WUI) in the Indian Complex Landscape
+	1571312697
+	Mr. Krishna Koushik Velagalety
+	Assessment of Air Quality Parameters of GHMC, Telangana, India, Using Sentinel-5P Data in GEE
+	1571300578
+	Mewan Banshan War
+	Assessing Fire-Erosion Dynamics in Forested Sub-Basins of Peninsular India 
+	1571317141
+	Ms. Lakshya Verma
+	Village Level Rice Yield Estimation Using Sentinel-1/2 Data and Ensemble Machine Learning
+
+
+	1571318751
+	Dr. Adabala Jahnavi
+	A Novel Paddy Growth Index (PGI) for Integrated Paddy Crop Health Monitoring Using Sentinel-2 Derived NDVI and LSWI
+	1571297548
+	Mrs. Sampath Malleboina
+	An Intelligent Deforestation Monitoring and Early Warning System Using Remote Sensing and Machine Learning
+	1571316846
+	Dr. Abira Sengupta
+	Assessing the Causal Effects of Climatic and Anthropogenic Drivers on Pre-Monsoon Forest Fires in India
+	1571324879
+	Prof. ROHIT KUMAR BONDUGULA
+	Dust Plume Analysis and AOD Prediction over Rajasthan, India Using Multi-Source Satellite Data and MLGC-Based Machine Learning Models
+	1571307077
+	Ms. Priyanka Mishra
+	Analysis of Nighttime Urban Heat Using Machine Learning and Spatial Modeling
+	1571316538
+	Dr. Apoorva Yadav
+	Pixel-Level Classification of Crop, Soil, and Shadow from UAV Multispectral Imagery Using Random Forest Algorithm Under Varying Irrigation and Nitrogen Treatments
+	1571300411
+	Prof. TRISHAA VERNEKAR
+	Change Detection Analysis on Bhindawas Wildlife Sanctuary, Haryana Using SAR Data
+	1571305774
+	Vijaya sai Nandipati, Surya Satya Narayana Raju G, Gautham Naresh
+	AgriAI FertiTwin™: A Globally Deployable Multilingual Satellite-Driven AI Platform for Precision Soil Nutrient Prediction and Fertilizer Recommendation
+	1571315466
+	Ms. Arpan Dawn
+	SAR Backscatter Change Point Detection and Sensitivity Analysis for Low Biomass Urban Tree-Loss
+	1571276696
+	Mr. Mukesh Kumar Verma
+	A Hybrid Multi-Modal Framework of Crop Disease Recognition and Crop Health Assessment with RGB Images and LiDAR Point Cloud Data
+	1571319613
+	Ms. moneshwar sinha
+	Identification and Quantification of Fugitive Methane (CH₄) Emission over the Raigarh Coalfield, Chhattisgarh, India, Using EMIT Hyperspectral Imaging Spectrometer
+	1571300771
+	Mr. NIDHI MISRA
+	Impact of Climate Change on Crop Duration
+	1571323514
+	Mr. Balakrishna Yalamanchi
+	NDVI Based Agricultural Health Monitoring Framework Using Google Earth Engine
+	1571313442
+	Dr. MEGHANA D G
+	Deep Learning-Based Coconut Plantation Mapping and Tree Counting in Selected Lakshadweep Islands Using High-Resolution Satellite Imagery
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ID   :  POS - 0202P
+Date & time: 02-12-2026 & 16:15-17:30
+ID
+	Authors
+	Title
+	1571325438
+	Gaddala Jessicarani, Govind Harhitha
+	Machine Learning-Based Spatiotemporal Weather Anomaly Detection and Risk Assessment Using Automated Weather Station Data
+	1571317276
+	Ms. Rohit Sharma
+	Sand Scars from Space: Detecting Active Riverbed Mining Using Sentinel-2 Spectral Change Analysis
+	1571325444
+	Palle Jashwin Reddy, J Sharanya
+	Google Earth Engine-Based Multi-Temporal Surface Water Dynamics Using MNDWI and Landsat Imagery: A Case Study of Shamirpet Mandal, Hyderabad, India
+	1571315272
+	Mr. Nidhi Dubey
+	3D Terrain Reconstruction from Deep Learning-Based Digital Elevation Models Using Triangulated Irregular Network Surface Modeling on Mountains
+	1571325535
+	Ms. Erkishetty Prameela
+	Urban Hotspot Detection Using DBSCAN and Google Open Buildings Data
+	1571327968
+	Ms. Balaji Sriram
+	High-Resolution Ocean Surface Wind Analysis During Cyclonic Conditions Using EOS-04 SAR and Scatterometer Observations
+	1571324786
+	Mr. Vishnu Vardhan Anapala
+	Enhancing Urban Built-Up Area Mapping Through AHP-Integrated Multi-Spectral Index Modeling
+	1571313503
+	Dr. Puyam Singh
+	Vision-Based Neural 3D Reconstruction & Rendering from UAV Imagery for Complex Outdoor Environments
+	1571324053
+	Ms. KAVYA BONYAL
+	A Field-Calibrated Land Cover Change Detection Using Multi-Temporal Data & Vectorized Transition Mapping
+	1571324058
+	Mr. Titli Lohar
+	Long-Term National Trends of Urban Expansion in the United Arab Emirates (1975-2050) Using Earth Observations and Projections
+	1571319673
+	Ms. AKILAN A
+	A Solution to Variant Focal Length Effect of TDI-CCDs on Very High-Resolution IRS Images Using Rational Function Model
+	1571312927
+	Ms. Jayashree BADLAMMAGOL
+	Systematic Evaluation of Dual-Frequency GPR Performance Across Multiple Urban Road Surface Types
+	1571324735
+	Mr. RUPA KIRAN KUMAR
+	A UAV Photogrammetric Approach for Landfill Volume Estimation Using Digital Terrain Models
+	1571316400
+	Mr. Sukanya Ghosh
+	GeoAI-Enabled Web Portal for Spatial Mapping of Mental Health Disorders and Nearest Counselling Navigation Centres
+	1571324899
+	Mr. TRUPTI KAMBLE
+	Comparative Assessment of DEM Sources for Sediment Connectivity Analysis in the Netravathi River Basin of the Western Ghats
+	1571296306
+	Mr. Sangita Chaudhari
+	Lambert Conformal Conic-Based Privacy-Preserving Framework for Spatial Query on Outsourced EO-Derived Vector Datasets
+	1571317232
+	Mr. Nyshadham Sai Karthikeya
+	Assessment of DEM Accuracy Using the Survey of India Benchmark
+	1571316350
+	Ms. Harshita Tiwari
+	Assessment of Vegetation, Water, and Bare-Soil Dynamics After the Dharali Flash Flood Using Spectral Indices Derived from High-Resolution PlanetScope Imagery
+	1571316559
+	Mr. Rucha Sanjay Deshpande
+	SWOT Wide-Swath Observations of Flood Wave Dynamics in the Ganga-Tributary System
+	1571323194
+	Ms. Bhojaraja B E
+	Multi-Criteria Analysis for Flood Risk Prediction in Shambhavi River Basin Using Google Earth Engine
+	1571300550
+	Mr. M R Mohamed Aksath Rahil
+	Sensitivity of Drizzle Bias to Radiation Update Frequency in Convective-Permitting WRF Simulations of the 2024 Wayanad Extreme Rainfall Event
+	1571300766
+	Ms. Suresh Mondal
+	Geospatial Assessment for Agricultural Drought Management in the Semi-Arid Regions of Southern India Using Remote Sensing Time-Series Data
+	1571314178
+	Mr. Subhojit Mandal
+	Calibrated Probabilistic Early Warning of Drought-Flood Abrupt Alternation over Bangladesh from Satellite Earth Observation
+	1571316176
+	Dr. Prachi Garg
+	GeoRestoreNet: Graph-Based Post-Disaster Road Network Restoration
+	1571298277
+	Mohammad Khalid Umar, Rakesh Kumar
+	Applying Persistent Scatterer Interferometry (PSI) for Monitoring and Mapping of Slope Instability in the South Kaliapani Open Pit Chromite Mine (Sukinda Valley) with High Resolution TerraSAR-X Data
+	1571315818
+	Mr. Arshpreet Singh
+	TA-STGCN: An Early Warning System for Rain-Induced Disasters in the Himalayan Region
+	1571316144
+	Ms. Punithraj Gururaj
+	Performance Assessment of Gridded Rainfall Products Across Physiographic Zones of Kerala
+	1571324600
+	Mr. Sneha Kour
+	Flood Impact Assessment of Sequential Cyclone- and Monsoon-Driven Rainfall: A Geospatial Approach
+	1571316710
+	Mrs. Tamanna Singh
+	Investigation of Pre- and Post-Seismic Ionospheric Anomalies Associated with the 2024 Noto Peninsula Earthquake Using GNSS Observations
+	1571317127
+	Mr. Soumya Verma
+	Hyperspectral Mapping of Trace Oil Spills Using AVIRIS-NG: A Case Study of Reliance Port, Gujarat, India
+	1571321730
+	Dr. Yateen Vaviya
+	INDRA-ThunderCast: Lightning Nowcasting over India Using a Hybrid CNN-LSTM and LightGBM Architecture Fusing Satellite and Reanalysis Data
+	1571323502
+	Dr. BHUPENDRA KUMAR
+	A Material Aware Framework for Structural Health Monitoring Using Optical Imagery and Ground Based Synthetic Aperture Radar
+	1571324901
+	Dipti Rani Swain, Tejashree
+	Context-Aware Mixture-of-Experts for Explainable Landslide Susceptibility Mapping: A GEE-Based Decision-Support System
+	1571316039
+	Mr. Meenakshi Paul
+	Flood Extent Mapping Using Multi-Temporal Sentinel-1 Polarimetric SAR Data and Wishart Distance Change Detection: A Case Study of the 2018 Kerala Flood
+	1571314601
+	Ms. Praloy Pal
+	Spatio-Temporal Rainfall Pattern Analysis and Rainfall Forecasting Using Spaceborne Imagery and Deep Learning
+	
+
+	
+
+	
+
+	1571316642
+	Ms. Robin Sheoran
+	Spatial Assessment of Future Coastal Inundation Impacts on Coastal Assets Along the Gujarat Coast, India
+	1571323990
+	Dr. Devashish Singh
+	Analysis of Precipitation Mechanisms of Tropical Cyclone Dana (2024) Through GPM-DPR and IMERG Satellite Observations
+	1571324274
+	Mr. LAXMIPRIYA MOHANTY
+	Flood Hydrodynamics at a River Confluence: A Case Study of Wardha and Wainganga Confluence
+	1571316227
+	Ms. SHARMILA DEVI
+	Estimating Extreme Earthquake Magnitude Quantiles in the Nepal Himalayan Region Using Extreme Value Theory Approach
+	1571321229
+	Ms. Archana K
+	Mid-Monsoon Early Warning of Landslides Using Rainfall Extremes and Machine Learning: A Kerala Case Study
+	1571324601
+	Mr. Anuva Chowdhury
+	A Retrieval-Augmented Local Large Language Model for Drought Mitigation Support in Odisha
+	1571324678
+	Ms. Chandan Pradhan
+	Identification of Channel Knickpoints in a Western Ghats Catchment Using FABDEM-Derived Topography Data
+	1571291541
+	Mr. Nihal Singh Chauhan
+	SAR-Based Monitoring of Glacial Lake Dynamics at Chorabari Tal and Vasuki Tal, Uttarakhand Himalaya: Temporal Analysis and Anomaly Detection (2019-2024)
+	1571316433
+	Ms. Sreetama Roy
+	Enhancing Infrastructural Resilience in Seismically Vulnerable Cities of Eastern India: Lessons from Large Southeast Asian Earthquakes in the past Decade
+	1571324929
+	Ms. Jaya Saxena
+	VYOM: A Coverage-First Agentic GIS for Natural-Language Geospatial Analysis over Indian Satellite Imagery
+	1571324339
+	Mr. Jaya Sudha Tigiripalli
+	Web-Based Scalable Analytics Dashboard for Monitoring Earth Observation Data Dissemination and Usage Insights
+	1571320910
+	Dr. M Srikanth Yadav
+	GPU-Accelerated Hyperspectral Data Cube Generation from UAV-Borne VNIR and SWIR Sensors
+	1571322312
+	Mr. Kunal Kuldeep
+	Ground Penetrating Radar-Based Subsurface Characterization for Spring Rejuvenation: A Sustainable Approach
+	1571316284
+	Ms. Saloni Awaghade
+	Estimating Cloud Motion from Temporally Encoded RGB Satellite Imagery
+	1571313110
+	Ms. Lakshmi Sutha G
+	Hybrid U-Net and Machine Learning Models for Soil Salinity Delineation from Stacked Geospatial Data
+	
+
+ID: POS-0301P
+Date & time: 03-12-2026 & 13:45 - 15:00
+ID
+	Authors
+	Title
+	
+
+	
+
+	
+
+	1571316792
+	Athira S, Swaroop Sahoo
+	Effects of Canting Angle and Roughness of Hail as Well as Mixture of Hail and Graupel on Dual-Pol Simulated Radar Observations at X-Band
+	1571324095
+	Ms. Jalaj Pandey
+	Assessing the Optimum Temporal Resolution of Scatterometer Winds for Wave Simulations: An OSSE Study
+	1571300808
+	Mr. Biju V S
+	A Flight-Proven Low-Cost NavIC-Based GNSS Receiver for Real-Time Orbit Determination of LEO Satellites
+	1571320985
+	Mr. RAVADA RAMBABU
+	Accuracy Assessment of Static and NRTK GNSS Surveys for UAV Ground Control Points
+	1571297902
+	Ms. Shivangi Mishra
+	Rarest Cloudburst Event in Chennai Observed Through the Eyes of Polarimetric Doppler Weather Radars
+	1571316635
+	Mr. Priya Yadav
+	Non-Destructive Chlorophyll Monitoring Using UAV-Based Hyperspectral Imaging in Mentha Arvensis
+	1571317047
+	Ms. SHARMILA DEVI
+	Crustal Deformation Analysis in New Zealand Revealed from InSAR LOS Velocity Fields
+	1571272741
+	Mr. Saneev Kumar Das
+	From Lab to Flight: A Systematic Review and Integrated Frameworks for UAV-Based Predictive Soil Spectroscopy and Remote Phenotyping with Vegetation Analytics
+	1571314317
+	Mr. HEMA B
+	Development and Performance Evaluation of Static NavIC-Only SPP Framework
+	1571316352
+	Ms. Munizzah Salim
+	Assessing Glacier Disintegration and Tributary Dynamics of Samudra Tapu Glacier, Western Himalayas (2018-2023) Using Sentinel-1 Data
+	1571301739
+	Mr. Vishal Dutt
+	Multi-Temporal Snow Cover Mapping in the North Western Himalaya Using SCATSAT-1, DEM-Derived Features, and Attention U-Net
+	1571316627
+	Ms. Vineet Kumar
+	UAV-LiDAR Based LAI Estimation in Mentha Arvensis Using Support Vector Regression
+	1571303080
+	Ms. Vishnuthej Paravasthu
+	Intelligent Multi-Sensor Counter UAV Detection System in Urban Clutter Using Explainable AI
+	
+
+	
+
+	
+
+	1571296933
+	Mr. S Iswariya
+	Global Evaluation of Bottomside Ionospheric Parameters in IRI-2020 Model Using COSMIC-2 Radio Occultation Profiles from 2020 to 2022
+	1571324922
+	Ms. Bhubaneswari Panda
+	Unraveling the Physical and Biogeochemical Controls of Surface pCO₂ Variability in the Northern Arabian Sea: Insights from Multispectral Multi-Satellite Observations
+	1571289963
+	Mr. Avinash Singh
+	Spatiotemporal Prediction of Mining-Induced Subsidence Using MTInSAR Time-Series and an Improved Conv-LSTM Deep Learning Model
+	1571301331
+	Mrs. SHIVANI KOSHTHA
+	Terrestrial Laser Scanning of Complex Urban Trees for DBH Estimation: A Comparative Study
+	1571316483
+	Dr. R Aruna Flarence
+	Parallel Deep Learning Framework for Multi-Temporal Vegetation Change Detection Using Sentinel-2 Imagery
+	1571318340
+	Mr. Sanae ATTIOUI
+	Reliable Pseudo-Label Selection via Uncertainty-Aware Supervision for SAR Change Detection
+	1571323799
+	Ms. Parth Dethaliya
+	A Geometry Aware Residual Correction Network for 3D Reconstruction from Satellite Stereo Imagery
+	1571324670
+	Dr. Daiv Raval
+	U-Net with LIA-Derived Ground Truth for Automated SAR Shadow Detection in Mountainous Terrain
+	1571324717
+	Dr. SAHIL MANGE
+	Urban Waterlogging Detection and Safe Route Mapping from Multispectral Satellite Imagery Using Artificial Intelligence
+	1571290757
+	Mr. NITISH KUMAR
+	A Feature-Level Multi-Sensor Fusion Framework for Enhanced LULC Classification in Heterogeneous Mining Environment Using Random Forest
+	1571298562
+	Mr. Alba Martín Lorenzo
+	Statistical Characterization of Hyperspectral Band Selection Search Spaces
+	1571290841
+	Mr. Ramakrishna Kolikipogu
+	Calibration-Aware Temporal Reasoning for Continuous Urban Change Detection via Bidirectional ConvGRU
+	1571312979
+	Mr. Saravana Kumar B
+	Ship Detection from Range-Compressed EOS-04 SAR Data for Onboard Edge Computing
+	1571300914
+	Mr. Aishwarya Hegde A
+	ConvLSTM-TP Model for Spatiotemporal Mapping of Rice Field Using SAR Data
+	1571311663
+	Mr. PRIYA DARSHNA MUNUSWAMY PONMALAR
+	Remote-Sensing Based Assessment of the Impact of Air Pollution on Urban Vegetation Health: A Case Study of Chennai, India
+	1571318432
+	Mr. Kalpana Gangwar
+	Self-Supervised Learning for Land Cover Classification of Multispectral Sentinel-2 Images: A Comparison of SimCLR and BYOL
+	1571318585
+	Ms. Ashwini Deshpande
+	Enhanced Algal Bloom Detection with RT-DETR and Semi-Supervised Fine-Tuning Approach
+	1571324292
+	Garima Mathur, Shagun Singh
+	Graph Neural Networks for Enhanced Land Cover Classification in Multispectral Sentinel-2 Data
+	1571324767
+	Mr. Sanjiban Roy
+	Multi-Resolution Segmentation and Spectral Band Selection for Robust Impervious Surface Classification: OBIA Versus Pixel-Based Deep Learning
+	1571299305
+	Ms. Aishwarya Dwivedi
+	Impact of Urban Morphology on Land Surface Temperature: A Remote Sensing and Interpretable Machine Learning Workflow
+	1571301011
+	Dr. Dhyey Shekhaliya
+	A Hierarchical Two Stage Framework for Continuous Sediment Grain Size Estimation Using Sentinel-2 Imagery
+	1571315360
+	Ms. REEDHI Shukla
+	Counting Pilgrims from Space: Deep Learning-Driven Crowd Detection in VHR Satellite Imagery of the Kumbh Mela
+	1571316210
+	Ms. Parita Shah
+	Mangrove-GeoVLM: A Multi-Task Bilingual Vision-Language Framework for Coastal Mangrove Monitoring and Disaster Interpretation
+	1571319958
+	Mr. Anumalashetty Harika
+	Machine Learning-Based Water Body Classification with Index-Driven Turbidity Analysis Using Sentinel-2 Satellite Data
+	1571323723
+	Mr. DEEPTHI B.R
+	A Spatiotemporal Machine Learning Framework for Streamflow Reconstruction in Indian Catchments
+	1571324363
+	Mrs. Thejaswini M
+	NDVI Based Rabi Maize Crop Vegetation Analysis Framework Using Sentinel-2A Imagery and K-Means Clustering
+	1571316236
+	Mr. Anshuman Mehta
+	OpenStreetMap Temporal Differencing as a Change Prior for SAR-Based Change Detection
+	1571316740
+	Ms. SPARSHI JAIN
+	An AI Assisted Meteor Detection Method in All-Sky Camera Images
+	1571322988
+	Mr. Unmesh Khati
+	Statistical SAR Descriptors for ML-Based Deforestation Mapping
+	1571324791
+	Ms. Vidhan Thakur
+	A Hybrid Swin Transformer and ConvLSTM Framework for Radar Echo Nowcasting
+	1571298984
+	Dr. Mahantesh J
+	Hybrid CNN-Vision Transformer Architecture for Oil Spill Detection and Vessel Tasking System
+	1571300667
+	Dr. Giampaolo Ferraioli
+	CATBOOST Algorithm for Forest Height Estimation: First Results on Sentinel-1 Data
+	1571324709
+	Dr. Tanmay Somani
+	Spatio-Temporal Forecasting of TIR-1 Imagery from INSAT-3DS Satellite Imagery Using a ConvLSTM Encoder-Decoder Network
+	1571299431
+	Mr. Nivas Raj M
+	Gap Filling of PRISMA Hyperspectral Datasets at Regional Scale Using LANDSAT 8/9 and Deep Learning Architectures
+	1571299761
+	Mrs. Lakshmi Sutha G
+	Coastal Shoreline Extraction Using U²-Net Model from Satellite Images
+	
+
+
+
+ID: POS-0302P
+Date & time: 03-12-2026 & 16:15-17:30
+ID
+	Authors
+	Title
+	1571304575
+	Ms. Ramen Ghosh
+	Vision-Guided Hyperspectral Change Captioning Using Vision Language Models
+	1571310894
+	Mrs. Tejas Tamkar
+	Hyperspectral Image Splicing Forgery Localization via Spectral-Frequency Dual-Stream Fusion
+	1571314410
+	Mr. R Aruna Flarence
+	Class Imbalance-Aware Urban Expansion Detection Using Multi-Temporal Sentinel-2 Imagery
+	1571316569
+	Ms. Lakshmi Srujana
+	Performance Evaluation and Sequential Ensemble Kalman Filter Correction of Global AI Temperature Forecasts over India
+	1571316597
+	Ms. SBSSS Vamsi Krishna
+	Satellite Data Diffusion Using Hybrid XGBoost Coupled to Radiative Transfer Model for Biophysical Parameter Retrieval and LAI Prediction
+	1571322625
+	Dr. Lakshmi Kantakumar Neelamsetti
+	Extraction of Building Footprints from UAS Ortho Image Using Hybrid Fusion of U-Net and SAM3
+	1571312797
+	Mr. Laxmi Chandrahaas Donthula
+	Convolutional Neural Network-Based Cotton Growth-Stage Recognition for Adaptive Precision Spraying with Low-Cost Monocular Vision
+	1571315162
+	Ms. Utkarsh Kumar
+	Daily Rainfall Prediction Across India Using Satellite-Reanalysis Data: A Two-Stage Ensemble Approach
+	1571315841
+	Mr. Yassh Ramchandani
+	A Physics-Inspired Deep Learning Approach for Blind Hyperspectral Unmixing
+	1571316919
+	Mr. charani pinninti
+	Efficient Cloud Detection from Resourcesat-2A AWiFS Imagery
+	1571323891
+	Mr. Rohan Lalwani
+	AttentiveASPP: Attention-Based Multi-Scale Aggregation in DeepLabV3+ for High-Resolution Aerial Image Building Segmentation
+	1571324111
+	Kousthub J V, Saurabh Lingam
+	DTP-Mamba: Dynamic Token Pruning Mamba for Efficient Hyperspectral Image Classification
+	1571299326
+	Mr. Zareena Begum
+	Powering Digital Earth with Artificial Intelligence and Machine Learning
+	1571324860
+	Mr. Sachin Sharma
+	Particle Filter Based Correction of Model Simulated Sea Level Anomaly Using SWOT/KaRIn Data
+	1571304960
+	Mr. Piyali Dutta
+	Explainable NDVI Guided Deep Learning Framework for Remote Sensing Intelligence
+	1571315024
+	Ms. Arunima Manna
+	Multi-Temporal Coastal Erosion Detection Using Siamese U-Net
+	
+
+	
+
+	
+
+	1571316688
+	Dr. Lalitha Darisanam
+	Performance Evaluation of Network Infrastructure for AI-Enabled Satellite Data Processing: A Case Study
+	1571320405
+	Dr. Thejaswini M
+	River Morphology Analysis Framework Using Multi-Temporal Resourcesat Satellite Images and K-Means Clustering Method
+	1571321948
+	Mr. Supriya Kukka
+	Hybrid Data Mining Framework for Explainable Fraud Detection in Water Consumption Using Ensemble Learning and Risk-Based Analytics
+	1571323863
+	Dr. NALLURI NAGARAJU
+	Spatio-Temporal Analysis of Urban Land Use Land Cover Dynamics in Vijayawada Urban Area Using Machine Learning Classification of Multi-Temporal Landsat Imagery
+	1571324745
+	Mr. Suhaani Kedar
+	QRNN3D-Based Hyperspectral Image Denoising on Remote Sensing Data via Transfer Learning
+	1571281166
+	Mr. Narayan Vyas
+	Comparative Evaluation of Machine Learning Classifiers for LULC Mapping Using Sentinel-2 on Google Earth Engine in a Semi-Arid Environment
+	1571299632
+	Sai Nishant Pratapani, Uppucharla Venkata Rohith
+	Spatio-Temporal Reconstruction of MODIS Land Surface Temperature over Hyderabad Using Convolutional LSTM
+	1571315356
+	Ms. REEDHI Shukla
+	Calibrated Monocular Depth Estimation for Digital Surface Model Generation Using Vision Transformer-Based Foundation Models
+	1571316449
+	Dr. Aarthi selvaraj
+	A Multimodal Nanosatellite Architecture for Autonomous in-Orbit Geospatial Discovery
+	1571324217
+	Ms. shanmukharao Divvala
+	A Spatial CNN-Transformer Framework with Rotary Positional Encoding for Rice Crop Mapping Using Multi-Temporal EOS-04 SAR Data
+	1571320891
+	Prof. Pranshul Agrawal
+	Analyzing Future Trends of Region-Level Air Pollutants and Its Effect on Temperature Using Machine Learning Techniques, FB Prophet Model
+	1571322998
+	Mrs. Shilpa Pimpalkar
+	Comparative Evaluation of Semantic Segmentation Approaches for Buildings Change Detection Using Levir-CD and S2Looking Datasets
+	1571316062
+	Mr. Ancymol Thomas
+	SAR Feature Optimization for Multimodal LCZ Classification Using Hybrid Fusion
+	1571321837
+	Prof. Bhavani Sankar Komati
+	Multi-Sensor Machine Learning Modeling of Urban Summer Land Surface Temperature Using Landsat and Sentinel-1 SAR Data
+	1571324741
+	Mr. Greeshma R
+	Validating Normalized Integrated Band Depth as a Lunar Maturity Proxy for Chandrayaan-2 IIRS
+	1571308066
+	Mr. Mulkala Saritha
+	Polarimetric Scattering Analysis of Chandrayaan-3 Landing Site Using DFSAR Data
+	1571315312
+	Ms. Rathinam Ramasamy J
+	Encke C Crater, Moon: Insights from Multiple Mass-Wasting Deposits
+	1571316669
+	Ms. Chandani Sahu
+	Prediction of Nanophase Metallic Iron (npFe⁰) Abundance in the Crozier Lunar Swirl
+	1571264367
+	Mr. Vrund Dobariya
+	Physics-Informed Transformer to Forecast Lunar Plasma During CME Events for Lunar PNT Applications
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	1571324702
+	Ms. Harsha Vardhan Gosangi
+	Radar Scattering Behavior of Lunar Permanently Shadowed Craters from Chandrayaan-2 DFSAR Full Polarimetry
+	1571324911
+	Mr. Aurobindo Sahu
+	Polarimetric SAR-Based Lunar Crater Detection Using Multi-Scale Circular Hough Transform
+	1571281036
+	Dr. KANDULA V SUBRAHMANYAM
+	Assessment of Long-Term Changes in Stratospheric Water Vapour Using Space-Based TIMED/SABER Observations
+	1571324350
+	Dr. Aurobindo Sahu
+	NDI-Based Surface Characterization of Niobe Planitia, Venus Using Magellan SAR Data
+	1571314489
+	Ms. Sahana Beelagi
+	CNN-Attention Versus Transformer Architectures for Exoplanet Transit Vetting with Stellar Parameter Fusion: A Systematic Comparison on Kepler Data
+	1571320992
+	Dr. DEVRAJ SAKARIYA
+	An End-to-End Deep Learning Approach for Mixed Crop Classification in NISAR Mission
+	1571294945
+	Mr. VEERA MANI KUMAR DEVARAKONDA
+	Multi-Satellite Phase-Based Direction Finding for Spaceborne ELINT Applications
+	1571324288
+	Ms. Ansh Tripathi
+	Learning to Sequence Safe Despeckling Operators for NISAR Single-Look Imagery Without Ground Truth
+	1571324324
+	Ms. Sobina Jana
+	Building Resilient Workflows and Monitoring System for NISAR Data Processing at NRSC Ground Station
+	1571324321
+	Ms. Swati Singh
+	NISAR Based Characterization of Dyke Swarms and Fault-Fracture Networks Associated with Complex Igneous Intrusives
+	1571309066
+	Dr. Sooraj Krishnan
+	Terrain Interaction Analysis Using NISAR and Sentinel-1 SAR Data over Devikulam Taluk, Kerala
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+POS-0401P
+Date & time: 04-12-2026 & 13:45-15:00
+Sl
+	ID
+	Authors
+	Title
+	1
+	1571324682
+	Mrs. Swapna M
+	Early Insights from NISAR: Characterizing Internal Waves in the Andaman Sea Using NISAR L & S-Band
+	2
+	1571324197
+	Ashutosh Kumar Jha
+	Functional Outlier Method for Long-Term Land Surface Phenology Variability Characterisation
+	3
+	1571312703
+	Mr. Avinash Yadav
+	Assessing the Impact of Land Cover Change Dynamics on the Variability of Albedo and LST: A Case Study of Imphal, Manipur, India
+	4
+	1571315216
+	Prof. Brijesh B
+	Geospatial Assessment of Rainwater Harvesting Potential Using Google Earth Engine: A Case Study of Shamshabad-Madhuranagar, Telangana, India
+	5
+	1571316732
+	Ashot Baghdasaryan
+	LiDAR and Optical Remote Sensing for Above-Ground Biomass and Carbon Stock Estimation in Pine Stands: A Case Study in Armenia
+	6
+	1571324088
+	Ms. PRAKASH KUMAR JHA
+	Multi-Sensor Remote Sensing Framework for Daily High-Resolution Soil Moisture Estimation over Continental United States
+	7
+	1571324299
+	Mr. Manikandan Veeramani
+	A Spatial Framework for Mapping the Peri-Urban Regions (PUR) over South India
+	8
+	1571325483
+	Ms. Anjaly Unnikrishnan
+	Identification of Persistent Compound Climate Stress Hotspots and Climate Stress Priority Zones Using AgERA5 Agrometeorological Indicators in the Southern Hills and Plateau Agro-Climatic Zone, India
+	
+
+	1571324456
+	Mrs. Amal S Ajay
+	Spatio-Temporal Dynamics of Historical Landslides in the Transportation Corridor from Mettupalayam to Coonoor, Nilgiri Hills: Evaluating the Role of Topography and Vegetation Cover
+	
+
+	1571319189
+	Ms. Omkar Pandey
+	IMERG-Based Precipitation Nowcasting: Comparative Evaluation of Optical Flow and Convolutional LSTM
+	
+
+	1571324784
+	Mr. Vishwajit Sarnobat
+	INDRA-Sat-Diff: High-Fidelity Generative Precipitation Nowcasting for the Indian Monsoon Using a Satellite-Adapted Latent Diffusion Model
+	
+
+	1571297878
+	Ms. Shweta Shukla
+	Short-Term Radar Reflectivity Nowcasting Using a Two-Layer Convolutional Gated Recurrent Unit
+	
+
+	1571313102
+	Mr. T Lakshanya
+	Quantitative Analysis of Imputation Methods on XGBoost Forecast Performance by Gap Position and Length
+	
+
+	
+
+	
+
+	
+
+	
+
+	1571316447
+	Parvataneni Semanth, Nageswar D
+	A Deep Learning-Based Technique to Merge Radar and Gauge Rainfall
+	
+
+	1571316715
+	Mr. Surya Naidu
+	An Optical and SAR Satellite Data-Based Framework for Water Body Extraction Using an Ensemble Model
+	
+
+	1571318859
+	Mr. Sushant Sawant
+	Explainable Machine Learning for Long-Term Soil-Moisture Drought Trends and Drivers in Maharashtra, India (1993-2023)
+	
+
+	1571324092
+	Ms. Chinmayee Patchigolla
+	Deep Learning Framework for Contextual Classification of Active Fire Hotspots Using Multi-Resolution and Multi-Source EO Data
+	
+
+	1571315582
+	Mrs. Alankita Nag
+	Low Chlorophyll Events and Their Association with Marine Heat Waves in the North Indian Ocean
+	
+
+	1571314349
+	Mr. Shatakshi Verma
+	Synergistic Integration of Dual Frequency Polarimetric SAR Data for Enhanced BIOMASS Estimation in Tropical Moist Deciduous Forest
+	
+
+	1571323722
+	Mr. ANAND S S
+	Physics-Guided Machine Learning Framework for Operational Above-Ground Biomass Mapping from NISAR L and S Band SAR
+	
+
+	1571322908
+	Mr. Amrita Chitranshi
+	Accelerating SAR Data Processing Algorithms: Strategy for Code Optimization in MIDAS
+	
+
+	1571324509
+	Dr. Srikanth Poloju
+	Exploring the Utility of Multi-Temporal NISAR S-Band SAR Data for Multi-Crop Classification
+	
+
+	1571300882
+	Dr. Sri Parvathi S
+	UAV-Derived High-Resolution Vegetation Carbon Stock Estimation of Avicennia Marina Mangroves at Tuticorin, Tamil Nadu: A Three-Tier Validation Framework
+	
+
+	1571300943
+	Mr. Ravi Kumar
+	Satellite-Data Based Utility-Scale Solar Site Suitability Mapping in Rajasthan Using PCA-AHP
+	
+
+	1571300966
+	Ms. ABHINAV KUMAR
+	Analysis of Long-Term Drought Duration, Severity and Intensity in a Semiarid River Basin for Detecting Wet and Dry Climatic Signals
+	
+
+	1571315570
+	Ms. SOUMITRA BANERJEE
+	Discriminating Basmati and Non-Basmati Rice Using Multi-Temporal Sentinel-1Data
+	
+
+	1571315932
+	Dr. Nikita Vijay
+	Multi-Decadal LULC Dynamics and Transition Intensity in the Banni Grassland, Western India
+	
+
+	1571323512
+	Mr. Manit Das
+	Generative Domain Adaptation for Multispectral Imagery: Unlocking DINOv3 for Surface Water Detection
+	
+
+	1571324695
+	Mr. Gaurav .
+	Hybrid Transformer U-Net with GMM Based Semantic Clustering for Land Cover Classification of EOS-04 Full Polarimetric SAR Imagery
+	
+
+	1571307570
+	Mr. Renuvenkataswamy Sunkara
+	Spectral Partitioning-Based Principal Component Analysis for Enhanced Feature Extraction of Hyperspectral Images
+	
+
+	
+
+	
+
+	
+
+	
+
+	1571313243
+	Mr. Subhojit Mandal
+	Probabilistic Forecasting of the Combined NOx-O3 Hazard over Bangladesh with a Quantile Physics-Informed Neural Network
+	
+
+	1571314932
+	Ms. Tushar Surti
+	Solarscope: Detecting Rooftops Ready for Solar Panel Installation
+	
+
+	1571323398
+	Dr. Chandan Pradhan 
+	Spatio-Temporal Dynamics of Unit Stream Power in a Western Ghats River Catchment: Integrating FABDEM-Derived Topography and Hydrodynamic Modelling 
+	
+
+	1571324269 
+	Anoop S 
+	NLP-Driven Soil Moisture Analysis Engine with Retrieval-Augmented Generation and Vision-Enabled Scientific Interpretation 
+	
+
+	
+
+	
+
+	
+
+	
+
+	1571313378
+	Ms. Veeramallu Satya Sahithi
+	Evaluating the Impact of Water Conservation Activities on Crop Phenology in a Semi Arid Region: A Study on Prakasam District, Andhra Pradesh
+	
+
+	1571324713
+	Bhavya Jaiman
+	Evaluation of the NISAR above Ground Bio Mass Retrieval Algorithm using L2GCOV Beta Products over Tropical Forests in Central India

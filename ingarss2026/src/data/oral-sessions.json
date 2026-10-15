@@ -665,11 +665,6 @@
           "title": "Evaluation of NISAR Soil Moisture Estimates Across Diverse Land Use Systems of Central Kerala"
         },
         {
-          "id": "1571303506",
-          "authors": "Alejandro Frery",
-          "title": "A Bayesian Neural Network for Parameter Estimation in SAR Imagery"
-        },
-        {
           "id": "1571320893",
           "authors": "Ms. Indranil Misra",
           "title": "Matching NISAR L-Band and S-Band SAR with Optical Imagery: A Comparative Evaluation of Classical and Foundation Models"
@@ -2044,11 +2039,6 @@
           "id": "1571315403",
           "authors": "Lakshmi Amani Chimata",
           "title": "Deep Learning Based Flood Delineation Using EOS-04 SAR Data: A Cross-Regional Transferability Assessment Across Bihar and Assam"
-        },
-        {
-          "id": "1571309791",
-          "authors": "Andrea A. Rey",
-          "title": "A New Distribution for the Analysis of the Generalized Radar Vegetation Index from SAR Data"
         },
         {
           "id": "1571303506",
