@@ -1446,7 +1446,7 @@
         {
           "id": "1571315200",
           "authors": "Abilakshan Vadivel",
-          "title": "A GeoAI Framework for Bushfire Impact Mapping Using Crowdsourced Social Media Data andSentinel-2 Deep Learning Segmentation"
+          "title": "A GeoAI Framework for Bushfire Impact Mapping Using Crowdsourced Social Media Data and Sentinel-2 Deep Learning Segmentation"
         }
       ]
     },
@@ -2043,7 +2043,7 @@
         {
           "id": "1571315403",
           "authors": "Lakshmi Amani Chimata",
-          "title": "Deep Learning Based Flood Delineation Using EOS-04 SAR Data: A Cross-Regional TransferabilityAssessment Across Bihar and Assam"
+          "title": "Deep Learning Based Flood Delineation Using EOS-04 SAR Data: A Cross-Regional Transferability Assessment Across Bihar and Assam"
         },
         {
           "id": "1571309791",
@@ -2108,44 +2108,44 @@
       "chairs": "",
       "papers": [
         {
-          "id": "1",
-          "authors": "1571324682",
-          "title": "Mrs. Swapna M"
+          "id": "1571324682",
+          "authors": "Mrs. Swapna M",
+          "title": "Early Insights from NISAR: Characterizing Internal Waves in the Andaman Sea Using NISAR L & S-Band"
         },
         {
-          "id": "2",
-          "authors": "1571324197",
-          "title": "Ashutosh Kumar Jha"
+          "id": "1571324197",
+          "authors": "Ashutosh Kumar Jha",
+          "title": "Functional Outlier Method for Long-Term Land Surface Phenology Variability Characterisation"
         },
         {
-          "id": "3",
-          "authors": "1571312703",
-          "title": "Mr. Avinash Yadav"
+          "id": "1571312703",
+          "authors": "Mr. Avinash Yadav",
+          "title": "Assessing the Impact of Land Cover Change Dynamics on the Variability of Albedo and LST: A Case Study of Imphal, Manipur, India"
         },
         {
-          "id": "4",
-          "authors": "1571315216",
-          "title": "Prof. Brijesh B"
+          "id": "1571315216",
+          "authors": "Prof. Brijesh B",
+          "title": "Geospatial Assessment of Rainwater Harvesting Potential Using Google Earth Engine: A Case Study of Shamshabad-Madhuranagar, Telangana, India"
         },
         {
-          "id": "5",
-          "authors": "1571316732",
-          "title": "Ashot Baghdasaryan"
+          "id": "1571316732",
+          "authors": "Ashot Baghdasaryan",
+          "title": "LiDAR and Optical Remote Sensing for Above-Ground Biomass and Carbon Stock Estimation in Pine Stands: A Case Study in Armenia"
         },
         {
-          "id": "6",
-          "authors": "1571324088",
-          "title": "Ms. PRAKASH KUMAR JHA"
+          "id": "1571324088",
+          "authors": "Ms. PRAKASH KUMAR JHA",
+          "title": "Multi-Sensor Remote Sensing Framework for Daily High-Resolution Soil Moisture Estimation over Continental United States"
         },
         {
-          "id": "7",
-          "authors": "1571324299",
-          "title": "Mr. Manikandan Veeramani"
+          "id": "1571324299",
+          "authors": "Mr. Manikandan Veeramani",
+          "title": "A Spatial Framework for Mapping the Peri-Urban Regions (PUR) over South India"
         },
         {
-          "id": "8",
-          "authors": "1571325483",
-          "title": "Ms. Anjaly Unnikrishnan"
+          "id": "1571325483",
+          "authors": "Ms. Anjaly Unnikrishnan",
+          "title": "Identification of Persistent Compound Climate Stress Hotspots and Climate Stress Priority Zones Using AgERA5 Agrometeorological Indicators in the Southern Hills and Plateau Agro-Climatic Zone, India"
         },
         {
           "id": "1571324456",

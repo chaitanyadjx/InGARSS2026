@@ -37,13 +37,13 @@ const SLIDES = [
   },
   {
     id: 'travel-grant',
-    tag: 'STUDENT TRAVEL GRANT • APPLICATIONS OPEN',
+    tag: 'STUDENT TRAVEL GRANT • RESULTS OUT',
     tagBg: 'bg-[var(--gold)] text-black',
     title: 'Student Travel Grant',
     subtitle: 'IEEE GRSS TRAVEL SCHOLARSHIP PROGRAM',
     description: 'Providing partial financial support to meritorious student members of IEEE GRSS to present their accepted research in Hyderabad.',
-    highlight: '🎓 Partial Grant for Travel & Registration | Deadline: 30 Sept 2026',
-    rightLabel: 'GRANT DETAILS • CLICK TO APPLY',
+    highlight: 'Travel grant results are out. View the results and details.',
+    rightLabel: 'TRAVEL GRANT RESULTS',
     rightLinkHref: '/travel-grant',
     grantInfo: {
       points: [
@@ -57,15 +57,9 @@ const SLIDES = [
     },
     buttons: [
       {
-        label: 'EXPLORE TRAVEL GRANT →',
+        label: 'VIEW TRAVEL GRANT RESULTS →',
         href: '/travel-grant',
         className: 'bg-[var(--terracotta)] text-white',
-      },
-      {
-        label: 'APPLY ONLINE →',
-        href: 'https://docs.google.com/forms/d/1wJX3o6dm-u6Ueg3jM31Ekyh932lF_8p2sSLhuwLO4aQ/edit?chromeless=1',
-        className: 'bg-[var(--gold)] text-black',
-        external: true,
       },
     ],
   },

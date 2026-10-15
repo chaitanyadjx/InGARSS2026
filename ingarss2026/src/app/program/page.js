@@ -6,12 +6,10 @@ import programData from '@/data/program.json';
 import speakerData from '@/data/speaker.json';
 
 const { days } = programData;
-const keynoteMembers = [
-    ...speakerData.sections.find((section) => section.id === 'keynoteSpeakers').members,
+const keynoteAndPanelists = [
     ...speakerData.sections.find((section) => section.id === 'distinguishedLecture').members,
-].filter((member) => ['Anabella Ferral', 'Alejandro Frery', 'Saibun Tjuatja', 'A.S.Kiran Kumar', 'Dr. C.V.N. Rao', 'Gerardo Di Martino', 'Ryo Natsuaki', 'Dr. Francescopaolo Sica'].includes(member.name));
-const keynoteOrder = ['Anabella Ferral', 'Alejandro Frery', 'Saibun Tjuatja', 'A.S.Kiran Kumar', 'Dr. C.V.N. Rao', 'Dr. Francescopaolo Sica', 'Ryo Natsuaki', 'Gerardo Di Martino'];
-keynoteMembers.sort((a, b) => keynoteOrder.indexOf(a.name) - keynoteOrder.indexOf(b.name));
+    ...speakerData.sections.find((section) => section.id === 'keynoteSpeakers').members,
+];
 
 function DayTable({ rows }) {
     return (
@@ -84,12 +82,12 @@ export default function ProgramPage() {
                         </div>
                     ))}
 
-                    <section className="mt-14 border-t-[3px] border-black pt-10">
-                        <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-6">Keynote Speakers</h2>
+                    <section className="mt-14 border-[3px] border-black bg-white p-6 sm:p-8 shadow-[8px_8px_0_var(--gold)]">
+                        <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-6">Keynote Speakers &amp; Panelists</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                            {keynoteMembers.map((speaker) => (
-                                <article key={speaker.name} className="bg-white border-[3px] border-black p-5 shadow-[6px_6px_0_var(--gold)]">
-                                    <h3 className="font-bold text-lg text-indigo">{speaker.name}</h3>
+                            {keynoteAndPanelists.map((speaker) => (
+                                <article key={speaker.name} className="border-2 border-black p-5 shadow-[4px_4px_0_black]">
+                                    <h3 className="font-bold text-lg text-indigo">{speaker.name.startsWith('Dr.') || speaker.name.startsWith('Mr.') ? speaker.name : `Dr. ${speaker.name}`}</h3>
                                     <p className="mt-2 font-mono text-sm text-gray-700">{speaker.affiliation}</p>
                                 </article>
                             ))}

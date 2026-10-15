@@ -9,39 +9,49 @@
       "bgClass": "bg-white",
       "members": [
         {
-          "name": "Saibun Tjuatja",
+          "name": "Dr. Saibun Tjuatja",
           "affiliation": "University of Texas, 2026 IEEE GRSS President",
           "image": "https://www.grss-ieee.org/wp-content/uploads/2025/01/images-1.jpg"
         },
         {
-          "name": "Paul A. Rosen",
+          "name": "Dr. Paul A. Rosen",
           "affiliation": "JPL, NASA, USA",
           "image": "https://www.jpl.nasa.gov/site/research/media/images/rosen.max-400x400.jpg"
         },
         {
-          "name": "Alejandro Frery",
+          "name": "Dr. Alejandro Frery",
           "affiliation": "Victoria University of Wellington, New Zealand",
           "image": "https://people.wgtn.ac.nz/alejandro.frery/thumbnail"
         },
         {
-          "name": "A.S.Kiran Kumar",
+          "name": "Dr. A. S. Kiran Kumar",
           "affiliation": "Former Chairman, ISRO",
           "image": "https://upeswebsitecdn-prod-hphqfhc0b8h2ffhf.a02.azurefd.net/drupal-data/2023-09/A-S-Kiran-Kumar_0.webp"
         },
         {
-          "name": "Rajeev Jyoti",
+          "name": "Dr. Rajeev Jyoti",
           "affiliation": "Director General, IN-SPACe, India",
           "image": "https://media.licdn.com/dms/image/v2/C4D03AQGKlpwzSuJuXg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1659114693277?e=2147483647&v=beta&t=DfEGsvMtycwb2yVRLMLW4bTpVlMfcwK63X5gr4a_Nh8"
         },
         {
-          "name": "Prakash Chauhan",
+          "name": "Dr. Prakash Chauhan",
           "affiliation": "Director, NRSC, ISRO, India",
           "image": "https://www.nrsc.gov.in/nrscnew/assets/img/leaders/Director_NRSC.png"
         },
         {
-          "name": "Dr. C.V.N. Rao",
+          "name": "Dr. C. V. N. Rao",
           "affiliation": "Director, SAC, ISRO",
           "image": "/assets/cvn-rao.png"
+        },
+        {
+          "name": "Mr. Sanjay Nekkanti",
+          "affiliation": "Dhruva Space",
+          "image": ""
+        },
+        {
+          "name": "Dr. Ranendu Ghosh",
+          "affiliation": "SatLeo Labs",
+          "image": ""
         }
       ]
     },
