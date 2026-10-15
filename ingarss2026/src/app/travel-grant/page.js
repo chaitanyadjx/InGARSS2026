@@ -67,6 +67,9 @@ export default function TravelGrantPage() {
                         Awards are competitive and evaluated on scientific merit, applicant potential, and the impact
                         of attendance on the student&apos;s research or career.
                     </p>
+                    <p className="mt-6 max-w-4xl border-l-4 border-[var(--terracotta)] bg-[var(--bone)] px-5 py-4 text-sm sm:text-base font-semibold leading-relaxed text-gray-800">
+                        Please note that, due to the high volume of applications we receive, only shortlisted applicants for the travel grant will be contacted.
+                    </p>
 
                     <div className="mt-8 max-w-4xl">
                         <p className="text-sm sm:text-base text-gray-700 mb-4">

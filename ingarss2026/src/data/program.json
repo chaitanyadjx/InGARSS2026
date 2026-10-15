@@ -1,0 +1,79 @@
+{
+  "title": "Program Schedule",
+  "subtitle": "InGARSS 2026 · 01–04 December 2026 · Hyderabad, India",
+  "note": "Times are indicative and subject to change.",
+  "days": [
+    {
+      "date": "01-12-2026",
+      "label": "Day 1",
+      "theme": "Pre-Symposium Workshops",
+      "rows": [
+        { "time": "09:00 – 10:00", "event": "Registration" },
+        { "time": "10:00 – 11:30", "event": "Workshop 1" },
+        { "time": "11:30 – 11:45", "event": "Tea Break" },
+        { "time": "10:00 – 13:00", "event": "Workshop 1" },
+        { "time": "13:00 – 14:00", "event": "Lunch" },
+        { "time": "14:00 – 15:30", "event": "Workshop 2" },
+        { "time": "15:30 – 15:45", "event": "Tea Break" },
+        { "time": "14:00 – 17:00", "event": "Workshop 2" },
+        { "time": "17:00 – 17:30", "event": "Certificate Distribution" }
+      ]
+    },
+    {
+      "date": "02-12-2026",
+      "label": "Day 2",
+      "theme": "Inaugural & Technical Sessions",
+      "rows": [
+        { "time": "08:00 – 10:00", "event": "Registration" },
+        { "time": "08:30 – 09:30", "event": "Poster Session" },
+        { "time": "09:30 – 10:30", "event": "Inaugural Function" },
+        { "time": "10:30 – 11:00", "event": "Tea Break" },
+        { "time": "11:00 – 11:30", "event": "Keynote 1" },
+        { "time": "11:30 – 12:30", "event": "Panel Discussion — Space Startups: Opportunities, Challenges and the Road Ahead" },
+        { "time": "12:30 – 13:00", "event": "Keynote 2" },
+        { "time": "13:00 – 13:45", "event": "Lunch" },
+        { "time": "13:45 – 15:00", "event": "Oral Sessions", "remark": "AF0201A · ML0201B · CCS0201C · GS0201D" },
+        { "time": "15:00 – 16:15", "event": "Oral Sessions", "remark": "AF0202A · ML0202B · DM0202C · PS0202D" },
+        { "time": "16:15 – 17:30", "event": "Oral and Poster Sessions", "remark": "AF0203A · ML0203B · DE0203C · NI0203D · Poster: POS-0202P (16:00 – 17:30)" }
+      ]
+    },
+    {
+      "date": "03-12-2026",
+      "label": "Day 3",
+      "theme": "Keynotes, Industry Talks & Technical Sessions",
+      "rows": [
+        { "time": "08:30 – 09:45", "event": "Oral Sessions", "remark": "AF0303A · ML0303B" },
+        { "time": "09:45 – 10:15", "event": "Keynote 3" },
+        { "time": "10:15 – 10:30", "event": "Tea Break" },
+        { "time": "10:30 – 11:00", "event": "Industry Talk" , "remark": "Corteva" },
+        { "time": "11:15 – 12:30", "event": "Panel Discussion: GIS Applications for Digital Earth" },
+        { "time": "12:30 – 13:00", "event": "Industry Talk" },
+        { "time": "13:00 – 13:45", "event": "Lunch" },
+        { "time": "13:45 – 15:00", "event": "Oral and Poster Sessions", "remark": "Oral: AF0301A · ML0301B · DF0302C · AF0302D · Poster: POS-0301P (13:45 – 15:30)" },
+        { "time": "15:00 – 16:15", "event": "Oral Sessions", "remark": "AF0302A · FI0303D · GS0303C · ML0302B" },
+        { "time": "16:15 – 17:30", "event": "Oral and Poster Sessions", "remark": "Oral: AF0303C · NI0304C · ML0303B · Poster: POS-0302P (16:00 – 17:30)" },
+        { "time": "17:30 – 18:45", "event": "Oral Sessions", "remark": "AF0304A · ML0304B" },
+        { "time": "19:00 Onwards", "event": "Gala Dinner" }
+      ]
+    },
+    {
+      "date": "04-12-2026",
+      "label": "Day 4",
+      "theme": "Keynotes, IDEA Luncheon & Technical Sessions",
+      "rows": [
+        { "time": "08:30 – 09:45", "event": "Oral Sessions", "remark": "AF0401A · ML0401B" },
+        { "time": "09:45 – 10:15", "event": "Keynote 4" },
+        { "time": "10:00 – 10:30", "event": "Tea Break" },
+        { "time": "10:30 – 11:15", "event": "Keynote 5" },
+        { "time": "11:15 – 11:45", "event": "Keynote 6" },
+        { "time": "11:15 – 13:45", "event": "IDEA Luncheon" },
+        { "time": "11:45 – 12:15", "event": "Keynote 7" },
+        { "time": "12:15 – 12:45", "event": "Keynote 8" },
+        { "time": "12:45 – 13:45", "event": "Lunch" },
+        { "time": "13:45 – 15:00", "event": "Oral and Poster Sessions", "remark": "NI0402D · GS0402C · DF0401C · ML0402B · Poster: POS-0401P" },
+        { "time": "15:00 – 15:30", "event": "Tea Break" },
+        { "time": "15:30 Onwards", "event": "Valedictory Session" }
+      ]
+    }
+  ]
+}
