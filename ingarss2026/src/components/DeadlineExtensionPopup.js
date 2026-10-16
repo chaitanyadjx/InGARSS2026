@@ -47,19 +47,11 @@ export default function DeadlineExtensionPopup() {
                             </svg>
                         </div>
                         <div>
-                            <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Workshop & Hackathon Deadlines Extended!</h3>
+                            <h3 className="font-extrabold text-lg leading-tight mb-1 text-black">Workshop Registration Deadline Extended!</h3>
                             <div className="text-sm opacity-80 mb-3 text-black space-y-2">
-                                <p>Workshop and YP Hackathon registration deadlines have been extended.</p>
-                                <p><strong>New deadline: 15 October 2026</strong></p>
+                                <p>Workshop registration is open until 15 November 2026.</p>
                             </div>
                             <div className="flex flex-wrap gap-3">
-                                <Link
-                                    href="/hackathon"
-                                    onClick={handleHackathonDismiss}
-                                    className="bg-white text-black text-xs font-bold px-3 py-1.5 border-2 border-black hover:-translate-y-0.5 hover:shadow-[2px_2px_0_black] transition-all"
-                                >
-                                    YP Hackathon
-                                </Link>
                                 <Link
                                     href="/workshop"
                                     onClick={handleHackathonDismiss}

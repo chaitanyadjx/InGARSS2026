@@ -6,13 +6,6 @@ import hackathonData from "@/data/hackathon.json";
 export default function HackathonPage() {
   const { title, subtitle, theme, status, registrationLink, dates, deadline, venue, teamFee, maxTeamSize, eligibility, highlights, phases, prizes, contact } = hackathonData;
 
-  const scrollToRegistration = () => {
-    const el = document.getElementById('hackathon-register');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <main className="min-h-screen bg-[var(--bone)] pb-16 md:pb-24">
       <PageHeader
@@ -37,14 +30,9 @@ export default function HackathonPage() {
                 </span>
               </div>
               
-              {/* Status Badge - Clickable to scroll down */}
-              <button
-                onClick={scrollToRegistration}
-                className="bg-[var(--terracotta)] text-white font-mono font-black text-xs sm:text-sm px-4 py-2 border-2 border-black shadow-[3px_3px_0_black] animate-pulse cursor-pointer hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[1px_1px_0_black] transition-all"
-                title="Click to go to registration"
-              >
-                📢 {status} ↓
-              </button>
+              <span className="bg-[var(--terracotta)] text-white font-mono font-black text-xs sm:text-sm px-4 py-2 border-2 border-black shadow-[3px_3px_0_black]">
+                📢 {status}
+              </span>
             </div>
 
             {/* Banner Text */}
@@ -68,13 +56,8 @@ export default function HackathonPage() {
                   ⏰ Registration Deadline: {deadline}
                 </div>
               )}
-              <div className="pt-2">
-                <button
-                  onClick={scrollToRegistration}
-                  className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-3.5 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all cursor-pointer"
-                >
-                  PROCEED TO REGISTER ↓
-                </button>
+              <div className="pt-2 inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-3.5 border-[3px] border-black shadow-[6px_6px_0_black]">
+                REGISTRATIONS ARE CLOSED
               </div>
             </div>
 
@@ -220,28 +203,14 @@ export default function HackathonPage() {
             </div>
           </div>
 
-          {/* Contact / Registration CTA Section */}
-          <div id="hackathon-register" className="bg-white border-[3px] border-black p-8 text-center shadow-[8px_8px_0_var(--terracotta)] scroll-mt-24">
+          {/* Contact Section */}
+          <div className="bg-white border-[3px] border-black p-8 text-center shadow-[8px_8px_0_var(--terracotta)]">
             <h3 className="text-xl sm:text-2xl font-extrabold text-[var(--indigo)] mb-2">
-              Ready to Innovate?
+              Registrations Are Closed
             </h3>
-            {deadline && (
-              <p className="text-sm sm:text-base font-mono font-extrabold text-[var(--terracotta)] mb-2">
-                Registration Deadline: {deadline}
-              </p>
-            )}
             <p className="text-sm text-gray-700 mb-6 font-medium max-w-lg mx-auto">
-              Gather your team of up to 3 members and register for the YP Hackathon Challenge now!
+              Thank you for your interest in the YP Hackathon Challenge. Hackathon registrations are now closed.
             </p>
-
-            <a
-              href={registrationLink || "https://in.eregnow.com/ticketing/register/login/yphackathon"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all mb-6"
-            >
-              REGISTER FOR YP HACKATHON →
-            </a>
 
             <div className="flex flex-wrap justify-center items-center gap-6 pt-6 border-t-2 border-black/10 text-xs sm:text-sm font-mono text-gray-800">
               <div>

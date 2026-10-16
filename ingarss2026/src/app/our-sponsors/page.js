@@ -54,6 +54,16 @@ export default function OurSponsorsPage() {
                             </div>
                         ))}
                     </div>
+
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mt-20 mb-12">
+                        Event Sponsor
+                    </h2>
+                    <div className="flex justify-center items-center">
+                        <div className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#b45309] hover:-translate-y-2 hover:shadow-[15px_15px_0_#b45309] transition-all duration-300 max-w-md w-full">
+                            <img src="/assets/MAPPLS.jpeg" alt="MAPPLS" className="w-full h-auto object-contain max-h-48 mb-6" />
+                            <h3 className="text-2xl font-bold text-indigo">MAPPLS</h3>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
