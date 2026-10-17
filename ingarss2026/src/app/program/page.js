@@ -5,10 +5,11 @@ import PageHeader from '@/components/PageHeader';
 import programData from '@/data/program.json';
 import speakerData from '@/data/speaker.json';
 
-const { days } = programData;
+const { days, panelists = [] } = programData;
 const keynoteAndPanelists = [
     ...speakerData.sections.find((section) => section.id === 'distinguishedLecture').members,
     ...speakerData.sections.find((section) => section.id === 'keynoteSpeakers').members,
+    ...panelists,
 ];
 
 function DayTable({ rows }) {

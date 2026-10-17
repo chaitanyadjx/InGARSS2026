@@ -75,5 +75,15 @@
         { "time": "15:30 Onwards", "event": "Valedictory Session" }
       ]
     }
+  ],
+  "panelists": [
+    {
+      "name": "Mr. Sanjay Nekkanti",
+      "affiliation": "Dhruva Space"
+    },
+    {
+      "name": "Dr. Ranendu Ghosh",
+      "affiliation": "SatLeo Labs"
+    }
   ]
 }
