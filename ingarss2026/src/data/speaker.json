@@ -43,15 +43,11 @@
           "affiliation": "Director, SAC, ISRO",
           "image": "/assets/cvn-rao.png"
         },
+
         {
-          "name": "Mr. Sanjay Nekkanti",
-          "affiliation": "Dhruva Space",
-          "image": ""
-        },
-        {
-          "name": "Dr. Ranendu Ghosh",
-          "affiliation": "SatLeo Labs",
-          "image": ""
+          "name": "Dr. T. M. Balakrishnan Nair",
+          "affiliation": "Director, INCOIS (Indian National Centre for Ocean Information Services)",
+          "image": "/assets/balakrishnan-nair.jpeg"
         }
       ]
     },
