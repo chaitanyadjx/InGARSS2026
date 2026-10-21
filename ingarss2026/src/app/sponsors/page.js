@@ -75,7 +75,7 @@ function ComparisonTable({ headers, rows }) {
 }
 
 export default function SponsorsPage() {
-    const { hero, aboutProgram, eventInfo, whySponsor, packages, comparisonTable, contact, bronzeSponsors } = sponsorsData;
+    const { hero, aboutProgram, eventInfo, whySponsor, packages, comparisonTable, contact, bronzeSponsors, eventSponsors } = sponsorsData;
 
     return (
         <main className="min-h-screen bg-[var(--bone)]">
@@ -150,6 +150,19 @@ export default function SponsorsPage() {
                                 <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-full object-contain mb-6" />
                                 <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
                                 <p className="text-gray-600 font-mono text-md mt-2">Bronze Tier Partner</p>
+                            </div>
+                        ))}
+                    </div>
+
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mt-20 mb-12">
+                        Event Sponsors
+                    </h2>
+                    <div className="flex flex-col sm:flex-row justify-center items-stretch gap-8 flex-wrap">
+                        {eventSponsors.map((sponsor) => (
+                            <div key={sponsor.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#4c1d95] hover:-translate-y-2 hover:shadow-[15px_15px_0_#4c1d95] transition-all duration-300 max-w-sm w-full flex flex-col items-center">
+                                <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-full object-contain mb-6" />
+                                <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
+                                <p className="text-gray-600 font-mono text-md mt-2">Event Sponsor</p>
                             </div>
                         ))}
                     </div>

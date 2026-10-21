@@ -4,6 +4,7 @@ import PageHeader from '@/components/PageHeader';
 import sponsorsData from '@/data/sponsors.json';
 
 const bronzeSponsors = sponsorsData.bronzeSponsors;
+const eventSponsors = sponsorsData.eventSponsors;
 
 export default function OurSponsorsPage() {
     return (
@@ -56,13 +57,16 @@ export default function OurSponsorsPage() {
                     </div>
 
                     <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mt-20 mb-12">
-                        Event Sponsor
+                        Event Sponsors
                     </h2>
-                    <div className="flex justify-center items-center">
-                        <div className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#b45309] hover:-translate-y-2 hover:shadow-[15px_15px_0_#b45309] transition-all duration-300 max-w-md w-full">
-                            <img src="/assets/MAPPLS.jpeg" alt="MAPPLS" className="w-full h-auto object-contain max-h-48 mb-6" />
-                            <h3 className="text-2xl font-bold text-indigo">MAPPLS</h3>
-                        </div>
+                    <div className="flex flex-col sm:flex-row justify-center items-stretch gap-8 flex-wrap">
+                        {eventSponsors.map((sponsor) => (
+                            <div key={sponsor.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#4c1d95] hover:-translate-y-2 hover:shadow-[15px_15px_0_#4c1d95] transition-all duration-300 max-w-sm w-full flex flex-col items-center">
+                                <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-full object-contain mb-6" />
+                                <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
+                                <p className="text-gray-600 font-mono text-md mt-2">Event Sponsor</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
