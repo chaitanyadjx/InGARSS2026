@@ -1,12 +1,13 @@
 # Taste
 - Prefers new pages/features to mirror a reference implementation — points to an existing or prior-edition site (e.g., a URL) and wants the same structure/design reproduced rather than a fresh design invented. Confidence: 0.5
-- Comfortable placing raw source material (spreadsheets, Word docs, images) in the repo and expecting it to be parsed and wired into the site's structured data. Confidence: 0.5
+- Comfortable placing raw source material (spreadsheets, Word docs, images/logo files) in the repo's `updates/` directory and expecting it to be picked up, converted to web assets, and wired into the site's structured data/pages without further instruction. Confidence: 0.7
 - Values exhaustive, record-by-record validation of website data against source documents, matching entries by relevant context (such as session and paper ID) and checking for omissions, extras, and field mismatches. Confidence: 0.95
 - When reporting website-versus-spreadsheet counts, prefers not to mention duplicates. Confidence: 1.0
 - Prefers omitting numerical session and paper-count badges/statistics from public-facing schedule and session pages. Confidence: 0.98
 - Prefers schedule tables to use concise event labels, with keynote names omitted from keynote rows and shown with affiliations in one consolidated section that also includes panelists; supplementary remarks should appear only on oral/oral-and-poster session rows and Industry Talk rows. Oral and poster sessions should be presented together as one section where applicable. Confidence: 0.97
-- Prefers speaker names to include honorifics, specifically adding “Dr.” consistently while retaining explicitly requested alternatives such as “Mr.” Confidence: 0.9
+- Prefers person names (keynote speakers, panelists, and paper authors) to include correct honorifics, specifically adding “Dr.” consistently while retaining explicitly requested alternatives such as “Mr.” Confidence: 0.95
 - Prefers program destinations (e.g., Program Schedule, Oral Sessions, Poster Sessions) as direct links under Programs, without an intermediate “Program Details” tab/group or submenu. Confidence: 0.95
 - Expects recurring dates/deadlines to be synchronized everywhere they appear (page copy, hero slides, popups, data files) — a date change should be applied to all mentions, not just one. Confidence: 0.85
 - Prefers unconfirmed/undecided dates to be shown as “To Be Announced” rather than leftover placeholder text or stale dates. Confidence: 0.7
 - Expects a sponsor to appear in only one tier/section; when a sponsor is reclassified (e.g., Bronze → Event Sponsor), it should be removed from the old tier. Confidence: 0.75
+- Expects previously supplied details to be recoverable and reused from repo/git history (e.g., prior workshop descriptions, old assets) rather than re-requested from the user. Confidence: 0.6

@@ -135,8 +135,8 @@ export default function SponsorsPage() {
                     </h2>
                     <div className="flex justify-center items-center mb-16">
                         <div className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_var(--gold)] hover:-translate-y-2 hover:shadow-[15px_15px_0_var(--gold)] transition-all duration-300 max-w-md w-full">
-                            <img src="/assets/corteva.png" alt="Corteva Agriscience" className="w-full h-auto mb-6 object-contain max-h-48" />
-                            <h3 className="text-2xl font-bold text-indigo">Corteva Agriscience</h3>
+                            <img src="/assets/vylor.jpeg" alt="Vylor" className="w-full h-auto mb-6 object-contain max-h-48" />
+                            <h3 className="text-2xl font-bold text-indigo">Vylor</h3>
                             <p className="text-gray-600 font-mono text-md mt-2">Gold Tier Partner</p>
                         </div>
                     </div>

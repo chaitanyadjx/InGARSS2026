@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Operational NISAR Soil Moisture Products: A Hands-on Tutorial on Access, Analytics and Scientific Applications",
+    "topics": [
+      "Introduction to NISAR Mission and Operational Soil Moisture Products",
+      "From NISAR Observations to Operational Soil Moisture Products",
+      "Practical Exercise 1: Product Discovery, Access and Online Analytics (Bhoonidhi & VEDAS)",
+      "Practical Exercise 2: Advanced Visualization and Analysis using User-Centric Tools",
+      "Integrated Application Demonstration and NGE Showcase."
+    ],
+    "speakers": [
+      {
+        "name": "Dr. Dharmendra Kumar Pandey",
+        "role": "NISAR ISRO Science Team Member & Soil Moisture (Lead)",
+        "designation": "Scientist/Engineer-SF",
+        "affiliation": "Space Applications Centre (SAC), Indian Space Research Organization (ISRO)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "MapmyIndia Workshop",
+    "description": "Session details will be announced shortly."
+  }
+]
