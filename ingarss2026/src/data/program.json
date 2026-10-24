@@ -9,13 +9,13 @@
       "theme": "Pre-Symposium Workshops",
       "rows": [
         { "time": "09:00 – 10:00", "event": "Registration" },
-        { "time": "10:00 – 11:30", "event": "Workshop 1" },
+        { "time": "10:00 – 11:30", "event": "Workshop 1", "remark": "Operational NISAR Soil Moisture Products: A Hands-on Tutorial on Access, Analytics and Scientific Applications" },
         { "time": "11:30 – 11:45", "event": "Tea Break" },
-        { "time": "10:00 – 13:00", "event": "Workshop 1" },
+        { "time": "10:00 – 13:00", "event": "Workshop 1", "remark": "Operational NISAR Soil Moisture Products: A Hands-on Tutorial on Access, Analytics and Scientific Applications" },
         { "time": "13:00 – 14:00", "event": "Lunch" },
-        { "time": "14:00 – 15:30", "event": "Workshop 2" },
+        { "time": "14:00 – 15:30", "event": "Workshop 2", "remark": "MapmyIndia Workshop" },
         { "time": "15:30 – 15:45", "event": "Tea Break" },
-        { "time": "14:00 – 17:00", "event": "Workshop 2" },
+        { "time": "14:00 – 17:00", "event": "Workshop 2", "remark": "MapmyIndia Workshop" },
         { "time": "17:00 – 17:30", "event": "Certificate Distribution" }
       ]
     },
