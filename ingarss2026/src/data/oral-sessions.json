@@ -683,8 +683,13 @@
       "date": "02 December 2026",
       "day": "02",
       "time": "16:15 – 17:30",
-      "chairs": "",
+      "chairs": "Sreetama Roy, Shyam Lal, Shilpa Pimpalkar, Hitendra Sharma",
       "papers": [
+        {
+          "id": "1571324477",
+          "authors": "Surajit Ghosh",
+          "title": "An Integrated Application for NISAR S-Band Aquaculture Pond Monitoring and Water Quality Monitoring in the East Kolkata Wetlands"
+        },
         {
           "id": "1571325438",
           "authors": "Gaddala Jessicarani, Govind Harhitha",
