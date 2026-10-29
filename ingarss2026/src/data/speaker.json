@@ -9,21 +9,6 @@
       "bgClass": "bg-white",
       "members": [
         {
-          "name": "Dr. Saibun Tjuatja",
-          "affiliation": "University of Texas, 2026 IEEE GRSS President",
-          "image": "https://www.grss-ieee.org/wp-content/uploads/2025/01/images-1.jpg"
-        },
-        {
-          "name": "Dr. Paul A. Rosen",
-          "affiliation": "JPL, NASA, USA",
-          "image": "https://www.jpl.nasa.gov/site/research/media/images/rosen.max-400x400.jpg"
-        },
-        {
-          "name": "Dr. Alejandro Frery",
-          "affiliation": "Victoria University of Wellington, New Zealand",
-          "image": "https://people.wgtn.ac.nz/alejandro.frery/thumbnail"
-        },
-        {
           "name": "Dr. A. S. Kiran Kumar",
           "affiliation": "Former Chairman, ISRO",
           "image": "https://upeswebsitecdn-prod-hphqfhc0b8h2ffhf.a02.azurefd.net/drupal-data/2023-09/A-S-Kiran-Kumar_0.webp"
@@ -44,14 +29,24 @@
           "image": "/assets/cvn-rao.png"
         },
         {
-          "name": "Mr. Sanjay Nekkanti",
-          "affiliation": "Dhruva Space",
-          "image": ""
+          "name": "Dr. T. M. Balakrishnan Nair",
+          "affiliation": "Director, INCOIS (Indian National Centre for Ocean Information Services)",
+          "image": "/assets/balakrishnan-nair.jpeg"
         },
         {
-          "name": "Dr. Ranendu Ghosh",
-          "affiliation": "SatLeo Labs",
-          "image": ""
+          "name": "Dr. Saibun Tjuatja",
+          "affiliation": "University of Texas, 2026 IEEE GRSS President",
+          "image": "https://www.grss-ieee.org/wp-content/uploads/2025/01/images-1.jpg"
+        },
+        {
+          "name": "Dr. Paul A. Rosen",
+          "affiliation": "JPL, NASA, USA",
+          "image": "https://www.jpl.nasa.gov/site/research/media/images/rosen.max-400x400.jpg"
+        },
+        {
+          "name": "Dr. Alejandro Frery",
+          "affiliation": "Victoria University of Wellington, New Zealand",
+          "image": "https://people.wgtn.ac.nz/alejandro.frery/thumbnail"
         }
       ]
     },

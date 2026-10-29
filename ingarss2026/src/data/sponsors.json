@@ -29,6 +29,16 @@
     {
       "name": "Dhruva Space",
       "logo": "/assets/dhruva-space-logo-dark.png"
+    }
+  ],
+  "eventSponsors": [
+    {
+      "name": "MAPPLS",
+      "logo": "/assets/MAPPLS.jpeg"
+    },
+    {
+      "name": "Adepto Geo Informatics",
+      "logo": "/assets/adepto.png"
     },
     {
       "name": "Ananth Technologies",

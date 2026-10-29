@@ -33,7 +33,7 @@
         { "time": "13:45 – 15:00", "event": "Oral Sessions", "remark": "AF0201A · ML0201B · CCS0201C · GS0201D" },
         { "time": "15:00 – 16:15", "event": "Oral Sessions", "remark": "AF0202A · ML0202B · DM0202C · PS0202D" },
         { "time": "16:15 – 17:30", "event": "Oral Sessions", "remark": "AF0203A · ML0203B · DE0203C · NI0203D" },
-        { "time": "16:00 – 17:30", "event": "Poster Session", "remark": "POS-0202P · Surajit Ghosh (1571324477)" }
+        { "time": "16:00 – 17:30", "event": "Poster Session", "remark": "POS-0202P" }
       ]
     },
     {
@@ -48,7 +48,7 @@
         { "time": "11:15 – 12:30", "event": "Panel Discussion: GIS Applications for Digital Earth" },
         { "time": "12:30 – 13:00", "event": "Industry Talk" },
         { "time": "13:00 – 13:45", "event": "Lunch" },
-        { "time": "13:45 – 15:00", "event": "Oral Sessions", "remark": "AF0301A · ML0301B · DF0302C · AF0302D · Jai G Singla (1571297593)" },
+        { "time": "13:45 – 15:00", "event": "Oral Sessions", "remark": "AF0301A · ML0301B · DF0302C · AF0302D" },
         { "time": "13:45 – 15:30", "event": "Poster Session", "remark": "POS-0301P" },
         { "time": "15:00 – 16:15", "event": "Oral Sessions", "remark": "AF0302A · FI0303D · GS0303C · ML0302B" },
         { "time": "16:15 – 17:30", "event": "Oral and Poster Sessions", "remark": "Oral: AF0303C · NI0304C · ML0303B · Poster: POS-0302P (16:00 – 17:30)" },
@@ -65,16 +65,26 @@
         { "time": "09:45 – 10:15", "event": "Keynote 4" },
         { "time": "10:00 – 10:30", "event": "Tea Break" },
         { "time": "10:30 – 11:15", "event": "Keynote 5" },
-        { "time": "11:15 – 11:45", "event": "Keynote 6" },
+        { "time": "11:15 – 11:45", "event": "Keynote 6 — Dr. T. M. Balakrishnan Nair", "remark": "Director, INCOIS" },
         { "time": "11:15 – 13:45", "event": "IDEA Luncheon" },
         { "time": "11:45 – 12:15", "event": "Keynote 7" },
         { "time": "12:15 – 12:45", "event": "Keynote 8" },
         { "time": "12:45 – 13:45", "event": "Lunch" },
-        { "time": "13:45 – 15:00", "event": "Oral Sessions", "remark": "NI0402D · GS0402C · DF0401C · ML0402B · Tarun Maganti (1571315229) · Bhasker Dubey (1571324308) · Tathagata Chakraborthy (1571316335) · Jai G Singla (1571312648) · Saptarshi Lohia (1571316293) · Pratibha Khemsara (1571299004)" },
+        { "time": "13:45 – 15:00", "event": "Oral Sessions", "remark": "NI0402D · GS0402C · DF0401C · ML0402B" },
         { "time": "13:45 – 15:00", "event": "Poster Session", "remark": "POS-0401P" },
         { "time": "15:00 – 15:30", "event": "Tea Break" },
         { "time": "15:30 Onwards", "event": "Valedictory Session" }
       ]
+    }
+  ],
+  "panelists": [
+    {
+      "name": "Mr. Sanjay Nekkanti",
+      "affiliation": "Dhruva Space"
+    },
+    {
+      "name": "Dr. Ranendu Ghosh",
+      "affiliation": "SatLeo Labs"
     }
   ]
 }

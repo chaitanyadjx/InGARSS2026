@@ -135,7 +135,18 @@ export default function SessionBrowser({ section }) {
                 )}
 
                 {grouped.length === 0 && (
-                    <p className="mt-10 text-lg font-bold text-gray-700">No sessions match your search. Try another paper ID or keyword.</p>
+                    <div className="mt-10">
+                        <p className="text-lg font-bold text-gray-700">No sessions match your search. Try another paper ID or keyword.</p>
+                        {normalized && (
+                            <p className="mt-3 font-mono text-sm text-terracotta border-l-4 border-terracotta pl-4">
+                                Didn&apos;t find your paper here? It may be listed in the{' '}
+                                <a href={isPoster ? '/oral-session' : '/poster-session'} className="underline font-bold hover:opacity-75 transition-opacity">
+                                    {isPoster ? 'Oral Sessions' : 'Poster Sessions'}
+                                </a>{' '}
+                                instead — try searching there.
+                            </p>
+                        )}
+                    </div>
                 )}
 
                 {grouped.map(([groupDay, list]) => (

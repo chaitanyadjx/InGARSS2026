@@ -5,10 +5,25 @@ import PageHeader from '@/components/PageHeader';
 import programData from '@/data/program.json';
 import speakerData from '@/data/speaker.json';
 
-const { days } = programData;
+const { days, panelists = [] } = programData;
+
+const keynoteMembers = speakerData.sections.find((section) => section.id === 'keynoteSpeakers')?.members || [];
+const distinguishedMembers = speakerData.sections.find((section) => section.id === 'distinguishedLecture')?.members || [];
+
+// Indian keynote speakers and panelists first, followed by foreign speakers
+const indianSpeakers = [
+    ...keynoteMembers.slice(0, 5),
+    ...panelists,
+];
+
+const foreignSpeakers = [
+    ...keynoteMembers.slice(5),
+    ...distinguishedMembers,
+];
+
 const keynoteAndPanelists = [
-    ...speakerData.sections.find((section) => section.id === 'distinguishedLecture').members,
-    ...speakerData.sections.find((section) => section.id === 'keynoteSpeakers').members,
+    ...indianSpeakers,
+    ...foreignSpeakers,
 ];
 
 function DayTable({ rows }) {

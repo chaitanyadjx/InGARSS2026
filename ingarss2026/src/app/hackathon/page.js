@@ -56,7 +56,7 @@ export default function HackathonPage() {
                   ⏰ Registration Deadline: {deadline}
                 </div>
               )}
-              <div className="pt-2 inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-3.5 border-[3px] border-black shadow-[6px_6px_0_black]">
+              <div className="pt-2 inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-[0.7rem] sm:text-xs px-4 py-2 border-2 border-black shadow-[3px_3px_0_black]">
                 REGISTRATIONS ARE CLOSED
               </div>
             </div>
