@@ -30,9 +30,6 @@ function SessionCard({ session, open, onToggle, query }) {
                     <span>{session.date}</span>
                     <span>{session.time}</span>
                 </div>
-                {session.chairs && (
-                    <p className="mt-2 font-mono text-xs text-gray-600">Chairs: {session.chairs}</p>
-                )}
                 <span className="mt-3 inline-block font-mono text-[0.7rem] font-bold underline decoration-2 underline-offset-2">
                     {open ? 'HIDE PAPERS ↑' : 'VIEW PAPERS ↓'}
                 </span>
