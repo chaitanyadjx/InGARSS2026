@@ -24,6 +24,26 @@ export default function VisaPage() {
     { label: "Organizer's Address", value: "IEEE GRSS, IEEE Hyderabad section, Room No. 644-645, 6th Floor, Al-Karim Trade Center, Ranigunj, Secunderabad, Telangana, 500003, India" },
     { label: "Dates", value: "01st – 04th December 2026" },
     { label: "Venue", value: "The Park Hyderabad, Raj Bhavan Road, Somajiguda, Hyderabad, Telangana 500082" },
+    {
+      label: "Reference Name in India",
+      value: (
+        <div>
+          <span>Dr. Vijender Busi Reddy</span>
+          <ul className="list-disc list-inside mt-1.5 space-y-0.5 text-xs font-medium text-gray-700">
+            <li>Chair, InGARSS 2026</li>
+            <li>Chair, IEEE GRSS Hyderabad Chapter</li>
+          </ul>
+        </div>
+      )
+    },
+    {
+      label: "Contact No.",
+      value: (
+        <a href="tel:+919491887420" className="hover:text-[var(--terracotta)] transition-colors">
+          +91 94918 87420
+        </a>
+      )
+    },
     { label: "Email ID", value: "ingarss2026@gmail.com" },
     { label: "Website", value: "https://www.ingarss2026.co.in" }
   ];
@@ -178,9 +198,9 @@ export default function VisaPage() {
                   <span className="block font-mono text-xs font-bold text-[var(--terracotta)] uppercase tracking-wider mb-1">
                     {item.label}:
                   </span>
-                  <span className="text-sm font-extrabold text-black break-words">
+                  <div className="text-sm font-extrabold text-black break-words">
                     {item.value}
-                  </span>
+                  </div>
                 </div>
               ))}
             </div>
