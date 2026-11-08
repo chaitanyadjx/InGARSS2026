@@ -27,17 +27,20 @@
         {
           "name": "Dr. C. Sudhakar Reddy",
           "org": "NRSC, ISRO",
-          "role": "Co-Chair"
+          "role": "Co-Chair",
+          "image": "/assets/Sudhakar_Reddy.jpeg"
         },
         {
           "name": "Dr. L. Nirmala Devi",
           "org": "Osmania University",
-          "role": "Co-Chair"
+          "role": "Co-Chair",
+          "image": "/assets/Nirmala_Devi.jpeg"
         },
         {
           "name": "Dr. Alejandro C. Frery",
           "org": "Victoria University of Wellington, New Zealand",
-          "role": "Co-Chair"
+          "role": "Co-Chair",
+          "image": "https://people.wgtn.ac.nz/alejandro.frery/thumbnail"
         }
       ]
     },
@@ -48,12 +51,14 @@
         {
           "name": "Dr. A. Kavitha",
           "org": "JNTUH",
-          "role": "Chair"
+          "role": "Chair",
+          "image": "/assets/Kavitha.jpeg"
         },
         {
           "name": "Dr. Narayana Rao Bhogapurapu",
           "org": "NIT, Warangal",
-          "role": "Co-Chair"
+          "role": "Co-Chair",
+          "image": "/assets/Narayana-Rao-Bogapu.jpeg"
         }
       ]
     },
@@ -64,12 +69,14 @@
         {
           "name": "Dr. N. Srinivas Naik",
           "org": "IIITDM-Kurnool",
-          "role": "Chair"
+          "role": "Chair",
+          "image": "/assets/Srinivas_Naik.jpeg"
         },
         {
           "name": "Dr. Rohith Kumar Bondugula",
           "org": "Central University, Karnataka",
-          "role": "Co-Chair"
+          "role": "Co-Chair",
+          "image": "/assets/Rohit_kumar.jpeg"
         }
       ]
     },
@@ -80,12 +87,14 @@
         {
           "name": "Dr. Hitendra Sharma",
           "org": "VCE",
-          "role": "Chair"
+          "role": "Chair",
+          "image": "/assets/Hitendra_Sharma.jpeg"
         },
         {
           "name": "Dr. Shyam Lal",
           "org": "NITK",
-          "role": "Co-Chair"
+          "role": "Co-Chair",
+          "image": "/assets/shyam_lal.jpeg"
         }
       ]
     },

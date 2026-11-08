@@ -1,6 +1,6 @@
 # Taste
 - Prefers new pages/features to mirror a reference implementation — points to an existing or prior-edition site (e.g., a URL) and wants the same structure/design reproduced rather than a fresh design invented. Confidence: 0.5
-- Comfortable placing raw source material (spreadsheets, Word docs, images/logo files) in the repo's `updates/` directory and expecting it to be picked up, converted to web assets, and wired into the site's structured data/pages without further instruction. Confidence: 0.7
+- Comfortable placing raw source material (spreadsheets, Word docs, images/logo files) in the repo's `updates/` directory and expecting it to be picked up, converted to web assets, and wired into the site's structured data/pages without further instruction — e.g., portrait jpegs in `updates/committee/` should be matched to people by filename and added to the committee page automatically. Confidence: 0.7
 - Values exhaustive, record-by-record validation of website data against source documents, matching entries by relevant context (such as session and paper ID) and checking for omissions, extras, and field mismatches. Confidence: 0.95
 - When reporting website-versus-spreadsheet counts, prefers not to mention duplicates. Confidence: 1.0
 - Prefers omitting numerical session and paper-count badges/statistics from public-facing schedule and session pages. Confidence: 0.98
@@ -11,3 +11,5 @@
 - Prefers unconfirmed/undecided dates to be shown as “To Be Announced” rather than leftover placeholder text or stale dates. Confidence: 0.7
 - Expects a sponsor to appear in only one tier/section; when a sponsor is reclassified (e.g., Bronze → Event Sponsor), it should be removed from the old tier. Confidence: 0.75
 - Expects previously supplied details to be recoverable and reused from repo/git history (e.g., prior workshop descriptions, old assets) rather than re-requested from the user. Confidence: 0.6
+- When a person (e.g., a committee member) already has an image elsewhere in the site (speakers page/data), expects that existing image URL/asset to be reused for their other entries instead of adding a duplicate or asking for a new file — points to the existing location ("there is already an image, in /speakers"). Confidence: 0.7
+- Supplies content as raw pasted communications (WhatsApp chat logs with timestamps/phone numbers, forwarded email threads) and expects the relevant details to be extracted and formatted into the appropriate page/section without asking for clarification. Confidence: 0.75
