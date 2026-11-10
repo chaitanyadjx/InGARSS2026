@@ -20,7 +20,38 @@
   },
   {
     "id": 2,
-    "title": "Workshop by MapmyIndia",
-    "description": "Session details will be announced shortly."
+    "title": "Building Atmanirbhar Geospatial Solutions: Hands-on with MapmyIndia Map APIs, and Sovereign Geospatial platform mGIS",
+    "time": "2:00 PM – 5:00 PM",
+    "sections": [
+      {
+        "title": "Who Should Attend",
+        "items": [
+          "Remote sensing and GIS researchers looking to combine satellite-derived data with high-accuracy Indian base maps.",
+          "Government and public sector officials from smart cities, disaster management, agriculture, urban planning and infrastructure departments.",
+          "Developers and solution architects building location-aware web and mobile applications.",
+          "Students and academicians in geomatics, geoinformatics, civil engineering and computer science.",
+          "Industry professionals in logistics, telecom, utilities, mobility and fleet management.",
+          "Startups and innovators seeking indigenous, compliant alternatives to foreign geospatial platforms."
+        ]
+      },
+      {
+        "title": "Benefits for Attendees",
+        "items": [
+          "Hands-on exposure to MapmyIndia Map APIs and SDKs, including maps, search, geocoding, routing and navigation.",
+          "An understanding of mGIS as an indigenous enterprise GIS platform for data management, analysis and visualization.",
+          "Real-world use cases from governance, disaster response, agriculture and smart mobility.",
+          "Networking with MapmyIndia experts and peers from academia, government and industry."
+        ]
+      },
+      {
+        "title": "Expected Outcomes",
+        "items": [
+          "Ability to integrate MapmyIndia APIs into a working web or mobile application.",
+          "Capability to create, analyze and publish geospatial layers using mGIS.",
+          "Understanding of how to fuse remote sensing outputs, GIS layers and live IoT feeds into a unified decision-support dashboard.",
+          "A clear roadmap for adopting indigenous geospatial technology in their own projects or organizations."
+        ]
+      }
+    ]
   }
 ]

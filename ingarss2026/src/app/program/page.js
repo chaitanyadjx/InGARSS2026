@@ -4,6 +4,7 @@ import { useState } from 'react';
 import PageHeader from '@/components/PageHeader';
 import programData from '@/data/program.json';
 import speakerData from '@/data/speaker.json';
+import keynoteBios from '@/data/keynote-bios.json';
 
 const { days, panelists = [] } = programData;
 
@@ -56,6 +57,7 @@ function DayTable({ rows }) {
 
 export default function ProgramPage() {
     const [active, setActive] = useState(0);
+    const [expandedBio, setExpandedBio] = useState(null);
 
     return (
         <main className="min-h-screen bg-[var(--bone)]">
@@ -100,12 +102,29 @@ export default function ProgramPage() {
                     <section className="mt-14 border-[3px] border-black bg-white p-6 sm:p-8 shadow-[8px_8px_0_var(--gold)]">
                         <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-6">Keynote Speakers &amp; Panelists</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                            {keynoteAndPanelists.map((speaker) => (
-                                <article key={speaker.name} className="border-2 border-black p-5 shadow-[4px_4px_0_black]">
-                                    <h3 className="font-bold text-lg text-indigo">{speaker.name.startsWith('Dr.') || speaker.name.startsWith('Mr.') ? speaker.name : `Dr. ${speaker.name}`}</h3>
-                                    <p className="mt-2 font-mono text-sm text-gray-700">{speaker.affiliation}</p>
-                                </article>
-                            ))}
+                            {keynoteAndPanelists.map((speaker) => {
+                                const bioName = speaker.name.replace(/^(Dr\.?|Mr\.?|Shri)\s*/i, '');
+                                const bio = keynoteBios[bioName];
+
+                                return (
+                                    <article key={speaker.name} className={`border-2 border-black p-5 shadow-[4px_4px_0_black] ${expandedBio === speaker.name ? 'sm:col-span-2 lg:col-span-3' : ''}`}>
+                                        <h3 className="font-bold text-lg text-indigo">{speaker.name.startsWith('Dr.') || speaker.name.startsWith('Mr.') ? speaker.name : `Dr. ${speaker.name}`}</h3>
+                                        <p className="mt-2 font-mono text-sm text-gray-700">{speaker.affiliation}</p>
+                                        {bio && (
+                                            <details
+                                                className="mt-4 border-t border-black/20 pt-3"
+                                                open={expandedBio === speaker.name}
+                                                onToggle={(event) => setExpandedBio(event.currentTarget.open ? speaker.name : null)}
+                                            >
+                                                <summary className="cursor-pointer font-mono text-xs font-bold uppercase text-[var(--terracotta)] hover:text-[var(--indigo)]">
+                                                    {expandedBio === speaker.name ? 'Hide Bio' : 'View Bio'}
+                                                </summary>
+                                                <p className="mt-3 text-sm leading-relaxed text-gray-700">{bio}</p>
+                                            </details>
+                                        )}
+                                    </article>
+                                );
+                            })}
                         </div>
                     </section>
                 </div>

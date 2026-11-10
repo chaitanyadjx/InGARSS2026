@@ -99,9 +99,9 @@ export default function WorkshopPage() {
                     </div>
 
                     <div className="flex w-full sm:w-auto flex-row sm:flex-col items-center sm:items-end justify-between gap-2 sm:gap-1 shrink-0">
-                      {workshop.date && (
+                      {(workshop.date || workshop.time) && (
                         <span className="max-w-[calc(100%-2.5rem)] text-[10px] sm:text-xs font-mono font-bold text-[var(--indigo)] bg-[var(--gold)]/20 px-2 py-0.5 border border-black whitespace-normal sm:whitespace-nowrap leading-tight">
-                          {workshop.date} | {workshop.time}
+                          {workshop.date}{workshop.date && workshop.time ? ' | ' : ''}{workshop.time}
                         </span>
                       )}
                       <span className="text-xs font-bold font-mono hidden sm:inline-block text-black/60">
@@ -145,6 +145,25 @@ export default function WorkshopPage() {
                           </ol>
                         </div>
                       )}
+
+                      {workshop.sections?.map((section) => (
+                        <div key={section.title}>
+                          <h4 className="text-sm sm:text-lg font-extrabold text-[var(--indigo)] uppercase tracking-wider mb-3 flex items-center gap-2">
+                            <span className="w-3 h-3 bg-[var(--terracotta)] inline-block border border-black shrink-0"></span>
+                            {section.title}
+                          </h4>
+                          <ul className="space-y-2.5">
+                            {section.items.map((item, itemIndex) => (
+                              <li key={itemIndex} className="flex items-start gap-2.5 sm:gap-3">
+                                <span className="mt-2 w-2 h-2 bg-[var(--gold)] border border-black shrink-0"></span>
+                                <span className="text-xs sm:text-base text-gray-800 font-medium leading-relaxed break-words">
+                                  {item}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
 
                       {/* Sessions (if present) */}
                       {workshop.sessions && workshop.sessions.length > 0 && (
