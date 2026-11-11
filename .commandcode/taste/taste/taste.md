@@ -12,4 +12,7 @@
 - Expects a sponsor to appear in only one tier/section; when a sponsor is reclassified (e.g., Bronze → Event Sponsor), it should be removed from the old tier. Confidence: 0.75
 - Expects previously supplied details to be recoverable and reused from repo/git history (e.g., prior workshop descriptions, old assets) rather than re-requested from the user. Confidence: 0.6
 - When a person (e.g., a committee member) already has an image elsewhere in the site (speakers page/data), expects that existing image URL/asset to be reused for their other entries instead of adding a duplicate or asking for a new file — points to the existing location ("there is already an image, in /speakers"). Confidence: 0.7
+- Prefers speaker biographies on schedule cards to be tucked into expandable dropdowns/disclosures rather than displayed inline by default. Confidence: 0.8
+- Wants expanded speaker bios to widen their card/grid space to make long text easier to read, while keeping closed cards compact. Confidence: 0.9
 - Supplies content as raw pasted communications (WhatsApp chat logs with timestamps/phone numbers, forwarded email threads) and expects the relevant details to be extracted and formatted into the appropriate page/section without asking for clarification. Confidence: 0.75
+- After an interruption or error (e.g., API credit failures), replies with a terse "continue." and expects the agent to resume the pending task from where it left off — not restart, re-ask, or summarize at length. Confidence: 0.65

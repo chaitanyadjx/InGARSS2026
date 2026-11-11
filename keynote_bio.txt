@@ -1,0 +1,174 @@
+Alejandro Frery
+Bio: Born in Mendoza, Argentina, Professor Frery earned degrees in electronic and
+electrical engineering, applied mathematics, and applied computing in Argentina and
+Brazil. His research spans data visualisation, statistical computing, and stochastic
+modelling, with applications in signal and image processing and networks. Since 2020,
+he has been Professor of Statistics and Data Science at Victoria University of
+Wellington in New Zealand. Professor Frery has held several leadership roles in the
+IEEE Geoscience and Remote Sensing Society, including Editor-in-Chief of IEEE
+Geoscience and Remote Sensing Letters and Vice President for Publications. He
+received the IEEE GRSS Regional Leader Award in 2018.
+Paul A. Rosen
+Paul A Rosen is currently Project Scientist for NASA-ISRO synthetic aperture radar mission
+(NISAR) at the Jet Propulsion Laboratory (JPL) and is a JPL Fellow and Senior Research
+Scientist. He received the 2026 NASA Public Leadership Medal for his role in formulating the
+NISAR mission and championing its science capabilities throughout the mission development.
+He was the study coordinator for NASA’s Surface Deformation and Change Decadal Survey
+Architecture Study from 2018 to 2026. Until 2012, he was the manager of the Radar Science
+and
+Engineering Section and Project Scientist for the DESDynI Mission concept at the Jet
+Propulsion
+Laboratory. He has been active in understanding the phenomenology and scientific potentials of
+interferometric SAR and has led research initiatives in data analysis and the development of
+software tools and techniques. Dr. Rosen was the team leader for Algorithm Development and
+Verification on the Shuttle Radar Topography Mission, for which he received NASA's
+Exceptional Service Medal (2001) and NASA's Exceptional Achievement Medal (2002). As a
+graduate student, post-doc, and early career research scientist, Dr. Rosen studied resonance
+phenomena in Saturn’s rings using radio occultation data from the NASA Voyager mission. Dr.
+Rosen is a visiting faculty member and lecturer at the Division of Geological and Planetary
+Sciences and the Electrical Engineering Department at Caltech. He is a member of the
+American
+Geophysical Union, and recipient of its Geodesy Section Ivan I. Mueller Award for
+Distinguished Service and Leadership. He is also a Fellow of the IEEE. He is an author on over
+60 journal and book chapter publications, and over 200 conference papers.
+Anabella FerralTitle: Integration of Field and Remote Sensing Data for Monitoring Water and Snow Pollution in
+the context of the SDGs 2030
+SHORT BIO: Dr. Anabella Ferral is an Adjunct Researcher at CONICET and Titular Professor at the
+National University of Córdoba. Her career combines physical chemistry, environmental sciences, remote
+sensing, and geospatial analysis, with a strong focus on water resources using satellite data. She is
+Associate Editor of IEEE Geoscience and Remote Sensing Magazine and was appointed IEEE-GRSS
+Distinguished Lecturer for the 2025–2026 period. She has authored and co-authored numerous
+peer-reviewed scientific publications in high-impact international journals and IEEE conferences. She has
+supervised doctoral, master’s, and undergraduate theses in geomatics, environmental management, and
+spatial information applications. Her current research integrates satellite technologies, environmental
+monitoring, and emerging nanotechnologies to address water pollution, ecosystem degradation, and
+climate-related challenges in the context of the SDGs 2030. She is an active early-career member of
+GEOAQUAWATCH.
+Gerardo Di Martino (Senior Member, IEEE) is Associate Professor of Electromagnetic
+Fields in the Department of Electrical Engineering and Information Technology at the University
+of Naples Federico II, Italy. He holds the Italian national habilitation as Full Professor of
+Electromagnetic Fields. His main research interests are in the field of microwave remote
+sensing and electromagnetics, with focus on electromagnetic scattering modeling, Synthetic
+Aperture Radar (SAR) system and data modeling, information extraction from SAR and
+polarimetric SAR data, SAR data simulation and physical-based benchmarking approaches. In
+the last years, he has also worked on the development of models for Earth Observation through
+Global Navigation Satellite System Reflectometry (GNSS-R). He is co-Editor of the book
+“Maritime Surveillance with Synthetic Aperture Radar”, published by IET in 2020. He authored
+more than 150 papers, of which about 50 published in refereed journals. Prof. Di Martino has a
+broad teaching experience, spanning from basic Electromagnetic Fields bachelor classes to
+advanced Remote Sensing master classes. He has been invited as speaker at top-tier
+international symposia, such as IGARSS and PIERS, where he has also organized and chaired
+several sessions. He is co-organizer and presenter of technical tutorials at IEEE IGARSS 2024,
+IEEE ICSIDP 2024, and IET IRC 2025. He is the founding Lead Editor of the IEEE Geoscience
+and Remote Sensing Society (GRSS) Section within IEEE Access, and an Associate Editor of
+the IEEE Journal of Selected Topics on Applied Earth Observations and Remote Sensing
+Ryo Natsuaki (Student member 2011-2014, Regular member 2015-2020, Senior member
+2021-present) received B. S., M. S. and Ph. D. degrees in electrical engineering from The
+University of Tokyo, Japan in 2009, 2011 and 2014, respectively. He was Aerospace Project
+Research Associate of Japan Aerospace Exploration Agency (JAXA), Tsukuba, Japan from
+2014 to 2017. He was also a guest scientist with Microwaves and Radar Institute, GermanAerospace Center (DLR), Oberpfaffenhofen, Germany from 2018 to 2020 under JSPS Overseas
+Research Fellowships. He is currently an Associate Professor with the Department of Electrical
+Engineering and Information Systems, The University of Tokyo, Japan. His research interests
+include active remote sensing with synthetic aperture radar (SAR). He is also a member of the
+Institute of Electronics, Information and Communication Engineers (IEICE), Japan and
+American Geophysical Union (AGU). He currently serves as an associate editor of IEEE
+Transactions on Geoscience and Remote Sensing (IEEE TGRS), a secretary of IEICE technical
+committee on Electromagnetic Theory (EMT). He is also a technical committee member of
+Frequency Allocations in Remote Sensing (FARS) and Remote sensing Environment, Analysis
+and Climate Technologies Technical Committee (REACT) in GRSS. He was a publicity chair of
+IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2019 and secretary
+of IEEE GRSS Japan chapter from 2014 to 2017 as well as a secretary of IEICE technical
+committee on Space, Aeronautical and Navigational Electronics (SANE) from 2017 to 2022.
+Francescopaolo Sica (Senior Member, IEEE) is Deputy Head of the Chair of Earth
+Observation at the University of the Bundeswehr Munich, Germany. He received his Ph.D. in
+Information Engineering in 2016 and has held research positions at the German Aerospace
+Center (DLR) and the European Space Agency (ESA). His work focuses on SAR signal and
+image processing, with an emphasis on integrating deep learning methods for enhanced data
+processing and analysis. Dr. Sica serves as Co-Chair of the Benchmarking Working Group of
+the IEEE GRSS IADF Technical Committee.
+Rajeev Jyoti is the Director (Technical) at the Indian National Space Promotion and
+Authorisation Centre (IN-SPACe), where he leads initiatives to strengthen India's commercial
+space ecosystem, promote Public-Private Partnerships (PPP) in Earth Observation, and
+facilitate private-sector participation in space exploration.
+He joined ISRO in 1987 and served for over 36 years at the Space Applications Centre (SAC),
+Ahmedabad, contributing to the design and development of microwave payloads and advanced
+antenna systems for more than 25 satellites. His notable contributions include RISAT-1,
+RISAT-1A, NASA-ISRO SAR (NISAR), Chandrayaan-2 and Chandrayaan-3 radar altimeters,
+and India's first constellation of three X-band SAR imaging satellites.
+He is a co-inventor of 14 patents and has authored over 170 technical papers. He has received
+several prestigious honours, including the IEEE Indian Council Outstanding Industry Award
+(2020) and ISRO Performance Excellence Award (2015). He is a Fellow of INAE, Aeronautical
+Society of India and IETE, and a Senior Member of IEEE. Before joining IN-SPACe, he served
+as Associate Director of the Space Applications Centre, ISRO.Shri A. S. Kiran Kumar is a distinguished Indian space scientist and former Chairman
+of the Indian Space Research Organisation (ISRO), having served as Secretary, Department of
+Space, and Chairman of the Space Commission from January 2015 to January 2018. He joined
+ISRO in 1975 and has over four decades of experience in satellite technology, Earth
+Observation, remote sensing and space exploration. He made significant contributions to the
+development of advanced electro-optical imaging sensors and satellite payloads, particularly for
+the Chandrayaan-1 and Mars Orbiter Mission (Mangalyaan) missions. Before becoming ISRO
+Chairman, he served as Director of the Space Applications Centre (SAC), Ahmedabad. In
+recognition of his outstanding contributions to space science and technology, he was conferred
+the Padma Shri in 2014, the International von Karman Wings Award in 2018 and the Chevalier
+de la Légion d'Honneur by the Government of France in 2019. He is a Fellow of several
+prestigious professional institutions, including the Indian National Academy of Engineering
+(INAE).
+Dr. Prakash Chauhan is a distinguished space scientist and Director of the National
+Remote Sensing Centre (NRSC), ISRO, Hyderabad. He joined the Indian Space Research
+Organisation (ISRO) in 1991 at the Space Applications Centre (SAC), Ahmedabad, and has
+over three decades of experience in remote sensing, Earth Observation, geosciences,
+atmospheric and oceanographic studies, and natural resource management. He has made
+significant contributions to planetary exploration through India's Chandrayaan-1 and
+Chandrayaan-2 missions and served as the Principal Investigator of the Imaging Infrared
+Spectrometer (IIRS) onboard Chandrayaan-2, which provided important evidence of water
+molecules on the lunar surface. Prior to becoming Director of NRSC, he served as Director of
+the Indian Institute of Remote Sensing (IIRS), Dehradun, from April 2018. His contributions
+include pioneering research in ocean colour, aerosol remote sensing, air quality monitoring,
+disaster risk reduction and planetary science. He has authored more than 150 peer-reviewed
+research papers and received several prestigious honours, including the Asia-Pacific Regional
+Excellence in Space Award (2023), ISRO Merit Award (2010), Satish Dhawan Award (2016) and
+Prof. P. R. Pisharoty Memorial Award (2004). He is a Fellow of the National Academy of
+Sciences, India (NASI), Indian Society of Remote Sensing (ISRS) and Indian Social Science
+Academy, and a Corresponding Member of the International Academy of Astronautics (IAA).
+Dr. Ch. V. N. Narasimha Rao is a distinguished scientist and Director of the Space
+Applications Centre (SAC), Indian Space Research Organisation (ISRO), Ahmedabad, havingassumed charge on 1 August 2026. He joined ISRO in 1989 and has over 37 years of
+experience in the development of advanced microwave remote sensing technologies for Earth
+observation and planetary missions. He has made significant contributions to the design and
+development of several state-of-the-art microwave payloads, including C-band Synthetic
+Aperture Radars for RISAT-1, EOS-04 and EOS-09; Ku-band Scatterometers for Oceansat-2,
+SCATSAT-1 and EOS-06; RISAT-2B series payloads; Ka-band radar altimeters for
+Chandrayaan-2 and Chandrayaan-3; and the NASA-ISRO Synthetic Aperture Radar (NISAR)
+mission. He has also played a key role in promoting indigenous technology development,
+industry participation and self-reliance in advanced space technologies. He holds a Ph.D. from
+Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT),
+Gandhinagar. He has authored over 150 peer-reviewed research publications, received more
+than 500 citations and holds six patents. He is a Member of the International Academy of
+Astronautics (IAA), Senior Member of IEEE, and Life Member of the Astronautical Society of
+India (ASI), Indian Society of Remote Sensing (ISRS) and Indian Society of Systems for
+Science and Engineering (ISSE).
+Dr. T. M. Balakrishnan Nair is the Director of the Indian National Centre for Ocean
+Information Services (INCOIS), Ministry of Earth Sciences, Government of India, Hyderabad. He
+is one of the founding members of INCOIS and has over 30 years of research experience in
+operational oceanography, ocean observation systems, wave modelling and marine services.
+He has played a pivotal role in establishing India's real-time ocean observation networks and
+developing operational ocean forecast, early warning and advisory services for India and other
+Indian Ocean Rim countries. His contributions include developing ocean information services for
+disaster management, shipping, fisheries, ports, offshore energy and other blue-economy
+sectors. He holds a Ph.D. in Marine Science from Mangalore University and an M.Sc. in Marine
+Geology and Oceanography from Cochin University of Science and Technology. He has
+authored over 160 scientific publications and is a Fellow of the Telangana Academy of
+Sciences. His prestigious recognitions include the National Geoscience Award (2014), National
+Maritime Search and Rescue Award (2024) and Swadeshi Shastra Puraskaram (2025). He also
+serves in several international scientific leadership positions, including Chair of the Global
+Ocean Observing System (GOOS) under the Intergovernmental Oceanographic Commission
+(IOC) of UNESCO.
+Dr. Saibun Tjuatja is the 2026 President of the IEEE Geoscience and Remote Sensing
+Society (GRSS) and an Associate Professor of Electrical Engineering at The University of Texas
+at Arlington, USA. He received his Ph.D. in Electrical Engineering from the University of Texas
+at Arlington and joined its faculty in 1993. His research interests include microwave remote
+sensing, electromagnetic scattering and emission from random media, signal processing, andinversion algorithms, with applications in snow, glaciers, sea ice and humanitarian demining. He
+has been actively associated with IEEE GRSS since 1992, contributing to its technical
+committees, conferences and publications. He served as General Co-Chair of IGARSS 2017 in
+Texas and as Executive Vice President of GRSS before assuming the presidency in January
+2025. As GRSS President in 2026, his vision focuses on enhancing the membership
+experience, broadening global participation, and extending the impact of geoscience and
+remote sensing innovations to industry and society.

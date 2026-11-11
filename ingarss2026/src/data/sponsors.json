@@ -17,6 +17,20 @@
     "expectedAbstracts": "400+",
     "expectedParticipants": "300+"
   },
+  "goldSponsors": [
+    {
+      "name": "Vylor",
+      "logo": "/assets/vylor.jpeg"
+    },
+    {
+      "name": "GRSS YP",
+      "logo": "/assets/GRSS_YP.jpeg"
+    },
+    {
+      "name": "GRSS IDEA",
+      "logo": "/assets/GRSS_IDEA.jpeg"
+    }
+  ],
   "bronzeSponsors": [
     {
       "name": "Satleo",
@@ -29,6 +43,10 @@
     {
       "name": "Dhruva Space",
       "logo": "/assets/dhruva-space-logo-dark.png"
+    },
+    {
+      "name": "TriCAD Design Consultants Pvt Ltd",
+      "logo": "/assets/tricad-design.jpeg"
     }
   ],
   "eventSponsors": [
