@@ -269,14 +269,14 @@
           "title": "Effect of NDVI Correction from the EOS-06 Ocean Colour Monitor-3 Sensor on Evapotranspiration Modelling"
         },
         {
-          "id": "1571299867",
-          "authors": "G Yadeedhya Prithveen Asheel, Yamini Madhumitha",
-          "title": "Temporal Analysis of Surface Water Dynamics and Environmental Indicators in Pulicat Lake Using Sentinel Satellite and CHIRPS Daily Rainfall Data"
-        },
-        {
           "id": "1571323849",
           "authors": "Shreya Ojha",
           "title": "Crop and Fallow Land Mapping Using Information Theory Descriptors Derived from Multi-Temporal Sentinel-1 SAR Data"
+        },
+        {
+          "id": "1571318545",
+          "authors": "Achala Shakya",
+          "title": "Anisotropic KL and NSCT Fusion of Sentinel-1/2 Imagery for Attention-Based CNN"
         }
       ]
     },
@@ -485,14 +485,14 @@
           "title": "SwinDiffNet: Conditional Diffusion-Guided SAR-Optical Fusion for Flood Inundation Mapping"
         },
         {
-          "id": "1571300440",
-          "authors": "ADITYA KAPOOR",
-          "title": "Evaluating AlphaEarth Foundations Embeddings for Annual Inundation Mapping: A Case Study of Nebraska"
-        },
-        {
           "id": "1571314391",
           "authors": "Abdul Faheem",
           "title": "Multimodal Geospatial Document Intelligence with Hybrid Retrieval and Vision-Language Grounding"
+        },
+        {
+          "id": "1571324515",
+          "authors": "Jai G Singla",
+          "title": "A Real-Time Digital Twin Web Framework for Spatial and Mechanical Systems Monitoring"
         }
       ]
     },
@@ -665,14 +665,14 @@
           "title": "Evaluation of NISAR Soil Moisture Estimates Across Diverse Land Use Systems of Central Kerala"
         },
         {
+          "id": "1571303506",
+          "authors": "Alejandro Frery",
+          "title": "A Bayesian Neural Network for Parameter Estimation in SAR Imagery"
+        },
+        {
           "id": "1571320893",
           "authors": "Indranil Misra",
           "title": "Matching NISAR L-Band and S-Band SAR with Optical Imagery: A Comparative Evaluation of Classical and Foundation Models"
-        },
-        {
-          "id": "1571323722",
-          "authors": "ANAND S S",
-          "title": "Physics-Guided Machine Learning Framework for Operational Above-Ground Biomass Mapping from NISAR L and S Band SAR"
         }
       ]
     },
@@ -1352,6 +1352,11 @@
           "title": "Hybrid CNN-Vision Transformer Architecture for Oil Spill Detection and Vessel Tasking System"
         },
         {
+          "id": "1571300667",
+          "authors": "Giampaolo Ferraioli",
+          "title": "CATBOOST Algorithm for Forest Height Estimation: First Results on Sentinel-1 Data"
+        },
+        {
           "id": "1571324709",
           "authors": "Tanmay Somani",
           "title": "Spatio-Temporal Forecasting of TIR-1 Imagery from INSAT-3DS Satellite Imagery Using a ConvLSTM Encoder-Decoder Network"
@@ -1401,11 +1406,6 @@
           "id": "1571301738",
           "authors": "Ravi Kumar",
           "title": "Do Large Solar Parks Impact Land Surface Temperature? A Case Study of Bhadla Solar Park from Landsat 8 Imagery"
-        },
-        {
-          "id": "1571314519",
-          "authors": "Pashupati Nath Singh",
-          "title": "AI-Based Multi-Crop Yield Forecasting Using Satellite-Derived Agro-Climatic Indicators in Semi-Arid Central India"
         }
       ]
     },
@@ -1422,11 +1422,6 @@
           "id": "1571324078",
           "authors": "Nisha Sharma",
           "title": "Agricultural LU LC Classification from Satellite Data Using Machine Learning and Deep Learning Approaches"
-        },
-        {
-          "id": "1571315580",
-          "authors": "Priya Kaul",
-          "title": "Edge-Aware Adaptive-K Local Statistical Speckle Reduction for Multi-Frequency PolSAR and NISAR GCOV Imagery"
         },
         {
           "id": "1571323269",
@@ -1452,6 +1447,21 @@
           "id": "1571315200",
           "authors": "Abilakshan Vadivel",
           "title": "A GeoAI Framework for Bushfire Impact Mapping Using Crowdsourced Social Media Data and Sentinel-2 Deep Learning Segmentation"
+        },
+        {
+          "id": "1571314519",
+          "authors": "Pashupati Nath Singh",
+          "title": "AI-Based Multi-Crop Yield Forecasting Using Satellite-Derived Agro-Climatic Indicators in Semi-Arid Central India"
+        },
+        {
+          "id": "1571300440",
+          "authors": "ADITYA KAPOOR",
+          "title": "Evaluating AlphaEarth Foundations Embeddings for Annual Inundation Mapping: A Case Study of Nebraska"
+        },
+        {
+          "id": "1571300929",
+          "authors": "Sravani Duvvuri",
+          "title": "Object-Based Multi-Temporal Crop Classification Using Cartosat-2E Imagery in a Fragmented Tropical Agricultural Landscapes"
         }
       ]
     },
@@ -1521,9 +1531,9 @@
           "title": "Frequency-Aware Feature Refinement and Auxiliary Mask Supervision for Tiny Human Detection in Aerial Thermal Images"
         },
         {
-          "id": "1571318545",
-          "authors": "Achala Shakya",
-          "title": "Anisotropic KL and NSCT Fusion of Sentinel-1/2 Imagery for Attention-Based CNN"
+          "id": "1571299867",
+          "authors": "G Yadeedhya Prithveen Asheel, Yamini Madhumitha",
+          "title": "Temporal Analysis of Surface Water Dynamics and Environmental Indicators in Pulicat Lake Using Sentinel Satellite and CHIRPS Daily Rainfall Data"
         }
       ]
     },
@@ -1591,11 +1601,6 @@
           "id": "1571316539",
           "authors": "Priyom Roy",
           "title": "Early Demonstration of NISAR L- and S-Band InSAR for Monitoring Surface Deformation"
-        },
-        {
-          "id": "1571309791",
-          "authors": "Andrea A. Rey",
-          "title": "A New Distribution for the Analysis of the Generalized Radar Vegetation Index from SAR Data"
         }
       ]
     },
@@ -1904,11 +1909,6 @@
           "id": "1571315813",
           "authors": "Triloki Pant",
           "title": "Hybrid ConvLSTM-U-Net with CBAM and Temporal Attention for Pixel-Wise Urban Built-Up Growth Prediction in Prayagraj, India"
-        },
-        {
-          "id": "1571300929",
-          "authors": "Sravani Duvvuri",
-          "title": "Object-Based Multi-Temporal Crop Classification Using Cartosat-2E Imagery in a Fragmented Tropical Agricultural Landscapes"
         }
       ]
     },
@@ -2061,19 +2061,14 @@
           "title": "Deep Learning Based Flood Delineation Using EOS-04 SAR Data: A Cross-Regional Transferability Assessment Across Bihar and Assam"
         },
         {
-          "id": "1571303506",
-          "authors": "Alejandro Frery",
-          "title": "A Bayesian Neural Network for Parameter Estimation in SAR Imagery"
+          "id": "1571309791",
+          "authors": "Andrea A. Rey",
+          "title": "A New Distribution for the Analysis of the Generalized Radar Vegetation Index from SAR Data"
         },
         {
           "id": "1571298489",
           "authors": "Mahesh Pal",
           "title": "Conformal Prediction Based Uncertainty Estimation for Remote Sensing Classifications"
-        },
-        {
-          "id": "1571300667",
-          "authors": "Giampaolo Ferraioli",
-          "title": "CATBOOST Algorithm for Forest Height Estimation: First Results on Sentinel-1 Data"
         }
       ]
     },
@@ -2216,6 +2211,11 @@
           "id": "1571314349",
           "authors": "Shatakshi Verma",
           "title": "Synergistic Integration of Dual Frequency Polarimetric SAR Data for Enhanced BIOMASS Estimation in Tropical Moist Deciduous Forest"
+        },
+        {
+          "id": "1571323722",
+          "authors": "ANAND S S",
+          "title": "Physics-Guided Machine Learning Framework for Operational Above-Ground Biomass Mapping from NISAR L and S Band SAR"
         },
         {
           "id": "1571322908",

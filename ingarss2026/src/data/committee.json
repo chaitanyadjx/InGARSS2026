@@ -99,6 +99,30 @@
       ]
     },
     {
+      "id": "webmasterSocial",
+      "title": "Webmaster and Social Network Committee",
+      "members": [
+        {
+          "name": "Ms. Anisha",
+          "org": "IIITDM, Kurnool",
+          "role": "Co-Chair",
+          "image": "/assets/Anisha.jpeg"
+        },
+        {
+          "name": "Chaitanya Jambhulkar",
+          "org": "IIITDM, Kurnool",
+          "role": "Co-Chair",
+          "image": "/assets/Chaitanya.jpeg"
+        },
+        {
+          "name": "Suraj Kodakandla",
+          "org": "IIITDM, Kurnool",
+          "role": "Co-Chair",
+          "image": "/assets/Suraj.jpeg"
+        }
+      ]
+    },
+    {
       "id": "tutorialsExhibits",
       "title": "Tutorials and Exhibits Committee",
       "members": [
@@ -231,27 +255,6 @@
         {
           "name": "Anuva Chowdary",
           "org": "BIT Mesra",
-          "role": "Co-Chair"
-        }
-      ]
-    },
-    {
-      "id": "webmasterSocial",
-      "title": "Webmaster and Social Network Committee",
-      "members": [
-        {
-          "name": "Ms. Anisha",
-          "org": "IIITDM, Kurnool",
-          "role": "Co-Chair"
-        },
-        {
-          "name": "Chaitanya Jambhulkar",
-          "org": "IIITDM, Kurnool",
-          "role": "Co-Chair"
-        },
-        {
-          "name": "Suraj Kodakandla",
-          "org": "IIITDM, Kurnool",
           "role": "Co-Chair"
         }
       ]

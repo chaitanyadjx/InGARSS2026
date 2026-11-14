@@ -16,3 +16,4 @@
 - Wants expanded speaker bios to widen their card/grid space to make long text easier to read, while keeping closed cards compact. Confidence: 0.9
 - Supplies content as raw pasted communications (WhatsApp chat logs with timestamps/phone numbers, forwarded email threads) and expects the relevant details to be extracted and formatted into the appropriate page/section without asking for clarification. Confidence: 0.75
 - After an interruption or error (e.g., API credit failures), replies with a terse "continue." and expects the agent to resume the pending task from where it left off — not restart, re-ask, or summarize at length. Confidence: 0.65
+- Batches several distinct site-content updates into one message as a numbered list (e.g., program schedule changes, a new sponsor with its image path, a new section title, webmaster photos) and expects all items to be tracked and completed together, with a checklist for multi-part requests. Confidence: 0.6

@@ -47,6 +47,16 @@
     {
       "name": "TriCAD Design Consultants Pvt Ltd",
       "logo": "/assets/tricad-design.jpeg"
+    },
+    {
+      "name": "NRSC",
+      "logo": "/assets/nrsc.jpeg"
+    }
+  ],
+  "startupExhibits": [
+    {
+      "name": "IIT Tirupati Navavishkar I-Hub Foundation",
+      "logo": "/assets/IIT_Tirupati.jpeg"
     }
   ],
   "eventSponsors": [
@@ -193,7 +203,15 @@
     }
   ],
   "comparisonTable": {
-    "headers": ["Feature", "Diamond", "Platinum", "Gold", "Silver", "Bronze", "Event"],
+    "headers": [
+      "Feature",
+      "Diamond",
+      "Platinum",
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Event"
+    ],
     "rows": [
       {
         "feature": "Logo on conference website with hyperlink",

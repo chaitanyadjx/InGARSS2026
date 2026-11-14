@@ -5,6 +5,7 @@ import sponsorsData from '@/data/sponsors.json';
 
 const goldSponsors = sponsorsData.goldSponsors;
 const bronzeSponsors = sponsorsData.bronzeSponsors;
+const startupExhibits = sponsorsData.startupExhibits;
 const eventSponsors = sponsorsData.eventSponsors;
 
 export default function OurSponsorsPage() {
@@ -55,6 +56,18 @@ export default function OurSponsorsPage() {
                                 <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-full object-contain mb-6" />
                                 <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
                                 <p className="text-gray-600 font-mono text-md mt-2">Bronze Tier Partner</p>
+                            </div>
+                        ))}
+                    </div>
+
+                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mt-20 mb-12">
+                        Startups’ Exhibits
+                    </h2>
+                    <div className="flex flex-col sm:flex-row justify-center items-stretch gap-8 flex-wrap">
+                        {startupExhibits.map((exhibit) => (
+                            <div key={exhibit.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#4c1d95] max-w-md w-full flex flex-col items-center">
+                                <img src={exhibit.logo} alt={exhibit.name} className="w-full h-auto object-contain mb-6 max-h-40" />
+                                <h3 className="text-xl font-bold text-indigo">{exhibit.name}</h3>
                             </div>
                         ))}
                     </div>
