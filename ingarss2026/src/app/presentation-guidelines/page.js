@@ -87,7 +87,7 @@ export default function PresentationGuidelinesPage() {
             <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base leading-relaxed text-gray-800">
               <li>Each oral presentation is scheduled for 10 minutes, followed by a 3-minute Q&amp;A discussion.</li>
               <li>Follow the conference templates strictly when preparing your presentation or poster.</li>
-              <li>Authors must be in the session room well in advance of their slot. If an author cannot present the paper or poster in the given slot, the paper may be marked as a no-show.</li>
+              <li>Authors must be in the session room well in advance of their slot. If an author cannot present the paper or poster in the given slot, the paper will be marked as a no-show.</li>
             </ul>
             <h3 className="font-bold text-lg text-[var(--indigo)] mt-7 mb-3">Registration Desk Timings</h3>
             <p className="text-sm sm:text-base leading-relaxed text-gray-800">The registration desk is open each day of the conference from 8:30 AM to 9:30 AM and from 2:30 PM to 4:30 PM.</p>
