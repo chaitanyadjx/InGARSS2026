@@ -1,14 +1,11 @@
-IEEE InGARSS 2026: Important Notices for Authors and Participants
-Event: IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)
-Dates and venue: 01–04 December 2026, The Park, Hyderabad, Telangana, India
 1. Presentation
-1.Timing. Each oral presentation is scheduled for 10 minutes, followed by a 3-minute Q&A discussion.
-2.Templates. Follow the conference templates strictly when preparing your presentation or poster.
-3.Be present early. Authors must be in the session room well in advance of their slot. If an author cannot present the paper or poster in the given slot, the paper will be marked as a no-show.
+1.Each oral presentation is scheduled for 10 minutes, followed by a 3-minute Q&A discussion.
+2.Follow the conference templates strictly when preparing your presentation or poster.
+3.Authors must be in the session room well in advance of their slot. If an author cannot present the paper or poster in the given slot, the paper will be marked as a no-show.
 2. Registration Desk Timings
 The registration desk is open on each day of the conference from 8:30 AM to 9:30 AM and from 2:30 PM to 4:30 PM.
 3. Registration Category Verification
-Some registrations have been flagged for category issues. Flagged registrations must pay the remaining amount; failed registrations will be invalid. Because several anomalies were found in author categories, please produce the documents below for your category.
+Please produce the documents below according to your category.
 Category	Documents required
 Student GRSS member	Original full-time student ID card, valid up to at least 2026; IEEE GRSS student membership proof, valid up to at least 31-Dec-2026
 Student IEEE member	Original full-time student ID card, valid up to at least 2026; IEEE student membership proof, valid up to at least 31-Dec-2026
@@ -24,10 +21,10 @@ t: IEEE India Geoscience and Remote Sensing Symposium (InGARSS 2026)
 Dates and venue: 01–04 December 2026, The Park, Hyderabad, Telangana, India
 1. General Rules for All Attendees
 1.Every participant, including authors, co-authors, speakers, students, delegates and accompanying persons, must complete the applicable registration before entering any session.
-2.You may be asked to show valid student or IEEE membership proof. The documents required for each category are listed in the Important Notices on the first page.
+2.You may be asked to show valid student or IEEE membership proof. The documents required for each category are listed in the Important Notices on the above.
 3.Collect your badge and conference kit at the registration desk. Please arrive early to avoid queues. Registration timings are 8:30 AM to 9:30 AM and 2:30 PM to 4:30 PM each day, as stated in the Important Notices on the first page; any change will be announced on the conference website and by email.
 4.Bring your registration confirmation email and a valid government-issued or institutional photo ID for verification.
-5.Wear your official badge visibly at all times at the venue. Badges are non-transferable and may be checked by volunteers or security staff.
+5.Wear your official badge visibly at all times at the venue. Badges are non-transferable.
 6.Entry to technical sessions, workshops, tutorials, lunches and special events depends on your registration category and the permissions for each event.
 7.Arrive at least 10 minutes before each session begins, and stay until it ends. Avoid late entry, especially during technical presentations and keynote addresses.
 8.Treat speakers, session chairs, volunteers and fellow participants with respect. Harassment, discrimination, abusive behaviour and deliberate disruption will not be tolerated.
@@ -45,13 +42,13 @@ Dates and venue: 01–04 December 2026, The Park, Hyderabad, Telangana, India
 3.Report to your session hall at least 15 minutes before the session starts and introduce yourself to the session chair.
 4.Each paper has 10 minutes for the presentation and 3 minutes for questions and answers, 13 minutes in total. Keep strictly to this time. The session chair may stop a presentation that overruns.
 5.Prepare your slides using the conference template. Please follow the template strictly.
-6.Submission. Submit or upload your presentation file by the deadline announced by the technical programme committee, following the organisers’ instructions.
+6.Each technical session hall has a separate preview room in which they have to upload their presentation at least 1 hour before the scheduled presentation. USB copy would be better.
 7.Carry a backup of your presentation on a USB drive. A PDF backup is also recommended.
 8.Use the conference-provided presentation system / laptop.
 9.The presentation must match the accepted paper. Any substantial change to the title, authorship or technical content needs approval from the technical programme committee.
 10.Stay available for the question-and-answer period and answer technical questions professionally. You are also encouraged to attend the whole session and take part in the discussions.
 11.If the designated presenter cannot attend, another co-author may present with prior notice to, and approval from, the organising committee, subject to the registration requirements. Any change of presenter or presentation mode must be approved in advance.
-12.If you do not present an accepted paper without prior authorisation, the paper may be marked as a no-show and may be excluded from IEEE Xplore (see Section 8). Please be at the session room well in advance of your slot.
+12.If you do not present an accepted paper without prior authorisation, the paper may be marked as a no-show and may be excluded from IEEE Xplore. Please be at the session room well in advance of your slot.
 3. Poster Presentations
 1.Design the poster using the template on the conference website. Display your poster ID or paper number prominently so that visitors and evaluators can find it.
 2.You are responsible for printing your poster and bringing it to the venue. However, the vendor details are provided in the conference website. 
