@@ -5,7 +5,7 @@ const attendeeRules = [
   'You may be asked to show valid student or IEEE membership proof. The documents required for each category are listed in the registration category table below.',
   'Collect your badge and conference kit at the registration desk. Please arrive early to avoid queues. Registration timings are 8:30 AM to 9:30 AM and 2:30 PM to 4:30 PM each day; any change will be announced on the conference website and by email.',
   'Bring your registration confirmation email and a valid government-issued or institutional photo ID for verification.',
-  'Wear your official badge visibly at all times at the venue. Badges are non-transferable and may be checked by volunteers or security staff.',
+  'Wear your official badge visibly at all times at the venue. Badges are non-transferable.',
   'Entry to technical sessions, workshops, tutorials, lunches and special events depends on your registration category and the permissions for each event.',
   'Arrive at least 10 minutes before each session begins, and stay until it ends. Avoid late entry, especially during technical presentations and keynote addresses.',
   'Treat speakers, session chairs, volunteers and fellow participants with respect. Harassment, discrimination, abusive behaviour and deliberate disruption will not be tolerated.',
@@ -25,7 +25,7 @@ const oralGuidelines = [
   'Report to your session hall at least 15 minutes before the session starts and introduce yourself to the session chair.',
   'Each paper has 10 minutes for the presentation and 3 minutes for questions and answers, 13 minutes in total. Keep strictly to this time. The session chair may stop a presentation that overruns.',
   'Prepare your slides using the conference template. Please follow the template strictly.',
-  'Submit or upload your presentation file by the deadline announced by the technical programme committee, following the organisers’ instructions.',
+  'Each technical session hall has a separate preview room where you must upload your presentation at least 1 hour before your scheduled presentation. A USB copy is preferred.',
   'Carry a backup of your presentation on a USB drive. A PDF backup is also recommended.',
   'Use the conference-provided presentation system or laptop.',
   'The presentation must match the accepted paper. Any substantial change to the title, authorship or technical content needs approval from the technical programme committee.',
@@ -92,7 +92,7 @@ export default function PresentationGuidelinesPage() {
             <h3 className="font-bold text-lg text-[var(--indigo)] mt-7 mb-3">Registration Desk Timings</h3>
             <p className="text-sm sm:text-base leading-relaxed text-gray-800">The registration desk is open each day of the conference from 8:30 AM to 9:30 AM and from 2:30 PM to 4:30 PM.</p>
             <h3 className="font-bold text-lg text-[var(--indigo)] mt-7 mb-3">Registration Category Verification</h3>
-            <p className="text-sm sm:text-base leading-relaxed text-gray-800 mb-4">Some registrations have been flagged for category issues. Flagged registrations must pay the remaining amount; failed registrations will be invalid. Please bring the documents listed for your registration category.</p>
+            <p className="text-sm sm:text-base leading-relaxed text-gray-800 mb-4">Please produce the documents listed below according to your registration category.</p>
             <div className="overflow-x-auto border-2 border-black">
               <table className="w-full border-collapse text-left text-sm">
                 <thead className="bg-[var(--indigo)] text-white">
