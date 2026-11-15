@@ -686,11 +686,6 @@
       "chairs": "Sreetama Roy, Shyam Lal, Shilpa Pimpalkar, Hitendra Sharma",
       "papers": [
         {
-          "id": "1571324477",
-          "authors": "Surajit Ghosh",
-          "title": "An Integrated Application for NISAR S-Band Aquaculture Pond Monitoring and Water Quality Monitoring in the East Kolkata Wetlands"
-        },
-        {
           "id": "1571325438",
           "authors": "Gaddala Jessicarani, Govind Harhitha",
           "title": "Machine Learning-Based Spatiotemporal Weather Anomaly Detection and Risk Assessment Using Automated Weather Station Data"
@@ -939,6 +934,11 @@
           "id": "1571313110",
           "authors": "Lakshmi Sutha G",
           "title": "Hybrid U-Net and Machine Learning Models for Soil Salinity Delineation from Stacked Geospatial Data"
+        },
+        {
+          "id": "1571324477",
+          "authors": "Surajit Ghosh",
+          "title": "An Integrated Application for NISAR S-Band Aquaculture Pond Monitoring and Water Quality Monitoring in the East Kolkata Wetlands"
         }
       ]
     },
@@ -1375,6 +1375,11 @@
           "id": "1571297593",
           "authors": "Jai G Singla",
           "title": "Towards Digital Twin-Driven Web-Based Simulation of Chandrayaan-3 and Future Lunar Missions"
+        },
+        {
+          "id": "1571315352",
+          "authors": "Pooja P",
+          "title": "GEE-Based Multi-Sensor Assessment of Consumptive Water Use Dynamics over the Narmada-Tapi Basins (2018-2025)"
         }
       ]
     },
@@ -1415,7 +1420,7 @@
       "track": "Future Innovation",
       "date": "03 December 2026",
       "day": "03",
-      "time": "15:00 – 16:15",
+      "time": "14:00 – 16:15",
       "chairs": "A. Kavitha, Sudhakar Reddy",
       "papers": [
         {
