@@ -52,6 +52,41 @@
           "name": "Dr. Novaline Jacob",
           "affiliation": "Director, ADRIN, India",
           "image": "/assets/DR_Novaline_Jacob.jpeg"
+        },
+        {
+          "name": "Dr. Avik Bhattacharya",
+          "affiliation": "IIT Bombay, India",
+          "image": "/assets/avik-bhattacharya.jpeg"
+        },
+        {
+          "name": "Mr. Sanjay Nekkanti",
+          "affiliation": "Dhruva Space",
+          "image": "/assets/sanjay-nekkanti.jpeg"
+        },
+        {
+          "name": "Dr. Ranendu Ghosh",
+          "affiliation": "SatLeo Labs",
+          "image": "/assets/ranendu-ghosh.jpeg"
+        },
+        {
+          "name": "Mr. Rakshit Bhatt",
+          "affiliation": "GalaxEye",
+          "image": "/assets/rakshit-bhatt.jpeg"
+        },
+        {
+          "name": "Dr. Jayakumar Venkatesan",
+          "affiliation": "Harpy Aerospace",
+          "image": "/assets/jayakumar-venkatesan.jpeg"
+        },
+        {
+          "name": "Dr. Puneet Kumar Mishra",
+          "affiliation": "URSC, ISRO",
+          "image": "/assets/puneet-kumar-mishra.jpeg"
+        },
+        {
+          "name": "Mr. Chaitanyam Potnuru",
+          "affiliation": "Vylor",
+          "image": "/assets/chaitanyam-potnuru.jpeg"
         }
       ]
     },

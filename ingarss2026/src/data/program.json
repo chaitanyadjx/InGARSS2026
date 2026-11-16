@@ -64,15 +64,18 @@
         },
         {
           "time": "11:00 – 11:30",
-          "event": "Keynote 1"
+          "event": "Keynote 1",
+          "remark": "Dr. Rajeev Jyoti, Director General, IN-SPACe"
         },
         {
           "time": "11:30 – 12:30",
-          "event": "Panel Discussion — Space Startups: Opportunities, Challenges and the Road Ahead"
+          "event": "Panel Discussion — Space Startups: Opportunities, Challenges and the Road Ahead",
+          "remark": "Mr. Sanjay Nekkanti · Dr. Ranendu Ghosh · Mr. Rakshit Bhatt · Dr. Jayakumar Venkatesan · Dr. Paul A. Rosen"
         },
         {
           "time": "12:30 – 13:00",
-          "event": "Keynote 2"
+          "event": "Keynote 2",
+          "remark": "Dr. Anabella Ferral, CONICET, Argentina"
         },
         {
           "time": "13:00 – 13:45",
@@ -116,7 +119,8 @@
         },
         {
           "time": "09:45 – 10:15",
-          "event": "Keynote 3"
+          "event": "Keynote 3",
+          "remark": "Dr. A. S. Kiran Kumar, Former Chairman, ISRO"
         },
         {
           "time": "10:15 – 10:30",
@@ -125,15 +129,22 @@
         {
           "time": "10:30 – 11:00",
           "event": "Industry Talk",
-          "remark": "Corteva"
+          "remark": "Mr. Chaitanyam Potnuru, Vylor · TCS Research"
         },
         {
-          "time": "11:15 – 12:30",
-          "event": "Panel Discussion: GIS Applications for Digital Earth"
+          "time": "11:00 – 12:00",
+          "event": "Panel Discussion: GIS Applications for Digital Earth",
+          "remark": "Dr. C.V.N Rao · Dr. T.M. Balakrishnan Nair · Dr. Novaline Jacob · Dr. Paul A. Rosen · Dr. Puneet Kumar Mishra"
         },
         {
-          "time": "12:30 – 13:00",
-          "event": "Industry Talk"
+          "time": "12:00 – 12:20",
+          "event": "Keynote 4",
+          "remark": "Dr. Saibun Tjuatja, President, IEEE GRSS"
+        },
+        {
+          "time": "12:20 – 12:45",
+          "event": "Keynote 5",
+          "remark": "Dr. Alejandro Frery, Victoria University of Wellington, New Zealand"
         },
         {
           "time": "13:00 – 13:45",
@@ -191,28 +202,36 @@
         },
         {
           "time": "09:45 – 10:15",
-          "event": "Keynote 6"
+          "event": "Keynote 6",
+          "remark": "Dr. Prakash Chauhan, Director, NRSC"
         },
         {
-          "time": "10:00 – 10:30",
+          "time": "10:15 – 10:30",
           "event": "Tea Break"
         },
         {
-          "time": "10:30 – 11:15",
-          "event": "Keynote 7"
+          "time": "10:30 – 11:00",
+          "event": "Keynote 7",
+          "remark": "Dr. Avik Bhattacharya, IIT Bombay"
+        },
+        {
+          "time": "11:00 – 11:15",
+          "event": "Industry Talk"
         },
         {
           "time": "11:15 – 11:45",
           "event": "Keynote 8",
-          "remark": "IDEA Luncheon Event (11:15 – 13:45)"
+          "remark": "Dr. Ryo Natsuaki, University of Tokyo, Japan"
         },
         {
           "time": "11:45 – 12:15",
-          "event": "Keynote 4"
+          "event": "Keynote 9",
+          "remark": "Dr. Gerardo Di Martino, University of Naples Federico II, Italy"
         },
         {
           "time": "12:15 – 12:45",
-          "event": "Keynote 5"
+          "event": "Keynote 10",
+          "remark": "Dr. Francescopaolo Sica, University of the Bundeswehr Munich, Germany"
         },
         {
           "time": "12:45 – 13:45",
@@ -247,6 +266,18 @@
     {
       "name": "Dr. Ranendu Ghosh",
       "affiliation": "SatLeo Labs"
+    },
+    {
+      "name": "Mr. Rakshit Bhatt",
+      "affiliation": "GalaxEye"
+    },
+    {
+      "name": "Dr. Jayakumar Venkatesan",
+      "affiliation": "Harpy Aerospace"
+    },
+    {
+      "name": "Dr. Puneet Kumar Mishra",
+      "affiliation": "URSC, ISRO"
     }
   ]
 }
