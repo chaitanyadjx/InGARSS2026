@@ -65,22 +65,23 @@ function SessionCard({ session, open, onToggle, query }) {
     );
 }
 
-export default function SessionBrowser({ section }) {
-    const sectionSessions = useMemo(() => sessions.filter((session) => session.section === section), [section]);
-    const days = useMemo(() => [...new Set(sectionSessions.map((session) => session.day))].sort(), [sectionSessions]);
-
+export default function SessionBrowser() {
+    const [type, setType] = useState('all');
     const [query, setQuery] = useState('');
     const [day, setDay] = useState('all');
     const [openId, setOpenId] = useState(null);
 
+    const typeSessions = useMemo(() => (type === 'all' ? sessions : sessions.filter((session) => session.section === type)), [type]);
+    const days = useMemo(() => [...new Set(typeSessions.map((session) => session.day))].sort(), [typeSessions]);
+
     const normalized = query.trim().toLowerCase().replace(/\s+/g, ' ');
 
-    const visible = useMemo(() => sectionSessions.filter((session) => {
+    const visible = useMemo(() => typeSessions.filter((session) => {
         if (day !== 'all' && session.day !== day) return false;
         if (!normalized) return true;
         if (`${session.id} ${session.track}`.toLowerCase().includes(normalized)) return true;
         return session.papers.some((paper) => `${paper.id} ${paper.authors} ${paper.title}`.toLowerCase().includes(normalized));
-    }), [sectionSessions, day, normalized]);
+    }), [typeSessions, day, normalized]);
 
     const grouped = useMemo(() => {
         const map = new Map();
@@ -92,13 +93,12 @@ export default function SessionBrowser({ section }) {
     }, [visible]);
 
     const chipClass = (selected) => `font-mono text-xs font-bold px-4 py-2 border-[3px] border-black transition-all ${selected ? 'bg-indigo text-white shadow-[4px_4px_0_var(--gold)]' : 'bg-white shadow-[4px_4px_0_black] hover:-translate-y-0.5'}`;
-    const isPoster = section === 'poster';
 
     return (
         <section className="px-4 sm:px-6 md:px-[8%] py-12 md:py-16">
             <div className="max-w-6xl mx-auto">
                 <p className="text-lg md:text-xl text-gray-700 max-w-3xl leading-relaxed">
-                    {isPoster ? 'Poster' : 'Oral'} presentation schedule — InGARSS 2026 (02–04 December 2026).
+                    Oral &amp; poster presentation schedule — InGARSS 2026 (02–04 December 2026).
                 </p>
                 <p className="mt-3 font-mono text-xs text-gray-500">{sessionsData.note}</p>
 
@@ -119,6 +119,12 @@ export default function SessionBrowser({ section }) {
                 </div>
 
                 <div className="mt-6 flex flex-wrap gap-3">
+                    <button onClick={() => { setType('all'); setOpenId(null); }} className={chipClass(type === 'all')}>All Sessions</button>
+                    <button onClick={() => { setType('oral'); setOpenId(null); }} className={chipClass(type === 'oral')}>Oral</button>
+                    <button onClick={() => { setType('poster'); setOpenId(null); }} className={chipClass(type === 'poster')}>Poster</button>
+                </div>
+
+                <div className="mt-3 flex flex-wrap gap-3">
                     <button onClick={() => { setDay('all'); setOpenId(null); }} className={chipClass(day === 'all')}>All Days</button>
                     {days.map((d) => (
                         <button key={d} onClick={() => { setDay(d); setOpenId(null); }} className={chipClass(day === d)}>Dec {d}</button>
@@ -134,15 +140,6 @@ export default function SessionBrowser({ section }) {
                 {grouped.length === 0 && (
                     <div className="mt-10">
                         <p className="text-lg font-bold text-gray-700">No sessions match your search. Try another paper ID or keyword.</p>
-                        {normalized && (
-                            <p className="mt-3 font-mono text-sm text-terracotta border-l-4 border-terracotta pl-4">
-                                Didn&apos;t find your paper here? It may be listed in the{' '}
-                                <a href={isPoster ? '/oral-session' : '/poster-session'} className="underline font-bold hover:opacity-75 transition-opacity">
-                                    {isPoster ? 'Oral Sessions' : 'Poster Sessions'}
-                                </a>{' '}
-                                instead — try searching there.
-                            </p>
-                        )}
                     </div>
                 )}
 

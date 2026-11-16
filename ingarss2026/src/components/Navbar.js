@@ -56,8 +56,8 @@ export default function Navbar() {
                                 <Link href="/hackathon" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">YP HACKATHON</Link>
                                 <Link href="/program" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Program Schedule</Link>
                                 <Link href="/presentation-guidelines" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Presentation Guidelines</Link>
-                                <Link href="/oral-session" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Oral Sessions</Link>
-                                <Link href="/poster-session" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Poster Sessions</Link>
+                                <Link href="/oral-session" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Sessions</Link>
+                                <Link href="/registration" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Registration</Link>
                             </div>
                         </li>
                         <li className="relative group border-r border-gray-400">
@@ -71,8 +71,7 @@ export default function Navbar() {
                                 <Link href="/cfp" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Call for Papers</Link>
                                 <Link href="/ccs" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">CCS/Workshop</Link>
                                 <Link href="/travel-grant" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Travel Grant</Link>
-                                <Link href="/family-cares-grant" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Family Cares Grant</Link>
-                                <Link href="/registration" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Registration</Link>
+                                <Link href="/family-cares-grant" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Family Cares Grant</Link>
                             </div>
                         </li>
                         <li className="relative group border-r border-gray-400">
@@ -129,8 +128,8 @@ export default function Navbar() {
                         <Link href="/hackathon" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">YP HACKATHON</Link>
                         <Link href="/program" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Program Schedule</Link>
                         <Link href="/presentation-guidelines" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Presentation Guidelines</Link>
-                        <Link href="/oral-session" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Oral Sessions</Link>
-                        <Link href="/poster-session" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Poster Sessions</Link>
+                        <Link href="/oral-session" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Sessions</Link>
+                        <Link href="/registration" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Registration</Link>
                     </div>
 
                     <div className="border-b border-gray-200">
@@ -141,8 +140,7 @@ export default function Navbar() {
                         <Link href="/cfp" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Call for Papers</Link>
                         <Link href="/ccs" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">CCS/Workshop</Link>
                         <Link href="/travel-grant" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Travel Grant</Link>
-                        <Link href="/family-cares-grant" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Family Cares Grant</Link>
-                        <Link href="/registration" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Registration</Link>
+                        <Link href="/family-cares-grant" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Family Cares Grant</Link>
                     </div>
 
                     <div className="border-b border-gray-200">
