@@ -56,7 +56,7 @@ export default function Navbar() {
                                 <Link href="/hackathon" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">YP HACKATHON</Link>
                                 <Link href="/program" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Program Schedule</Link>
                                 <Link href="/presentation-guidelines" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Presentation Guidelines</Link>
-                                <Link href="/oral-session" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Sessions</Link>
+                                <Link href="/oral-session" className="block px-5 py-4 font-mono text-xs border-b border-black hover:bg-gold hover:pl-7 transition-all">Oral &amp; Poster Sessions</Link>
                                 <Link href="/registration" className="block px-5 py-4 font-mono text-xs hover:bg-gold hover:pl-7 transition-all">Registration</Link>
                             </div>
                         </li>
@@ -128,7 +128,7 @@ export default function Navbar() {
                         <Link href="/hackathon" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">YP HACKATHON</Link>
                         <Link href="/program" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Program Schedule</Link>
                         <Link href="/presentation-guidelines" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Presentation Guidelines</Link>
-                        <Link href="/oral-session" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Sessions</Link>
+                        <Link href="/oral-session" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm border-b border-gray-100 hover:bg-indigo hover:text-white">Oral &amp; Poster Sessions</Link>
                         <Link href="/registration" onClick={() => setMobileMenuOpen(false)} className="block px-8 py-3 font-mono text-sm hover:bg-indigo hover:text-white">Registration</Link>
                     </div>
 
