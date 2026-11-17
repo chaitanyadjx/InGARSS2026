@@ -55,6 +55,10 @@
     {
       "name": "Schneider Digital",
       "logo": "/assets/schneider_digital.jpeg"
+    },
+    {
+      "name": "BharatRohan",
+      "logo": "/assets/bharat-rohan.png"
     }
   ],
   "startupExhibits": [
