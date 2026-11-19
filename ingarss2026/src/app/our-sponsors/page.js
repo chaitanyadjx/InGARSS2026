@@ -1,12 +1,18 @@
-'use client';
-
 import PageHeader from '@/components/PageHeader';
 import sponsorsData from '@/data/sponsors.json';
 
 const goldSponsors = sponsorsData.goldSponsors;
 const bronzeSponsors = sponsorsData.bronzeSponsors;
-const startupExhibits = sponsorsData.startupExhibits;
-const eventSponsors = sponsorsData.eventSponsors;
+
+const sponsors = [
+    { name: 'GRSS', logo: '/assets/sponser_grss_logo.png' },
+    ...goldSponsors.filter((s) => s.name === 'Vylor'),
+    ...bronzeSponsors.filter((s) => s.name === 'NRSC'),
+    ...goldSponsors.filter((s) => s.name !== 'Vylor'),
+    ...bronzeSponsors.filter((s) => s.name !== 'NRSC'),
+    ...sponsorsData.eventSponsors,
+    ...sponsorsData.startupExhibits,
+];
 
 export default function OurSponsorsPage() {
     return (
@@ -14,73 +20,21 @@ export default function OurSponsorsPage() {
             {/* Page Header */}
             <PageHeader title="Our Sponsors" subtitle="Partners of InGARSS 2026" />
 
-            {/* Our Sponsors Section */}
+            {/* Sponsors Section */}
             <section className="px-4 sm:px-6 md:px-[8%] py-16 md:py-20 bg-white border-b-[3px] border-black text-center min-h-[60vh]">
                 <div className="max-w-6xl mx-auto">
                     <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-16 leading-relaxed">
                         We are immensely grateful to our sponsors for their generous support and commitment to advancing the field of Geoscience and Remote Sensing. Their partnership makes InGARSS 2026 possible.
                     </p>
 
-                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-10">
-                        Diamond Sponsor
-                    </h2>
-                    <div className="flex justify-center items-center mb-20 relative z-10">
-                        <div className="bg-gradient-to-br from-white to-cyan-50 border-[4px] border-cyan-500 p-10 md:p-14 shadow-[12px_12px_0_#06b6d4] hover:-translate-y-2 hover:-translate-x-1 hover:shadow-[18px_18px_0_#0891b2] transition-all duration-300 max-w-lg w-full relative overflow-hidden group">
-                            
-                            {/* Shine effect */}
-                            <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/80 to-transparent -translate-x-[150%] group-hover:translate-x-[150%] transition-transform duration-1000 ease-in-out pointer-events-none"></div>
-
-                            <img src="/assets/sponser_grss_logo.png" alt="GRSS" className="w-full h-auto object-contain max-h-48 relative z-10 drop-shadow-sm" />
-                        </div>
-                    </div>
-
                     <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-12">
-                        Gold Sponsor
+                        Sponsors
                     </h2>
-                    <div className="flex justify-center items-center gap-8 flex-wrap mb-20">
-                        {goldSponsors.map((sponsor) => (
-                            <div key={sponsor.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_var(--gold)] hover:-translate-y-2 hover:shadow-[15px_15px_0_var(--gold)] transition-all duration-300 max-w-sm w-full flex flex-col items-center">
-                                <img src={sponsor.logo} alt={sponsor.name} className="w-full h-auto mb-6 object-contain max-h-48" />
-                                <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
-                                <p className="text-gray-600 font-mono text-md mt-2">Gold Tier Partner</p>
-                            </div>
-                        ))}
-                    </div>
-
-                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mb-12">
-                        Bronze Sponsors
-                    </h2>
-                    <div className="flex flex-col sm:flex-row justify-center items-stretch gap-8 flex-wrap">
-                        {bronzeSponsors.map((sponsor) => (
-                            <div key={sponsor.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#b45309] hover:-translate-y-2 hover:shadow-[15px_15px_0_#b45309] transition-all duration-300 max-w-sm w-full flex flex-col items-center">
-                                <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-full object-contain mb-6" />
-                                <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
-                                <p className="text-gray-600 font-mono text-md mt-2">Bronze Tier Partner</p>
-                            </div>
-                        ))}
-                    </div>
-
-                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mt-20 mb-12">
-                        Startups’ Exhibits
-                    </h2>
-                    <div className="flex flex-col sm:flex-row justify-center items-stretch gap-8 flex-wrap">
-                        {startupExhibits.map((exhibit) => (
-                            <div key={exhibit.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#4c1d95] max-w-md w-full flex flex-col items-center">
-                                <img src={exhibit.logo} alt={exhibit.name} className="w-full h-auto object-contain mb-6 max-h-40" />
-                                <h3 className="text-xl font-bold text-indigo">{exhibit.name}</h3>
-                            </div>
-                        ))}
-                    </div>
-
-                    <h2 className="text-2xl md:text-3xl font-extrabold text-indigo mt-20 mb-12">
-                        Event Sponsors
-                    </h2>
-                    <div className="flex flex-col sm:flex-row justify-center items-stretch gap-8 flex-wrap">
-                        {eventSponsors.map((sponsor) => (
-                            <div key={sponsor.name} className="bg-white border-[3px] border-black p-8 shadow-[10px_10px_0_#4c1d95] hover:-translate-y-2 hover:shadow-[15px_15px_0_#4c1d95] transition-all duration-300 max-w-sm w-full flex flex-col items-center">
-                                <img src={sponsor.logo} alt={sponsor.name} className="h-24 w-full object-contain mb-6" />
-                                <h3 className="text-2xl font-bold text-indigo">{sponsor.name}</h3>
-                                <p className="text-gray-600 font-mono text-md mt-2">Event Sponsor</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+                        {sponsors.map((sponsor) => (
+                            <div key={sponsor.name} className="bg-white border-[3px] border-black p-8 shadow-[8px_8px_0_black] hover:-translate-y-1 hover:shadow-[12px_12px_0_var(--gold)] transition-all duration-300 w-full max-w-sm flex flex-col items-center">
+                                <img src={sponsor.logo} alt={sponsor.name} className="w-full h-auto object-contain mb-6 max-h-40" />
+                                <h3 className="text-xl font-bold text-indigo">{sponsor.name}</h3>
                             </div>
                         ))}
                     </div>
