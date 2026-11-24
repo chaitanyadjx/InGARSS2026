@@ -204,7 +204,7 @@
         },
         {
           "id": "1571305774",
-          "authors": "Vijaya sai Nandipati, Surya Satya Narayana Raju G, Gautham Naresh",
+          "authors": "Vijaya sai Nandipati, Surya Satya Narayana Raju G, Gautham Suresh",
           "title": "AgriAI FertiTwin™: A Globally Deployable Multilingual Satellite-Driven AI Platform for Precision Soil Nutrient Prediction and Fertilizer Recommendation"
         },
         {
@@ -1257,11 +1257,6 @@
           "title": "Ship Detection from Range-Compressed EOS-04 SAR Data for Onboard Edge Computing"
         },
         {
-          "id": "1571300914",
-          "authors": "Aishwarya Hegde A",
-          "title": "ConvLSTM-TP Model for Spatiotemporal Mapping of Rice Field Using SAR Data"
-        },
-        {
           "id": "1571311663",
           "authors": "PRIYA DARSHNA MUNUSWAMY PONMALAR",
           "title": "Remote-Sensing Based Assessment of the Impact of Air Pollution on Urban Vegetation Health: A Case Study of Chennai, India"
@@ -1462,6 +1457,11 @@
           "id": "1571300929",
           "authors": "Sravani Duvvuri",
           "title": "Object-Based Multi-Temporal Crop Classification Using Cartosat-2E Imagery in a Fragmented Tropical Agricultural Landscapes"
+        },
+        {
+          "id": "1571300914",
+          "authors": "Aishwarya Hegde A",
+          "title": "ConvLSTM-TP Model for Spatiotemporal Mapping of Rice Field Using SAR Data"
         }
       ]
     },
