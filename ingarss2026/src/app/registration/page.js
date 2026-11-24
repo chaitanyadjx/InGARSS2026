@@ -34,16 +34,7 @@ function AccordionSection({ title, children, defaultOpen = false }) {
 }
 
 export default function RegistrationPage() {
-  const [acceptedTerms, setAcceptedTerms] = useState(false);
-  const [acceptedRules, setAcceptedRules] = useState(false);
   const { tableTitle, note, categories, authorRules, termsAndConditions, inclusions } = regData;
-
-  const scrollToFinalRegistration = () => {
-    const el = document.getElementById('final-registration');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <main className="min-h-screen bg-[var(--bone)]">
@@ -54,13 +45,18 @@ export default function RegistrationPage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-indigo mb-3">Ready to Register?</h2>
           <p className="text-gray-700 mb-6 text-sm sm:text-base">Secure your spot for InGARSS 2026.</p>
-          
-          <button
-            onClick={scrollToFinalRegistration}
-            className="inline-block bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all cursor-pointer"
-          >
-            ATTENDEE REGISTRATION ↓
-          </button>
+
+          <span className="inline-block bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed">
+            REGISTRATIONS CLOSED
+          </span>
+
+          <p className="mt-6 text-sm sm:text-base font-medium text-gray-800">
+            Registrations closed. Please contact{' '}
+            <a href="mailto:ingarss2026@gmail.com" className="font-bold text-[var(--terracotta)] underline underline-offset-2">
+              ingarss2026@gmail.com
+            </a>{' '}
+            for corporate registrations.
+          </p>
         </div>
       </section>
 
@@ -189,58 +185,13 @@ export default function RegistrationPage() {
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[var(--indigo)] mb-3">
             Attendee Registration
           </h3>
-          <p className="text-gray-700 mb-6 text-sm sm:text-base font-medium">
-            Please confirm your acceptance of the conference terms and author rules to proceed with your registration.
+          <p className="text-gray-700 text-sm sm:text-base font-medium">
+            Registrations closed. Please contact{' '}
+            <a href="mailto:ingarss2026@gmail.com" className="font-bold text-[var(--terracotta)] underline underline-offset-2">
+              ingarss2026@gmail.com
+            </a>{' '}
+            for corporate registrations.
           </p>
-
-          <div className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
-            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black]">
-              <input
-                type="checkbox"
-                id="acceptTerms"
-                checked={acceptedTerms}
-                onChange={(e) => setAcceptedTerms(e.target.checked)}
-                className="w-5 h-5 accent-[var(--indigo)] cursor-pointer shrink-0 mt-0.5"
-              />
-              <label htmlFor="acceptTerms" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-pointer select-none">
-                I am accepting the terms and conditions of InGARSS 2026 conference given above
-              </label>
-            </div>
-
-            <div className="flex items-start gap-3 bg-[var(--bone)]/60 p-4 border-[2px] border-black shadow-[4px_4px_0_black]">
-              <input
-                type="checkbox"
-                id="acceptRules"
-                checked={acceptedRules}
-                onChange={(e) => setAcceptedRules(e.target.checked)}
-                className="w-5 h-5 accent-[var(--indigo)] cursor-pointer shrink-0 mt-0.5"
-              />
-              <label htmlFor="acceptRules" className="text-xs sm:text-sm font-extrabold text-gray-700 cursor-pointer select-none">
-                I am accepting Rules for Author Registrations of InGARSS 2026 conference given above
-              </label>
-            </div>
-          </div>
-
-          <div className="shrink-0">
-            {acceptedTerms && acceptedRules ? (
-              <a
-                href={process.env.NEXT_PUBLIC_REGISTRATION_LINK || "https://in.eregnow.com/ticketing/register/ingarss2026"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block w-full sm:w-auto bg-[var(--terracotta)] text-white font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black shadow-[6px_6px_0_black] hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0_black] transition-all"
-              >
-                ATTENDEE REGISTRATION →
-              </a>
-            ) : (
-              <button
-                disabled
-                title="Please accept both terms and conditions and author rules to proceed"
-                className="inline-block w-full sm:w-auto bg-gray-300 text-gray-600 font-mono font-bold text-sm sm:text-base px-8 py-4 border-[3px] border-black opacity-80 cursor-not-allowed shadow-[6px_6px_0_black]"
-              >
-                ATTENDEE REGISTRATION →
-              </button>
-            )}
-          </div>
         </div>
       </section>
     </main>
