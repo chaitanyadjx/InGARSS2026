@@ -59,6 +59,18 @@
     {
       "name": "BharatRohan",
       "logo": "/assets/bharat-rohan.png"
+    },
+    {
+      "name": "AKSI Aerospace Group",
+      "logo": "/assets/aksi-aerospace-group.jpeg"
+    },
+    {
+      "name": "Fortinet",
+      "logo": "/assets/fortinet.jpeg"
+    },
+    {
+      "name": "Netweb Technologies",
+      "logo": "/assets/netweb-technologies.jpeg"
     }
   ],
   "startupExhibits": [
