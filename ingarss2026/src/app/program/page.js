@@ -108,7 +108,7 @@ export default function ProgramPage() {
 
                                 return (
                                     <article key={speaker.name} className={`border-2 border-black p-5 shadow-[4px_4px_0_black] ${expandedBio === speaker.name ? 'sm:col-span-2 lg:col-span-3' : ''}`}>
-                                        <h3 className="font-bold text-lg text-indigo">{speaker.name.startsWith('Dr.') || speaker.name.startsWith('Mr.') ? speaker.name : `Dr. ${speaker.name}`}</h3>
+                                        <h3 className="font-bold text-lg text-indigo">{speaker.name}</h3>
                                         <p className="mt-2 font-mono text-sm text-gray-700">{speaker.affiliation}</p>
                                         {bio && (
                                             <details
